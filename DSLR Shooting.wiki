@@ -1,0 +1,155 @@
+= DSLR Shooting =
+
+Usually 24 fps
+
+== What should I buy ==
+
+* Indoor Vlogging
+* 18mm focal length
+* F/2.8
+
+* 16-35mm
+* F2.8
+
+* B-roll
+* F/1.4 - F/1.8
+* 30 - 35 mm
+
+
+== What is a crop frame camera ==
+
+* Multiply focal length by 1.5 to get true focal length
+
+== What is a full frame camera ==
+
+# Crop Factor
+
+# Camera Settings
+
+=== Focus ===
+
+* Always use manual focus
+* So you have control over what's in focus
+
+=== Aperture ===
+
+* Controls the amount of let that can enter
+* Controls background blur
+* F/1.4 Shallow Depth of Field
+* F/8 Deep Depth of field
+* For a nice depth of field between F/1.2 - F/4
+
+=== ISO ===
+
+* Sensitvity to light
+* 100 - 6400
+
+=== Shutter Speed ===
+
+* Shutter speed should be double frame rate
+
+# Colour Profile
+
+=== Sharpness ===
+
+* Disable to avoid lines in distant objects
+* Reduces fine details
+* Just do in post
+
+=== Contrast ===
+
+* Disable to retain details in shadows
+
+=== Saturation ===
+
+* Slightly desaturate
+
+== Audio ==
+
+* Audio and video recorded separetly and then synced in post
+
+== Colour Temperature ==
+
+* Daylight - 5500 - 5600 Kelvin
+* Artificial 3100 - 3400 Kelvin
+
+== Night Shooting ==
+
+* More noise at high ISO - Max 1600 at night
+* Don't go higher then 1/50s shutter speed - some lights flicker
+* Shot brighter with aperature F/1.2 - F/4 or F/5.6
+
+== Daylight Shooting ==
+
+* Typically better to shoot underexposed to retain detail
+* Fix in post
+
+== Neutral Density Filter ==
+
+=== Example ===
+
+Aperture F/2.8
+Shutter Speed 1/50s
+ISO 100
+Daylight conditions
+
+Leads to heavily over exposed shot
+In photography you could increase shutter speed to 1000 to fix this
+In Filmography can use a neutral density filter to address this
+
+== Lens ==
+
+* More focal length leads to more compression
+* Makes subject pop
+
+=== What is a fast lens ===
+
+* Let's a lot of light in - open aperature
+
+=== Kit Lens ===
+
+* Basic lens that comes with camera
+* 16 - 50mm
+* F/3.5-5.6
+* Zoom is fairly flexible
+* Can go in reasonably far and reasonably wide
+* Typically image stabalized
+* Not great at low light
+
+=== Ultra Wide Angle ===
+
+* 10 - 18mm
+* F/4
+* Can see a lot of the scene
+* The wider the lens the more stable
+* Typically very expensive
+* Not very blurry background
+* Not very fast, low aperature will probably have to crank iso
+* Might be good for going out
+
+=== 24 - 70mm ===
+
+* F/2.8
+* Good middle ground
+
+=== 50mm Prime (Nifty Fifty) ===
+
+* Not for vlogging
+* Unless on full frame RIP wallet
+* Might be good for closeup b-roll
+
+=== Wide Angle Prime ===
+
+* 16mm
+* F/1.4
+* Douchy Vlogging lens
+* Very blurry background
+* Typically heavily
+* Expensive
+* Not image stabalized
+* Hard to keep focused
+
+=== Macro Lens ===
+
+* Good for closeup photography
+* Or use extension tube

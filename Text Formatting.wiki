@@ -1,0 +1,9 @@
+= Text Formatting =
+
+* https://github.com/jhjn/pp
+* R markdown
+* Writing assignments with pandoc
+* pandoc
+* Groff
+* Markdown
+* Neatroff

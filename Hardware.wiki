@@ -1,0 +1,6 @@
+= Hardware =
+
+* Webcam
+* Lights
+* Microphone
+* Scissorswitch Keyboard

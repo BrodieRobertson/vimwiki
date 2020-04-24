@@ -1,0 +1,55 @@
+= Upcoming =
+
+== To Record ==
+* Installing mpv plugins
+* Terminal colours matter, stop using wal
+* Linking sh to dash
+* https://wiki.archlinux.org/index.php/Reflector
+* Vim Wiki
+* colourpicker
+* My experience on Windows
+* Introduction to pandoc
+* How I manage dotfiles
+* Yadm
+
+== To Upload ==
+* Keeping up to date with archnews
+  https://lists.archlinux.org/listinfo/arch-announce
+  https://github.com/bradford-smith94/informant
+  ArchNews2
+  RSS
+
+== Planned ==
+* UEFI and WIFI is the devil
+* Why I prefer a window manager
+* vim sneak
+* Why text formatters for formal documents
+* bspc tree structure
+* True colour terminals
+* How not to program
+* https://github.com/deepjyoti30/QuickWall
+* My webcam method
+* Online Uni
+* https://github.com/kellyjonbrazil/jc
+* pandoc markdown
+* pandoc latex math
+* pandoc-crossref
+* Newsboat
+* alacritty configuration
+* Why you should experience bash
+* How to read the syntax of bspc man
+* The slow progresion of uni
+* Bspwm Multi-Monitor Workflow
+* Bat
+* dmenu patching
+* speed reader https://github.com/n-ivkovic/tspreed
+* Where do I find Linux video ideas
+* Bookmenu part 3
+* Getting started with bspwm
+* What's the deal with the compton name change
+* Why bspwm
+* fff
+
+* LOC is meaningless here's why
+  Assembly
+  Show index of letter of alphabet

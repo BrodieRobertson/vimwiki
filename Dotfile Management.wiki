@@ -1,0 +1,5 @@
+= DotfileManagement =
+
+* yadm
+* gnu stow
+* bare repo

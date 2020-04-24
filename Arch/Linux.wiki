@@ -1,0 +1,94 @@
+= Arch/Linux =
+
+* Dotfile management update
+* Ricing Overview
+* Chaotic-AUR, Mesagit
+* Unpopular opinion I don't hate windows
+* Bitreich
+* Create bootable installer
+* What is true color
+* Getting the most out of your webcam
+* Updated look at polybar
+* Transmission setup
+* linking sh to dash
+* xft and pango, what are they
+* XDG path
+  https://github.com/dylanaraps/clutter-home
+* desktop entries
+* Distro animosity
+* Basic usage of pacman
+* https://www.ostechnix.com/5-ways-repeat-last-command-linux/
+* How a terminal color scheme works
+* So I actually run most of the software that I look at
+* Be careful with how you alias
+* Libre Office compatibility
+* How do I make sure my system stays up to date
+* Default fonts
+* Pretty fonts
+* Ligatures
+* You're using linux wrong
+* Stop thinking just try linux
+* https://www.fossmint.com/lollypop-a-new-modern-music-player-for-linux/
+* https://blog.flowblok.id.au/2013-02/shell-startup-scripts.html
+* Video creation process
+* https://github.com/r0f1/linuxhelp
+* Stop grepping with sed
+* I love and hate simple terminal
+* Can linux be normie friendly
+* The mouse is bloat
+* I can't imagine giving up the AUR
+* How I make use of workspaces
+* A Look into Bookmenu
+* Evil Emacs
+* Doom Emacs
+* Protesilaos Stavrou's bspwm config
+* Software minimalism
+* https://cloudron.io/blog/2020-01-07-opensource-alternatives-to-google-docs.html
+* Lemonbar is cool but not for me
+* https://www.reddit.com/r/linux/comments/ehfrch/according_to_this_site_the_linux_kernel_contains/
+  https://www.phoronix.com/scan.php?page=news_item&px=Linux-Git-Stats-EOY2019
+* https://gitlab.com/mezantrop/ascsaver
+* Floating window managers are dumb
+* Why I try to avoid snaps
+* Benefits/Drawbacks of a rolling release
+* Hybrid graphics are a massive pain
+* Why is it called a terminal emulator
+* Benefit of a terminal file manager
+* mirror lists
+* Doing
+* Custom mime programs
+* C# development on linux
+* htop explained
+* Linux student workflow
+* Fallout3Terminal
+* The Quad virtual display is alive
+* Being an annoying arch user
+    cycle wallpaper
+    run command after each command
+    arch-pape-maker
+    neofetch is bloat
+    use pfetch
+    distro in prompt
+    status bar
+    firefox theme
+    firefox homepage
+* vim adventures
+* Most people could comfortably use linux
+* We have too many distros
+* I tend to prefer minamalism
+* The strength of terminal applications
+* The benefits of a posix complient script
+* Just pick a distro
+* Vim Vixen - Vim bindings in firefox
+* i3 ricing
+* How I use i3
+* Vim ricing
+* Terminal ricing
+* File manager on the command line
+* Switching to st
+* The web breaks without aws
+* Shell script effiency is generally a waste
+* Signals
+* The only video player you should care about
+* Programming is better on linux
+* I don't care about linux desktop adoption

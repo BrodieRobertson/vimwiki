@@ -1,0 +1,12 @@
+= Terminals =
+
+* wezterm
+* Terminology
+* mlterm
+* urxvt
+* https://hyper.is/
+* xterm
+* Tilix
+* Kitty
+* Alacritty
+* https://www.reddit.com/r/linux/comments/ekdo17/flowterm_a_neat_terminal_emulator/

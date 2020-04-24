@@ -1,0 +1,36 @@
+= Solo Episode =
+
+* noise cancelling foam pinup board
+* 12:00
+* 20:50
+* 27:10
+* 32:00
+* 37:00
+* 43:00
+* 52:00
+* 1:06:00
+* 1:26:00
+
+* I took a personality test
+  ISTJ-T Logistician
+* Data web mining assignment
+* Zoom security hole
+* My computer is here
+* Supermarket update
+* Killed a 3900x
+
+* Pay attention what you're buying
+* The worst code base I have ever seen
+  * If statements instead of calculations
+  * Random capitalized variables
+  * If statements without brackets
+  * 1 line if
+  * Multiple if blocks instead of if else
+  * Print statements
+  * In coherent variable names
+    * daxis = depth axis
+  * No idea how properties work
+* Dived more into bspwm
+* AdSense
+* Uni update
+* Entitled commentors

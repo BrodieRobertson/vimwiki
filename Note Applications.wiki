@@ -1,0 +1,10 @@
+= Note Applications =
+
+* NixNote
+* Turtl
+* MedleyText
+* RedNotebook
+* Boostnote
+* Papernote
+* WizNote
+* TagSpaces

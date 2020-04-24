@@ -1,0 +1,53 @@
+= Business =
+
+https://www.business.gov.au/Change-and-growth/Restructuring/Difference-between-a-sole-trader-and-a-company
+https://legal123.com.au/how-to-guide/business-structure-australia/
+https://www.ato.gov.au/Business/Starting-your-own-business/Before-you-get-started/Choosing-your-business-structure/
+
+Online Services
+  * https://www.ato.gov.au/General/Online-services/Individuals-and-sole-traders/
+
+Registering Business
+  * https://register.business.gov.au/
+
+Business Structure Sole Trader
+  * Tax is considered a part of individual tax
+  * Can have employees
+  * Business liability falls on owner
+  * Can claim deductions
+    * Maybe claim rent but not safe
+    * Any business expenses, camera gear, computer, monitors
+  * Only need to file single tax return
+  * Any benefits must be handled by me
+  * Does not need separate bank account
+  * Keep financial records for 5 years
+
+Must file for ABN
+  * It's free
+
+Business name is optional
+  * $36 a year to register name * additional trademark fees
+
+Should voluntarily enter PAYGI (Pay As You Go Installments)
+  * Can be done through MyGov
+  * Basically the same as PAYGW (Pay As You Go Withholding)
+  * PAYGI Calculator exists
+
+May setup separate business account to make managing funds easier
+
+If not after first year ATO will automatically add however it comes with a big tax bill
+
+May be elligible for small business tax offset
+Report all your income in your individual tax return, using the section for business items to show your business income and expenses
+Claim a deduction for any personal super contributions you make after notifying your fund
+
+https://community.ato.gov.au/t5/Business-tax-questions/Do-I-have-to-collect-GST-on-YouTube-Adsense-Revenue/m-p/15031
+https://forums.whirlpool.net.au/archive/2773109
+GST is maybe not relavent
+  * At least until making 75k a year
+
+Owning a business won't interfere with working
+
+If you are a sole trader, business income and expenses will be reported at a separate section of your tax return to salary and wages and work related deductions you have as an employee.
+
+Look into personal services income

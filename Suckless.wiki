@@ -1,0 +1,19 @@
+= Suckless =
+
+* What is the suckless philiosophy
+* St 1 clipboard
+* St scrollback
+* st box draw
+* why bother with st
+* https://www.johnhawthorn.com/meh/
+* terminal tiling window manager - https://www.brain-dump.org/projects/dvtm/
+* xbanish/unclutter
+* snore - sleep with feedback
+* configuring dmenu
+* my dmenu fork
+* dmenu aesthetic patches
+* Manually merging a patch
+* But suckless is just too hard
+* Making a diff patch
+* pywal compatibility
+* xresources

@@ -1,0 +1,4 @@
+= Program Ideas =
+
+* Joplin Style web app
+* Trello board thingy

@@ -1,0 +1,21 @@
+= File Managers =
+
+* lfimg
+* Lfm Last File Manager
+* Krusader
+* Roxfiler
+* https://github.com/mcandre/hellcat
+* cfm
+* svf
+* Eagle Mode
+* Spacefm
+* Sunflower
+* vifm
+* vifmimg
+  https://www.reddit.com/r/commandline/comments/fx34cu/managed_to_get_audio_epub_pdf_video_image_and/
+* midnight commander
+* nnn
+* lfm
+* https://github.com/lecram/rover
+* cfiles
+

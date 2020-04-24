@@ -1,0 +1,19 @@
+= Window Managers =
+
+* https://github.com/SimulaVR/Simula
+* https://www.reddit.com/r/bspwm/comments/fxby5m/desknamer_a_tool_to_automatically_rename_desktops/
+* https://github.com/JLErvin/berry
+* bspwm tree structure
+* bspwm tree operations
+* bspwm PATH @
+* bspwm reseptacles
+* make bspwm like dwm
+* yabar
+* https://github.com/herbstluftwm/herbstluftwm
+* From start to complete polybar
+* tint2 bar
+* Getting started with bspwm
+* Trying out dwm
+* leftwm
+* Sway * swayland
+* cwm

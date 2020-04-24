@@ -1,0 +1,50 @@
+= Getting Started Bspwm =
+
+* Networking
+  iw =(
+  networkmanager =)
+  network-manager-applet
+
+* Fonts
+  noto-fonts
+  ttf-ubuntu-font-family
+  ttf-dejavu
+
+* Terminal
+  urxvt
+  kitty
+  alacritty
+  st
+
+* Editor
+  nano
+  vim
+
+* Hotkey daemon
+  sxhkd
+
+* Application launcher
+  dmenu
+  rofi
+
+* Display Manager
+
+  We're not doing that
+  bashprofile auto login
+
+* Xinitrc
+
+* Status bar
+  polybar
+
+* Browser
+  firefox
+  brave
+  surf
+
+* Sound
+  ALSA
+    alsamixer
+  Pulse
+    pavucontrol
+    pamix

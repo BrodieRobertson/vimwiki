@@ -1,0 +1,12 @@
+= Free Games =
+
+* ttysolitaire
+* bsd games
+* freedroidrpg
+* SuperTux
+* Stk
+* Gnome Solitaire
+* Tetris
+  * tetris.vim
+* Minesweeper
+  * WineMine

@@ -1,0 +1,13 @@
+= Web Browsers =
+
+* Basilisk is a weird browser
+* Why I wish Brave had a firefox build
+* Firefox based browsers
+* Non chromium based web browsers on linux
+* Can you use the modern web without js
+* Why the modern web relies on JS
+* Will the web ever go back to HTML
+* Changing your DNS
+* Next Broweser
+* Browsh
+* Links browser

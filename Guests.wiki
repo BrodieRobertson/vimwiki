@@ -1,0 +1,33 @@
+= Guests =
+
+* Deej
+* Sasindu
+* Josh Steele (y)
+* Connor (Cozhan) (Y)
+* Jye T (Jinnie The Wew)  (Y)
+* Samuel B
+* Ben F
+* Kenley W (Y)
+* Corey (Y)
+* Marty P (Y)
+* Shud
+* Vishnu
+* Taimoor Ahmad (Y)
+* AK
+
+== LBRY ==
+
+* Electron
+* EF
+* Michael Hebo
+
+== Developers ==
+
+* Quentin S (Angry Cactus Games)
+
+== Linux ==
+
+* Distrotube
+* Learn Linux
+* Tuxfoo
+* Unfa

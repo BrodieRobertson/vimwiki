@@ -1,0 +1,6 @@
+= Scripting Tutorials =
+
+* Working with read command
+* Handling Arguments in a script
+* Working with case statements
+* Why shell check isn't always the correct answer

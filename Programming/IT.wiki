@@ -1,0 +1,59 @@
+= Programming/It =
+
+* R
+* The least bad IDE suite
+* Odd JavaScript behaviour
+* A look at my reading list
+* Why I switched to DDG
+* I don't trust saving passwords in the browsers
+* I don't mind javascript
+* My opinion on web apps
+* Some solutions to the problems
+* Software Development Gate Keeping
+* https://github.com/k-vernooy/tetris
+* git extra tools
+* Building up a website
+* Simple scraper
+* My thoughts on web applications
+* My thoughts on React
+* My thoughts on Angular
+* My thoughts on JavaScript
+* Why I'm starting to like Angular
+* My experience working a remote job
+* Well formatted documents with markdown
+* Overview of Markdown
+* What to do after your first programming language
+* The problems with OOP
+* How I got into web development
+* The obsession with libraries
+* Eclipse is bloat
+* My perfect IDE thingy
+* Most IDEs are bloat
+* Why does anyone program with a light theme
+* I've never found a use for a debugger
+* Picking a portfolio project
+* Make a portfolio
+* Just do it with shell script
+* IDE or Code Editor - What's best for you
+* Focus on concepts not constructs
+* Picking Fun Portfolio Project
+* How to effectively use tutorials
+* Each new language makes the next easier
+* Approaching a new language/framework
+* Software patterns are a meme
+* Don't worry about planning when you first start
+* You're not always going to have fun programming
+* Don't worry about your code breaking
+* Try anything that interests you
+* Don't make your first project your dream project
+* Early optimization is almost always a waste
+* Stop making excuses for not learning
+* The more you program the better you'll get
+* No one starts as a great developer
+* Keep chipping away at your projects
+* You can't use the modern web without javascript
+* Programming should be a tool not the end goal
+* Is programming really an important skill
+* Keep your side projects realistic
+* Keep your projects interesting
+* Why you should use a password manager

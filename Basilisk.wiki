@@ -1,0 +1,25 @@
+= Basilisk =
+
+Firefox Fork
+ESR - Extended Service Release
+
+XUL-Based Web Browser
+XUL - XML User Language Interface
+
+XUL Plugins
+Removed in Firefox 57
+Replaced with WebExtension broke tons of
+legacy plugins like VimFX and Vimperator
+Basilisk doesn't support WebExtensions
+
+Australis Firefox Interface - Firefox v29 - v56
+NPAPI plugins - Flash, Unity, Java
+NPAPI - Netscape Plugin Application Programming Interface
+Disabled in in Firefox 52
+
+Goanna rendering engine - Fork of Mozilla Gecko
+Pale Moon based on Firefox 38 ESR
+
+Basically just a development branch for Pale Moon
+Used to developed Unified XUL Platform - Fork of Mozilla code
+base which removes Servo and Rust

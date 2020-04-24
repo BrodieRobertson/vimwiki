@@ -1,0 +1,40 @@
+= Why Is The Modern Web Slow =
+
+* You actually can build websites with HTML and plain JS
+  * https://thebestmotherfucking.website/
+  * https://humm42.github.io/
+
+* A bit of web history
+  * Created by Netscape Corporation
+  * Created to add interaction to websites
+  * 2 options embed Java applications or embed Scheme langauge
+  * In the end just made something new called JavaScript
+
+* I don't hate JS
+* Adding interaction to static websites is cool
+
+* Eventually AJAX requests came in
+  * Gained popularity in early 2000's
+  * Allows for dynamic data without reloading the page
+  * Makes Google Maps, Google Earth possible in a browser
+* If we stopped here no one would have a problem
+
+* Now here's where the problem started, it's name is JQuery
+
+* Not inherently a bad idea
+  * Mid 2000's JS was a compatibility mess
+  * Jquery hid that away
+
+* But people started building dynamic websites
+* What's that you say
+  * It's where you do everything in JS even static content
+
+* Then a long came, Angular, React, Vue.js
+  * JSX
+  * Now we're embedding HTML into JS as if that's what we always did
+  * Not even considered an option to build a static site
+
+* However I am a massive hypocrite
+  * I love React and I'm happy to use it
+
+* It's very easy to add too much functionality to a page

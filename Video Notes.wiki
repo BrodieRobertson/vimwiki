@@ -1,0 +1,11 @@
+= Video Notes =
+
+* [[Patrons]]
+* [[Upcoming]]
+* [[LBRY Description]]
+
+== Notes ==
+* [[Experience Bash]]
+* [[Why Is The Modern Web Slow]]
+* [[Basilisk]]
+* [[Getting Started With Bspwm]]

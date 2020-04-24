@@ -1,0 +1,71 @@
+= Tutorials =
+
+* Udev rules
+* My Handbrake settings
+* My torrenting setup
+* Background setting with nitrogen
+* Dircolors
+* Broot configuration
+* VPN Management through polybar
+* Network Profiles
+* Switching to PulseAudio
+  * Nvidia must use it?
+* TLP * Powertop
+* Install Flatpaks on Arch
+* https://snapcraft.io/htmldoc
+* https://www.ostechnix.com/how-to-limit-users-access-to-the-linux-system/
+* Vim as a pager
+* Convert your man pages to pdf
+* User account management - https://linuxhandbook.com/usermod-command/
+* https://github.com/sindresorhus/pure
+* https://www.reddit.com/r/commandline/comments/emcukl/minimal_web_applications_and_the_curl_command/
+* https://www.reddit.com/r/commandline/comments/emgzqj/stampel_instead_of_up_backspace_backspace/
+* https://github.com/oguzhaninan/Stacer
+* https://opensource.com/article/20/1/directories-autocomplete-linux
+* https://www.reddit.com/r/commandline/comments/elcprz/bcal_storage_expression_and_generalpurpose/
+* Adding colour to your terminal
+* What to do with all these zsh files
+* https://itsfoss.com/pdf-editors-linux/
+* Mouse Acceleration
+* https://www.reddit.com/r/linux/comments/egt6sz/i_created_a_tool_to_make_connecting_to_wifi_super/
+* https://linuxhint.com/ensure_linux_compatibility_hardware/
+* https://mathpix.com/
+* https://www.reddit.com/r/linux/comments/eixadp/what_a_terminal_tool_to_check_what_is_taking_up/
+* https://twitter.com/chaignc/status/1208413293909557248?s=20
+* https://linuxize.com/post/bash-append-to-file/
+* lemonbar
+* yaybar
+* https://www.reddit.com/r/commandline/comments/edb5tj/get_information_on_over_10000_file_extensions/
+* Script: record shell sessions https://www.2daygeek.com/linux-script-command-record-replay-terminal-session-activity/
+* https://www.0x65.dev/blog/2019-12-01/the-world-needs-cliqz-the-world-needs-more-search-engines.html
+* https://www.redhat.com/sysadmin/decluttering-process-management
+* https://www.ostechnix.com/how-to-benchmark-linux-commands-and-programs-from-commandline/
+* https://www.ostechnix.com/mcfly-a-replacement-to-ctrlr-bash-history-search-feature/
+* https://www.networkworld.com/article/3489256/breaking-linux-files-into-pieces-with-the-split-command.html
+* https://linuxize.com/post/kill-command-in-linux/
+* https://linuxize.com/post/how-to-set-or-change-timezone-in-linux/
+* MariaDB/MySQL basics
+* Downloading From The AUR with a manager
+* Cron Jobs
+    * crontab guru
+* Pacman Basics
+* SQLite Basics
+* Getting Started with Virtual Box on Linux
+* Basic VM Configuration with Virtual Box
+* Docker basics
+* SQL Basic
+* Shell scipting
+* Angular Basics
+    * Angular MVVM in practice
+* React Basics
+* NPM Basics
+* Web sockets with SocketIO
+* ASP.Net Core
+* X11 Theming
+* PS1 Prompt
+* Bash_profile
+* Bashrc
+* bash_profile vs bashrc
+* ZSH
+* PulseAudio emulation using apulse
+* Xrandr custom resolutions

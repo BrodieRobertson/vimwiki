@@ -1,0 +1,47 @@
+= Why Questions =
+
+* Why would anyone want a touch screen on there computer
+* Why do I run suckless software
+* Why I didn't buy expensive recording gear
+* Why do I sometimes use VSCode
+* Why I still use LibreOffice And Google Docs
+* Why nvim over vim
+* Why text formatters
+* Why the AUR is safer than you think
+* Why you don't need to be scared of Linux
+* Why you don't need Adobe on Linux
+* Why you don't need Windows on hardware
+* Why zsh
+* Why hacky scripts don't matter
+* Why polybar
+* Why I run desktop notifications
+* Why use the terminal
+* Why a linux user should have some programming knowledge
+* Why did I switch to linux
+  * General
+  * Technical
+* Why I don't care about desktop linux adoption
+* What is a package manager
+* Why avoid bashisms/zshisms
+* Why I use vim
+* Why you should learn vim
+* Why I don't normally discuss distro
+* How a tiling window manager has changed how I use my computer
+* Why did I take so long to switch to Linux
+* Why I mainly terminal apps
+* Why I don't force myself to live in the terminal
+* Why I'm not a free software guy
+* Why I love rolling release
+* Why did Picom become compton
+* Why bother with a tiling window manager
+* Why do I use a tiling window manager
+* What I look for in a terminal file manager
+* Why I use a terminal file manager
+* What makes software bloated
+* Why I run a standard looking theme
+  for i in {0..255} ; do
+    printf "\x1b[38;5;${i}m%3d " "${i}"
+    if (( $i == 15 )) || (( $i > 15 )) && (( ($i-15) % 12 == 0 )); then
+        echo;
+    fi
+  done

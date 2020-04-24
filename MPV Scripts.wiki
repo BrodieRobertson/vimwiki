@@ -1,0 +1,7 @@
+= MPV Scripts =
+
++ https://github.com/jonniek/mpv-waifu2x
++ https://github.com/jonniek/mpv-filenavigator
++ https://github.com/jonniek/mpv-playlistmanager
++ https://github.com/TheAMM/mpv_thumbnail_script
++ https://github.com/jonniek/mpv-scripts

@@ -1,0 +1,65 @@
+= Vim =
+* https://github.com/mbbill/undotree
+* https://github.com/rhysd/git-messenger.vim
+* Using vim configs in sudo
+  https://www.reddit.com/r/archlinux/comments/g28cx0/psa_super_neat_trick_complementary_of_the_arch/
+
+* https://github.com/dstein64/vim-startuptime
+* https://www.reddit.com/r/vim/comments/g15hz9/vimfloaterm_run_your_terminal_in_vims_popup_window/
+* Updated look at my plugins
+* https://www.reddit.com/r/vim/comments/fy13mb/cobra_yet_another_plugin_to_manage_brackets_and/
+  * https://github.com/neoclide/coc-pairs
+  * https://github.com/jiangmiao/auto-pairs
+* https://github.com/rhysd/clever-f.vim
+* vim unimparied
+* vim endwise
+* vim abolish
+* delimitMate
+* syntastic
+* ale
+* https://github.com/rbong/vim-flog
+* https://www.reddit.com/r/vim/comments/fsrpeq/fzfpreview/
+* ConqueGDB
+* vim easy motion
+* vim table mode
+* Vim-rainbow
+* vim-indent-guides
+* vim-fugitive
+* colourizer.lua
+* z.lua
+* vim autocmd
+* vim-airline
+* vim-powerline
+* ack
+* Tag List
+* https://catonmat.net/vim-plugins
+* https://jesseleite.com/posts/2/its-dangerous-to-vim-alone-take-fzf
+* fzf-preview
+* https://github.com/tamago324/LeaderF-filer
+* https://github.com/gpanders/vim-medieval
+* https://github.com/pechorin/any-jump.vim
+* Why bother with vim if you're turning it vscode
+* vim sandwich
+* You're using vim wrong
+* Vim closetag
+* ranger in vim - https://github.com/kevinhwang91/rnvimr
+* Org mode
+* Vim wiki
+* Basic Vim Tutorial
+* Vim multi cursor
+* Theming Vim
+  https://github.com/hardselius/warlock
+* Spell checker
+  https://linuxhandbook.com/spellchecking-commands/
+* vimfiler.vim
+* Vim Coc
+* Devicons
+* Vim fuzzy finder
+* Vim syntax highlighting
+* Coc Snippets
+* Netrw
+* Vim-prettier
+* ptzz lf vim
+Tpopes Plugins
+  * Vim repeat
+  * Vim commentary

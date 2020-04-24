@@ -1,0 +1,17 @@
+= My Notes =
+
+== Content Creation ==
+* [[Video Ideas]]
+* [[Video Notes]]
+* [[Podcast]]
+
+== Work ==
+* [[Business]]
+* [[Programming]]
+
+== Uni ==
+* [[ICT Specialist]]
+* [[Research Methods]]
+
+== Misc ==
+* [[Todo]]
