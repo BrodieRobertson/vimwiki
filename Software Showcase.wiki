@@ -6,4 +6,219 @@
 * ncpamixer
 * https://github.com/SoptikHa2/desed
 * https://github.com/andreasKroepelin/tir
+* https://github.com/smallhadroncollider/brok#br%C3%B6k
+* https://github.com/iridakos/stup
+* forgit
+* sonarr
+* arch keyring
+* Regex generator https://www.reddit.com/r/commandline/comments/g4pegr/grex_a_commandline_tool_for_generating_regular/
+* git neofetch https://github.com/lptstr/gfetch
+* QR Code Transfer https://github.com/claudiodangelis/qrcp
+* chezmoi
+* Dotfile deployment https://github.com/gbrlsnchs/pilgo
+* Awesome-cli-apps
+* packager manager guix
+* aur utils
+* https://github.com/sineemore/stw
+* https://www.putorius.net/bmon-monitor-bandwidth-linux-command-line.html
+* https://github.com/aaronjanse/3mux
+* simple dialog - https://github.com/v1cont/yad
+* Awful social media downloaders
+  * https://github.com/dvingerh/PyInstaStories
+  * https://github.com/dvingerh/tiktok-dl
+* https://github.com/Phate6660/sxhkd-bindings
+* https://github.com/sdushantha/fontpreview
+* pacman dependency graph https://github.com/Kharacternyk/pacwall
+* https://gitlab.com/mildlyparallel/pscircle
+* kernal monitor https://github.com/orhun/kmon
+* https://github.com/tenox7/ttyplot
+* https://github.com/wmutils/
+* https://www.reddit.com/r/commandline/comments/fqxl9k/typeracer_testing_your_typing_skills_in_the/
+* https://www.reddit.com/r/commandline/comments/fr6the/linuxtimemachine_rsyncbased_osxlike_time_machine/
+* fzf popup https://github.com/kevinhwang91/fzf-tmux-script/tree/master/popup
+* shortcut pages https://github.com/mt-empty/shortcut-pages
+* control tmux with fzf https://github.com/sainnhe/tmux-fzf
+* Alacritty configuration
+* https://www.reddit.com/r/commandline/comments/fpw2lr/shortcut_a_cli_tool_for_viewing_shortcuts_of/
+* https://github.com/meribold/muccadoro
+* https://github.com/Yord/pxi
+* JSON visualizer
+  https://github.com/stedolan/jq
+* https://github.com/Wazzaps/jqed
+* https://firejail.wordpress.com/
+* https://github.com/insanum/gcalcli
+* https://github.com/Frewacom/Pywalfox
+* mastodon toot
+* https://github.com/NerdyPepper/eva
+* qcalc
+* bc and dc
+* https://github.com/Aloxaf/fzf-tab
+* https://github.com/adi1090x/rofi#app-launchers
+* https://github.com/splode/creep
+* https://github.com/fdw/rofimoji
+* clipit
+* clipmenu
+* Anime4k
+* https://github.com/nagadomi/waifu2x
+* WPS office
+* kakoune
+* ansible
+* fasd
+* https://itsfoss.com/4-best-download-managers-for-linux/
+* https://www.2daygeek.com/best-4-command-line-download-managers-accelerators-for-linux/
+* tudu - terminalforlife
+* powerline prompt
+* calender searching - calcurse
+* wordgrinder
+* https://github.com/Colmbus72/SaySong
+* https://noobs-term.com/#/
+* screenshots - flameshot
+* Collection managers - https://www.linuxlinks.com/collectionmanagers/
+* https://github.com/R4yGM/netscanner
+* Udevil * devmon
+* mtpfs
+* ytmdl https://www.reddit.com/r/unixporn/comments/dwlu3n/oc_ytmdl_download_songs_with_metadata_directly/
+  https://www.reddit.com/r/commandline/comments/fmb83i/ocytmdl_new_version_released_download_songs_from/
+* Neovim gtk
+* Gnvim
+* Calibre - ebook manger
+* Dia
+* vscode neovim
+* ponymix
+* tmux
+* how2 - stackoverflow from the terminal
+* https://gitlab.com/TheDalaiAlpaca/saturnon
+* https://github.com/ajeetdsouza/zoxide
+* fun - https://github.com/akinomyoga/cxxmatrix
+* April fools day - https://github.com/dylanaraps/promptless
+* https://adammusciano.com/2020/03/04/2020-03-04-clear-your-terminal-in-style/
+* game - https://www.reddit.com/r/linux/comments/fdxmyp/ive_released_terminal_phase_v11_with_a_time/
+* steganography - https://github.com/DimitarPetrov/stegify
 
+* youtube downloads https://github.com/meain/ytdd
+* calc
+* byte calculator https://github.com/jarun/bcal
+* Thunderbird
+* pulse cli pactl
+* Elimininating the need for a gui file manager
+* Some more uses for dragon
+* https://github.com/dcx86r/cch
+* https://github.com/lwilletts/mpvc
+* https://github.com/jrnl-org/jrnl
+* rofi as task switcher
+  rofi -theme Arc-Dark -show window
+* dmenuswitcher - task switcher
+* https://github.com/richardgv/skippy-xd
+  https://github.com/dreamcat4/skippy-xd
+* https://itsfoss.com/vokoscreenng/
+* https://github.com/eXeC64/imv
+* speed reader https://github.com/n-ivkovic/tspreed
+* weather https://github.com/tylerwolf35/wego
+* tasklite
+* taskwarrior
+* tasker
+* todo.txt
+* fzy - fzf alternative
+* bemenu - dmenu alternative
+* alternative to ../.. https://github.com/shogunpurple/retreat
+* Hud menu
+* xrdp
+* Pointless software - https://github.com/tkmru/mln
+* https://github.com/cjbassi/ytop
+* https://blog.thechases.com/posts/remind/
+* chafa
+* Memory Monitoring - https://www.2daygeek.com/linux-commands-check-memory-usage/
+* Cowsay
+  https://www.linuxlinks.com/linux-candy-xcowsay-displays-cow-desktop-message/
+* Follate - PDF Editor
+* Okular - PDF Editor
+* Zaread - Over engineered scripts
+* Terminal Wireshark https://www.linuxuprising.com/2020/02/interactive-wireshark-based-terminal-ui.html
+* Gparted itsfoss.com/gparted/
+* Pamix
+* https://itsfoss.com/best-audio-editors-linux/
+* Network Monitor https://www.linuxuprising.com/2020/01/bandwhich-shows-whats-taking-up-your.html
+* Hardware monitors https://www.tecmint.com/command-line-tools-to-monitor-linux-performance/
+* Hardware Info https://itsfoss.com/hardinfo/
+* https://github.com/eliukblau/pixterm
+* Terminal Image Viewer
+* ls - https://github.com/ogham/exa
+* https://github.com/nukesor/pueue
+* Display Managers
+* https://github.com/smallhadroncollider/cmt
+* fzf
+* Unicode Querying
+  https://www.reddit.com/r/commandline/comments/edism2/lcharmap_get_information_on_any_unicode_character/
+  https://www.reddit.com/r/commandline/comments/e9kgsy/uni_query_the_unicode_database_from_the/
+* https://dystroy.org/broot/
+* File Search https://itsfoss.com/catfish/
+* https://linuxhandbook.com/uname/
+* https://github.com/sachaos/binder
+* auto-cpufreq https://news.ycombinator.com/item?id=21960696
+* https://git.sr.ht/~tslocum/ditty
+* color cat - https://github.com/sharkdp/bat
+* color cat - https://github.com/pygments/pygments
+* Hex Viewer
+  https://github.com/sharkdp/hexyl
+  https://github.com/raspi/heksa
+
+* OniVim 2
+* GitLab Mimi
+* https://linuxhandbook.com/screen-command/
+* https://www.reddit.com/r/linux/comments/ern4sb/sudowoodo_reminding_you_to_be_careful_when_using/
+* https://www.reddit.com/r/linux/comments/es2ykj/i_made_a_cli_tool_that_searches_shell_history_by/
+* https://www.linuxuprising.com/2020/01/s-tui-cpu-monitoring-and-stress-testing.html
+* xdotool
+* Polybar multi monitor
+* Stylish Interactive Prompts https://github.com/termapps/enquirer
+* Cheat
+* https://github.com/sindresorhus/pure
+* slim zsh
+* zim zsh
+* https://github.com/romkatv/powerlevel10k
+* https://blog.snipline.io/snipline-cli-0-3-0-release-the-biggest-update-yet/
+* https://www.tecmint.com/monitor-cpu-and-gpu-temperature-in-ubuntu/
+* https://www.redhat.com/sysadmin/ss-command
+* https://github.com/sdushantha/gitdir
+  https://stackoverflow.com/questions/7106012/download-a-single-folder-or-directory-from-a-github-repo
+* Handbrake - https://itsfoss.com/handbrake/
+* Rofi
+* fasd
+* bropages
+* tldr man pages
+* fd
+* Sleep hooks
+* Curseradio
+* wikit
+* No more secrets
+* acpi
+* bash tmout
+* Tmux
+* Shell check
+* Custom mime programs
+* Googlr
+* Youtube-dl
+* Notifications with a minimalist window manager
+* Zathura a lightweight extensible reader
+* pfetch If neofetch is too much bloat for you
+* Dmenu
+* Compton
+* Git
+* i3wm
+* Espanso text expander
+* bspwm
+* sxhkd
+* Googlr
+* Keybase
+* Pass
+* https://vim.reversed.top/
+* https://www.reddit.com/r/linux/comments/e1wofc/clight_40_has_been_released/
+* https://www.vimfromscratch.com/articles/awesome-command-line-tools/
+* https://itsfoss.com/network-speed-monitor-linux/
+* https://gitlab.com/ajak/tuir
+* https://github.com/andmarti1424/sc-im
+* Gifs from shell session
+  https://terminalizer.com/
+  https://github.com/nbedos/termtosvg
+  https://linoxide.com/linux-how-to/linux-terminal-recording-tools/
+* https://github.com/donniebreve/touchcursor-linux
