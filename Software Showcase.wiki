@@ -1,0 +1,9 @@
+= Software Showcase =
+
+* MySQL Client MyCLI
+* github cli https://cli.github.com/
+* htop in bash https://github.com/aristocratos/bashtop
+* ncpamixer
+* https://github.com/SoptikHa2/desed
+* https://github.com/andreasKroepelin/tir
+

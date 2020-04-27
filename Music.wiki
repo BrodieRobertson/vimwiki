@@ -1,5 +1,6 @@
 = Music =
 
+* https://github.com/wustho/ply.sh
 * music player - https://tizonia.org/
 * random stuff - https://www.reddit.com/r/commandline/comments/fdes11/random_list_with_priorities_for_music_wallpaper/
 * Audacious Music Player

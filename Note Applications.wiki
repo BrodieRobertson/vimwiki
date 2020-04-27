@@ -1,5 +1,6 @@
 = Note Applications =
 
+* https://github.com/smallhadroncollider/taskell
 * NixNote
 * Turtl
 * MedleyText

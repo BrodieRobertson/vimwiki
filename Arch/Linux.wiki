@@ -1,5 +1,6 @@
 = Arch/Linux =
 
+* Reinventing the wheel is the bread and butter of my channel
 * Dotfile management update
 * Ricing Overview
 * Chaotic-AUR, Mesagit
