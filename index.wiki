@@ -1,4 +1,6 @@
-= My Notes =
+=== My Notes ===
+
+[[Syntax]]
 
 == Content Creation ==
 * [[Video Ideas]]

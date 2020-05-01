@@ -1,10 +1,10 @@
 = Upcoming =
 
 == To Record ==
+
+* Why do I care about software I don't use
 * Installing mpv plugins
-* Linking sh to dash
 * https://wiki.archlinux.org/index.php/Reflector
-* Vim Wiki
 * colourpicker
 * My experience on Windows
 * Introduction to pandoc
@@ -12,24 +12,25 @@
 * Yadm
 * The slow progresion of uni
 * Why text formatters for formal documents
-
-== To Upload ==
-* Keeping up to date with archnews
-  https://lists.archlinux.org/listinfo/arch-announce
-  https://github.com/bradford-smith94/informant
-  ArchNews2
-  RSS
+* True colour terminals
+* Why bspwm
+* Online Uni
 
 == Planned ==
-* UEFI and WIFI is the devil
+
+* Github issues https://rubygems.org/gems/ghi/versions/1.2.0
+* Why scissor switch keyboard
+* Terminal For Life	Tudu
+* clipit
+* clipmenu
+* https://github.com/Phate6660/sxhkd-bindings
+* kernal monitor https://github.com/orhun/kmon
 * Why I prefer a window manager
 * vim sneak
 * bspc tree structure
-* True colour terminals
 * How not to program
 * https://github.com/deepjyoti30/QuickWall
 * My webcam method
-* Online Uni
 * https://github.com/kellyjonbrazil/jc
 * pandoc markdown
 * pandoc latex math
@@ -45,7 +46,6 @@
 * Bookmenu part 3
 * Getting started with bspwm
 * What's the deal with the compton name change
-* Why bspwm
 * fff
 
 * LOC is meaningless here's why

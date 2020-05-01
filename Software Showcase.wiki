@@ -1,5 +1,8 @@
 = Software Showcase =
 
+* Googlr
+* GithubCLI
+* Cordless Discord Client
 * MySQL Client MyCLI
 * github cli https://cli.github.com/
 * htop in bash https://github.com/aristocratos/bashtop
@@ -26,11 +29,9 @@
 * Awful social media downloaders
   * https://github.com/dvingerh/PyInstaStories
   * https://github.com/dvingerh/tiktok-dl
-* https://github.com/Phate6660/sxhkd-bindings
 * https://github.com/sdushantha/fontpreview
 * pacman dependency graph https://github.com/Kharacternyk/pacwall
 * https://gitlab.com/mildlyparallel/pscircle
-* kernal monitor https://github.com/orhun/kmon
 * https://github.com/tenox7/ttyplot
 * https://github.com/wmutils/
 * https://www.reddit.com/r/commandline/comments/fqxl9k/typeracer_testing_your_typing_skills_in_the/
@@ -56,8 +57,6 @@
 * https://github.com/adi1090x/rofi#app-launchers
 * https://github.com/splode/creep
 * https://github.com/fdw/rofimoji
-* clipit
-* clipmenu
 * Anime4k
 * https://github.com/nagadomi/waifu2x
 * WPS office
@@ -90,11 +89,9 @@
 * https://gitlab.com/TheDalaiAlpaca/saturnon
 * https://github.com/ajeetdsouza/zoxide
 * fun - https://github.com/akinomyoga/cxxmatrix
-* April fools day - https://github.com/dylanaraps/promptless
 * https://adammusciano.com/2020/03/04/2020-03-04-clear-your-terminal-in-style/
 * game - https://www.reddit.com/r/linux/comments/fdxmyp/ive_released_terminal_phase_v11_with_a_time/
 * steganography - https://github.com/DimitarPetrov/stegify
-
 * youtube downloads https://github.com/meain/ytdd
 * calc
 * byte calculator https://github.com/jarun/bcal
@@ -161,7 +158,6 @@
 * Hex Viewer
   https://github.com/sharkdp/hexyl
   https://github.com/raspi/heksa
-
 * OniVim 2
 * GitLab Mimi
 * https://linuxhandbook.com/screen-command/
@@ -208,7 +204,6 @@
 * Espanso text expander
 * bspwm
 * sxhkd
-* Googlr
 * Keybase
 * Pass
 * https://vim.reversed.top/

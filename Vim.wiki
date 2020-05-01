@@ -1,9 +1,12 @@
 = Vim =
+
+* Vim theming
+* https://github.com/skywind3000/vim-quickui
+* Vim plugins without plugin manager
 * https://github.com/mbbill/undotree
 * https://github.com/rhysd/git-messenger.vim
 * Using vim configs in sudo
   https://www.reddit.com/r/archlinux/comments/g28cx0/psa_super_neat_trick_complementary_of_the_arch/
-
 * https://github.com/dstein64/vim-startuptime
 * https://www.reddit.com/r/vim/comments/g15hz9/vimfloaterm_run_your_terminal_in_vims_popup_window/
 * Updated look at my plugins
@@ -44,7 +47,6 @@
 * Vim closetag
 * ranger in vim - https://github.com/kevinhwang91/rnvimr
 * Org mode
-* Vim wiki
 * Basic Vim Tutorial
 * Vim multi cursor
 * Theming Vim

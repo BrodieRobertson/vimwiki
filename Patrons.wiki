@@ -1,13 +1,18 @@
 = Patrons =
 
+== $32 ==
+* Joachim
+
 == $16 ==
 * Nathan
+* Tikisri
 
 == $8 ==
 * Andrii
 
 == $4 ==
 * Rhode
+* Tony
 
 == $2 ==
 * LqLarry

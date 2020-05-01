@@ -1,5 +1,6 @@
 = Tutorials =
 
+* xset
 * Udev rules
 * My Handbrake settings
 * My torrenting setup

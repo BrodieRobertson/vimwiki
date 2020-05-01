@@ -2,6 +2,7 @@
 
 * https://github.com/jhjn/pp
 * R markdown
+* R Markdown vs Pandoc Markdown
 * Writing assignments with pandoc
 * pandoc
 * Groff

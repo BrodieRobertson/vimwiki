@@ -1,6 +1,5 @@
 = Why Questions =
 
-* Why do I care about software I don't use
 * Why would anyone want a touch screen on there computer
 * Why do I run suckless software
 * Why I didn't buy expensive recording gear

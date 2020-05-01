@@ -1,5 +1,7 @@
 = Hardware =
 
+* Hiring remote personal hardware is a bad idea
+* I love keyboard nuts
 * Webcam
 * Lights
 * Microphone
