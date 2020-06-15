@@ -1,0 +1,52 @@
+= Figures =
+{#fig:label}
+[@fig:label]
+[@Fig:label]
+[-@fig:label; @eq:eqlabel]
+
+<div id="fig:coolFig">
+![caption a](coolfiga.png){width=30%}
+![caption b](coolfigb.png){width=60%}
+![caption c](coolfigb.png){width=10%}
+
+![caption d](coolfigd.png){#fig:cfd}
+![caption e](coolfige.png){#fig:cfe}
+![caption f](coolfigf.png){#fig:cff}
+
+Cool figure!
+</div>
+
+= Table =
+: Caption {#tbl:tbllabel}
+[@tbl:tbllabel]
+
+= Equation =
+{#eq:eqlabel}
+[@eq:eqlabel]
+
+= Section =
+{#sec:seclabl}
+{#sec:seclabel2 label="Custom Label"}
+[@sec:seclabel]
+
+= Code Blocks =
+Table style captions
+
+= Metadata =
+numberSections: true
+sectionsDepth: 0
+autoEqnLabels: true
+codeBlockCaptions: true
+
+= Lists =
+\listoffigures
+[]: hack to split raw blocks
+\listoftables
+[]: hack to split raw blocks
+\listoflistings
+
+= Extras =
+Custom Numbering
+Custom Templates
+Latex Customization
+

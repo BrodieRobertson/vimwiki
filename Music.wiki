@@ -1,5 +1,6 @@
 = Music =
 
+* deadbeef
 * https://github.com/wustho/ply.sh
 * music player - https://tizonia.org/
 * random stuff - https://www.reddit.com/r/commandline/comments/fdes11/random_list_with_priorities_for_music_wallpaper/
@@ -7,6 +8,8 @@
 * Screen music player
 * mpd/mopidy
 * ncmpcpp
+* https://github.com/alnj/ncmpcpp-ueberzug
+* mps-youtube
 * Playerctl
 * spotifyd
 * spotify client https://github.com/ceuk/spotui

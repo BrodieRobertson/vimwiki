@@ -1,10 +1,171 @@
 = Software Showcase =
 
+* Audio effects - PulseEffects
+* man page thing - Navi
+* wallpaper - xwallpaper
+* Scriptable popup - lighthouse
+* slock
+* system info - nmon
+* system monitor - glances
+* keybindings - https://wiki.archlinux.org/index.php/Xbindkeys
+* JSON parser - http://kmkeen.com/jshon/
+* Gitlab client - https://zaquestion.github.io/lab/
+* Exploring fish
+* Android file transfer - https://github.com/whoozle/android-file-transfer-linux
+* media info - mediainfo
+* media info - ffprobe
+* subtitle player - https://github.com/carsonip/Penguin-Subtitle-Player
+* twitter client https://github.com/louipc/turses
+* web based rss - https://tt-rss.org/
+* gui rss feed reader - https://github.com/martinrotter/rssguard
+* desktop newsfeed - https://www.open-tickr.net/
+* rss - https://codezen.org/canto-ng/screens/
+* rss - sfeed
+* Mail notifier - https://github.com/pulb/mailnag
+* Lan file transfer - https://gitlab.gnome.org/jsparber/teleport
+* ividio.us
+* https://github.com/k-vernooy/tetris
+* git extra tools
+* pie shaped menu https://github.com/phillbush/pmenu
+* tablet as 2nd screen https://github.com/H-M-H/Weylushttps://github.com/x70b1/motd-on-acid
+* polybar spotify - https://github.com/PrayagS/polybar-spotify
+* weather-util weather-util-data
+* analytics dashboard - https://github.com/Phantas0s/devdash
+* shell alias manager - https://github.com/pranavmk98/coal
+* hardware sensors - sensors
+* log what files are accessed https://github.com/spieglt/whatfiles
+* color picker - https://www.reddit.com/r/unixporn/comments/h7ptk0/oc_farge_now_supports_showing_colors_color_codes/
+* display manager - https://github.com/tvrzna/emptty
+* system monitor - https://github.com/x70b1/motd-on-acid
+* xrate
+* npx
+* ULaunch - app launcher
+* Colourizer - https://github.com/garabik/grc
+* data visualizer https://www.reddit.com/r/commandline/comments/gxepzn/visidata_interactive_data_tool/
+* dynamic wallpaper setter - https://github.com/RAR27/dyn-wall-rs
+* shortcut-pages
+* Cryptomator - private cloud for free
+* work hours from git - https://github.com/unravela/gitwrk
+* Benchmarking https://www.reddit.com/r/archlinux/comments/guj2g2/bench_your_arch_system_for_comparison_but_how/fsj21rg/
+* suspend any app https://github.com/Merrit/nyrna
+* blurred wallpaper - https://www.reddit.com/r/unixporn/comments/gv473x/oc_canvas_gradient_blured_wallpaper_generator_and/
+* Python Based Distro https://github.com/joshiemoore/snakeware
+	* https://www.reddit.com/r/linux/comments/gv97x0/snakeware_linux_distro_with_a_python_userland/
+* i8kmon fan configuration
+	* https://www.reddit.com/r/archlinux/comments/gvb0i1/having_trouble_with_i8kmon/
+* fzf like https://github.com/wvanlint/twf
+* fetch https://gist.github.com/rpolve/77d6b694ab91238becbe166599cac8fd
+* time manager - https://github.com/oltarzewskik/tibivi
+* proper vim mode - https://github.com/ardagnir/athame/
+* rofi color picker - https://github.com/windwp/rofi-color-picker
+* docs in rofi https://github.com/Zeioth/rofi-zeal
+* ebooks https://github.com/johnfactotum/foliate/releases/tag/2.2.0
+* list members of group https://github.com/philip-peterson/groupls
+* transmission ui https://github.com/tremc/tremc
+* sed thing https://github.com/ms-jpq/sad
+* inventory management https://github.com/jojolepro/inventory-managoat
+* jq thing https://github.com/kellyjonbrazil/jc
+* wikipedia - wikit
+* git ui - tig
+* speed-test - sindresorhus/speed-test
+* backup program - restic
+* twitter client - rainbow stream
+* ps replacement - procs
+* disk usage analyzer - ncdu
+* log file navigator - inav
+* irc client - irssi
+* image compression - imager
+* commandline bench marking - hyperfine
+* curl alternative - httpie
+* grepable json - gron
+* share terminal as web app - gotty
+* terminal git ui - gitui
+* git large files - git-lfs
+* bit branching tool - git-flow
+* git file encryption - git-crypt
+* github contributions - ghcal
+* gif gen
+* dir size calculator - dust
+* interesting system monitor - zenith
+* system monitor - bottom
+	* https://github.com/cjbassi/ytop
+* binary grep - bingrep
+* bandwidth monitor bandwhich
+* nework reconaisance - bettercap
+* Wait for file changes - entr
+* GitJournal
+* https://www.reddit.com/r/linux/comments/gp1tmb/junest_the_lightweight_arch_linux_based_distro/
+* player - https://www.reddit.com/r/linux/comments/gp272p/playx_play_any_songplaylistanything_from_the/frjfff2/
+* chess - https://www.reddit.com/r/commandline/comments/gom4ir/play_chess_against_real_players_in_the_command/
+* stonks - https://github.com/ericm/stonks
+* ripgrep
+* pdf ripgrep - https://github.com/phiresky/ripgrep-all
+* gnu parallel
+* data viewer vd
+* Bitwarden rofi https://github.com/mattydebie/bitwarden-rofi
+* plugin downloader https://www.reddit.com/r/commandline/comments/gnvd0l/a_very_simple_command_line_browser_extension/
+* detach and reatach process https://github.com/martanne/abduco
+* text scroller https://github.com/noctuid/zscroll
+* zplug
+* https://github.com/Biont/sway-launcher-desktop
+* Text Styler - https://www.reddit.com/r/commandline/comments/glozin/clc_a_1_bash_file_compiler_of_a_tiny_styling/
+* XDG alternative - https://www.reddit.com/r/commandline/comments/globwu/handlr_a_better_xdgutils_cli/
+* https://www.nongnu.org/numdiff/
+* https://www.reddit.com/r/unixporn/comments/gm0o3z/a_posix_compatible_script_for_linking_dotfiles/
+* https://www.reddit.com/r/unixporn/comments/gmg188/oc_xmenu_a_simple_menu_utility_for_x/
+* https://www.reddit.com/r/linux/comments/gn2wfv/howdoi_get_quick_answers_to_common_linux_related/
+* Vidir
+* More utils
+* xkeysnail
+* https://github.com/curusarn/resh
+* https://github.com/jsamr/bootiso
+* Bluetooth battery level https://github.com/TheWeirdDev/Bluetooth_Headset_Battery_Level
+* https://github.com/haydenjames/bench-scripts
+* https://github.com/akss13/Multi-Clipboard
+* Distro - https://fossbytes.com/linuxfx-10-review/
+* Interface naming https://www.redhat.com/sysadmin/network-interfaces-linux
+* Hardware info https://github.com/natis1/qencoder/
+* https://nxos.org/maui/mauikit-1-1-0-release
+* vimwiki compiler https://github.com/Unathi-Skosana/vwc
+* nmtui
+* Lightdm
+* Activity tracker http://arbtt.nomeata.de/#install
+* Activity tracker https://itsfoss.com/activitywatch/
+* https://github.com/AndydeCleyre/bookme
+* https://github.com/Titor8115/mandown
+* https://github.com/out-of-cheese-error/the-way
+* https://github.com/matheuslessarodrigues/verco
+* https://sr.ht/~zethra/license/
+* https://github.com/kal39/TerminalMediaViewer
+* fancy diff https://github.com/so-fancy/diff-so-fancy
+* fancy diff https://github.com/dandavison/delta
+* fancy diff icdiff
+* super accelered diff https://github.com/ms-jpq/sad
+* generic curl https://github.com/mcandre/cop
+* GHI
+* gopher://bitreich.org/1/scm/thingmenu
+* https://github.com/jtvaughan/ptar
+* Archfi
+* https://github.com/fennerm/flashfocus
+* system cleaner https://www.bleachbit.org/
+* https://github.com/sharkdp/shell-functools
+* sytem usage warning https://github.com/cdown/psi-notify
+* http tracker https://github.com/six-ddc/httpflow
+* Python progress bar https://github.com/tqdm/tqdm
+* command progress https://www.howtogeek.com/428654/how-to-monitor-the-progress-of-linux-commands-with-pv-and-progress/
+* https://github.com/KuroLabs/Airshare
+* Notion
+* https://github.com/trigg/DiscordOverlayLinux
+* bash completion fallback https://github.com/3v1n0/zsh-bash-completions-fallback
+* better zsh autocomplete https://github.com/marlonrichert/zsh-autocomplete
+* https://github.com/fbeline/luneta
+* git monitor https://github.com/LinArcX/giti
+* bibliography editor https://github.com/papis/papis
+* archive handler https://www.nongnu.org/atool/
+* drawing https://github.com/aca/tdraw
 * Googlr
-* GithubCLI
-* Cordless Discord Client
+* Ripcord
 * MySQL Client MyCLI
-* github cli https://cli.github.com/
 * htop in bash https://github.com/aristocratos/bashtop
 * ncpamixer
 * https://github.com/SoptikHa2/desed
@@ -30,9 +191,6 @@
   * https://github.com/dvingerh/PyInstaStories
   * https://github.com/dvingerh/tiktok-dl
 * https://github.com/sdushantha/fontpreview
-* pacman dependency graph https://github.com/Kharacternyk/pacwall
-* https://gitlab.com/mildlyparallel/pscircle
-* https://github.com/tenox7/ttyplot
 * https://github.com/wmutils/
 * https://www.reddit.com/r/commandline/comments/fqxl9k/typeracer_testing_your_typing_skills_in_the/
 * https://www.reddit.com/r/commandline/comments/fr6the/linuxtimemachine_rsyncbased_osxlike_time_machine/
@@ -46,6 +204,7 @@
 * JSON visualizer
   https://github.com/stedolan/jq
 * https://github.com/Wazzaps/jqed
+* jid
 * https://firejail.wordpress.com/
 * https://github.com/insanum/gcalcli
 * https://github.com/Frewacom/Pywalfox
@@ -71,12 +230,11 @@
 * wordgrinder
 * https://github.com/Colmbus72/SaySong
 * https://noobs-term.com/#/
-* screenshots - flameshot
 * Collection managers - https://www.linuxlinks.com/collectionmanagers/
-* https://github.com/R4yGM/netscanner
 * Udevil * devmon
 * mtpfs
 * ytmdl https://www.reddit.com/r/unixporn/comments/dwlu3n/oc_ytmdl_download_songs_with_metadata_directly/
+	https://www.reddit.com/r/commandline/comments/gjp1d6/ocytmdl_may_release_now_supports_downloading_in/
   https://www.reddit.com/r/commandline/comments/fmb83i/ocytmdl_new_version_released_download_songs_from/
 * Neovim gtk
 * Gnvim
@@ -111,17 +269,19 @@
 * https://github.com/eXeC64/imv
 * speed reader https://github.com/n-ivkovic/tspreed
 * weather https://github.com/tylerwolf35/wego
+* taskcl
 * tasklite
 * taskwarrior
+* timewarrior
 * tasker
 * todo.txt
+* tudu https://code.meskio.net/tudu/
 * fzy - fzf alternative
 * bemenu - dmenu alternative
 * alternative to ../.. https://github.com/shogunpurple/retreat
 * Hud menu
 * xrdp
 * Pointless software - https://github.com/tkmru/mln
-* https://github.com/cjbassi/ytop
 * https://blog.thechases.com/posts/remind/
 * chafa
 * Memory Monitoring - https://www.2daygeek.com/linux-commands-check-memory-usage/
@@ -139,8 +299,7 @@
 * Hardware Info https://itsfoss.com/hardinfo/
 * https://github.com/eliukblau/pixterm
 * Terminal Image Viewer
-* ls - https://github.com/ogham/exa
-* https://github.com/nukesor/pueue
+* Task scheduler - https://github.com/nukesor/pueue
 * Display Managers
 * https://github.com/smallhadroncollider/cmt
 * fzf
@@ -176,7 +335,6 @@
 * https://www.tecmint.com/monitor-cpu-and-gpu-temperature-in-ubuntu/
 * https://www.redhat.com/sysadmin/ss-command
 * https://github.com/sdushantha/gitdir
-  https://stackoverflow.com/questions/7106012/download-a-single-folder-or-directory-from-a-github-repo
 * Handbrake - https://itsfoss.com/handbrake/
 * Rofi
 * fasd
@@ -185,7 +343,6 @@
 * fd
 * Sleep hooks
 * Curseradio
-* wikit
 * No more secrets
 * acpi
 * bash tmout

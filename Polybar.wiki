@@ -1,0 +1,38 @@
+* I don't recall talking about my polybar
+
+* Removed Modules
+	* Wifi
+	* Battery
+	* Backlight
+
+* Added Modules
+	* Crypto
+	* Subs
+
+* Visual Modifications
+	* No longer show torrent count
+		* Always breaking
+	* Pulse audio has better audio handling
+		* Only need 1 track
+	* Weather emoji
+		* Comes from wttr.in
+	* Emoji on every module
+		* Shorter than text
+		* Looks cool
+
+* Main changes behind the scenes
+	* Lot's more clickable
+
+* Cleaned up formatting
+	* Previously a lot of repeated formatting
+	* Made it difficult to make changes
+
+* All colors moved into Xresources
+	* Could easily do pywal if I wanted
+	* Probably won't but if someone wants to use it
+
+* Considering Bottom Bar
+
+* Seperator between workspace names
+	* Trying it out
+	* Think I like it

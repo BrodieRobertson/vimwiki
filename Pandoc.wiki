@@ -1,0 +1,11 @@
+= Pandoc =
+
+* File conversion
+	* pandoc -s -f <type> input -t <type> -o output
+	* pandoc -f <type> input -t <type> -o output
+	* pandoc input -o output
+	* pandoc input -o output --pdf-engine pdflatex
+* Filters
+	* pandoc --filter pandoc-crossref
+* Metadata
+* Latex Math

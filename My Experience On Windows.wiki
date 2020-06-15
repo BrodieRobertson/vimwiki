@@ -1,0 +1,20 @@
+* Floating window managers are still weird
+	* Windows getting tiling features
+* Not having package manager is weird
+	* I do want to look at the new official one
+	* Yes I know about chocaletey as well
+* I miss keybindings
+* I don't think I've touched the start menu
+	* Everything is in task bar
+* On my hardware it's not unusably slow
+* Windows can just appear off screen
+* Windows VR breaks input
+* Windows does not know what to do with a VR headset
+* NTP server just dies for no reason
+* Never managed to get grub to detect the drive
+	* Just switch in UEFI
+
+* Some things just do work better
+	* Dual head
+	* Hardware support
+	* Printing

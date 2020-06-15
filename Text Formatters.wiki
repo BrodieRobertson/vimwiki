@@ -1,0 +1,26 @@
+= Text Formatters =
+
+* Formatting is seperate from the text
+	* Some more so than others
+	* Latex is in a cls file
+	* Troff your macros define a layout of sorts
+* Files get out of date
+* No fighting with changes to the editor
+* Use whatever editor you want
+	*	No need to learn new mappings
+	* If it's vim you can add your own
+* Build your custom tool chains
+	* Pandoc, filters
+	* Troff, txt2tags, ctags
+	* Math processor
+	* Graphing processor
+* Convert to other formats with tools like pandoc
+* Convert to output formatts like pdf, epub, etc.
+
+* Obviously some drawbacks
+* Unless all using markdown, or all using latex
+	* Collaboration goes out the window
+	* Can be done just a bit finicky
+* If you're not used to working in plain text will be a bit confusing
+* Have to remember text commands
+	*	Can be eleviated with a good editor

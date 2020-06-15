@@ -1,5 +1,7 @@
 = Terminals =
 
+* tdrop
+* picocom
 * https://github.com/Kharacternyk/viter
 * wezterm
 * Terminology

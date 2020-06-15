@@ -5,16 +5,17 @@
 
 == $16 ==
 * Nathan
-* Tikisri
 
 == $8 ==
 * Andrii
+* Montazar
 
 == $4 ==
+* PDotE
 * Rhode
 * Tony
 
 == $2 ==
+* Donald
 * LqLarry
-* Rey
 * Xllvr

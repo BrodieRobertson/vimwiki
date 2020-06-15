@@ -1,18 +1,47 @@
 = Vim =
 
+* vim-pandoc https://github.com/vim-pandoc/vim-pandoc
+* highlight enclosing tags - https://github.com/valloric/matchtagalways
+* create ui https://github.com/Shougo/denite.nvim
+* start screen https://github.com/mhinz/vim-startify
+* Vim tabs
+* Vim tabline - https://github.com/bagrat/vim-buffet
+* Inertia Scrolling - https://github.com/yuttie/comfortable-motion.vim
+* Define text object - https://vimawesome.com/plugin/textobj-user
+* deal with whitespace - https://vimawesome.com/plugin/better-whitespace
+* Persistent vim sessions - https://github.com/thaerkh/vim-workspace
+* Easy align https://vimawesome.com/plugin/vim-easy-align
+* snippit manager - https://github.com/sirver/ultisnips
+* supertab - https://github.com/ervandew/supertab
+* indent guides - https://github.com/nathanaelkane/vim-indent-guides
+* Manual plugin installation
+* vial-http
+* emmet
+* Syntax checking - https://github.com/vim-syntastic/syntastic
+* jump to functions - https://github.com/majutsushi/tagbar
+* https://www.reddit.com/r/vim/comments/fy13mb/cobra_yet_another_plugin_to_manage_brackets_and/
+* https://github.com/jiangmiao/auto-pairs
+* Goyo + Limelight
+* https://github.com/justinmk/vim-dirvish
+* Vim signify
+* https://github.com/cdelledonne/vim-cmake
+* https://github.com/gu-fan/colorv.vim
+* https://github.com/sunaku/tmux-navigate
+	* https://github.com/christoomey/vim-tmux-navigator
 * Vim theming
 * https://github.com/skywind3000/vim-quickui
 * Vim plugins without plugin manager
 * https://github.com/mbbill/undotree
-* https://github.com/rhysd/git-messenger.vim
 * Using vim configs in sudo
   https://www.reddit.com/r/archlinux/comments/g28cx0/psa_super_neat_trick_complementary_of_the_arch/
+* Status bars
+	* https://github.com/itchyny/lightline.vim
+	* vim-airline
+	* vim-powerline
+	* status bar https://github.com/tpope/vim-flagship
 * https://github.com/dstein64/vim-startuptime
 * https://www.reddit.com/r/vim/comments/g15hz9/vimfloaterm_run_your_terminal_in_vims_popup_window/
 * Updated look at my plugins
-* https://www.reddit.com/r/vim/comments/fy13mb/cobra_yet_another_plugin_to_manage_brackets_and/
-  * https://github.com/neoclide/coc-pairs
-  * https://github.com/jiangmiao/auto-pairs
 * https://github.com/rhysd/clever-f.vim
 * vim unimparied
 * vim endwise
@@ -24,15 +53,12 @@
 * https://www.reddit.com/r/vim/comments/fsrpeq/fzfpreview/
 * ConqueGDB
 * vim easy motion
-* vim table mode
 * Vim-rainbow
 * vim-indent-guides
 * vim-fugitive
 * colourizer.lua
 * z.lua
 * vim autocmd
-* vim-airline
-* vim-powerline
 * ack
 * Tag List
 * https://catonmat.net/vim-plugins
@@ -56,7 +82,6 @@
 * vimfiler.vim
 * Vim Coc
 * Devicons
-* Vim fuzzy finder
 * Vim syntax highlighting
 * Coc Snippets
 * Netrw

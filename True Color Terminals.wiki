@@ -1,0 +1,70 @@
+* My default requirement for a terminal is true color
+* But what does that even mean
+
+* Important to know what a terminal is
+	* What we call a terminal is actually a terminal emulator
+	* Designed to emulate physical terminals
+	* Including limitations
+	* For many years did this
+	* However, this doesn't have to be the case
+	* Kitty with it's image module, W3M image rendering, anti-aliased fonts
+	* And of course true color
+
+* 4 Categories of Terminal Colors
+* Plain ASCII
+	* Monochrome terminal
+	* Completely unheard of now
+	* Basically just a relic of the past
+
+* 16 Color Palette
+	* ANSI Escape Codes
+	* Set by the users terminal theme
+	* TTY is an example of this
+	* Show [[Image]]
+
+
+* 256 Color Palette
+	* Most modern terminals in this category
+	* 16 ANSI colors
+	* 24 grays
+	* 216 colors
+	* URXVT
+	* Generally colors derived from ANSI colors
+	* Can be modified in some terminals
+	* Alacritty being one
+	* Color test
+
+
+* 24 Bit True Color
+	* 16 million colors aka Full RGB
+	* Independent from terminal theme
+	* Show theme
+	* Modify theme
+
+
+* Why use true color
+	* Aesthetic
+	* I'd argue that aesthetics are actually useful
+	* Rather than rely on a pallete meaning of which changes
+	* Allows for specific colours to be used and appear consistent
+	* Editor theme for example
+	* I love syntax highlighting
+	* Visual Studio theme in everything
+	* Could get used to something else
+	* Can easily identify constucts based on color
+	* Switching would make me work slower
+
+* True color terminals
+	* st
+	* konsole
+	* iTerm2
+	* Alacritty
+	* Kitty
+	* Windows Powershell
+	* cmd.exe
+
+* Do you need true color
+	* Absolutely not
+	* You'll be fine with a 256 terminal
+	* If you really care about your colors
+	* Maybe give one a shot

@@ -1,0 +1,41 @@
+* Microsoft talking about open source in build2020
+	* New Windows Terminal
+	* Linux in windows store
+	* Linux GUI apps with Wayland
+	* Winget
+	* Spotlight on Linux
+	* Maybe peopleare trying it out
+	* I find this unlikely
+
+* Lockdown
+	* People don't like Windows
+	* So trying out alternatives for homeoffice now that they don't need Windows
+	* I find this unlikely as a lot of people still need windows tools
+	* Office suite, Adobe suite, CAD tools, accounting
+	* Even some web apps
+	* Built to work only on IE
+	* Maybe some people
+
+* Content about Linux on YouTube
+	* Non Linux channels covering Linux
+	* Linux gaming is getting better
+	* Ubuntu is where a lot of people go to start with
+	* New people hear about it and try it out
+	* As with early it's likely
+
+* New Ubuntu LTS
+	* Lot's of articles
+	* Non Linux sources, ars technica, Cnet, The Verge, wired
+	* Lot's of videos
+	* Likely partial cause
+	* Earlier versions didn't do this though
+
+* Windows 7 stops supporting newer hardware and drivers
+	* Also hate windows 10
+	* No alternative besides linux
+	* Maybe some people
+	* But I think most people will live with it
+
+* Or pure ocham's razor
+	* Since people at home, work computers are not on
+	* Still windows at home, but office PC isn't being counted

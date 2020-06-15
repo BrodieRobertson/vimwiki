@@ -1,0 +1,7 @@
+GET, HEAD, POST, PUT, PATCH, DELETE, CONNECT, OPTIONS and TRACE
+
+curl --request/-X
+curl --data/-d
+curl --user name:password
+curl --header "Authorization: Basic <ACCESS_TOKEN>"
+curl --header "Authorization: OAuth <ACCESS_TOKEN>"

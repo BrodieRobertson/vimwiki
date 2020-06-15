@@ -1,5 +1,7 @@
 = File Managers =
 
+* https://github.com/roberthawdon/dfshow
+* Run down of lf install
 * lfimg
 * Lfm Last File Manager
 * Krusader
@@ -18,4 +20,3 @@
 * lfm
 * https://github.com/lecram/rover
 * cfiles
-

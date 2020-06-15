@@ -1,0 +1,9 @@
+cheat.sh - cheat.sh/vim
+Weather - wttr.in
+QR code generator - qrenco.de/www.youtube.com
+Dictionary - dict://dict.org/d:
+Crypto Prices - rate.sx
+Link shortner - curl -F'shorten=https://youtube.com' https://0x0.st
+News - getnews.tech
+Parrot - parrot.live
+curl -sL bit.ly/2AtVaXR

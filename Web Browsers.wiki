@@ -1,5 +1,14 @@
 = Web Browsers =
 
+* Vivaldi
+* What's keeping me on chromium
+* What is ungoogled chromium
+* Looking at ungoogled chromium
+* https://fanglingsu.github.io/vimb/
+* https://luakit.github.io/
+* https://github.com/octalmage/minum
+* https://sr.ht/~julienxx/Castor/
+* Chromium
 * Basilisk is a weird browser
 * Why I wish Brave had a firefox build
 * Firefox based browsers
@@ -11,3 +20,7 @@
 * Next Broweser
 * Browsh
 * Links browser
+* Elinks browser
+* Lynx browser
+* Vimb
+* Surf

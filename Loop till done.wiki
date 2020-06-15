@@ -1,0 +1,3 @@
+while ! command
+while ! testscript
+2>/dev/null

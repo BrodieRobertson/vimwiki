@@ -1,0 +1,6 @@
+= Editors =
+
+* Kakoune
+* https://gitlab.com/hamadmarri/gamma-text-editor
+* VSCode License
+	* https://www.reddit.com/r/ManjaroLinux/comments/gxqbpi/question_about_vs_code_on_the_community_repo/

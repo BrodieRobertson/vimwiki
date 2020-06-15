@@ -1,0 +1,22 @@
+* Obviously I run this channel
+	* I'm always trying new stuff out
+	* Some of you guys use different software to me
+	* St being a good example
+	* I'm on Alacritty now
+	* Another is Firefox
+	* I'm on Brave
+
+* Software changes
+	* Updates happen
+	* Features are added/removed
+	* I check in on software from time to time
+	* Olive being a good example
+	* Maybe I'll like it now
+
+* I just generally like software
+	* I like seeing what's out there
+	* I'm thinking of trying dwm or Qtile when I'm on break
+	* What's possible on Linux
+	* Workflows that I haven't tried
+	* Additions to my own workflow
+

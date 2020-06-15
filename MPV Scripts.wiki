@@ -1,5 +1,6 @@
 = MPV Scripts =
 
+* OSC configuration
 * mpv rebinding keys
 * My mpv build
 * https://github.com/jonniek/mpv-waifu2x

@@ -1,6 +1,7 @@
 = Systemd =
 
 * https://github.com/systemd-cron/systemd-cron-next
+* https://www.putorius.net/systemd-tmpfiles.html
 * Systemd timers
 * Systemd user jobs
 * Systemd system jobs

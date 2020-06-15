@@ -1,0 +1,7 @@
+Loaded modules - lsmod
+Info on Module - modinfo btusb
+Load Module - modprobe <module>
+Load Module - modprobe -r <module>
+Blacklist Module - /etc/modprobe.d/blacklist.conf
+	blacklist <module>
+Kernel Ring Buffer - dmesg

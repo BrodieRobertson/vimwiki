@@ -1,0 +1,41 @@
+* Stable means multiple things
+	* Stable release
+	* System stability
+		* Does the kernel crash
+		* Do programs die out nowhere
+
+* Multiple Questions
+	* Is Kernal Stable
+	* Are packages stable
+		*	Official Packages
+		* AUR
+		* Compile yourself
+	* Configurations
+
+* Kernal
+* I've had 1 kernel panic
+* May be related to the broken hardware in laptop
+* No less stable than other kernals
+
+* Official packages
+* Tend to be better tested
+* Only problem for me was manual intervention
+
+* AUR
+* Still manual intervention
+* Some die more visually than others
+* Undocumented conflicts
+
+* Not marked as out of date
+* Tremc and transmission-remote-cli
+
+* Compile stuff yourself
+* You're pretty much on your own
+* Be careful what you compile
+
+* Configurations
+* Xorg configured wrong will not start
+* Xinitrc don't fork programs
+* Replacing nvidia with nouveau
+
+* Stable as you want it to be

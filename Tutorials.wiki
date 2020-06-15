@@ -1,5 +1,17 @@
 = Tutorials =
 
+* font configuration
+* Live Wallpaper - https://www.reddit.com/r/linux/comments/gvulgj/create_live_wallpaper_with_xwinwrap_and_mpv/
+* Bluetooth
+* Bluetooth Audio
+* https://wiki.archlinux.org/index.php/Fan_speed_control
+* news boat kill feeds
+* https://jonathanh.co.uk/blog/current-word-completion.html
+* sxhkd numpad binding
+* zsh tricks https://www.arp242.net/zshrc.html
+* Zathura transparency https://www.reddit.com/r/unixporn/comments/eq1714/i3_zathura_with_proper_transparency/
+* Dealing with Fn keys acpi_listen
+* Startx can take arguments
 * xset
 * Udev rules
 * My Handbrake settings
@@ -19,7 +31,6 @@
 * Convert your man pages to pdf
 * User account management - https://linuxhandbook.com/usermod-command/
 * https://github.com/sindresorhus/pure
-* https://www.reddit.com/r/commandline/comments/emcukl/minimal_web_applications_and_the_curl_command/
 * https://www.reddit.com/r/commandline/comments/emgzqj/stampel_instead_of_up_backspace_backspace/
 * https://github.com/oguzhaninan/Stacer
 * https://opensource.com/article/20/1/directories-autocomplete-linux

@@ -1,5 +1,11 @@
 = Window Managers =
 
+* Configure polyar with rust https://github.com/mjkillough/cnx/
+* https://www.reddit.com/r/bspwm/comments/ggtwxa/guide_to_creating_startup_layout_using_receptacles/
+* https://github.com/phenax/bsp-layout
+* Refactoring polybar
+* Current state of polybar
+* Polybar themes - https://github.com/adi1090x/polybar-themes#-polybar-13--polywidgets
 * https://www.reddit.com/r/unixporn/comments/g8yc77/oc_bpswm_window_titles_for_current_desktop_in/
 * https://github.com/SimulaVR/Simula
 * https://www.reddit.com/r/bspwm/comments/fxby5m/desknamer_a_tool_to_automatically_rename_desktops/
@@ -15,6 +21,10 @@
 * tint2 bar
 * Getting started with bspwm
 * Trying out dwm
+* Wayland dwm https://github.com/djpohly/dwl
 * leftwm
-* Sway * swayland
+* Sway + wayland
+* X11 Compatibility layer
 * cwm
+* notification - dzen
+* build a window manager -wmutils

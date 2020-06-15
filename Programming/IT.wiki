@@ -1,5 +1,7 @@
 = Programming/It =
 
+* Bad a programming practices
+* Why Python Doesn't Actually Suck
 * R
 * The least bad IDE suite
 * Odd JavaScript behaviour
@@ -10,8 +12,6 @@
 * My opinion on web apps
 * Some solutions to the problems
 * Software Development Gate Keeping
-* https://github.com/k-vernooy/tetris
-* git extra tools
 * Building up a website
 * Simple scraper
 * My thoughts on web applications

@@ -1,0 +1,7 @@
+
+* Firmware is still a pain to upgrade on Linux
+	* Generally easier to just install windows
+
+* It's a bit of a pain to install linux first then install windows
+
+* If you want Linux you can easily install it

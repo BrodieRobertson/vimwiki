@@ -15,6 +15,7 @@
 * [[Software Showcase]]
 * [[Suckless]]
 * [[Systemd]]
+* [[Editors]]
 * [[Text Formatting]]
 * [[Terminals]]
 * [[Tutorials]]

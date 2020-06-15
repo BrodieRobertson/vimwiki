@@ -1,0 +1,33 @@
+* Learning experience
+* Not directed at people looking to get work done now
+* Ricers and people who want to learn about linux
+
+* ZSH/Fish
+* But they're a trap for new users
+* The Oh my ZSH problem
+* It's a glorified config file
+* Most plugins are just aliases
+* The ones that aren't take one line to get working
+* Oh My ZSH obfuscates
+
+* A recent comment asking about my zsh theme
+
+* Coming from bash you spot this
+* You can install it if you want
+* But you don't have to
+* Bash gives you experience to notice this
+
+* Everything that oh my zsh calls a plugin
+* You have already done as a script or function or alias
+
+* ZSH completion is amazing
+	* Can be even better, script to intellisense style completion
+* But you need to suffer a bit
+	* Some value in writing out more
+	* And it not being as easy
+
+* Talk about Fish for moment
+	* Not a POSIX shell
+	* You may see as a good thing
+	* A lot of scripts are POSIX compliant
+	* Being able to understand it is helpful

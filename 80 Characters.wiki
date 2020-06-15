@@ -1,0 +1,48 @@
+* They cause problems for things like "grep" and other basic unix utilities
+
+*  I don't want to see patches that make the kernel reading
+experience worse for me and likely for the vast majority of people
+	* My 200x50
+
+* If you or Christoph have 80 character lines, you'll get possibly ugly
+wrapped output. Tough. That's _your_ choice. Your hardware limitations
+shouldn't be a pain for the rest of us.
+
+* My monitor is not only a lot wider than it is tall, my fonts are universally
+narrower than they are tall. Long lines are natural.
+	* Not sure what Linux runs
+	* Programming fonts especially
+
+* When I tile my terminal windows on my display, I can have 6 terminals
+visible at one time, and that's because I have them three wide.
+	* Godly vision
+	* Ultrawide
+
+* Have you looked at "ps ax" output lately? Or used "top"? Or done "git
+diff --stat" or any number of things where it turns out that 80x25 is
+really really limiting, and is simply NO LONGER RELEVANT to most of
+us.
+	* Works fine for sparse UI - lf
+	* But a lot don't work well - newsboat
+
+* I find it completely irrelevant if
+somebody says that their kernel compile takes 10 hours because they
+are doing kernel development on a Raspberry PI with 4GB of RAM.
+
+* People with restrictive hardware shouldn't make it more inconvenient
+for people who have better resources. Yes, we'll accommodate things to
+within reasonable limits.
+	* OS shouldn't use 10GB
+	* 4 core
+	* Your browser shouldn't use 10GB
+
+* People commonly used 132-column terminals even back in the 80's
+
+* Yes, local iteration variables are still called 'i', because more
+context just isn't helpful for some anonymous counter.
+	* Sometimes can add context
+
+* But still - it's entirely reasonable to have variable names that are
+10-15 characters and it makes the code more legible. Writing things
+out instead of using abbreviations etc.
+	* St example

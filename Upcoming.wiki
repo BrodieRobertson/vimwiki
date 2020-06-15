@@ -2,51 +2,60 @@
 
 == To Record ==
 
-* Why do I care about software I don't use
-* Installing mpv plugins
-* https://wiki.archlinux.org/index.php/Reflector
-* colourpicker
-* My experience on Windows
-* Introduction to pandoc
-* How I manage dotfiles
-* Yadm
-* The slow progresion of uni
-* Why text formatters for formal documents
-* True colour terminals
-* Why bspwm
-* Online Uni
+=== Software ===
+* Discord - Cordless
+* https://gitlab.com/ajak/tuir
+* https://github.com/jiahaog/nativefier
+* Alacritty ligatures
+* notifications https://github.com/Sweets/tiramisu
+
+=== Vlog ===
+* Why I prefer a window manager
+* Avoid aliasing full commands
+
+=== Vim ===
+* https://github.com/iamcco/markdown-preview.nvim
+* Vim fuzzy finder
+
+=== Tutorials ===
+* pandoc markdown
+* Working with pacman
+
+== Done ==
+
+* https://thorsten-hans.com/5-types-of-zsh-aliases
 
 == Planned ==
 
+* Where do I find Linux video ideas
+* Why bspwm
+* How I manage dotfiles
+* Yadm
+* The slow progresion of uni
+* dmenu patching
+* https://github.com/tenox7/ttyplot
+* https://github.com/R4yGM/netscanner
+* screenshots - flameshot
 * Github issues https://rubygems.org/gems/ghi/versions/1.2.0
 * Why scissor switch keyboard
 * Terminal For Life	Tudu
 * clipit
 * clipmenu
 * https://github.com/Phate6660/sxhkd-bindings
-* kernal monitor https://github.com/orhun/kmon
-* Why I prefer a window manager
-* vim sneak
 * bspc tree structure
 * How not to program
 * https://github.com/deepjyoti30/QuickWall
 * My webcam method
 * https://github.com/kellyjonbrazil/jc
-* pandoc markdown
 * pandoc latex math
-* pandoc-crossref
 * alacritty configuration
-* Why you should experience bash
 * How to read the syntax of bspc man
 * Bspwm Multi-Monitor Workflow
 * Bat
-* dmenu patching
 * speed reader https://github.com/n-ivkovic/tspreed
-* Where do I find Linux video ideas
 * Bookmenu part 3
 * Getting started with bspwm
 * What's the deal with the compton name change
-* fff
 
 * LOC is meaningless here's why
   Assembly

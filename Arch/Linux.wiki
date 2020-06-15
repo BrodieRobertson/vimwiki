@@ -1,5 +1,38 @@
 = Arch/Linux =
 
+* Simple tools for simple jobs
+* I probably should be using GitLab
+* Do away with a gui file manager
+* I don't care what software you use and neither should you
+* Vscode code builds
+* My essential tools for a functional system
+* Pywal polybar
+* Picom vs Compton
+* Clarifying my stance on free software
+* Why is systemd still divisive - https://www.howtogeek.com/675569/why-linuxs-systemd-is-still-divisive-after-all-these-years/
+* Is Being on an old kernal bad - https://www.reddit.com/r/Ubuntu/comments/gxiti6/is_being_on_an_old_kernel_bad/
+* What is swap and do you need it
+* How big should your partitions be
+* https://www.reddit.com/r/ManjaroLinux/comments/guee04/pacman_but_with_reasonable_commands/
+* Open Source Security - https://www.reddit.com/r/linux/comments/grfty2/do_you_think_being_open_source_being_secureprivate/
+* Arch Build System
+* Linux Security https://wiki.archlinux.org/index.php/Security
+* Linux security hardening https://vez.mrsk.me/linux-hardening.html
+* Legacy languages https://www.reddit.com/r/archlinux/comments/gnioy4/do_we_need_python2/
+* Open auto complete https://github.com/openautocomplete/openautocomplete/blob/master/SPECIFICATION.md
+* https://www.reddit.com/r/archlinux/comments/gn61jh/security_of_pacman_and_other_package_managers/
+* Writing a PKGBUILD
+* Bringing an AUR package back to life
+* Year of the Linux Desktop https://medium.com/@robsandhu/desktop-linux-the-case-for-a-single-distro-2dac8b2b8c8e
+* Migrating Linux to a New drive https://www.reddit.com/r/archlinux/comments/gkzse0/whats_the_best_way_to_migrate_my_arch_install_to/
+* Yeet the orphaned packages https://www.reddit.com/r/archlinux/comments/gkw98b/how_can_i_see_what_package_originally_installed/
+* Issues with a rolling release https://www.reddit.com/r/archlinux/comments/gl82vi/recently_arch_linux_updates_seem_not_so_stable_as/
+* Why I love a rolling release
+* https://www.ostechnix.com/find-wifi-password-of-connected-networks-in-linux/
+* The complexity of Linux isn't the install
+* Distro animosity
+* What is Wayland
+* What is a display server
 * Reinventing the wheel is the bread and butter of my channel
 * Dotfile management update
 * Ricing Overview
@@ -7,7 +40,6 @@
 * Unpopular opinion I don't hate windows
 * Bitreich
 * Create bootable installer
-* What is true color
 * Getting the most out of your webcam
 * Updated look at polybar
 * Transmission setup
@@ -16,7 +48,6 @@
 * XDG path
   https://github.com/dylanaraps/clutter-home
 * desktop entries
-* Distro animosity
 * Basic usage of pacman
 * https://www.ostechnix.com/5-ways-repeat-last-command-linux/
 * How a terminal color scheme works
@@ -51,7 +82,6 @@
 * https://gitlab.com/mezantrop/ascsaver
 * Floating window managers are dumb
 * Why I try to avoid snaps
-* Benefits/Drawbacks of a rolling release
 * Hybrid graphics are a massive pain
 * Why is it called a terminal emulator
 * Benefit of a terminal file manager

@@ -1,0 +1,41 @@
+* package
+	* PKGBUILD downloads the latest stable source code
+	* Compiles it, arranges the files and creates a package
+
+* package-git
+	* Similiar but downloads latest version from the git repo
+	* All new features
+	* May lead to the application being unstable
+	* Depends on how the project is structured
+	* Still will get compiled and built
+
+* package-bin
+	* Downloads a precompiled binary
+	* Generally just a deb package
+	* Not always the case but ubuntu is fairly popular
+	* Arranges the the files for suitability with arch
+	* Generates the package
+
+* package-git-bin
+	* Downloads a precompiled binary of latest build
+	* Generally doesn't happen
+	* No point making a binary of an unstable build
+
+Bin vs stable/git
+
+* Generally web browsers you should download bin
+* Typically massive pieces of software
+* Brave is a good example
+	* I have brave-bin installed
+	* Fucks knows how long compile time
+
+* Can edit the source code of stable/git releases
+* Enable features that were disabled for compatibility
+
+* Suckless utils
+	* Probably shouldn't use AUR package
+	* Intended to be modified
+
+* Install from the aur or standard repo
+	* Not much of a difference
+	* Generally should use standard repos
