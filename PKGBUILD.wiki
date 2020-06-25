@@ -1,0 +1,137 @@
+* Prerequiste software
+	* makepkg provided by pacman
+	* base-devel has pretty much everything else
+
+* /usr/share/pacman for templates
+
+* Variables
+	* pkgbase
+		* Normally just leave out
+		* Defaults to pkgname
+		* For split packages is name of whole thing
+	* pkgname
+		* required
+		* Name of package in the AUR
+		* In my follow up I'll talk about naming rules
+	* pkgver
+		* required
+		* Version of the package
+		* For timpstamped versions use ISO 8601
+		* Binaries use the release number
+		* VCS we'll look at some functions later
+	* pkgrel
+		* reqired
+		* Release number of the package
+		* Used to indicate fixes and features to PKGBUILD
+	* epoch
+		* Typically avoided
+		* Forces a package to be seen as newer
+		* Used when versioning changes breaking comparison logic
+	* pkgdesc
+		* Describes the program
+		* Reccomend 80 characters or less
+		* Don't include name
+		* Vim-like terminal file explorer
+	* arch
+		* required
+		* array
+		* system architectures supported by the package
+		* Arch offically supports x86_64
+		* Other off shoots like Arch Linux 32 and Arch Linux ARM also exist
+	* url
+		* Official website of the package
+		* May not be where source is located
+	* licence
+		* required
+		* array
+		* The licences used for the application
+	* group
+		* Group the package belongs to
+		* For example plasma is a group
+	* depends
+		* Very important
+		* Array
+		* Build and runtime dependencies
+		* depends=('foobar>=1.8.0' 'foobar<2.0.0')
+		* depends=('git')
+		* So dependencies can be ignore, glibc for example
+		* No harm in including
+	* optdepends
+		* May limit functionaly of program
+		* Array
+		* But it will still function
+		* List alternative dependencies
+		* Xdo or xdotool for example
+		* optdepends=('cups: printing support'
+            'sane: scanners support'
+            'libgphoto2: digital cameras support'
+            'alsa-lib: sound support'
+            'giflib: GIF images support'
+            'libjpeg: JPEG images support'
+            'libpng: PNG images support')
+		* makedepends
+			* Very important
+			* array
+			* Required to build software
+			* Anythingalso required to run should only be in depends
+			* No duplicates
+		* checkdepends
+			* Dependencies for test suite
+			* A lot of software doesn't include test suites
+		* provides
+			* Additional software provided by the package
+		* conflicts
+			* Packages that conflict with this package
+			* -bin -git
+			* Packages with the same name
+		* replaces
+			* Obsolte packages replaced by this package
+		* backup
+			* Array of files containing user made changes in /etc
+			* Should be preserved
+			* etc/pacman.conf
+			* file.pacnew
+		* options
+			* Allows overriding of makepkg default behaviour
+			* Pass options to makepkg
+		* install
+			* name of .install script
+			* example of layout in /usr/share/pacman/proto.install
+		* changelog
+			* Name of the changelog file
+			* pacman -Qc
+		* source
+			* Where the source code can be located
+			* 'tiramisu::git://github.com/Sweets/tiramisu.git'
+			* .sig, .sign, or .asc recognized as PGP signatures
+		* noextract
+			* Files that should not be extracted
+			* Or can't, you may need alternative tools to bsdtar
+			* Just name not the full url
+		* validpgpkeys
+			* Array of PGP fingerprints
+		* Integrity checking
+			* md5sums, sha1sums, sha256, sha224, sha384, sha512, b2
+			* Must include for each source file
+			* Can include "SKIP" to ignore check
+
+* Functions
+	* prepare
+		* Get ready for building
+		* Unarchive is skipped by noextract
+		* Patching
+	* pkgver
+		* assign new package number
+		* Done for VCS projects without stable number
+	* build
+		* Compile the source code
+	* check
+		* Run the test suite
+	* package
+		* Install the software
+
+* Testing the package
+	* makepkg
+	* pacman -Qlp to list files of package
+	* pacman -Qip to check listed dependencies
+	* makepkg -si

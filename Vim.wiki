@@ -16,7 +16,6 @@
 * indent guides - https://github.com/nathanaelkane/vim-indent-guides
 * Manual plugin installation
 * vial-http
-* emmet
 * Syntax checking - https://github.com/vim-syntastic/syntastic
 * jump to functions - https://github.com/majutsushi/tagbar
 * https://www.reddit.com/r/vim/comments/fy13mb/cobra_yet_another_plugin_to_manage_brackets_and/

@@ -1,5 +1,21 @@
 = Software Showcase =
 
+* bar overlay - https://github.com/florentc/xob
+* su and doas you don't actually need sudo
+* Olive a better video editor
+* duckduckgo bangs https://www.reddit.com/r/linux/comments/hcthv4/psa_if_you_use_duckduckgo_then_there_are_a_lot_of/
+* disk analyizer https://github.com/imsnif/diskonaut
+* hotkey daemon https://github.com/phenax/shotkey
+* Terminal telegram - https://github.com/paul-nameless/tg
+* Gitignore generator https://github.com/Eoin-McMahon/Blindfold
+* podcast client - https://github.com/xgi/castero
+* bootable usb grub thing https://www.ventoy.net/en/index.html
+* fetch utils https://www.reddit.com/r/unixporn/comments/habkor/oc_wip_fetchutils_a_collection_of_shell_utilities/
+* Audio visualizer - https://www.reddit.com/r/unixporn/comments/ha9q9q/oc_audio_visualizer_that_pulses_the_background_of/
+* Hotkey daemon https://github.com/dakyskye/dxhd
+* Life time system monitor https://github.com/rfrail3/tuptime
+* ranger chrome file manager https://gist.github.com/vn-ki/e592daa2e429377a0640ba71051175e0
+* rofi chrome tabs https://github.com/tcode2k16/rofi-chrome
 * Audio effects - PulseEffects
 * man page thing - Navi
 * wallpaper - xwallpaper
@@ -32,7 +48,6 @@
 * weather-util weather-util-data
 * analytics dashboard - https://github.com/Phantas0s/devdash
 * shell alias manager - https://github.com/pranavmk98/coal
-* hardware sensors - sensors
 * log what files are accessed https://github.com/spieglt/whatfiles
 * color picker - https://www.reddit.com/r/unixporn/comments/h7ptk0/oc_farge_now_supports_showing_colors_color_codes/
 * display manager - https://github.com/tvrzna/emptty
@@ -283,7 +298,6 @@
 * xrdp
 * Pointless software - https://github.com/tkmru/mln
 * https://blog.thechases.com/posts/remind/
-* chafa
 * Memory Monitoring - https://www.2daygeek.com/linux-commands-check-memory-usage/
 * Cowsay
   https://www.linuxlinks.com/linux-candy-xcowsay-displays-cow-desktop-message/
@@ -339,7 +353,6 @@
 * Rofi
 * fasd
 * bropages
-* tldr man pages
 * fd
 * Sleep hooks
 * Curseradio

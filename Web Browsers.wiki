@@ -1,5 +1,6 @@
 = Web Browsers =
 
+* https://eatbiscuit.com/
 * Vivaldi
 * What's keeping me on chromium
 * What is ungoogled chromium

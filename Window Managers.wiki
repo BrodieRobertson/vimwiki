@@ -1,8 +1,11 @@
 = Window Managers =
 
+* nim window manager https://github.com/avahe-kellenberger/nimdow
+* https://github.com/Teln0/TermUI
+* https://github.com/phenax/bsp-layout
+* My new way of handling fullscreen
 * Configure polyar with rust https://github.com/mjkillough/cnx/
 * https://www.reddit.com/r/bspwm/comments/ggtwxa/guide_to_creating_startup_layout_using_receptacles/
-* https://github.com/phenax/bsp-layout
 * Refactoring polybar
 * Current state of polybar
 * Polybar themes - https://github.com/adi1090x/polybar-themes#-polybar-13--polywidgets

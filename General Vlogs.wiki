@@ -1,5 +1,17 @@
 = General Vlogs =
 
+* A zoomers take on social media
+* There's only so much you can learn from video tutorials
+* Another look at LBRY
+* Delving into peer tube
+* Open source social media
+* Reviving an old laptop with linux
+* Why I started making content
+* My plans for the channel
+* I'm seeing a weird trend with me luke and dt
+* How I found my way to linux
+* Talking a bit about myself
+* Giving yourself some time off
 * I see all problems as optimization problems
 * I love the comments section
 * Stop wasting my time rant
@@ -16,7 +28,6 @@
 * The hardest part is just starting
 * Doing this has shown me a creative side of myself
 * How I fell out of gaming
-* My plans for the channel
 * Why it's important to diversify your interests
 
 * That time I was almost homeless

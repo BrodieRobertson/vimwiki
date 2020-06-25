@@ -1,5 +1,6 @@
 = Suckless =
 
+* https://www.reddit.com/r/suckless/comments/hc23gv/hotkeythingy_a_suckless_hot_key_daemon_for_x/
 * Suckless scroll
 * What is the suckless philiosophy
 * St 1 clipboard

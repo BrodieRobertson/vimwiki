@@ -1,5 +1,6 @@
 = File Managers =
 
+* lf w3m previews
 * https://github.com/roberthawdon/dfshow
 * Run down of lf install
 * lfimg

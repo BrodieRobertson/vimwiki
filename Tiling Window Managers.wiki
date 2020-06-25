@@ -1,0 +1,20 @@
+* See everything at once
+* Automatic layouts
+* Simple window spawning rules
+	* No spawning off screen
+* Custom layouts
+* Keyboard driven
+	* Mouse can still be used
+	* But focuses on keyboard
+* Easily shift layout
+	* On desktop
+	* Between desktops
+* Typically very clean look
+* 2nd class floating windows
+* The useful floating features
+* Tiling in apps seems kind of pointless
+* Places really nicely with tabbing features
+
+* Some problems
+* Apps that don't resize properly
+* Apps that try to assign their own size

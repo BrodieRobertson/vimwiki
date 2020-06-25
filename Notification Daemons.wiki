@@ -1,6 +1,6 @@
 = Notification Daemons =
 
-* https://github.com/Sweets/tiramisu
+* https://github.com/caronc/apprise
 * twmn
 * Statnot
 * Deadd Notification Center

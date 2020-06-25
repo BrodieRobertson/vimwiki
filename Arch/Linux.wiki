@@ -1,5 +1,22 @@
 = Arch/Linux =
 
+* Some Linux news aggregators worth checking out
+* Selling vim to a new
+* There's no right way to use Linux
+* GUIs have there place but you should be comfortable in ther terminal
+* Get yourself a domain it's really cheap
+* hugo static site generation
+* What do all the zsh config files do
+* Replacing notify-send
+* How do I start learning shell script
+* Anti arch elitists are the vegans of linux
+* New levels of positivity coming from linux forums
+* Forced to use Word for an assignment
+* Some early problems I had using Linux
+* Why saying you don't need adobe doesn't make sense
+* Why I still use a GUI file manager
+* Exploring BSD
+* Forced to leave linux, where would you be https://www.reddit.com/r/linux/comments/hb3v5f/if_linux_is_not_an_option_would_you_prefer_mac_or/
 * Simple tools for simple jobs
 * I probably should be using GitLab
 * Do away with a gui file manager
@@ -11,7 +28,6 @@
 * Clarifying my stance on free software
 * Why is systemd still divisive - https://www.howtogeek.com/675569/why-linuxs-systemd-is-still-divisive-after-all-these-years/
 * Is Being on an old kernal bad - https://www.reddit.com/r/Ubuntu/comments/gxiti6/is_being_on_an_old_kernel_bad/
-* What is swap and do you need it
 * How big should your partitions be
 * https://www.reddit.com/r/ManjaroLinux/comments/guee04/pacman_but_with_reasonable_commands/
 * Open Source Security - https://www.reddit.com/r/linux/comments/grfty2/do_you_think_being_open_source_being_secureprivate/
@@ -43,7 +59,6 @@
 * Getting the most out of your webcam
 * Updated look at polybar
 * Transmission setup
-* linking sh to dash
 * xft and pango, what are they
 * XDG path
   https://github.com/dylanaraps/clutter-home

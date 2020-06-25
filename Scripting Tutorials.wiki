@@ -1,5 +1,6 @@
 = Scripting Tutorials =
 
+* Preserve intermediate output https://github.com/ketancmaheshwari/pd
 * bash-utility - https://github.com/labbots/bash-utility
 * Working with read command
 * Handling Arguments in a script

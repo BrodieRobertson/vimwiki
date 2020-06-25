@@ -3,30 +3,27 @@
 == To Record ==
 
 === Software ===
-* Discord - Cordless
-* https://gitlab.com/ajak/tuir
-* https://github.com/jiahaog/nativefier
-* Alacritty ligatures
-* notifications https://github.com/Sweets/tiramisu
+* https://github.com/sdushantha/gitdir
 
 === Vlog ===
-* Why I prefer a window manager
-* Avoid aliasing full commands
+* What is swap and do you need it
+* You're a power user therefore...
+* My position on Free software
 
 === Vim ===
-* https://github.com/iamcco/markdown-preview.nvim
 * Vim fuzzy finder
+* emmet
 
 === Tutorials ===
 * pandoc markdown
 * Working with pacman
+* Making an AUR package
 
 == Done ==
 
-* https://thorsten-hans.com/5-types-of-zsh-aliases
-
 == Planned ==
 
+* Alacritty ligatures
 * Where do I find Linux video ideas
 * Why bspwm
 * How I manage dotfiles
@@ -36,7 +33,6 @@
 * https://github.com/tenox7/ttyplot
 * https://github.com/R4yGM/netscanner
 * screenshots - flameshot
-* Github issues https://rubygems.org/gems/ghi/versions/1.2.0
 * Why scissor switch keyboard
 * Terminal For Life	Tudu
 * clipit

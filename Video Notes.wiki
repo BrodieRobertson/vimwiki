@@ -6,6 +6,10 @@
 
 == Notes ==
 
+* [[Pacman]]
+* [[PKGBUILD]]
+* [[tldr pages]]
+* [[Tiling Window Managers]]
 * [[Why Is The Modern Web Slow]]
 * [[Basilisk]]
 * [[Getting Started With Bspwm]]

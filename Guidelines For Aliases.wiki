@@ -1,0 +1,36 @@
+* My guidelines for setting aliases
+
+* Firstly short
+	* For obvious reasons
+	* Too long hard to remember
+	* Difficult to type
+	* May not provide much value
+
+* Try keep to 1 letter per word
+	* May not produce the shortest aliases
+	* Easy to remember
+	* Deals with conflicts
+	* Transmission-remote-cli tremc which should be 1 char
+	* For same length same letters
+	* I change both
+
+* Ok to alias rarely used programs if easy to remember
+	* m to mpv
+
+* Alias categories
+	* Git commands all start with g
+	* Cd commands all start with c
+	* Now for coloured output
+	* Angular commands all start with n
+	* Much easier to remember
+
+* Typically avoid aliasing every variation
+	* Aliasing option combinations
+	* Snowballs incredibly quickly
+	* Make one exception and that's git
+	* I know which git commands are useful
+	* Don't alias git config, cherry-pick other ones not commonly used
+	* push, diff, pull, add, commit, status
+	* Saves key presses
+	* Ok to do sometimes
+	* Too much becomes hard

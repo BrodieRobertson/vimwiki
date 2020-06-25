@@ -1,0 +1,22 @@
+* pacman -Si package info
+* pacman -Qi local package info
+* pacman -Qii plus backup files
+* pacman -Qip package info for a PKGBUILD
+* pacman -Fl owned file list
+* pacman -Ql local owned file list
+* pacman -Qlp file list for a PKGBUILD
+* pacman -Sg list packages of a group
+* pacman -Qd installed dependencies
+* pacman -Qe packages explicitly installed
+* pacman -Qdt orphaned packages
+* pacman -Fy/-Sy updates the package DB
+* pacman -F Search for package that contains file
+* pacman -Fx Lists which package owns a file, even not installed
+* pacman -Qo Lists which installed package owns a file
+* pacman -Qk List count of installed files
+* pacman -Rs Remove package and dependencies
+* pacman -Rcs Remove all packages that depend on target and target dependencies
+* pacman -Rcns Also unneeded configs
+* pacman -Sc Remove files not installed from cache
+* pacman -Syu Sync package DB and download updates
+* pacman -Syuw Download packages but don't update
