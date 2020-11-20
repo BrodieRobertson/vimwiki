@@ -1,0 +1,58 @@
+* Obviously you could always just use a RSS feed reader
+	* Newsboat
+	* But maybe it's nice to have a dedicated tool for podcasts
+
+* Today we're looking at a tool called castero
+	* Pretty barebones TUI podcasting tool
+
+* Highly reccomend changing initial keys
+	* Has vim keys in a weird way
+	* Not movement
+
+* First thing add some feeds
+	* Done inside the app
+	* a by default
+	* d for delete
+		* Won't confirm by default
+
+* Will download straight away
+	* Reload with r
+
+* i to invert order
+
+* Enter to start playing episode
+* p for play/pause
+* q will add to q
+* n to skip forward in the queue
+* c to clear queue
+
+* 1 - 4 changes interface
+	* 1 main interface, feeds, episodes, meta
+	* 2 queue, metadata
+	* 3 Feeds, episodes
+		* No meta data
+	* 4 downloaded episodes
+
+* Enter on something later in queue breaks it
+
+* Filtering
+* /
+	* By number works
+	* Don't ever use capitals
+
+* f for forward
+* b for backward
+* ] increase speed
+* [ decrease speed
+
+* Configuration
+	* When installed you get a massive default config
+	* Really well documented
+
+* When feeds are loading app temporarily locks up
+
+* Doesn't save last listening point
+
+* Severly slows down with big feeds
+
+* Crashes if adding a new feed during reload

@@ -1,0 +1,61 @@
+* Recently covered GitUI
+	* Thought I should cover another popular git interface
+
+* Way more coverage of git
+	* Much less information
+
+* Status s
+	* u stage/unstage
+	* M to merge
+	* ! revert
+	* C commit
+* Diff f
+	* @ cycle hunks
+	* [ ] cycle amount of context
+* Main m
+	* H goto head
+	* Change view
+		* F refs
+		* G graph
+		* A author
+		* D Dates
+* Log l
+* Refs r
+	* C checkout
+	* ! delete branch
+* Tree t
+* Stage c
+	* u stage/unstage chunk
+* Grep g
+* Pager p
+* Stash y
+	* A apply
+	* P pop
+	* ! drop
+
+* enter to open
+
+* Opens "Splits"
+	* Cycle with tab
+	* No indication of which you're in
+	* O Maximise
+
+* Searching
+	* / ? n N
+
+* e edit
+
+* Command mod
+* : Internal commands
+* :! Arbitrary shell commands
+
+* If you want a git interface that does everything
+	* This might the choice
+
+* Still no crating branches or remotes
+
+* Only scratching the surface
+	* Tig and tigrc docs
+	* Anything not supported
+	* Can be added in
+	* Incredibly well documented

@@ -3,40 +3,89 @@
 == To Record ==
 
 === Software ===
-* https://github.com/sdushantha/gitdir
+
 
 === Vlog ===
-* What is swap and do you need it
-* You're a power user therefore...
-* My position on Free software
+
 
 === Vim ===
-* Vim fuzzy finder
-* emmet
+
 
 === Tutorials ===
-* pandoc markdown
-* Working with pacman
-* Making an AUR package
+
+
+=== News ===
+
 
 == Done ==
 
 == Planned ==
 
+* Awk Language part 1
+* NCMPCPP theming
+* Ultisnips
+* You don't really need a display manager
+* Dmenu is one of my favourite apps
+* speed reader https://github.com/n-ivkovic/tspreed
+* Dual kawase in picom https://www.reddit.com/r/archlinux/comments/ijzjgg/dual_kawase_blur_has_just_been_merged_into_picom/
+* Bspwm Preselection
+
+* Youtube-dl
+* Bspwm Manual Tiling
+* Be considerate of mirrors https://www.reddit.com/r/archlinux/comments/io4kru/psa_be_considerate_to_mirrors/
+* The Case Against Pulse Audio
+* Why do I keep coming back to lf
+* Picom is a mess
+* PulseEffects
+* mopidy + spotify
+* Why scissor switch keyboard
+
+* Distro Tour
+* Linux Isn't Always The Best Choice
+* posix file manager - https://www.reddit.com/r/unixporn/comments/i3fhxn/oc_shfm_a_tiny_tui_file_manager_written_in_posix/
+* Why are tech standards important
+* Distros don't matter
+* https://github.com/rhysd/clever-f.vim
+* LOC is not a performance metric
+
+* Moving From AUR to Official Repos
+* Is A Window Manager or a DE right for me?
+* Search Wikipedia - wikit
+* npm ui - lazynpm
+* Fonts working in a window manager
+
+* Best Alternatives to Google
+* Anti-patterns
+* Bare Minimum To Make Decent Content
+* https://github.com/tenox7/ttyplot
+
+* Plain Text files are better
+* Overview of the terminal file manager landscape
+* Vim Is Not For Everyone
+
+* When does LOC matter
+* Json awk https://github.com/mohd-akram/jawk
+
+* Why do so many rust rewrites exist
+* Making a less shit password
+
+* ADB android debug bridge
+* Rewrite everything in rust
+* Vifm icons and images
+* Clipbored
+* Application performance isn't my channel focus
+* Alpine Mail
+* Kakoune
+* https://github.com/sdushantha/gitdir
 * Alacritty ligatures
-* Where do I find Linux video ideas
 * Why bspwm
 * How I manage dotfiles
 * Yadm
 * The slow progresion of uni
 * dmenu patching
-* https://github.com/tenox7/ttyplot
 * https://github.com/R4yGM/netscanner
-* screenshots - flameshot
-* Why scissor switch keyboard
 * Terminal For Life	Tudu
 * clipit
-* clipmenu
 * https://github.com/Phate6660/sxhkd-bindings
 * bspc tree structure
 * How not to program
@@ -48,7 +97,6 @@
 * How to read the syntax of bspc man
 * Bspwm Multi-Monitor Workflow
 * Bat
-* speed reader https://github.com/n-ivkovic/tspreed
 * Bookmenu part 3
 * Getting started with bspwm
 * What's the deal with the compton name change

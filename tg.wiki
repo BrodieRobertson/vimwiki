@@ -1,0 +1,70 @@
+* I'm a very light telegram user
+  * Found this terminal telegram client
+  * tg
+
+== First Launch ==
+* Prompt you for phone number
+  * Telegram code
+
+== Keybindings ==
+* Sadly can't be changed in config
+* Help is context dependent
+
+* up/down j/k
+* up/down 10 J/K
+* G jump to latest message
+* g jump to top chat
+  * No jump to bottom chat
+* i/a write short message
+* I/A write long message
+* m: mute/unmute current chat
+p: pin/unpin current chat
+u: mark read/unread
+* r short message
+* R reply long message
+* select message
+* ctrl+[ clear selection
+
+* ! show message with custom command
+* y yank message
+  * In clipboard also can be forwarded
+* p to forward
+* dd delete message
+
+* [ previous chat
+* ] next chat
+
+* Send Files
+  * sa send audio
+  * sd send document
+  * sn send animation
+  * sp send picture
+  * sv send video
+
+* Chat creation
+  * ng new group
+  * ns new secret
+  * c contacts
+    * May not work because I have no contacts
+    * Supposed to show an fzf selector
+
+== Configuration ==
+* Literally just a python script
+* Over to github so I don't show phone number
+* No documentation for full config
+
+== File Opening ==
+* Interacts with mail cap for file opening
+  * Same as a lot of terminal email clients
+
+== Issues ==
+* bp breakpoint binding
+  * Could tell you what it does
+* No bot keyboard support
+  * Only thing I actually use telegram for
+* Resizing generally works
+* In app documenation is out of date
+* Not clear which window your focused on
+
+* Very lacking compared to some discord terminal clients
+  * There are probably better clients out there

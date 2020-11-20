@@ -1,0 +1,85 @@
+* to lazy to build vimrc yourself
+	* just generate something that works fairly well
+
+* Selection of fairly popular languages
+	* Can't be everything but it'll cover many use cases
+
+* Oddly only Vue js for web frameworks
+	* Supporting react and Angular is pretty straight forward
+
+* Color schemes are fairly limited
+	* But codedark is here, only one that matters
+	* Would be cool to see these images be the theme pallete
+
+* Supports vim and neovim
+
+* Checks if you've installed plugins
+	* Checks which os you're using
+	* Tries to install vim-plug
+	* Sort of sets the tend for the rest of the config
+
+* File tree
+	* Nerdtree
+		* Nerd tree tabs
+		* F3 to open
+		* No binding for tabs
+	* Also fzf if you'd prefer a fuzzy finder
+		* Leader e
+
+* Vim commentary for commenting
+	* But no binding for it
+
+* Nice to see vim fugitive
+	* Git integration
+
+* Git gutter seems to be misconfigured
+
+* With exuberant ctags can view code tags with
+	* Tagbar
+
+* Indent line
+	* Demo in code
+
+* Polyglot to handle most syntax highlighting
+
+* Code snippets with ultisnips
+	* Bizarrely doesn't include code completion
+	* No Coc or even Deoplete, YCM
+		* Ale for syntax checking
+
+* Vim session management
+	* Never used myself but it seems fairly useful
+
+* Language packs basically just add extra syntax
+	* HTML does give you emment which is cool
+
+* Visual settings all sensible defaults
+	* 256 color mode for max compatibility
+	* Gvim settings as well
+
+* Abbreviations so you never accidently type wrong command
+
+* Interesting mappings
+	* Fugitive commands
+	* Session management
+	* Making tabs actually usable
+
+* Fixes copying to clipboard
+
+* Fixing split movement
+
+* Fixing visual mode shifting
+
+* Minor changes depending on language extensions
+
+* Powerline symbols odd inclusion
+	* Known to not render properly in nvim
+
+* Documentation seems a bit lacking
+	* Plugin grouping seems a bit random
+
+* Very uncontroverisal vim config
+	* But in doing so lacks a lot of basic tools
+
+* I wouldn't use this myself but
+	* If nothing else this is a great way to discover new plugins and config

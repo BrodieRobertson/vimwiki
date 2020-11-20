@@ -1,0 +1,64 @@
+* Basic idea of what connections are being made by your machine
+	* Simple way to do so is bandwhich
+	* By the same developer as Diskonaut
+
+* By default shows utilization by process
+	* Not much going on
+	* Open up brave
+		* Tremc shows python
+	* Number of connections
+		* Open a website
+	* Upload and download
+		* Few things that normal person might want this for
+	* Maybe forgot about a torrent seeding
+		* File downloading
+
+* Next same info sorted by address
+	* IPv4
+	* Sometimes IPv6
+	* Domain
+		* Can be disabled with -n
+	* Any point can pause with space
+	* Check out on somewhere like WhoIs
+		* More to it then this but network security is not my forte
+
+* Requires sudo access to run
+	* Or make setcap wrapper
+
+* Utilization by address
+	* Network device ip port => ip port transport protocol
+		* Generally will see UDP (User Datagram Protocol)
+			* TCP (Transport Control Protocol)
+			* Might leave links to how they work down below
+
+* Shows current connected network interfaces
+	* Connect a 2nd device works just fine
+	* Wired and Wifi
+
+* Shuffle around UI
+	* Tab
+	* Only forward, is only 3
+
+* Disable certain parts of UI
+	* -a for addresses
+	* -c connections
+	* -p processes
+
+* Issues
+	* Can't scroll windows
+		* Hinders usability
+
+* Show dns queries (Domain name system)
+	* Resolves IP addresses to domains
+	* -s
+
+* Show total usage
+	* -t
+	* Totals not cleared off screen
+	* Useful for benchmarking
+
+* Machine processable mode
+	* -r
+
+* Serious packet sniffing should be done in wireshark
+	* But it's a bit overkill for most people

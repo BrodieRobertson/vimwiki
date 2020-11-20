@@ -1,0 +1,32 @@
+* Configuration very similiar to polybar
+* Don't need to fork apps into background
+
+* Manual install
+* Can't use pipe in command
+	* Put in external script
+	* Assume ; doens't work either
+
+* No 0 interval
+	* Set really big interval
+
+* Sometimes items don't appear
+* notify send sometimes locks up bar
+* No error message on lockup
+
+* Leaving in polybar update causes crash
+
+* Scroll event causes crash
+
+* No IPC
+	* Has to be done externally
+	* Will probably seg fault
+
+* Can't have more than 1 trigger
+	* Workspace and window
+
+* No TTF fonts
+	* Regardless of lemonbar
+
+* Use Raw to properly interpret formatting
+	* You'll want to do this
+	* Especially for background color

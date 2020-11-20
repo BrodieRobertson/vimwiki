@@ -1,18 +1,5 @@
 = LBRY Description =
 
-==========Purchase My Gear==========
-
-► Buy Anything: https://amzn.to/3eT3gsR
-
-► Blue Yeti USB Microphone: https://amzn.to/34oj8P8
-
-► Logitech C920 Pro Webcam: https://amzn.to/2JUYiNL
-
-► Neewer 176 LED Video Light: https://amzn.to/2xbK0Wu
-
-💖 Subscribe for more videos!
-
-✍ Comment some video feedback or what you want to see next time!
 
 ==========Support The Channel==========
 
@@ -26,16 +13,26 @@
 
 ► LBC Wallet Address: bLRN9fm17sCexKfgbYqmMj5xskZF2ogpEh
 
+==========Affiliate Links==========
+
+► Buy Anything USA: https://amzn.to/3d5gykF
+
+► Download Brave: https://brave.com/bro479
+
+► Join LBRY: https://lbry.tv/$/invite/@BrodieRobertson:5
+
+► Join Minds: https://www.minds.com/register?referrer=brodierobertson
+
 =========Video Platforms==========
 
 🎥 YouTube:
-https://www.youtube.com/channel/UCld68syR8Wi-GY_n4CaoJGA
+https://www.youtube.com/c/BrodieRobertson
 
 📺 BitTube:
-https://bittube.tv/profile/BrodieRobertson
+https://bittube.tv/profile/BrodieRobertson📺
 
-🎥 YouTube Podcast:
-https://www.youtube.com/channel/UCBq5p-xOla8xhnrbhu8AIAg
+📺 BitChute:
+https://www.bitchute.com/channel/agraFPUvUDeK/
 
 🎥 LBRY Podcast:
 https://open.lbry.com/@TechOverTea:3
@@ -58,7 +55,7 @@ https://www.minds.com/brodierobertson/
 https://t.me/BrodieRobertson
 
 🌐 Mastodon:
-https://mastodon.social/@BrodieOnYoutube
+https://mstdn.social/@BrodieOnLinux
 
 ==========My Repos==========
 

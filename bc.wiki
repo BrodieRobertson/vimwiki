@@ -1,0 +1,88 @@
+* Basically every linux system has this installed
+  * Like awk
+  * It's not just a cli tool it's an entire language
+    * Far simpler though
+
+== Breaking down this Example ==
+exponential
+
+== Basic Arithmetic ==
+* If you've done any programming very straight forward
+  * - negation
+  * ++/-- var de/increment by one and use in expression
+  * var ++/-- value used in expression then increment
+  * ^ power
+  * % modulo/remainder
+
+== Variables ==
+a = 3
+a = (a *= x)
+
+== Comments ==
+/* */
+
+== Statements ==
+if () {}
+while () {}
+for (i=1; i<=k; i++) {}
+break
+
+1 is true, 0 is false
+
+== Relation Expressions ==
+< > less than greater than
+expr && expr if both are not 0
+expr || expr
+!expr
+
+== Precendence table ==
+|| operator, left associative
+&& operator, left associative
+! operator, nonassociative
+Relational operators, left associative
+Assignment operator, right associative
++ and - operators, left associative
+*, / and % operators, left associative
+^ operator, right associative
+unary - operator, nonassociative
+++ and -- operators, nonassociative
+
+* Never rely on precedence tables
+
+== Functions ==
+length number of significant digits
+scale number of digits to put after decimal
+sqrt squareroot
+
+== Math Lib ==
+bc -l
+* s(s) sine
+* c(c) cosine
+* a(a) arctangent
+* All in radians
+* l(l) natural log
+* e(x) exponential log
+* j(n,x) order n of x
+  * I'll explain the terrible names in a bit
+
+== Define A Function ==
+define [void] name(variables) {}
+return value
+return ( expression )
+
+* Local Variables
+auto list
+
+== Gnu Extensions ==
+bc -w warn about extensions
+bc -s process only posix
+read function for user input
+continue to skip forward in loop
+else in if statement
+print allows for another form of output
+* If you'll be using Gnu systems
+  * Feel free to use
+void functions
+multiple letter names
+
+* Basically posix version insanely limited

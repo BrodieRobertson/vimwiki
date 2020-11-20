@@ -1,0 +1,43 @@
+* Bashtop htop replacement written in bash (obviously)
+	* Mostly Bash, bit of python
+
+* htop is process monitor first
+	* system monitor second
+* Bashtop is the reverse
+	* system monitor first
+	* Process monitor second
+	* Personally think it looks better
+
+* 5 sections
+	* Start with CPU
+	* Core breakdown
+		* Expands outwards as you zoom in
+		* Usage and temp
+			* Temps depend on CPU
+				* AMD doesn't breakdown per core
+		* Bar of performance
+	* Memory
+		* Gradients
+		* Used
+		* Available
+		* Cached
+		* Free
+		* Swap Used
+		* Swap Free
+	* Networking
+		* See my current device
+		* Cycle through devices
+		* Check network usage
+	* Process management
+		* SIGTERM
+		* SIGKILL
+		* SIGINT
+		* Can't do every signal like htop
+
+* Configuration
+	* Similiar to calcurse in some ways
+	* Can be done from file
+	* Custom theme
+
+* Requires True color terminal
+	* Urxvt has bizarre behavior

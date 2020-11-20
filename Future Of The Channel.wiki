@@ -1,0 +1,76 @@
+== 10K Celebration ==
+* Thank luke
+* Thank DT
+* Thank friends
+* Thank supports
+
+== Lighting ==
+* My lighting has needed some work for a while
+	* I used to use 2 lights off to my left and right
+	* Switched it around
+		* 1 light is key light
+		* 1 is hair light
+		* Wall light, can be changed
+
+== Video ==
+* I'm noticing hardware limitations of C920
+	* Planning to upgrade to a mirrorless camera
+	* I'm thinking a Canon M200
+		* Nothing set in stone yet
+		* I know DT runs a Lumix G7 or G15
+		* Come to the podcast for camera talk
+
+== Audio ==
+* Been using a blue yeti up until now
+	* It's fine, I've tweaked it a bit
+	* Sounds way better than it used
+		* When I knew nothing about audio
+
+* Feel it's time for an upgrade to XLR
+	* Mixer Yamaha MG10XU
+		* Very popular mixer board
+		* Hardware knobs for everything
+			* Compressor, EQ, Gain, Volume, built in FX
+			* More inputs than I need
+	* Microphone, probably Audio Technica AT2035
+
+* A lot of streamers use Go XLR
+	* One problem, with the software it's a brick
+	* Unsurprisingly it's a brick on Linux
+
+== Series Ideas ==
+* My core content of Vim plugins and software showcases not changing
+	* Keep cleaning up the rough edges
+
+* May have noticed a new playlist called Unix History
+	* Terrible name feel free to suggest a better one
+* Right now contains XDG, Posix Compliance, Unix Philosophy
+	* You guys seem to like them and I love making them
+	* Maybe once a fortnight
+		* All depends on having ideas
+* Want to do video on how Linux came to be
+	* Why GNU was created, C in a Unix context
+	* Basically computing history from a Unix slant
+
+* Found out running Wayland is super easy
+	* Will likely start doing some content on that
+	* Probably running Sway first up
+		* But I'm just going to try out a bunch of stuff
+	* Still heavily rely on X
+		* Love BSPWM not leaving it permanently
+		* Want to try something new out
+
+== Streaming ==
+* Done with Uni in Mid November
+	* Will have way more free time
+
+* Q&A content on this channel
+	* Maybe some thumbnail creation streams
+
+* Plan to start up a 3rd channel
+	* Streams that don't fit main channel
+	* Gaming content, and really anything else I want
+
+* I will be doing it properly, if you tune in expect a show
+	* I won't be doing what 99% of Twitch does
+	* There will structure and I'll be trying to make it interesting

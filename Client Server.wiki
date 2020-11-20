@@ -1,0 +1,78 @@
+* Client server model is frequently seen in linux apps
+	* From music players mpd
+	* Clipboard managers copyq clipmenu
+	* File managers lf
+	* Even Terminals urxvt
+
+* So I thought it'd be fun to explain the model in local context
+	* And why it's so popular
+
+* We'll be drawing the model
+
+* Server or daemon (interchangable)
+	* Daemon more frequently used on local systems
+	* Music player example
+		* Locating files
+		* Connecting to audio system
+		* Streaming audio
+	* Concerned with leg work of system
+	* Requests data from data store
+	* Provides an API to interact with
+		* Might be a function library, might be a REST API
+
+* Data store
+	* May be file system, db, etc, not too important
+		* Stores data not cached by server
+		* Music library, album art, metadata tags
+
+* Client
+	* Concerned only with displaying info to user
+		* Providing method to interact with server
+		* Delegates work to the server
+		* Displays information from server
+			* Player state
+			* playing song
+			* song position
+			* library list
+
+* All server cares about is that someone has connected to it
+	* Doesn't care what, who in the case of authentication
+		* Sometimes a client type is sent to server
+		* Not required for model
+			* Does increase coupling
+
+* Logical conclusion of separation of concerns
+	* Each part of the system only cares about it's part
+	* Doesn't try to reach into other parts
+
+* Fits part of the Unix philosophy
+	* Design programs to do one thing and do it well
+	* See my full video on it
+		* Obvious to see why it's still in heavy use today
+
+* Benefits
+	* Create server once
+		* As many interfaces as needed
+		* mpc - cli
+		* ncmpcpp - terminal
+		* lollypop - gui
+	* Shared resources
+		* Media player a bad example
+		* Take a file manager
+			* Things needed by both instances that don't need to be doubled up on
+				* May be more memory intensive for 1 instance
+				* Becomes beneficial with more
+	* Data sharing
+		* Synchronized changes on all clients
+
+* Issues
+	* Can't optimize for UI
+		* Knowing interface used shortcuts can be taken
+		* Providing performance improvements
+	* Server crash will bring down all clients
+		* Urxvt makes use of a daemon
+		* If that daemon dies so do all instances of urxvt
+		* Alacritty on the other hand doesn't have this issue
+
+* In a web context security and server load are concerns
+	* Not typically an issue on a single computer

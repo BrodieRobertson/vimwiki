@@ -1,0 +1,55 @@
+* Once your kernel is loaded into memory
+* It launches an init system this the PID 1
+* Every other process is directly or indirectly launched by it
+
+* Main concern is it does too much
+* Systemd is more than just an init system
+	* Currently a suite of ~70 applications most of which have nothing to do with init
+		* logind manages user logins
+		* tmpfiles manages tmp files
+		* networkd manages network devices
+		* homed manages portable user accounts
+	* Everything systemd does can already be done with other software
+
+* Some simply dislike those who steer the project
+	* Red hat project
+	* They get to control the direction of the defautl init system
+	* Have an indirect hand in most distros
+	* Same issue people have with Chromium
+	* Semi serious comments about Red Hat trying to seize the Linux kernel
+		* Waiting for systemd-kerneld
+
+* Provides more oppurtunities for bugs
+	* Compared to runit, or systemv-init, systemd is massive
+	* Obviously has a lot of maintainers
+	* Larger code bases more succeptable to bugs
+
+* Distros blindly accepting systemd
+	* Not true at least in the case of debian
+	* https://www.debian.org/vote/2014/vote_003
+	* Most maintainers probably take the job a bit more seriously
+
+* Generally no choice of init system
+	* Some exceptions Artix being one
+	* Most of the time stuck with whatever distro maintainers pick
+	* Feel like systemd to aggregiously rejects Unix philosophy to use distro
+	* Can be replaced
+		* unless you're on Gnome which depends on it
+		* Not the easiest thing to do in most cases
+
+* If you're not already thinking about your init should care
+	* Not really
+	* It'll always be around in the background
+	* If it's not an issue for you don't worry about it
+		* Most init system are faster
+	* Fundamentally a hardcore linux problem
+
+* The alternatives
+* Runit
+* Upstart
+* OpenRC
+* S6-linux-init
+	* Intended to replace System V init
+	* Prior to systemd was the default option
+
+* If you don't like systemd let me know if I'm completely wrong

@@ -1,0 +1,64 @@
+* Quite similar to another application I looked at
+	* Clipmenu
+
+* Stores a clipboard history
+	* Never lose anything you copied
+
+* Has some advantages
+	* Some ability to store images
+	* Limit of 500kb
+		* Performance issues with larger files
+
+* Intended to be used with rofi
+	* Show command
+rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}'
+* No issue with dmenu or any other dmenu compliant launcher
+greenclip print | sed '/^$/d' | dmenu -i -l 10 | xargs -r -d'\n' -I '{}' greenclip print '{}'
+	* Go over at the end
+
+* greenclip daemon
+	* Just leave always around
+
+* greenclip print
+	* Displays everything in clipboard history
+	* image
+		* type owner id
+
+* greenclip clear
+	* Anything that shouldn't be in there
+
+* Settings are very basic
+	* Generated when you run app
+	* Static history is a mystery
+	* Primary selection
+		* 3 clipboards on X
+		* Primary, secondary, clipboard
+		* Anything highlighted is primary
+	* Blackisted apps
+		* Does it by clipboard name
+		* A lot of apps don't name clipboard
+			* QT and Chromium consistently do
+			* Chromium just chromium
+			* Firefox is good
+
+* Command looks annoying always run from key
+	* greenclip print we went over
+	* Sed is clearing out any empty lines
+	* Feel free to replace dmenu with fzf or anything else
+	* xargs
+		* -r don't run if empty
+		* -d delimeter
+		* -I replace string
+			* Put text wherever this is
+		* greenclip print with args
+			* Modifies clipboard
+			* Could use with anything else
+			* Not documented
+
+* Issues
+	* No documentation
+	* Binary history file
+		* Not sure why
+		* Images stored separately from history file
+	* Played with images and xclip, had no issues with large files
+		* Not sure what the issue is with this one

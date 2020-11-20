@@ -1,0 +1,59 @@
+== Intro ==
+* Has scrolling in vim ever felt too accurate
+	* If yes have you considered inertial scolling
+ I kid
+	* Adds scrolling speed based on scroll duration
+
+== Demo ==
+* Ctrl-d to scroll down
+* Ctrl-u to scroll up
+
+* Ctrl-f to scroll down more
+* ctrl-b to scroll up more
+
+* Not supported out of the box
+	* Vim guis and terminal that support mouse scrolling
+	* Work as well
+
+== Configuration ==
+* By default scrolls your screen
+	* Ctrl-y and Ctrl-e
+	* Change scroll key
+		* Obvious choice is j and k
+		* Any scroll key will work
+		* h and l produce amusing results
+
+* Add in mouse support
+	* Discuss these numbers in just a bit
+
+* Disable default mappings
+	* So they don't get in the way of our changes
+
+* Rebinding the movements
+	* Do it if you want to maintain half page and page scroll
+
+* 3 parameters to configure
+	* Friction, air drag, and value in brackets impule
+	* It gets weird no
+		* Drag pretty sure divides impulse by value
+		* Num of lines
+	* Not sure how friction plays a part
+
+* One last thing before the problems
+	* If you want distance to be based on window height
+
+== Issues ==
+* No documentation kills this plugin
+	* Without spending hours tweaking it's impossible to know result of vars
+* If nothing else
+	* Include formula in the README
+
+* Even after experimenting I can only guess what variables do
+
+== Final Thoughts ==
+* Current state this is a cool experiment
+	* But a terrible plugin
+	* Massive pain to configure
+* Inertial scrolling makes sense on a wheel
+	* Where you have inertia
+	* Doesn't translate to binary action

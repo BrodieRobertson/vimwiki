@@ -1,0 +1,25 @@
+* Thousands of Linux blogs
+	* Impossible to check every single one
+	* Much easier to let the aggregators find most important stories
+
+* http://lxer.com/
+* https://www.linuxtoday.com/
+* https://linux.slashdot.org/
+	* Doesn't list Linux section
+* http://alltop.com/linux
+* https://tuxurls.com/
+
+* Not a big fan of reddit for interaction
+* Generally ok for news
+* If you just ignore the comments
+* Super filtered List
+	* r/linux
+	* r/ubuntu
+	* r/archlinux
+
+* Honorable mention
+	* https://news.ycombinator.com/
+
+* Some stories will be missed
+	* Majority of important events will show up
+	* Usually covered by multiple places

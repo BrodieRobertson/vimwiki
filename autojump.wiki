@@ -1,0 +1,80 @@
+* Previously I looked z.lua
+  * Learns frequently visited folders
+  * Provides a shorthand way to cd between folders
+
+== Basic Demo ==
+* Mention autojump and j
+* If you didn't see that
+* Show off single depth
+* Show off mpvscreenshots regular screenshots
+
+== Weight Training ==
+* Initially program useless
+* Train by moving between folders with cd
+
+* Show DB -s
+  * Left hand side weights and associated path
+    * When you make a query, path with highest weight is used
+      * Not 100% on equal weights
+        * Seems to be shortest path
+    * Total weight of db, db size, weight of current directory
+      * Also data path, not in home by default
+        * big plus for me
+* Show example not in db
+* Show db again
+
+* Unlike z.lua
+  * Manually adjust
+  * -i to increase weight
+  * -d to decrease weight
+    * Doesn't directly increase or decrease
+  * Add directory without cding -a
+    * Defaults weight to 10
+  * Purging no existent folders
+    * j --purge
+
+== Open Folder In File Manager ==
+* jo
+  * Demonstration
+* My xdg-open different from terminal file manager
+* .autojump/share/autojump/autojump.zsh
+  * No idea why the install script puts it here
+  * modify lf line
+  * If you want gui file manager no issue
+
+== Open Child Folder ==
+* jc
+* Seems to prioritize child folder
+  * screenshots instead of scripts
+  * no match will fall back on default functionality
+
+== Open Child in File Manager ==
+* Combine functionality of jc and jo
+  * As you would expect it to work
+
+== Odd Tab Completion ==
+* j --complete
+* Odd underscore method
+* Never seen this before
+
+== Clearing DB ==
+* No command to clear history
+  * Just a plain text file however
+  * We could manually adjust weights here as well
+  * Be careful not to ruin formatting
+
+== Installation Note ==
+* Can be installed from AUR
+  * Recommend using manual install to see post install note
+  * Need to make changes to rc file
+  * Show rc
+
+== Issues ==
+* As with z.lua
+  * Random lag spikes
+
+== Thoughts ==
+* Auto jump seems like a perfectly fine tool
+  * z.lua learnt from some of it's mistakes
+  * Handling collisions better
+  * Passing through cd

@@ -1,0 +1,19 @@
+* Drag to other GUI window
+	* Drop something in browser
+	* Upload a file
+	* Put file in GIMP
+* Drag to multiple applications
+	* Send to multiple discord chats
+* Drag individual files
+	* Drop in multiple spots
+	* Upload video
+	* Upload thumbnail
+
+* Drag to other file manager
+	* Move
+	* Copy
+
+* Extended functionality
+	* Download a file
+		* Instead of using browser selector
+		* Use terminal file manager

@@ -1,0 +1,22 @@
+* How did you discover LBRY
+* What got you interested in LBRY
+* Why did you start LBRYlytics
+* Where did you get the idea for LBRYlytics
+	* Socialblade inspiration
+* Where do you hope LBRYlytics goes
+* Been a while since the last update post
+	* Have most of the changes been under the hood
+* How did you get into programming
+* Tips seem way out prior to today
+* How does it feel knowing people are getting something useful out of your tool
+* Arduino development
+* LBRY as a competitive video platform
+* Any interest in the crypto side
+* Did you go out of your way to be a PHP dev
+* Lbrynomics
+* LBRY tools
+* LBRYs new logo
+* Odysee
+
+* What's a fun day in your life
+

@@ -1,0 +1,71 @@
+* Wrapper around git
+	* Not just a simple wrapper
+	* Makes it much easier to run git commands inside vim
+
+* Asked to cover for a while
+* It's absolute worth using
+* Up there with Emmet and Vimwiki for me
+
+* Main usage is :Git/:G
+* A wrapper around every git command
+* More than just !git
+* Some behave the same way
+	* git status
+
+* git log/git diff
+* Shell version just basic output
+* Allows searching
+	* Save the output, regular vim movement
+* Need to keep log open
+	* Can't be done with shell version
+
+* git add/git restore
+* Silent command
+* Shell version forces you to press enter
+* Still shows errors
+
+* git commit/git rebase
+* Doesn't even work as a shell command
+* Opens a split
+
+* git mergetool/git difftool
+* Load changes into window
+
+* G by itself
+	* Stripped down git status
+	* g? brings up bindings
+
+* Gedit/Gsplit
+	* Open older versions of files
+	* :Gedit HEAD~3
+	* :Gedit HEAD~3:%
+
+* :Gdiffsplit
+	* Diff between staged version and working tree version
+
+* :Gread
+	* Variation of git checkout -- filename
+	* Checkout file inside vim
+	* undo with u
+
+* :Gwrite
+	* writes to both the work tree and index versions of a file
+
+* :Ggrep
+	* Runs git grep
+* Glgrep
+	* Runs lgrep
+
+* :Gmove
+	* Runs git mv
+* :Grename similiar but relative to current directory
+
+* Gdelete
+	* Runs git rm
+	* Delete file and delete from buffer
+* Gremove
+	* Same but keeps buffer open
+
+* Gbrowse
+	* Open remote
+	* Need a handler

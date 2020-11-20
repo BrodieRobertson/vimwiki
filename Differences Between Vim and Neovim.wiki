@@ -1,0 +1,82 @@
+== What are they ==
+* Vim originally authored by Bram Moolenaar
+  * A clone of Bill Joy's vi editor
+  * Specifically based the source code for Stevie editor
+* Neovim began as a fork of Vim
+  * Different from a lot of the other forks
+    * Doesn't try to be fundamentally different editor
+    * It's aim is to be the next step in this long editor history
+  * To address what they saw as fundamental flaws in vim's development
+
+== Community Development ==
+* Vim takes on a benevolent dictator for life setup
+  * https://github.com/vim/vim/commits
+  * Everything committed is by Bram
+    * Not to say other don't work on it
+    * People do
+      * He has final say on if it goes into the code base
+  * Discussions primarily occur through the mailing list
+
+* Neovim aims to make it easier to on board new contributors
+  * https://github.com/neovim/neovim/blob/master/CONTRIBUTING.md
+    * Documentation of how to commit
+  * And give contributors more control
+    * https://github.com/neovim/neovim/commits/master
+* Neovim uses IRC, Gitter and it's github repo for discussions
+
+== Project Speed ==
+* Due to their different approaches
+  * Neovim tends to move much faster
+    * Experiment more
+    * This isn't always a good thing
+  * Being slower comes with a benefit though
+    * Stability
+  * Due to neovim being more willing to experiment
+    * It's going to be a less stable
+    * Not to say it's unstable but relative to vim
+
+== Embedded Vim ==
+* There are GUIs for vim
+  * Vim is more tightly coupled
+  * Development started as GUIs were gaining popularity
+
+* NeoVims long term goal is to embeddable everywhere
+  * Vscode neo vim runs full neovim in the background
+  * Firenvim can embed neovim in your browser
+  * The first release of neovim was just a refactor of vim
+    * To make it more maintainable by their standards
+    * Over time UI and backend have been decoupled
+
+== Lua ==
+* Lua is supported in both vim and neovim
+  * But it's treated as just another plugin language in vim
+* Neovim wants to take lua
+  * Turn it into first class alternative to Vim Script
+
+== Defaults ==
+* neovim makes some changes to vim defaults
+  * https://neovim.io/doc/user/vim_diff.html#nvim-defaults
+* Obviously can be changed
+  * These defaults exist because most vim users use them
+
+== Similarities ==
+* Story would be very different a few years ago
+  * Now most differences aren't user facing
+  * This is good
+    * Vanilla vim and neovim feel identical
+    * You wouldn't be able to tell the difference
+
+* Prior to vim8 neovim had some major advantages
+* Asynchronous api
+  * Allowing for multi-threaded plugins
+  * With modern CPUs offers a massive performance boost
+* Embedded terminal
+  * Neovim was first to add this feature
+  * Let's you compile code or interact with git
+    * Without closing editor
+    * Massive improvement
+
+== Competition ==
+* Vim needed competition
+  * It took 15 years for async i/o to be added
+  * Hopefully neovim and vim continue to push each

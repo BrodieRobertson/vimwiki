@@ -1,17 +1,41 @@
 = Solo Episode =
 
-* noise cancelling foam pinup board
+* TravCryptos podcast
+* DTs Bombshell Video
+* Thunderstorm
+* Anichart
+* Beastars Season 2
+* Tesla Tequila https://techcrunch.com/2020/11/05/elon-musks-tesla-tequila-will-run-you-250-a-bottle/
+* 3 Hololive 1Mil
+* More lighting upgrades
+* I got the el cheapo capture sticks
+* Twitch Layout
+* Dumbass manager
+* Dumbass house mate
+* The Subtle Art of Not Giving A Fuck
+* Last VR assignment is a joke
+* Everyone asking what I'll do next year
 
-* Timing didn't work out
-* Why didn't I use my numpad earlier
-* YouTube started booming
-* Might start streaming
-* BitChute is a big meme
-* People are starting to compare me with Luke and DT
-* 15 DUI
-* Visiting my parents this weekend
+* Hive
+* Odyssey
+* Victoria Lockdowns
 
-* Pay attention what you're buying
+* Unity ProBuilder
+* LBRY sync
+* LBRY blog post
+* Julian Chandra
+* Syncing content problems
+* Meeting old friends
+* Checking out Hive
+* Storyfire is not a replacement
+* I got an interesting email from Vivaldi
+* Investing
+
+* Invited to a vim conference
+* Unity colliders
+* Unity lighting
+
+
 * Dived more into bspwm
 * AdSense
 * Uni update

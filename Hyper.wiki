@@ -1,0 +1,54 @@
+* This is a terminal written with web technologies
+	* I know it's as weird as it sounds
+	* But hear me out, it's surpringly usable
+
+* Demonstration
+
+* We have a context menu
+* Built in multiplexer
+	* Nothing out of the ordinary
+
+* Plugins
+	* Major point of value
+	* Being basically a web frame
+	* Basically limitless posibility for plugins
+	* https://hyper.is/plugins
+		* Can also pull in other javascript libraries
+
+* Theme store
+	* More than just terminal color pallets
+	* https://hyper.is/themes
+	* Couldn't get cyber punk to work
+		* But as you saw before it should be doable
+
+* I don't think I've ever seen a terminal with a package manager
+	* Basically just a filtered npm
+	* hyper i to install
+	* hyper u to uninstall
+	* hyper s search npm
+
+* Looks a little different out of box
+	* Hamburger menu
+	* Window controls
+	* Show config
+
+* Weird blurred text
+	* Never seen a terminal do this
+	* Seems to only happen in tiling
+
+* All keys can be rebound
+	* At least in theory
+	* Completely missing from the documentation
+
+* Has a dependency on yarn
+
+* Noticably slow load/quit being an electron app
+	* Can open alacritty before hyper
+
+* No I don't think you should use this
+	* Giving random javascript this much system access
+		* Not a good idea
+	* I'm not the audience
+		* What I want from a terminal is fairly limited
+		* I don't care aboiut fancy effects
+* Pretty interesting experiment though

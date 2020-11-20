@@ -14,9 +14,9 @@
 * pacman -Fx Lists which package owns a file, even not installed
 * pacman -Qo Lists which installed package owns a file
 * pacman -Qk List count of installed files
+* pacman -Sc Remove files not installed from cache
 * pacman -Rs Remove package and dependencies
 * pacman -Rcs Remove all packages that depend on target and target dependencies
 * pacman -Rcns Also unneeded configs
-* pacman -Sc Remove files not installed from cache
 * pacman -Syu Sync package DB and download updates
 * pacman -Syuw Download packages but don't update

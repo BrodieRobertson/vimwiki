@@ -1,0 +1,72 @@
+* Today we're looking at a super fast grep
+
+== Basic Usage ==
+* Takes 2 positional arguments
+  * Pattern and file
+* File is optional
+
+* Pattern is a regex
+  * Show example
+  * If pattern starts with -
+    * Use -e option
+  * Uses rust regex engine syntax
+    * Very similar to what grep uses
+    * Docs linked down below
+* Nicely highlights what's been matched
+  * Split it sections based on file
+
+== Automatic Filtering ==
+* Hidden files and dirs
+  * Enable with --hidden
+* Binary files
+  * --binary
+* Symlinks
+  * -L
+* Any rules defined in gitignore
+  * Global, and local
+  * Search --no-ignore in man page
+
+* Pass in file to limit to file
+  * Use movies.dat
+
+== Globbing Inclusion ==
+* With no file
+* -g "Files to Include"
+  * Start with ! to ignore instead
+* --iglob insensitive matching
+
+== Context ==
+* -A lines after match
+* -B lines before match
+* -C before and after
+
+== Fixed String ==
+* Literal string match
+  * Special regex characters don't need to be escaped
+
+== Case Sensitivity ==
+* By default matches case sensitively
+  * -i ignore case
+  * -S smart case
+    * Case insensitive when lowercase
+    * Otherwise case sensitive
+      * Personal favourite
+
+== Sort Multiple Matches ==
+* Ascending --sort none, path, modified, accessed, created
+* Descending --sortr
+
+== Quiet ==
+* Want a fast match in script
+* -q for just exit code
+
+== Json Output ==
+* --json
+
+== Benchmark ==
+https://github.com/BurntSushi/ripgrep
+
+== Config ==
+* RIPGREP_CONFIG_PATH
+* Simply just include default options
+

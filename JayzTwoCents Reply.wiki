@@ -1,0 +1,76 @@
+* https://twitter.com/JayzTwoCents/status/1325451712618921992
+
+== My Thoughts ==
+* I'm going to say Linux
+  * But referring to Unix in general
+  * So don't @ me BSD users
+* Can't speak for anyone else
+* I hear a lot of people talk about privacy
+  * FOSS ideology
+  * Not wanting to pay for an OS
+    * Less of an issue nowadays unless you're a business
+
+== Tinkering ==
+* If I narrow it down to one point it's freedom
+  * The freedom to install what I want
+  * The freedom to customize it as much as I want
+  * The freedom to live without a GUI
+  * Or run something so heavy it needs 32gb of ram to boot
+
+* Not to say you can't customize Windows or Macos
+  * But it's to a whole nother on Linux
+
+* For example I run a window manager
+  * Does what it says on the tin
+  * It comes with a tool
+    * Let's me control the exact layout of my windows
+  * Or I can let it do it automatically
+
+* Or I've got a hotkey daemon called sxhkd
+  * Where I can control basically action of my system from a key press
+  * I know AutoHotkey exists
+    * With how much control Linux apps give you
+    * You can do so much more with this
+
+== New Titles ==
+* I'm not big into Linux gaming right now
+  * But from what I've seen Proton is getting better every day
+  * https://www.protondb.com/
+  * https://www.gamingonlinux.com/
+* DRM is a major issue
+  * Kernal level DRM is going to break on Linux
+  * Sometimes it can be fixed
+    * Sometimes it can't
+* But you never have to go in blind
+  * Do your research
+
+== Drivers ==
+* If you buy hardware on launch day you're asking for trouble
+  * No way to get around it
+  * Nvidia also has notoriously buggy drivers
+    * Even months after launch
+* The community is very quick to come up with solutions
+  * Sometimes fixed on the launch day
+* Even on Windows you shouldn't buy on launch day
+  * There are bound to be problems
+
+* As for less popular hardware
+  * Printers are well
+    * Let's just say a windows vm isn't always a bad idea
+
+== Distro Disparities ==
+* Point made from the perspective of not using Linux
+  * Run what you want I don't care
+
+* The biggest disparity between distros is software availability in repos
+  * Only really an issue when you explore
+  * Popular tools will be everywhere
+    * Except for tiny distros no one really uses
+
+* I don't watch Jay much anymore
+  * When I see this point usually being made it's in relation to GUI disparity
+  * The way the desktop environment is configured
+* But it's just that the way the desktop environment is configured
+  * Your major options are KDE, Gnome, XFCE
+  * If you install Ubuntu with Gnome and you see another distro with Gnome
+    * Will look different but it's just a theme

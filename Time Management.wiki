@@ -1,0 +1,88 @@
+* A few people have asked how I manage my time
+	* 7 videos a week 365 days a year
+	* Plus day job
+	* Plus Uni
+	* To be completely honest I don't think it's difficult
+	* But I'll explain it
+
+* On average about ~25 hours per week on the channel
+	* No full time
+	* Still a lot of time
+
+* Only at day job for extra cash
+	* Can save more
+	* Invest, buy gear, not worry about bills
+
+* Share house with 2 other people
+	* House bills split 3 ways
+	* Personal bills low
+
+* And Uni I just get it done time I have
+	* Start everything on release
+	* Nothing is last minute
+	* Usually done early
+
+* Back to scheduling
+* 2 main parts
+	* Day plan
+	* Week plan
+	* Not super strict on scheduling
+		* No time/date stamps
+			* Unless is necessary
+				* Bill, assignment due date, day job
+		* Causes stress gets less done
+
+* Day schedule
+	* 10 or so minutes every day, except chill days
+	* House work
+	* Shopping
+	* Podcast arragements
+	* Assignment to work on
+	* Videos to record
+
+* Week schedule
+	* Plan out content
+	* How do I pick
+		* Setup general categories
+		* Show vimwiki
+		* 2 - 3 software
+		* 1 - 2 Vlog
+		* 1 vim
+		* 1 - 2 Tutorials
+		* News comes up night before
+	* What to add
+		* Any viewer suggestions typically added first
+			* Feel free to suggest content ideas
+		* Rest filled with content list
+			* Pick something interesting
+		* Usually done on Thursday or Friday
+		* Following days play around with ideas
+			* 4 days of messing around
+			* Some straight forward
+				* Looking at my vimrc, bspwm, scripts
+			* Some longer
+				* Partitioning, npm permissions, distro review
+
+* Recording schedule
+	* Generally Monday, Tuesday are 3 videos
+	* Try Wednesday 1, sometimes later
+	* Typically 1 - 1.5 hours to record
+		* Lots of retakes
+	* Editing 30 - 60 min
+		* Depends on mistakes
+	* 15 - 30 min on thumbnail
+	* 15 - 30 min on title
+		* Usually bundled together
+	* Podcast any time after Monday, Tuesday
+		* 3 videos plus 2+ hour podcast not reasonable
+	* Clips
+		* Usually an hour for all 3
+		* Plus 20 - 30 minutes for thubnails and titles
+
+* Mid week all recording done
+	* Can do other things
+
+* Blogs and vlogs are done in the moment
+	* Get a good idea
+	* Go and record/write it
+	* No editing just smash it out, usually it's 1 take as well

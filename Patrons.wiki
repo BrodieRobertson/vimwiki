@@ -1,21 +1,35 @@
-= Patrons =
+== Patrons =
 
-== $32 ==
+== $64 ==
+* Chrisl
 * Joachim
 
+== $32 ==
+* Donald
+* Korbinian
+
 == $16 ==
+* Andrii
 * Nathan
 
 == $8 ==
-* Andrii
 * Montazar
 
 == $4 ==
+* ChicoBento
+* Joseph
+* Mitchel
 * PDotE
 * Rhode
 * Tony
 
 == $2 ==
-* Donald
-* LqLarry
+* Brennan
+* Jon
+* Marek
+* Mikkel
+* NateDogg
+* Nephite
+* Poe
+* Tiese
 * Xllvr

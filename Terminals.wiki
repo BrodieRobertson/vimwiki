@@ -1,5 +1,10 @@
 = Terminals =
 
+* Graphical terminal http://41j.com/hterm/
+* Extraterm
+* Terminal library https://github.com/selectel/pyte
+* https://github.com/liamg/aminal
+* https://github.com/orhun/kermit
 * tdrop
 * picocom
 * https://github.com/Kharacternyk/viter
@@ -7,7 +12,6 @@
 * Terminology
 * mlterm
 * urxvt
-* https://hyper.is/
 * xterm
 * Tilix
 * Kitty

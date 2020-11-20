@@ -1,5 +1,14 @@
 = Programming/It =
 
+* Github Alternatives
+* Turing complete
+* When Python should be used
+* ISO8601 time
+* sandboxing
+* integrating js into a unix pipeline https://github.com/forbesmyester/wv-linewise
+* Accessing firefox tabs https://www.reddit.com/r/commandline/comments/i3w3i5/is_it_possible_to_read_urls_from_opened_tabs_in/
+* memory checker https://github.com/Farigh/memcheck-cover
+* https://darryldias.me/2020/install-deno-on-arch-linux/
 * Bad a programming practices
 * Why Python Doesn't Actually Suck
 * R

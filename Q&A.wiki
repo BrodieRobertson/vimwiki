@@ -1,0 +1,5 @@
+* Where do your wallpapers come from?
+* Have you considered shaving your head?
+* What is your terminal color scheme
+* What is your vim color scheme
+* What font do you use?

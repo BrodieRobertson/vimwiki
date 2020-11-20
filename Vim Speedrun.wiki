@@ -1,0 +1,36 @@
+* There seems to exist only 1 other exit percent speedrun
+* But this mans strats had fundamental flaws
+* I think we can do better
+
+* Relying the help page will severely slow your PB
+  * I think we can optimize this
+
+* By using his web browser
+  * He introduced some RNG in the run that I don't think we need
+  * I'm pretty sure my strat will avoid this
+
+* He's also gone and made a few mistakes with typing with typing help
+  * And accidentally running shell commands
+
+* And judging by the end he's actually an emacs user
+  * I've got 2 years of experience
+
+== Run ==
+* The time to beat is 2:50.13
+  * I think we can just scrape by with the world record
+
+* Go
+
+* I forgot the time we needed to hit
+  * Check time
+  * We've demolished the world record by over 2:48 seconds
+
+* That's a world record
+  * I've been training for months for this
+  * I can't believe it's finally happened
+
+* Thank you to everyone who has supported me
+  * Before I go I'd like to say one thing
+
+== Outro ==
+* This video is 100% serious...

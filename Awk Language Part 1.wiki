@@ -1,0 +1,112 @@
+* This is going to be a however many part series I feel like making
+  * On Awk Utility and the Awk Language
+  * I'll be turning https://www.gnu.org/software/gawk/manual/gawk.html
+    * Into a more digestible form, but I won't include everything
+
+* General form
+  * pattern {action}
+    * We don't always need both
+    * More on this as we go
+
+= Execute A Script =
+awk '' ~/test
+awk -f FILE_ARGUMENT ~/test
+* Files will be easier to read
+  * We use '' to avoid shell characters being interpreted
+  * Can seperate longer scripts onto multi lines
+
+= Running Without An Input File =
+* Curly braces define a block
+  * BEGIN is a special kind of block
+  * Run before reading the file
+awk 'BEGIN { print "Hello World" }'
+awk 'BEGIN { print "Hello" } { print "World"}'
+* Likewise END is run at the end
+* Other blocks run on each line of the file
+
+* Print with no argument outputs the line
+  * Emulates cat
+
+* Define example in file
+
+== Executable Programs ==
+#!/bin/awk -f
+* Just like you have with python or perl
+  * We also have Awk shebang
+* Execute without explicitly running awk
+
+== Comments ==
+#
+
+== Variables ==
+awk -v va="Value" {BEGIN {print va}}
+
+* Define in program
+  * var=value
+
+* Require extra level of quotes if in quotes
+  * Forgetting them will just treat it as a string
+
+== Search String ==
+* Data files linked down below
+
+* /REGEX/ {print}
+  * Runs brackets on matching lines
+* Each regex runs on the input file
+  * Not the result of the last command
+
+* When no curly braces are included
+  * Automatically try to print
+
+== Line Length ==
+* Currently these lines aren't split into fields
+  * Entire line sits in position 0
+  * In a later video I will discuss how to define this
+* length excepts arg
+  * No arg runs on line
+
+== Conditionals ==
+awk '{ if (length($0) > max) max = length($0) }
+END { print "Maxium length is" max }' data
+* Files used for this complex and on
+* Don't have to initialize variables before use
+
+* Brackets are optional for an if
+  * Everything after if is in the if block
+  * Use brackets to end it
+
+* else if as well else
+  * Print Equal and Too Long
+
+== For Loops ==
+* While loops do exist
+  * They'll be introduced later
+  * Exactly like a c style for loop
+  * Print rand()
+
+* Count numbers from 0 - 5
+* C style maths
+  * +=, -=
+
+* Counting data
+ls -l files | awk '$6 == "Nov" { x += $5 }
+                   END { print "total bytes: " x }'
+* Multiple ways to write the same thing
+
+== Special Variables ==
+* Two important ones today are NR and NF
+  * Number Row, Number Fields
+
+* Good way to check for empty lines
+awk 'NF > 0'
+
+* Check line count
+awk 'END {print NR}'
+
+* Print even lines
+awk 'NR % 2 == 0'
+
+== Closing ==
+* Very high level look at the functionality
+  * We've only scratched the surface of what's possible
+  * Examples will get more complex as we go on

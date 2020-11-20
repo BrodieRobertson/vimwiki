@@ -1,0 +1,81 @@
+* Might have seen DTs video on why Vivaldi is not open source
+	* Released article explaining why they've done
+	* I've used Vivaldi, I like Vivaldi
+		* If you do that's cool, that's no skin off my back
+		* Wanted to explain why they do this
+	* You can get the source
+		* But it's not open source
+			* Can't fork
+
+* To many people, the question of releasing Vivaldi browser’s source code under a unified open-source license seems to be clear-cut.
+	* Same thought before reading
+* Business model
+	* Partnerships with search engines
+		* Not google
+	* Partnerships with websites
+		* Amazon, ebay, tripadvisor, etc
+			* Make a purchase from this link, Vivaldi makes income
+
+* Vivaldi browser is part open-source, part closed-source
+	* 3 Layers
+	* Backend released under a BSD license
+		* 3 clause BSD license
+		* Accepted as open source by OSI
+		* Anyone saying it's not hasn't seen the license
+	* 3rd party software
+		* Depends on vendors
+	* UI Layer closed
+
+* Vivaldi Brand
+	* The obfuscation is partly there to improve performance
+		* Don't know how true this is
+		* Minified would improve
+	* But should we be afraid of forks in the first place?
+		* I was under tha assumption backend was also closed source
+		* Would have said
+	* Vivaldi is a brand
+		* Isn't just some random project on GitHub
+		* Company backing it
+		* Stopping competition
+			* If you want to compete do the work
+		* Not a problem for big projects
+			* GIMP fork that I won't name
+			* But Vivaldi is small
+				* Overshadowed by fork
+		* Associated with projects
+			* Negative affect brand
+	* I can respect that argument
+		* I'm not do or die open source
+
+* Open-source processes are costly too
+	* Never considered this
+		* Looked at it from the code side
+		* Didn't think of the submission side
+	* Code from brilliant developers
+	* Can't bring on team
+		* Too young
+		* 2nd job
+	* Open sourcing project could massively improve
+
+* What of the security benefits?
+	* Will consider open sourcing more for security
+
+* What happens if Vivaldi dies?
+	* Build Chromium based browser after annoyed with Opera
+	* I read as
+	* Consider open sourcing if they collapse
+
+* No going back
+	* Would have to completely rewrite from scratch
+	* Massive time an cost & time commitment
+		* For no benefit
+
+* Mod Vivaldi to customize it even more
+	* Most browsers build UI in same language as backend
+		* Typically have CSS in other browsers
+
+* Should Vivaldi browser be open-source?
+	* Users perspective absolutely
+		* Choice, vivaldi fork
+		* Free to modify
+	* Stay like this for as long as they protect brand

@@ -1,0 +1,56 @@
+* Today we're looking at 5 pointlessfun tools
+    * No level of YouTuber energy could make a long video
+
+== Genact ==
+* Generate activity
+* Pretend like you're when your boss comes around
+    * Cycles through random modules
+    * List modules -l
+    * Specify -m
+    * Speed -s
+
+== Term-Fireworks ==
+* Generate random terminal fireworks
+* Specify seed
+    * fireworks --seed 1234567
+* https://blog.darrien.dev/posts/fireworks-for-your-terminal/
+
+== Blockishfire ==
+* Plenty of implementations that exist
+    * Chose to use the blockish version
+    * Generates everything with unicode blocks
+
+* Just a coincidence first 3 written in Rust
+* Next is Go
+
+== Qlock ==
+https://github.com/joshdk/tty-qlock
+* Needlessly artistic clock
+* Based on most annoying to read clock and watch ever designed
+* Displays the time in words
+    * Don't get me wrong it's cool
+    * What's wrong with simple numbers
+
+== CMatrix ==
+* End it with a classic
+    * Based on the text scrolling seen in the matrix movies
+    * Incredibly CPU intensive
+        * My CPU doesn't care
+
+    * Has keybindings for some reason
+        * Shift num keys for colour
+        * a async scroll
+            * More CPU intensive
+        * b random bold
+        * B all bold
+        * n no bold
+            * May do nothing if terminal doesn't support bold chars properly
+        * 0-9 adjust speed
+            * Faster more cpu intensive
+    * Done from options as well
+        * Only one you probably care about is
+        * -s screen saver
+
+* Inb4 the where did you find most of these
+    * When you search through thousands of Reddit posts for good content
+    * Occasionally find silly apps like these

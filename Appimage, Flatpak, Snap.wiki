@@ -1,0 +1,88 @@
+* Flatpaks, AppImages and Snaps are the 3 major universal packaging systems
+	* Each covered separately linked down below
+
+* Not intended to start a fight but I know it will
+	* Please be civil in the comments
+
+== Low Level Packages ==
+* Probably don't want to do it
+	* Snaps used to package pulse audio,
+
+== Each Have Very Different Goals ==
+* Surface level same job
+	* Different project goals
+	* Not generally considered
+
+* I like to imagine a spectrum
+	* Snaps try to embrace everything, if you have snap tools entire system is snaps
+		* Snap kernel https://snapcraft.io/pi2-kernel
+		* System snaps https://snapcraft.io/pulseaudio
+	* Flatpak addresses inconsistent dependencies
+		* Different names or missing dependencies
+		* Maintaining package management
+	* AppImage self contained bundle no outside dependency
+		* Besides generic FUSE install
+			* 3rd party package managers do exist
+
+== History ==
+* Interestingly AppImages have been around the longest
+* Snap originally released in 2014
+* Flatpak originally released in 2015
+* AppImage name started being used in 2013
+	* Existed under names like klik and portable linux apps since 2004
+
+== Corporate Backing ==
+* Both Flatpak and Snaps and corporate backed
+	* Snaps well known as a Canonical project
+	* Flatpak is a RedHat funded project
+	* As for AppImage actual community project
+		* Partially why it's existed for 16 years and isn't at the top
+		* Funding is important and you might consider it important where it comes from
+		* Personally I care about the end result
+
+== Tooling ==
+* The biggest issue with using snaps is tool access
+	* A lot of distros don't include in main repos
+	* But even when they do in the case of flatpak
+	* Every done through flatpak tools
+	* Does comes with package manager advantages
+		* Not as simple as AppImage
+		* Tooling on user side is generic
+		* Just need a working FUSE installation
+			* Probably have installed if you've used any mtpfs tool
+
+* AppImages don't require any root access or any special install process
+	* As easy to install as a shell script
+		* Make executable and done
+
+* .snap and .flatpakref useless without tools
+	* But once installed don't require root access
+
+== Package Distribution ==
+* Whilst all 3 have there own "stores"
+	* AppimageHub just a Github io list
+
+* AppImages generally distributed from devs website
+* Flathub is the primary store but alternatives do exist
+* Snaps on the other hand lock you to the snap store
+	* Which while user and dev tooling is open source this is not
+
+== Security ==
+* Both Snaps and Flatpaks attempt to do sandboxing
+	* Snaps are locked to AppArmor, Flatpaks to bubblewrap
+		* Can be disabled for snaps and has flaws in flatpak
+			* link down below
+	* AppImages don't sandbox
+		* Can be sandboxed by user, complete freedom
+
+== My Favourite ==
+* Try to install packages natively when possible
+	* If for whatever reason need to use
+	* I go with App Image
+
+	* Very likely already have working FUSE installation
+		* Dependency for a lot of apps
+		* Leading to the meme status of "It Just Works"
+
+* There may be things I didn't cover
+	* Let me know down below

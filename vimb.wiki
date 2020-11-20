@@ -1,0 +1,61 @@
+* : Command mode
+* Esc Return to normal mode
+* gi first editable item
+* i last editable item
+* ctrl-q quit
+* o Search
+* O Search with current URI
+* t Opens "tab"
+* T Open "tab" with url
+* gh Go to home
+* gH Go to home in new window
+* u Open last closed
+* U Open last closed In new window
+* #ctrl-o backwards in history
+* #ctrl-i forwards in history
+* r reload
+* R reload without cache
+
+* Movement
+* Vim keys
+* #ctrl-f n pages down
+* #ctrl-b n pages up
+* #ctrl-d n half pages down
+* #ctrl-u n half pages up
+* gg top
+* G bottom
+* 0 Left of doc
+* $ Right of doc
+
+* Hinting
+* Used so select things
+* f Open selected item ;o
+* F Open selected item in new window ;t
+* ;i Hint image
+* ;i Hint image new window
+* ;s Save
+* ;y Yank url
+* ;Y yank description
+
+* Zoom
+* #zi zoom text in
+* #zo zoom text out
+* #zI full page zoom in
+* #zO full page zoom out
+* zz reset
+
+* Bookmarks
+* :bma tag adds
+* :bmr remove
+* !tag
+
+* Configuration
+* ~/.config/vimb/config
+
+* Tabbing
+	* Use tabbed
+
+* Styling
+
+* Installation
+	* Standard repos on Arch

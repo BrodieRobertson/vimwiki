@@ -1,0 +1,69 @@
+* Some window managers don't come with any hotkey daemon
+  * dxhd
+  * Inpired by sxhkd
+
+* Provides some interesting advantages over sxhkd
+  * Typical choice
+
+== Mapping ==
+#super + F12
+#super + @F12
+
+== Mouse Binding ==
+#mouseN
+#@mouseN
+#ctrl + mouse1
+* Seems to break with super
+
+== Variants ==
+{F10, F11, F12}
+$TERMINAL, $BROWSER, urxvt
+
+== Ranges ==
+{0-9}{a-z}
+* Unlike sxhkd happily goes past
+{11-19}
+* Say you have 20 workspaces
+
+== Language Support ==
+* Use a shebang
+* Sxhkd relies on environment variable
+  * Forcing all config files to be same language
+
+* Show python example
+
+== Global Variables ==
+* Define above all commands
+  * Can be used like any variable
+* Syntax depends on the language
+
+== Config Creation ==
+* .config/dxhd.sh default
+* -c select config to use
+* -e to create a new config
+
+== Multi Line ==
+* Due to the structure
+  * Scripting is much easier
+  * Anything between 2 blocks is script
+    * No need for multiline
+    * Def functions
+    * Variables anything you want
+
+== Converting Sxhkd Config ==
+* Keymapping starts with @
+* Command at start rather than indented
+
+* Can do comments
+  * Comments start with ##
+
+* Basically converting involves changing
+  * Keymap
+  * Command
+  * Other sxhkd syntax compatible
+
+* dxhd -r reload the config in place
+
+== Issues ==
+* Doesn't daemonize properly from launcher
+

@@ -1,0 +1,61 @@
+* Anyone who says free software and open source software are easy
+	* 1 Is lying
+	* 2 Didn't understand it like I didn't
+	* 3 So involved that they forget normal people exist
+
+* Open source doesn't mean open source
+	* What does that mean
+	* Open source the english meaning
+		* Source is open, access to source code
+
+	* Open source definition usually used is OSI
+	* 1. Free Redistribution
+		* Share or include in other software
+	* 2. Source Code
+	* 3. Derived Works
+	* 4. Integrity of The Author's Source Code
+		* Can limit modified distribution if allowing patch files
+		* May require derived works to carry a different name or version number
+		* Must explicitly permit distribution of software built from modified source code.
+	* 5. No Discrimination Against Persons or Groups
+	* 6. No Discrimination Against Fields of Endeavor
+	* 7. Distribution of License
+	* 8. License Must Not Be Specific to a Product
+	* 9. License Must Not Restrict Other Software
+	* 10. License Must Be Technology-Neutral
+
+* Free Software definition
+	* The freedom to run the program as you wish, for any purpose (freedom 0).
+	* The freedom to study how the program works, and change it so it does your computing as you wish (freedom 1). Access to the source code is a precondition for this.
+		* Obfuscated “source code” is not real source code and does not count as source code.
+	* The freedom to redistribute copies so you can help others (freedom 2).
+	* The freedom to distribute copies of your modified versions to others (freedom 3). By doing this you can give the whole community a chance to benefit from your changes.
+	Access to the source code is a precondition for this.
+		* Free license may also permit other ways of releasing them
+			* Does not have to be Copyleft
+				* Basically can't add restrictions to distributed copies
+				* Preferred no required
+
+* So how do they differ
+	* Most if not all free software is open source
+	* Even though Android is licenced under the GPL
+		* Making it both Free and Open
+		* Blocks you from installing certain apps or new rom
+			* Not free
+	* Copyleft
+		* Can lead to no free software
+			* Visual studio code
+			* Executable adds telemetry
+			* Ok under open source
+
+	* Criteria for open source are concerned solely with the licensing of the source code.
+
+* Which is better
+	* Depending on who you are
+		* Free software
+		* Users less
+		* Business more
+
+* Very long history
+	* Didn't cover everything
+	* Leave some resources down below

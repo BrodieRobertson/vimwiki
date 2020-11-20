@@ -1,0 +1,39 @@
+* A lot of editors come with some sort of indent line
+  * For indent based languages like python can be useful
+  * Vim plugin indent line
+
+== Demonstration ==
+* With my vim settings
+  * An indentation happens every 2 characters
+  * Based of tab settings
+    * Don't understand
+    * I'll leave a link down below
+
+== Suggestion ==
+* Enable expandtab for easier use
+  * Converts tab key into spaces
+  * Dev decided to not support tab characters
+
+== Commands ==
+* Enable and disable indent line
+* Enable and disable leading space
+  * Nothing too exciting
+  * Mention for completeness
+
+== Configuration ==
+* Character anything supported in utf-8
+* File Type
+:set filetype?
+
+* Buffer Type
+:set buftype?
+
+* Buffer name
+:echo @%
+* Supports globbing
+
+* Concealcursor, conseallevel help
+
+== Issues ==
+* It's rare to not have any issues
+  * It does everything it claims to do

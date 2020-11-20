@@ -1,0 +1,81 @@
+* Another one of the rare productive rust rewrites
+	* Rust rewrite of ps
+		* That command you only remember how it works when needed
+
+* procs tries to simplify the config process
+	* And add some extra functionality
+
+* First run look like this
+	* PID
+	* User
+	* TTY seems to show nothing if same as current
+	* CPU %
+	* MEM %
+	* total CPU time
+	* command launched with
+
+* Pager is just less -SR
+
+== Adding Columns ==
+* Can be massively expanded
+	* Enable config
+
+	* Let's add something not in ps
+		* Add new columns section
+			* make sure the s is there
+			* On Github we have full list
+			* Style can be color name
+				* { Color256 = 223 }
+				* ByPercentage, ByStatem By Unit
+			* numeric_search enable numeric search
+			* nonnumeric_search enable non numeric search
+
+== Clean Output ==
+* Nice thing about no colouring is clean output
+	* Makes it easy to using with sed, awk, grep, etc
+* Piping this cleans output
+* Same as redirecting to file
+
+== Searching ==
+* numeric matches on PID by default
+	* exact match
+	* anything with numeric_search enabled is included
+* alpha requires partial match
+
+* --and, --or --nand, --nor
+	* --and l y
+	* --or doesn't mean english or
+
+== Tree ==
+* Switches to sorting in dependency order
+	* Draws dependencies
+
+== Column Sorting ==
+* --sorta kind
+* --sortd kind
+
+== Insert Column ==
+* Relies on adding special kind of column called Slot
+	* Won't be shown unless being used
+	* Specify where column should be placed
+
+== Watch Mode ==
+* --watch --watch-interval
+* Like top
+	* n sort by next
+	* p sort by prev
+	* a ascend
+	* d descend
+	* q quit
+
+== Can all be combined ==
+procs --tree --watch --and l y
+
+== Configuration ==
+* Most values can be changed from config
+	* Well documented on github
+
+== Issues ==
+* Most configuration done from config great
+	* Should provide overrides in many cases missing
+	* Insert arbitrary columns

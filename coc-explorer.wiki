@@ -1,0 +1,69 @@
+* Recently switched to fern.vim
+	* Comments were full of have you tried coc-explorer
+
+* File info
+
+* File listing
+	* gf
+	* Navigation
+		* l to open or expand
+		* h to close
+		* enter to cd into dir or switches back to buffer
+		* backspace to cd up
+* Remembers position after reopen
+
+* Buffers opened
+	* gb
+
+* Action menu
+	* tab
+	* As always it's best to use bindings
+	* Includes you binding changes
+	* As does the help
+
+* All config done through coc config
+	* Would really suggest doing messing with keys
+	* Especially if coming from other file manager
+	* Nerd font icons
+
+* Splits, Vsplits
+	* Demo
+
+* File Operations
+	* Bit different to other file trees
+	* cut, copy, paste operations
+		* X, Y, P
+
+* Fuzzy finder on open dir
+	* f
+
+* Git integration
+	* gp gitPrev
+	* gn gitNext
+	* ga gitStage
+	* gu gitUnstage
+		* Typically don't bother with
+	* Symbols can be configured
+
+* Recursive folder open
+	* Would suggest unmapping
+		* If run on big folder, will freeze
+
+* Floating
+	* Don't see often
+	* explorer.position
+		* left, right, tab, floating
+	* explorer.floating.position
+		* width, height, contentWidth
+
+* Breaks a little with easy motion
+
+* Selection doesn't work properly
+
+* Doesn't seem to have an easy quit as last buffer
+	* Everything is really cool
+	* Could adapt netrw hack
+
+* Seems to be about as fast as fern
+	* Not sure if I'd use extra features
+	* Plus I'm not a big fan of being tied to Coc

@@ -1,0 +1,45 @@
+* Terminal looks a bit different today
+	* This is a dropdown/scratchpad terminal
+	* Dropdown wrapper
+	* WM independent, terminal independent
+		* A lot of scratch pads depend on WM
+
+* Basically toggleable floating terminal
+* Show luc use case
+
+* tdrop -a alacritty
+	* -a automatically determines hook for wm
+	* Works perfectly in bspwm
+	* Supported list on github
+
+* -m resize based on monitor
+	* Doesn't size properly
+
+* Can be fixed with -w and -h
+	* No mention in docs but -m seems to be required
+	* Percent or pixel
+
+* When changing command sometimes it breaks alacritty
+	* Not an issue in real world usage
+	* Set and forget
+	* Or just use st
+
+* Offset can be fixed with -x and -y
+	* Takes negative
+
+* multiple instances -n
+
+* -s attach to tmux session
+
+* Where it gets neat is hooks
+	* -c pre create
+	* -C post create
+	* -p premap
+	* -P postmap
+	* -u preunmap
+	* -U postunmap
+	* -l pre float
+	* -L post float
+
+* tmux people are probably going to just say use tmux for persistent sessions
+	* But if that's all you want from it this is much lighter

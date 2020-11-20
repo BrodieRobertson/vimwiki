@@ -1,0 +1,47 @@
+* https://www.feliciano.tech/blog/what-are-linux-snap-packages-why-use-them/#:~:text=Snap%20packages%20are%20much%20more,other%20apps%20on%20your%20machine.
+* Covered AppImage
+* Snaps are another method of handling universal packages
+	* Bundling everything you need together
+	* Approach is a bit different
+* One of the more controversal
+	* Going so far as Linux Mint dropping support
+	* More on that later
+
+* But why use them
+	* One format for all distros
+		* However it's not anywhere as simple as AppImages
+		* More on this later
+	* Self contained updating
+		* Can be auto updating, luckily can be disabled
+		* Manually update with snap refresh
+	* Install on distros without latest updates due to bundling
+		* Obvious example being ubuntu
+	* A lot of propretary apps only have Snap releases on Linux
+		* Probably a good reason to not use it
+	* App store
+		* Common criticism of AppImage
+
+* Sounds a lot like AppImage but there are some differences
+	* Switch between app branches
+
+* Why not use them
+	* Tools not available in many standard repos (Arch)
+		* Install snapd from AUR
+	* Claim to be sandboxed
+		* Some have dependencies on other snaps
+		* Due to issues with X11
+			* Can be broken out of
+			* https://itsfoss.com/snap-package-securrity-issue/
+			* Could introduce malware
+				* Has been done before
+				* https://www.omgubuntu.co.uk/2018/05/ubuntu-snap-malware
+		* No known issue exists on Mir
+	* Creates a loop device for every snap
+		* Massively cluttering file system
+	* Giving canocical control over how software gets distributed
+
+https://blog.linuxmint.com/?p=3906
+* Why does Mint not like them
+	* As you install APT updates, Snap becomes a requirement for you to continue to use Chromium and installs itself behind your back. This breaks one of the major worries many people had when Snap was announced and a promise from its developers that it would never replace APT.
+		* Not a concern on Arch but for Ubuntu based obvious worry
+	* In the Ubuntu 20.04 package base, the Chromium package is indeed empty and acting, without your consent, as a backdoor by connecting your computer to the Ubuntu Store. Applications in this store cannot be patched, or pinned. You can’t audit them, hold them, modify them or even point snap to a different store. You’ve as much empowerment with this as if you were using proprietary software, i.e. none. This is in effect similar to a commercial proprietary solution, but with two major differences: It runs as root, and it installs itself without asking you.

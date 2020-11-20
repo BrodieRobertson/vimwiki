@@ -1,5 +1,7 @@
 = Note Applications =
 
+* Cherry tree
+* Zim wiki https://zim-wiki.org/index.html
 * https://github.com/smallhadroncollider/taskell
 * NixNote
 * Turtl

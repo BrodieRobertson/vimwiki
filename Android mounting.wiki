@@ -1,0 +1,56 @@
+* Connected via USB
+* MTP needs to be enabled on the device
+* Device must be unlocked
+	* Wasn't the case on older devices
+	* Massive security whole
+	* Would allow file transfers on locked devices
+
+* Simple-mtpfs
+* Fusermount
+	* Comes from fuse2
+	* Dependency of first
+
+* Simplest method
+	* Allows for mounting multiple devices at once with no challenge
+
+* MTP
+	* Media Transfer Protocol
+	* Method to transfer media files from portable devices
+	* Extension of PTP
+	* Photo transfer protocol
+
+* Making use of a system called FUSE
+	* File system in Userspace
+	* Userspace meaning non privileged users
+		* Not root
+	* Execute file system as regular user
+		* Kernal module running in the background acts as bridge
+	* Without FUSE or equivalent would require root
+	* Might do a proper video on it
+
+* A bunch of options we don't care about
+	* Mainly FUSE settings
+* simple-mtpfs -l lists devices
+	* Says oppo actually realme
+
+* Also need a place to mount
+	* Anywhere you have user access to
+	* I like ~/cell
+
+* To actually mount
+	* simple-mtpfs --device id mount
+	* As long as initally requirements met you're half done
+	* Feel free to transfer files
+
+* What if we unplug
+	* Folders still here?
+	* File system still exists
+
+* Need to unmount
+	* fusermount
+	* Can't be too damaging it's just FUSE
+	* fusermount -u mount
+
+* All that is too much writing
+	* Stick it in a script
+	* Or use mine

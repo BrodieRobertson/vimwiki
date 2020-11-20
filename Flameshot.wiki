@@ -1,0 +1,59 @@
+* Used this in the past
+	* Stopped because didn't think there was a way to bind
+	* Just didn't read docs
+	* Now I'm back
+
+* Maim has some tiny issues
+	* Overlay affected by compositor
+	* Some way to disable, not sure how
+	* Really only major problem
+	* Doesn't freeze screen
+		* Hard to screen shot changing objects
+
+* Flameshot doesn't have this problem
+	* Is more than just a screenshot tool
+
+* Icon in status tray
+	* Can be disabled
+	* Brings us into gui mode
+
+* Right click for a wheel
+* Scroll for a number changing
+* Don't really do much without selecting area
+	* This is where it really differs
+
+* Screenshot modifications
+	* Pencil tool
+	* Line tool
+	* Arrow tool
+	* Selection tool
+	* Rectangle tool
+	* Circle tool
+	* Marker tool
+		* Line only
+	* Text
+	* Blur tool
+	* Dimensions
+		* Not actually a tool
+	* Back/forward
+		* ctrl-z/ctrl-shift-z
+	* Copy
+	* Save
+	* Cancel
+	* Upload to imgur
+	* Open with app
+	* Pin
+
+* Other modes
+	* Screen
+		* Doesn't work on my system
+	* Full
+	* Config
+
+* Configuration
+	* Through GUI or config file
+	* For somethings use GUI
+	* Mostly read every time screenshot taken
+		* Opacity, brush size
+
+* Available in most standard repos

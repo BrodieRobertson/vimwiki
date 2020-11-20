@@ -1,0 +1,69 @@
+* Typically not a fan of git interfaces
+	* Usually will try to push you towards a specific workflow
+	* Some more explicitly than others
+		* GitHub, Turtle
+	* Even this
+* Need to use git
+	* Don't want to remember commands
+	* Maybe try out GitUI
+
+* Basic demonstration
+	* Stage
+	* Go to staging area
+	* Remove staged
+	* Commit
+
+* 4 tabs
+	* Status
+		* Serves as git status
+	* Log
+		* Serves as git log
+	* Stashing
+		* Files you can stash
+	* Stashes
+		* Stashes you have
+	* I don't ever find myself using stashes
+
+* Most bindings will be listed along the bottom
+
+* On status
+	* enter to stage
+	* a to stage all
+	* D to reset changes
+	* i to add to gitignore
+	* e to edit
+	* right to diff
+	* s to staging ares
+
+* staged
+	* c to commit
+
+* Commit
+	* ctrl-a amend
+
+* staged
+	* enter to unstage
+	* a to unstage all
+	* e to edit
+
+* diff
+	* enter add hunk
+	* D revent hunk
+	* e to edit
+
+* log
+	* t to tag
+
+* stashing
+	* i toggle staged
+	* u toggle untracked
+
+* And that's all
+	* Big things are missing
+	* Working with remotes
+	* No pushing, pulling
+
+	* No making branches, changing branches, merging branches
+
+* This is what I mean by encouraging a workflow
+	* If you rely on this you will not use branches, or remotes

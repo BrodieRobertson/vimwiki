@@ -1,0 +1,60 @@
+* put platforms like GitHub and developers in a difficult spot
+  * This is talking about safe harbour
+    * Whereby a platform must make a reasonable attempt
+    * To remove infringing content
+      * Otherwise also be liable for damages
+
+* Rest of the post is a FAQ
+
+== Why did GitHub process this takedown in the first place? ==
+https://github.com/github/dmca
+* But this is exceedingly rare.
+  * All GitHub DMCA takedown notices are public
+    * You'll see a lot of software cracks
+    * A common one I see if for the JetBrains suite
+  * But even more so rehosting non open code
+    * And books
+* growing, industry-wide issue for developers with far-reaching implications.
+  * RIAA has been taking notice of Twitch lately
+    * So it seems like they're finally going after people
+
+== Circumvention claims under the DMCA ==
+* In short
+  * Nothing like YouTube-dl existed in the 90's
+  * Especially something with legal uses cases
+    * Like archiving creative commons media
+
+== GitHub’s developer-focused approach to the DMCA ==
+* DMCA takedown notices to comply with the law
+  * Any that don't
+    * Operate outside the US or EU
+    * Or are waiting to be sued
+
+* These points go beyond they're legal requirements
+
+== Youtube-dl ==
+We also understood that this project’s code has many legitimate purposes, including changing playback speeds for accessibility, preserving evidence in the fight for human rights, aiding journalists in fact-checking, and downloading Creative Commons-licensed or public domain videos.
+
+== What we’re changing ==
+* Github claims they'll be making some changes
+  * Can't say the effect until another big DMCA scare
+
+== Developer defense fund ==
+* Legal advice from Software Freedom Law center and the Electronic Frontier Foundation
+  * Problem is that this doesn't help fund legal
+
+* This is quite a nice gesture
+  * Especially small open source teams
+    * Can't really even afford to pay developers
+* Establish Developer defense fund
+  * 1M donation
+* To help protect open source developers on GitHub from unwarranted DMCA
+  * Section 1201 takedown claims.
+
+== How we’re working to improve the law ==
+
+== Closing ==
+* It's nice to see github make some changes
+  * I stand by my original point though
+  * If you're doing anything remotely sketchy
+    * Don't use github, they're too obvious of a target

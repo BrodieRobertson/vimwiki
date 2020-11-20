@@ -1,6 +1,26 @@
 = Tutorials =
 
+* Zathura Configuration
+* Jack audio
+* X Mouse Accessibility
+* libxft
 * font configuration
+* Mouse accessability
+* More Yad
+* More NCPCPP
+* Starting an X server https://nixers.net/Thread-How-Many-Ways-To-Start-An-Xserver
+* Japanese Input https://wiki.archlinux.org/index.php/Input_Japanese_using_uim
+* Basic set of fonts
+* https://github.com/base16-manager/base16-manager
+	* Please would you please do some tutorial on base16 color. There is also base16-manager. It deals with colors of terminal, shell and vim/nvim.
+* Xauthority-c Xauthority-l
+* CLI Safety https://www.reddit.com/r/commandline/comments/iep84p/cli_safety_tip_using_destructive_commands_like/
+* Resetting your password
+* Alacritty keymapping
+* Turning config into org mode file
+* video about email setup using OpenSMTPD and fetchmail
+* Disk encryption
+* Grub configuration
 * Live Wallpaper - https://www.reddit.com/r/linux/comments/gvulgj/create_live_wallpaper_with_xwinwrap_and_mpv/
 * Bluetooth
 * Bluetooth Audio

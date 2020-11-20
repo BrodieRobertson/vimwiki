@@ -1,0 +1,39 @@
+* Go to install something with npm
+	* See this screen
+	* Have to install program with sudo
+	* Read online about why you shouldn't do this
+	* Basically giving untrusted code admin access
+
+* Changing owner of npm folder
+sudo chown -R $(whoami) ~/.npm
+	* May fix it depending on issue
+	* Don't make /usr accessable by you
+
+* Changing global npm install location
+	* mkdir ~/.npm-global
+	* npm config set prefix '~/.npm-global'
+export PATH=~/.npm-global/bin:$PATH
+	* npm install -g jshint
+
+	* NPM_CONFIG_PREFIX=~/.npm-global
+
+* Use NVM
+* https://github.com/nvm-sh/nvm
+	* Bash script for maintaining multiple installs
+	* Install from AUR
+	* Source file for shell
+	* nvm install node
+	* Stable node version
+	* Managed by node package manager package manager
+	* Best fix for multiple npm versions
+	* Uninstall manual
+		* Deal with nvm with package manager
+		* Delete nvm directory yourself
+		* Remove line from rc
+
+* Skip package manager
+	* Webi or web install
+	* Wouldn't recommend
+curl -s https://webinstall.dev/node | bash
+	* webi node@v12
+	* npm install -g prettier

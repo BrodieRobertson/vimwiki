@@ -1,0 +1,88 @@
+* Did a similar at the start of the year
+  * Focused too specifically on my degree
+  * Rather than offering solutions
+
+== Major Issues ==
+* Microsoft technologies
+  * Dot net
+  * WinForms, Asp.net
+    * Lucky enough to use core it's no issue
+    * C# tooling isn't great on Linux but it's functional
+  * SQL Server Management Studio
+    * SQL Server is on Linux
+
+* Apple technologies
+  * The vast majority of swift development
+    * Language may appear in data science in the future
+
+* Engine Game Development
+  * Unity or Unreal
+  * Yes they're supported
+    * But typically you'll be required to run a specific version
+    * VR course requires 2019.2.0
+    * May have never hit linux
+      * MacOS has the same issue
+
+* Exams requiring respondus, lockdown browser
+  * Simply not available on Linux
+
+* If you have hardware requirements
+  * Virtual machine is always an option
+    * Getting MacOS ISO is annoying but there are ways
+      * Even without owning a Mac
+* Next best is picking up a 2nd hard drive and dual booting
+  * 128gb SSD are dirt cheap now
+  * Can always be wiped later and used as a backup drive
+
+* Hire a VPS
+  * https://www.macincloud.com/
+  * Less common on windows
+
+== Lecturers With Strict Document Requirements ==
+* Most lecturers don't care about formatting
+* Some do though
+* When it's use this specific IEEE latex template
+  * No issue
+  * Latex engine in every standard repo
+  * Or you can do it online in overleaf
+
+* LibreOffice, OpenOffice, FreeOffice all great 99% of the time
+  * Has some incompatibilities
+
+* Never submit an ODT file
+* Avoid doing docx if you can
+* Try to submit pdf when possible
+  * Will look the same on every system
+* When you do need to submit docx
+* Basically every school email gives access to Office 365
+  * I don't like it but it's a good sanity check
+
+== Non Issues ==
+* When it comes to general programming
+  * No reason to not be on Linux
+
+* If you want an IDE like
+  * Eclipse, JetBrains Suite, QT Creator, Android Studio
+    * All on Linux and probably run better
+* Code editors like
+  * VS Code, Sublime Text Atom
+* Build it yourself
+  * Vim, Emacs
+
+* UML is still cool
+  * UMLet has a web version or it's just a Java app
+  * Dia is my personal favourite
+
+* Online lecturers
+  * Popular tools like Webex, Zoom
+    * Have web clients
+  * Zoom also has Linux client
+
+== Benefits ==
+* Most of the time it's about the same
+* There will come a point where everyone else needs a Linux VM
+  * Linux introduction classes
+    * bash scripting, core utils
+  * Docker
+    * Available on Windows, features missing
+  * Big data Hadoop

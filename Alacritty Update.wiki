@@ -1,0 +1,65 @@
+* Don't normally cover updates
+	* This one is awesome though
+	* Alacritty 0.5.0 now has a vi mode
+	* Not intended to replace shell vi mode
+
+* ctrl+shift+space to enter vi mode
+	* Same to leave
+	* ctrl+c
+	* i
+
+* Vim key movement
+	* Arrow key as well
+
+* v visual mode
+* V visual line
+* ctrl+v visual block
+* alt+v word visual
+
+* y copies
+* Just a vi selection
+
+* / to search
+	* ? in reverse
+* n next
+* N previous
+
+* return open links
+
+* w move by word
+	* And W
+	* In reverse with b and B
+* e and E move to end of word
+	* ge and gE not bound
+* H high
+	* M middle
+	* L low
+
+* Ctrl+y line up
+* ctrl+e line down
+* g scroll to top
+	* No way to do double key
+* G scroll to bottom
+* ctrl+b page up
+* ctrl+f page down
+* ctrl+u half page up
+* ctrl+d half page down
+
+* Any symbol on number line doesn't work
+	* $ ^ %
+	* Actions do exist
+	* g_ not bound
+	* Could be just on number key
+
+* To enable just take keybindings from github
+	* Dump them in
+
+* Change cursor
+* Cursor Color
+
+* Window also scrolls during text highlight
+* Modify selection with right click
+	* Single drag extend
+	* Double select word
+	* triple select line
+* Other changes less notable

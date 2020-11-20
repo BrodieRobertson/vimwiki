@@ -1,0 +1,70 @@
+* Someone wanted a video so here we go
+	* Today is just getting a setup working
+
+* Something in sample config I missed
+	* Breaks everything
+
+* Config
+	* .mpdconf
+	* ~/.config/mpd/mpd.conf
+
+* mpd
+	* music_directory
+		* Where music is stored
+	* db_file
+		* stores info about music for quick access
+	* pid_file
+		* stores the mpd id
+		* Probably won't need, good to have
+	* state_file
+		* Restores mpd state
+	* playlist_directory
+		* Where to store playlists
+	* sticker_file
+		* Stores dynamic information
+	* All should be in .local/share
+
+* I would suggest enabling auto update
+	* If not
+		* Can be updated with u in ncmpcpp
+		* mpc update
+
+* If using port 6600
+	* use port
+
+* follow_inside_symlinks
+* follow_outside_symlinks
+	* Defaults to true
+
+* Supposedly mpd requires configuration for pulse
+	* I didn't
+		* Can't comment on other systems
+
+* Client
+	* I'll do some dedicated videos
+	* Generally people go with ncmpcpp for the terminal
+	* But there are plenty of gui options
+	* Or just use cli mpc
+
+* Media keys
+	* Tools built for MPD
+	* I like PlayerCTL
+		* Generic
+	* MPD doesn't support it
+
+* mpDris2
+	* Unless you've configured port
+		* Just run
+
+* playerctl play-pause
+	* next
+	* previous
+	* stop
+	* Any others check manual
+	* Being generic browser is also supported
+		* Specify player with --player
+	* Will do a video soon
+
+* If you want easiest solution
+	* Have mpd and mpDris2 autostart
+		* xinitrc or systemd job

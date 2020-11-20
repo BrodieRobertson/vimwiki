@@ -1,0 +1,84 @@
+* Window Manager
+	* Bspwm
+	* Still really happy with it
+		* Want to experiment with others
+		* DWM, Qtile, Xmonad
+
+* Status Bar
+	* Polybar
+		* It's just the easiest bar to configure
+		* Mine needs some optimization
+
+* Terminal
+	* Alacritty
+		* Main terminal
+	* St
+		* Off chance something breaks
+
+* Shell
+	* ZSH
+	* Nice Vim mode
+	* Tab completion
+	* Syntax highlighting
+	* Command not found
+		* Also in bash
+	* Set and forget
+
+* Prompt
+	* Starship
+	* Very stripped down
+		* Should try out Pure
+
+* Hotkey daemon
+	* Sxhkd
+	* Bspwm requires a standalone hotkey daemon
+		* Most are just Sxhkd clones that don't offer much
+
+
+* Launcher
+	* Patched dmenu
+	* Standard choice in i3
+		* No reason to stop using it
+		* Rofi looks cool though
+
+* Browser
+	* Brave
+	* Firefox installed as well
+		* Just for testing
+
+* Emails
+	* Thunderbird
+	* Also calender/schedule
+		* Convenient to be able to load graphics
+		* Same reason I don't run terminal browser
+
+* File Manager
+	* GUI - PCManFM
+	* Terminal - Lf
+	* Generally use LF
+		* When working with GUI apps I use PCManfm
+
+* PDF Reader
+	* Zathura
+
+* Image viewer
+	* Sxiv
+	* Besides dmenu
+		* Only suckless utility I actively use
+
+* Media Player
+	* Mpv
+	* Don't listen to music on my computer usually
+	* If I do it's spotify-tui
+
+* Editor
+	* Neovim
+
+* Torrents
+	* Transmission
+	* Tremc for interface
+
+* Distro
+	* Just Arch
+	* Nothing special
+	* Might switch to Artix when I have time

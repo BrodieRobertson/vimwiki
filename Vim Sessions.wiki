@@ -1,0 +1,71 @@
+* Vim never ceases to impress me
+  * It has a built in session management system
+
+* Doesn't make session plugins redundant
+  * But rudimentary sessions are easy
+
+== Sessions, ShaDa & Views ==
+* Session
+  * Basically the information required to rebuild your layout
+  * Collection of Views
+  * Not the same as a tmux session
+    * Close vim without saving still loose changes
+    * Closer to a workspace
+* View
+  * Properties of one window
+  * Can be saved and loaded seperately
+
+== Session What's Kept ==
+* Controlled with sessionoptions
+  * Default
+    * empty windows blank
+    * all buffers buffers
+    * current directory curdir
+    * folds folds
+    * help window help
+    * options options
+    * window sizes winsize
+
+* ShaDa
+  * Shared data file
+  * Written to when vim is quit
+  * Useful to cover what sessions miss
+  * Can use extras shada variable
+    * Sticking with defaults today
+
+== ShaDa What's Kept ==
+* Basically pick the rest
+  * Command-line and Search pattern history
+  * Text in registers
+  * Marks for various files
+  * The buffer list
+  * Global variables
+
+== How ==
+* mksession where to session to
+* :source session file opens
+* vim -S session file to open
+* v:this_session stores session name
+
+* mkview
+* mkview with number
+* mkview path
+* loadview
+* loadview with number
+* source path
+
+* Exchange between running instances
+* wshada! location to save
+* rshada! location to load from
+
+* SessionLoadPost autocmd event
+  * Automatically load shada
+
+== Why Sessions ==
+* Remember a project
+* Remember a layout
+* Restore known layout
+
+== Issues ==
+* Isn't a session like tmux
+  * Not supposed to be

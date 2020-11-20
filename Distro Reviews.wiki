@@ -1,0 +1,83 @@
+== First Looks Are Not Reviews ==
+* First Looks/showcases are not reviews
+  * May look similiar, terms may be used interchangeably
+  * Fundamentally different
+
+* To review must sit with for a few days, maybe weeks
+  * General understanding system
+    * Understand apps installed
+    * Understand how apps configured
+    * Maybe even developer methodology
+
+* Take DTs rare distro videos
+  * Structured similiarly to how I do software showcases
+  * Enough prep to know what you're talking about
+    * Much more time for distro
+  * Haven't dug through every config
+    * Or even most
+  * Know general apps installed
+    * DE/WM Terminal, editor, browser, email client, launcher
+
+* First looks have value
+  * Give an idea of your starting point
+  * Only thing that matters in distro choice
+    * Everything else can change
+
+== Review ==
+* But there's no point
+* No one except
+  * Grandma who you installed Mint for using stock
+  * On 10 year laptop
+* Everyone modifies configs
+  * Even just installing different theme
+* Installs new apps
+* Maybe even replaces window manager/DE
+  * If included in review are you reviewing the same thing
+
+* Knowing extra review things doesn't add much
+
+== Distro Showdowns Make Less Sense ==
+* Let's take Kubuntu vs Xubuntu
+  * Both just ubuntu with a different skin
+  * Could install Kubuntu get rid of KDE, install XFCE
+    * Are these now the same thing
+
+  * Most distros are just skins
+  * Differences between bases
+    * Not as much as you think
+
+== What Seperates A Distro ==
+* Take Arch and Manjaro
+  * Nothing stopping you installing Arch
+  * Pointing package manager to manjaro repos
+  * Installing all Manjaro defaults
+    * Software, Kernal, Configs
+  * Long detour but now you have Manjaro
+
+* True for anything based on Arch or any other base
+
+* What seperates a distro is package management
+  * Arch is Arch because of Pacman
+  * Ubuntu is Ubuntu because of Apt
+
+* Even that's not a hard rule
+  * I've talked to people who've turned Debian into Arch
+
+* Borders so thin on Linux
+  * Know what you're doing nothing stops you
+
+== Exceptions ==
+* Bedrock Linux
+  * Meta distro intended to bring in packaging from other distros
+
+* Distri
+  * Research distro
+  * Implements Daniel Bernstein's alternative to package handling
+
+* GnomeOS
+  * A testing environment for journalists and developers
+  * Try out cutting edge features before other systems
+
+* I'm not saying you can't like them
+  * Do what you want with your time
+  * I personally won't make them

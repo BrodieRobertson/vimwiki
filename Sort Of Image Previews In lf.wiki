@@ -1,0 +1,31 @@
+* 3 Methods to do image previews
+
+* First 1 relies on W3M
+	* https://github.com/gokcehan/lf/wiki/Previews#image-preview
+	* So no Alacritty or St
+	* And I guess is technically not a preview
+	* Works better than solution 2
+
+* Setup process
+
+* Second 1 relies on Ueberzug
+	* Proper image preview
+	* Very hacky
+	* Lf Doesn't Provide a better way to handle this
+	* Reload with ctrl-r
+	* Modified version with lf -remote "send reload"
+
+* Setup process
+
+* Third way
+	* I've gotten used to no previews
+	* Just use an image viewer
+	* Use some sort of window swallow script
+		* Devour
+		* Call only when needed
+
+* True image previews aren't coming any time soon
+	* https://github.com/gokcehan/lf/issues/134
+	* Vifm, ranger are the place to go
+	* I'm used to not having them at this point
+	* Use an image viewer if I need them

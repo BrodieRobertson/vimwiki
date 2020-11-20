@@ -1,0 +1,54 @@
+* Rules of submission
+	* Do not build application in official repositories
+		* Except for extra feature packages
+		* Screen in official repos
+		* Screen-sidebar would be allowed
+		* Patches/extra features are ok
+	* Do not submit new package if on already exists
+		* If unmaintained mechanism exists to tranfer ownership
+	* Make sure package is useful
+		* Will anyone but you care about it
+		* If more than a few people use it, it's ok
+		* Dependent on your system isn't
+		* Software, software related content, such as
+			* Executables, configs, documentation, media used by software
+	* Do not use replaces in PKGBUILD unless renaming package
+		* Use conflict for conflict
+	* Prebuilt packages should have -bin suffix
+	* Do not include package tarball in AUR submission
+	* Add comment to top of file mentioning maintainer
+		* # Maintainer: Your Name <address at domain dot tld>
+		* # Contributor: Previous maintainer's name <address at domain dot tld>
+
+* Making an account
+	* aur.archlinux.org
+
+* SSH Keys
+	* ~/.ssh/config
+	* ssh-keygen -f ~/.ssh/aur
+	* Can add multiple public keys
+
+* Getting repo
+	* git clone ssh://aur@aur.archlinux.org/pkgbase.git
+	* Nothing changes to AUR yet
+	* If mistake is made just reclone
+	* Add existing remote
+	* git remote add origin ssh://aur@aur.archlinux.org/pkgbase.git
+
+* Extra PKGBUILD preperations
+	* Dependencies
+		* Initial list may not be complete
+		* Transitive dependencies, packages you don't realize you're using
+		* Scan ELF files with ldd
+	* namcap
+		* Sanity check PKGBUILD
+
+* Now we're ready
+	* Local .gitignore
+	* makepkg --printsrcinfo > .SRCINFO
+		* Do with every update
+	* git add -f PKGBUILD .SRCINFO
+	* git commit -m "useful commit message"
+	* git push
+	* Update pkgver and pkgrel
+		* Ensures users know about update

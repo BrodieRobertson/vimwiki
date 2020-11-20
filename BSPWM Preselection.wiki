@@ -1,0 +1,71 @@
+* Receptacles are great for moving around pre-existing windows
+  * But what about automatically handling new windows
+
+* That's where we can use preselection
+  * We'll look at the technicals in a bit but for now
+
+== Usage ==
+* By default bspwm uses a predefined insertion order
+  * I use alternate
+    * Yours may be different
+  * Great most of the time but has it's limitations
+
+presel-dir
+* Takes in a cardinal direction
+  * Creates a colored block to indicate direction
+* Make window takes that spot
+presel-dir cancel will close that presel
+presel-dir ~DIR matches current presel
+  * Treated as a canel
+
+presel-ratio
+* This is a floating point between 0 and 1
+
+* How much of the current window should be new window
+  * It's a percentage
+
+* Can be used without presel-dir
+  * Uses normal splitting direction
+
+* But makes more sense when combined
+
+* presel_feedback_color
+  * Color of preselection area
+
+== What's Actually Happening ==
+* Bspwm is a binary tree
+  * But it doesn't split as you might think
+
+* Demonstrate in GIMP
+
+* So if we wanted to change ratio
+  * -r
+
+* Presel is basically a temporary node
+  * That acts like a split
+  * So you can specify it's ratio and direction
+
+== Aren't These Just Receptacles ==
+* With blue boxes
+* They're very similiar
+  * Produce same result in a lot of use cases
+
+* Presel effect newly created nodes
+  * Regardless of user intervention
+
+* Receptacles require user intervention
+  * And can be used for existing nodes
+  * Obviously with a script to automate
+    * Can add new windows straight into receptacle
+
+* You can access receptacles through
+  * Node add event
+    * Filter out other node events
+* Presel have dedicated event
+  * node_presel
+
+== My thoughts ==
+* Because I haven't automated anything
+  * I find receptacles to be much more powerful
+* Both open up bspwm to custom layouts
+  * And manual tiling

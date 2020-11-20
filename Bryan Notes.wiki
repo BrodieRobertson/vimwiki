@@ -1,29 +1,16 @@
-11:00
-15:00
-23:00
-28:00
-37:00
-50:00
-57:00
-1:00:00
-29:00
-43:00
-58:00
-1:08:00
+* Put mean formula in description
 
-* First proper guest
-* What made you switch to Linux
-* Why LARBS
-* What made you want to start YouTube
-* Current state of LBRY
-* LBC Value
-* Livestreaming
-* Live Coding
-* I see you have a cat
-* We've both grown a lot since we started
-* Luke vs DT vs HexDSL
-* You're still on i3
-* I heard you have a leather crafting business
-* What do you do outside of Linux
-* The more I make content the less I want to watch linux videos
-* What do you make you videos on
+* What have you been up to
+* Why MacOS
+* Channel has massively grown
+* Streaming
+* Been a crazy year
+* Going into study
+* My honors project
+* Content changes
+* Study
+* Your discord is pretty active
+* I see you have a completely new website
+* Traversy Media video
+* Crusade against a lecturer
+* Extremely generous supporters

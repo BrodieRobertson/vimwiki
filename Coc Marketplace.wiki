@@ -1,0 +1,61 @@
+* Coc is probably the most popular vim completion tool
+  * I know YCM has it's fans but that's not the topic of today
+  * Today we're looking at Coc marketplace
+  * Basically a helper to find Coc Extensions
+
+== Usage ==
+* :CocList search for marketplace
+* Easier to just do CocList marketplace
+  * Instantly runs the command
+  * From here anything with tick is installed
+  * Anything with a x is not installed
+  * Anything with an * is by developer of coc
+  * Search by just typing
+    * As you can see is a fuzzy finder
+* Pass in search query to match on query
+
+* Select a plugin to install it
+  * If it's already installed it will be updated
+  * Sadly you can't use this to uninstall
+  * That would be a nice addition
+
+* By default searches npmjs.com for plugins
+* Set marketplace.npmsio
+  * To use npms.io instead
+  * I had never previously heard of this website
+  * I guess some people don't like npmjs search
+    * I don't know, I always just download specific libraries
+
+== Installation Note ==
+* Keep in mind, because this is a coc plugin
+  * Install it with coc not your vim plugin manager
+
+== Why ==
+* Most plugins are well named
+  * css, json, python, angular
+  * Sometimes though not as obvious
+    * tsserver
+      * Which is the typescript extension
+    * vimtex
+      * For latex
+    * explorer
+      * A vim file tree
+
+* Find your coc plugins without leaving vim
+  * I don't want to go to npmjs or github
+
+== Why Not ==
+* Probably not going to be installing coc plugins for fun
+  * It's quite rare when you'll want or need to change them
+* A lot of languages only have 1 option
+  * Latex and c# are exceptions
+  * Could argue there's no point then
+
+* Have to trust you're actually downloading a coc plugin
+  * Not some random other js package pretending to be one
+  * Probably not a serious thread
+    * Good to keep in mind
+
+== Closing ==
+* I think it's a useful tool if
+  * Maybe trying out the less language specific plugins

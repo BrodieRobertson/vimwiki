@@ -1,0 +1,50 @@
+* Not intended to provide a unique experience
+	* This is effectively a rewrite of Discord in GTK
+
+* Much lighter than official discord
+	* About half as much ram
+* Claims to be faster
+	* Seem about the same on my system
+* Uses your GTK3 theme
+	* Fits with rest of system
+
+* Some weird design choices
+* Rather than showing member list on right side
+	* Inside hamburger menu
+
+* Access account info also in hamburger
+
+* Is a problem for fullscreen
+	* Designed with floating in mind
+
+* Typing in chat works perfectly
+	* Can tag people
+	* Can send emotes
+		* Emote menu on right
+			* Just shows server emotes
+		* Emoji accessed from right click menu
+	* Can do multi line
+	* Can attach files
+
+* Animated server emotes work
+	* Along with gifs in chat
+
+* Images open pop up
+	* Top left to open in browser
+	* No context menu like regular discord
+
+* Switching servers, channels, pm
+	* All without problem
+
+* Opening links works perfectly
+
+* Doesn't indicate which servers are NSFW
+* Reactions don't work
+* Status can't be changed
+* No Voice chats
+* No server administation outside of bot commands
+
+* If just using discord for text chat actually really awesome tool
+
+* Login done through account token
+* Or Discord Login

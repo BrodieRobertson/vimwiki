@@ -1,0 +1,82 @@
+* I've had my bookmarks seperate from browser for ages
+  * Mine is hacked together solution
+  * No care for portability
+* Today's tool buku not like that
+  * Import/export existing bookmarks
+  * Or start from scratch
+
+== Basic Bookmark Management ==
+buku -a URL tag,tag,tag to add
+buku --url
+buku --tag +|- tag,tag,tag
+buku --title
+buku -c comment
+buku --immutable 0 mutable|1 immutable
+  * Disable web fetch update
+
+buku -w editor to open buffer
+
+* Regex search, I'll show others in a bit
+buku -r .
+
+* Print specific bookmark
+buku -p
+
+* Open bookmark
+buku -o 1
+buku -o 1-2
+buku -o random bookmark for some reason
+
+* Every bookmark is assigned an index
+buku -d 1
+
+== Edit Bookmarks ==
+* Query website for new title
+buku -u
+  * Combine with earlier options
+* buku -w id
+  * Can't do editor and index at same time
+
+* Tag replacement
+buku --replace old new
+
+== Interactive Mode ==
+* Run buku or search commands take you to interactive
+buku --np disables
+* Keys align with the options
+
+== Searching ==
+buku -s Match any keyword
+buku -S match all keywords
+
+* Only matches on full word
+buku --deep to do partial matches
+  * I'd make this default behaviour
+buku -t tag search
+  * , any tag
+  * + all tags
+  * - exckude tags
+buku -x exclude
+
+== Migration ==
+* Import database
+  * Known to work with Chromium and Firefox bookmarks
+buku -i
+buku -e extension sets type
+
+== Advanced Features ==
+* Shorten and lengthen URL
+buku --shorten index|URL
+buku --expand index|URL
+
+* Encryption
+  * Relies on python cryptography library
+buku -l lock iterations
+buku -k unlock iterations
+
+== Interfaces ==
+* https://github.com/jarun/buku#related-projects
+
+== Installation Note ==
+* The AUR version is a bit out of date
+  * Install it with pip

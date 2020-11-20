@@ -1,0 +1,66 @@
+* It's 2020 who bothers to learn to program
+	* Just get everything you need from stackoverflow
+
+* In reality useful website
+	* looking at simple tool to search stackoverflow/exchange unix from terminal
+	* Called how2
+
+== General Programming Queries ==
+* Let's say you have no idea where to start
+	* split a string
+		* Prints top result
+		* Formatted output colouring anything in programming block
+		* Provides link at bottom
+			* Visit for more context
+	* Result not one you won't
+		* Show extra choices with space
+		* Enter to show list of comments
+			* Orders by number of votes
+			* Scroll with arrow or vim keys
+			* Open in browser with b or click link
+			* Leave with esc
+* Some queries too generic for meaningful result
+
+== Language Specific Queries ==
+* how2 -l python split a string
+* how2 -l c++
+
+* Slight issue
+	* c# doesn't seem to function
+		* Seems to be an issue with string handling
+		* c# is definetly the tag on stackoverflow
+
+== Frameworks/Libraries/Engines ==
+* Stackoverflow doesn't distinguish languages from other tags
+* how2 -l unity change material
+* how2 -l react function
+	* Judging by this being -l for language instead of -t for tag
+	* Probably isn't intended but is really useful
+
+== General Linux Queries ==
+how2 unzip bz2
+how2 create a rar
+how2 print a file
+
+== Issues ==
+* Haven't looked into
+	* But I imagine all the sister sites use same API
+		* askubuntu
+		* mathematica
+		* aviation
+
+	* Would be cool to be able to specify stack site
+		* query in same way
+	* Maybe have extra filters for the different sites
+		* or just change -l to a general tag filter
+* Old version showed primary tag
+	* Made it easier to indentify what you're working with
+
+== Conclusion ==* Sometimes have to tweak search query
+	* Relies on stack built in search
+	* Things not too complex seems fairly good
+
+* This is an npm application
+	* I know a lot of people don't like them
+	* I consider a non issue
+		* Just install global packages properly

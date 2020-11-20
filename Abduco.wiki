@@ -1,0 +1,54 @@
+* Session management isn't just limited to Tmux
+	* Here we have abduco
+
+* Create session and attach
+	* abduco -c <name> <application>
+
+* Apps have no trouble resizing
+* No perceivable performance hit
+
+* List sessions
+	* abduco
+	* * something connected
+	* + terminated
+	* blank waiting
+
+* Reattach
+	* abduco -a <name>
+
+* Detach key
+	* ctrl+\
+	* Don't always want to quit terminal
+	* Can be changed with -e
+		* ^q ctrl+q
+
+* Create session but don't attach
+	* abduco -n <name> <application>
+
+* Try to connect but create if doesn't exist
+	* abduco -A <name> <application>
+
+* Read only session
+	* abduco -r <name> <application>
+	* I'm sure there's a point
+		* Not sure what it is though
+
+* Run without app
+	* Looks for dvtm
+		* Dynamic virtual terminal manager
+
+* Intended to be used alongside dvtm
+	* A separate terminal multiplexer
+	* Will do a further video on that
+
+* What's the point of session management
+	* Accidentally closing an application
+		* No work lost
+	* Quickly returning to previous state
+		* Document state
+		* Or with dvtm window layout
+	* Like with tmux keeps applications running if ssh session closes
+	* Need to run something such as game server
+		* No easy way to background it
+		* Bring it back to run commands
+	* Want to run something in the background

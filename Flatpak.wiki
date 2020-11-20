@@ -1,0 +1,71 @@
+* Final 3 of the Linux Universal packaging systems
+
+* Developed by Free Desktop
+	* A lot of people get caught up in canonical controversy
+	* Blinds them from actual software
+	* Not like this is a purely community project
+		* Backing from Redhat and Endless
+		* Seems much more community oriented
+
+* Much more similar to snaps
+	* Using a package manager, distributing from a store
+	* With the main store being flathub
+		* Mainly comparisons to those
+
+* Much more widespread support
+	* Some distros are supported out of the box
+		* Unlike snaps tools in many distros standard repos
+	* But not as many apps
+		* Not as much of an issue as it might sound
+			* Because a lot of programs are garbage
+			* Things like Spotify, GIMP, libre office are here
+
+* Like with snaps requires flatpak tools to run and install
+	* Even if you download install file
+		* Still need internet to install the application
+
+* When it comes to updates
+	* Not done automatically, all down through package manager
+	* Some extra tools do auto query for updates though
+
+* Sandboxing isn't optional in this case
+	* Holes can be poked in it but it cannot be removed
+	* If security is important may be of interest
+		* Makes use of Bubblewrap for sandboxing
+			* I'm no security expert, couldn't give you the merits over firejail or AppArmor
+
+* Not locked into a single store
+	* Flathub seems fine, but if you want to switch nothing stopping you
+	* Gives users and developers more freedom to find apps
+
+* Unlike a certain other packaging system
+	* Doesn't spam system with loopback devices, always a nice plus
+		* Can be unistalled without leaving an annoying trail of destruction
+
+* When it comes to performance
+	* I don't notice any issues myself
+	* If you ask if flatpaks are better than the alternatives
+		* Much harder to answer
+		* From my research
+		* Seems to be down to the app, the computer, the version, the moon phase
+	* My suggestion is experiment for yourself
+		* See what works best on your system
+
+* Install flatpaks is very straight forward
+	* Come to website
+		* Nicely broken down for popular distros
+		* I'm on Arch
+			* Install flatpak package
+			* Do a reboot
+		* flatpak search NAME
+		* flatpak install NAME
+		* flatpak uninstall NAME
+			* Clean up runtimes
+			* flatpak uninstall --unused
+
+* Still a work in progress not having hit version 1.0.0 yet
+	* However there's been a lot of work made on this project
+
+* It's fair to say that Snaps and Flatpaks work in a similiar way
+	* Flatpak leans more towards the open side
+		* Not relyin on proprietary store

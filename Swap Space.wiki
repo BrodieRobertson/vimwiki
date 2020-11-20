@@ -1,0 +1,87 @@
+* When installing linux you configure swap
+	* What does it do?
+	* How big should it be?
+	* Do you need it?
+
+* Linux divides its physical RAM into chunks of memory called pages.
+	* Check page size
+	* getconf PAGESIZE
+* Swapping is the process whereby a page of memory is copied to the preconfigured space on the hard disk, called swap space, to free up that page of memory.
+	* In short swap turns part of hard drive into memory
+	* Much slower
+	* But better than nothing
+* The combined sizes of the physical memory and the swap space is the amount of virtual memory available.
+
+* Check swap
+	* swapon --show
+	* free -h
+
+* Two ways to configure swap
+	* Swap partition
+		* More popular
+	* Swap file
+	* Arch Wiki claims no performance difference
+	* Are differences, will explain in a bit
+
+* Before that
+* Two main reasons for use
+	* Extend memory as mentioned earlier
+	* Small amount of RAM
+		* 4 - 8GB basically essential
+		* Avoids out of memory conditions
+		* Linux will try to free up memory
+		* Better to avoid though
+		* More swap, more programs can be run at once
+		* Don't go overboard
+			* 100GB will be lot's of memory
+			* CPU can't deal with that many apps
+			* No point
+		* Can avoid if drive space valuable
+			* Not much of a problem with modern drives
+
+		* Hibernation
+			* Suspend to disk
+			* Ram copied to hard drive
+			* If doing this swap should be ram size
+			* Can be successful without it
+				* Guarenteed requires at least ram size
+
+* Swap partition
+	* Don't fix what isn't broken
+	* If can afford dedicated space
+	* Just do swap parition
+	* Pre Linux Kernel 5.0 BTRFS didn't support swap file
+		* Now has limited support
+
+* Swap file
+	* On the fly resizing
+	* Disk space at a premium
+		* Old hardrive/small SSD
+		* Still want it
+		* Don't need all the time
+
+* Swap space rules of thumb
+	* Double you RAM
+	* Ram x1.5
+	* Depends on how much you have
+	* 8GB should I would use
+		* x1.5
+	* 4Gb or less I would use
+		* Double
+	* I did x1.5
+		* 48GB of swap
+		* Way overkill
+		* Equal would have been fine
+
+* So do you need it
+	* Depends
+	* Do you do memory intensive work
+		* Run out frequently
+	* Low memory in general
+	* Or want to hibernate
+	* Then yes
+
+	* If you never hibernate
+	* Never run out of RAM
+	* I guess not
+	* But It's better to be safe

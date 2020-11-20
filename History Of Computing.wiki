@@ -1,0 +1,16 @@
+* History of C
+* Where does Linux fit into the Unix History
+	* https://www.reddit.com/r/linux/comments/igrwxf/this_guy_looks_talented_he_should_build_an_os_or/
+* Why did the GNU project come into existence
+* Why does C++ exist
+* The story behind Canonical
+* The story behind RedHat
+* The story behind RMS
+* The story behind Linus Torvals
+* Package management
+* https://cr.yp.to/slashpackage.html
+    * https://blog.dyndn.es/doku.php/blog/2017/11/10_slashpackage
+    * https://www.reddit.com/r/linux/comments/cromqv/distri_a_linux_distribution_to_research_fast/
+* Klik packages
+* Portable Linux Apps
+* Framebuffers

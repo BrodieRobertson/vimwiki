@@ -1,0 +1,53 @@
+* X applications have a bad habit of wiping clipboard
+	* Intended behaviour but really annoying
+* Provides a method to access older copied text
+
+* Client server model
+	* Clipmenud is the server daemon
+	* Clipmenu is the client to select with
+
+* Demonstration
+
+* Recommend launching clipmenud in something like xinitrc
+* Clipmenu should be on a key binding
+
+* Clipmenu passes all options through
+
+* Configuration done through enviroment variables
+
+* Visible History length $CM_HISTLENGTH
+* Max clips $CM_MAX_CLIPS
+	* Default 1000
+* Launcher $CM_LAUNCHER
+	* fzf
+	* rofi
+	* rofi script
+	* Anything similiar enough to dmenu should work
+* Stdout $CM_OUTPUT_CLIP
+* Clipboards $CM_SELECTIONS
+	* Defaults to primary and clipboard
+* Defeats the purpose $CM_ONESHOT
+* Ignore certain windows with regex $CM_IGNORE_WINDOW
+	* Matches on windowname
+* debug mode $CM_ONESHOT
+
+* If you don't want to store something
+	* Seperate script
+	* clipctl disable
+
+* Modify clipboard with clipdel
+	* Just lists changes by default
+	* -d to perform deletion
+	* Let's you test regex
+
+* Also a clipfsck
+	* Not sure what it's supposed to do
+
+* Slight annoyance
+	* dmenu is optional but it's package makes it dependency
+	* I run a fork of dmenu
+		* Should switch to manual install
+
+* I've been thinking about trying this for a long time
+	* You have no idea how many times I've reopened windows
+	* Due to clipboard problem

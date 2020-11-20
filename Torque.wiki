@@ -1,0 +1,27 @@
+* Most transmission clients have tons of information
+	* Tremc is my current choice
+	* Most of it don't understand, don't need
+
+* Replace it with Torque
+	* As minimal as you can get with an interface
+
+* vim key scroll
+* o to open magnet link
+	* Maybe you were sent a link
+* r to remove, give id
+* s to start, give id
+* p to pause, give id
+* q to quit
+
+* Missing information
+	* Seeds/Leechers
+	* Files would be nice to see
+	* Amount you've seeded
+
+* Installation
+	* Dependencies
+	* Transmission for obvious reasons
+	* Bash it's a bash script
+		* I didn't mention this
+		* Torque just a 50 line bash script
+		* So it shouldn't be too difficuly to edit yourself

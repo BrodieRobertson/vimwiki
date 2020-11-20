@@ -1,0 +1,70 @@
+* Cat plus syntax highlighting
+* Doesn't get any simpler than that
+
+== Git Integration ==
+* Marks lines similar to gitgutter
+* ~ for modified lines
+* + for added lines
+* - for removed lines
+
+== Line Modifications ==
+* -H  highlights lines
+* -r show line range
+  * Both use same syntax
+  * 30 only
+  * 30:40 range
+  * :40 1 to 40
+  * 40: to end
+
+== Style ==
+* Disable pager
+  * --paging/er=never
+    * BAT_PAGER set always
+* --style=
+  * BAT_STYLE set always
+  * plain alias -p
+    * plain plus no pager -pp
+  * number -n
+  * auto, full, changes, header, grid, snip
+* Tons of info by default
+* Can't use multiple styles at once outside of -n
+* -A show unprintable characters
+
+* --decorations
+  * when to show decoration
+    * auto, never, always
+
+== Config File ==
+* Poorly documented
+* Simple structure though
+  * --generate-config-file not in man
+* Basically just passing in options
+
+== Language ==
+* Generally auto detects language
+  * Can set if it doesn't
+  * -L list all supported languages
+  * -l to set any values in line
+* Custom languages
+  * Config location/syntaxes
+    * Uses sublime text language files
+      * Odd choice but it works
+      * More support
+
+== Theme ==
+* List installed themes --list-themes
+* Set theme with --theme
+  * BAT_THEME set always
+  * --color when to use theme
+    * auto, never, always
+
+* Installing new theme
+  * Uses sublime text themes
+    * Add to config location/themes
+  * run bat cache --build
+    * Adds to theme cache
+
+== Why Use ==
+* Typically use for terminal file manager previews
+  * Great coverage, anything not supported
+  * Fairly likely has a language file defined

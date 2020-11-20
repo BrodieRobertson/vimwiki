@@ -1,0 +1,50 @@
+* It's spring in Australia
+	* Thought I should spring clean my home
+
+* Ensure other XDG base directores configured correctly
+	* Data home
+		* ~/.local/share
+		* Used for application data files
+	* Cache home
+		* ~/.cache
+		* Used for cache files
+	* Config home
+		* ~/.config
+		* Used for config files
+	* Can be moved but some apps ignore these variables and hardcode path
+
+* Start with the easiest parts first
+	* Whatever you put there yourself
+	* It's very easy to dump files in home without thinking
+		* Put wherever you're comfortable with
+
+* These are a bit different from XDG user directories
+	* xdg-user-dirs installed
+	* .config/user-dirs.dirs
+	* xdg-user-dirs-update
+	* Most file managers give these special icons
+
+* Default to home but can be moved
+	* Will only know by searching for app
+	* Good starting place is ArchWiki
+		* Not really a consistent convention
+		* Some dump the file into the folder
+		* Some put file in extra folder and keep name
+			* Some change file name
+			* Some keep it as dot file
+
+* Disable files you don't need
+	* Common example is less history
+
+* Default to home but can be moved with configs
+	* Convention goes out the window here
+	* Generally done with environment variables
+
+* Lazy or ignorant developers
+	* Won't fix
+	* What do you do
+	* Well not much really
+	* Some people like to move to where they belong and symlink
+		* I'm not a fan
+		* If I hid symlinks it would be great
+			* However I don't

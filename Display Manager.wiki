@@ -1,0 +1,66 @@
+* I see so many people talk about display managers
+  * As if they're something you actually need
+
+* From what I've seen they cause more problems than they solve
+
+== Alternate Solution ==
+* xorg-xinit
+
+* Define xinitrc
+  * Style is very similar to your xprofile
+    * Used for things like lightdm or gddm display manager
+
+* With one extra line included
+  * exec Name_of_enviroment
+* In many cases just the name of the package
+  * window managers
+* Desktop enviroments can also be started like this
+  * Be sure to check the name
+  * gnome is gnome-session
+
+* Should just be used to launch programs that rely on X
+  * I have a bad habit of using it for general auto start
+  * Other things make more sense in .profile/bash_profile/zprofile
+    * Only drawback is longer to start X
+      * Try and keep as light as possible
+* Anything that relies on your enviroment
+  * Launch in environment auto launcher
+
+* You can just run startx
+  * Your display manager is basically doing something similiar
+* Xorg-xinit also comes with xinit
+  * Startx is just a front end for it
+    * Makes it a bit easier to use
+    * Most of the time startx will be fine to use
+
+* Display manager make it slightly easier to use multiple environments
+  * But still not required
+  * startx accepts an argument
+
+* Autolaunch environment
+  * I'm tool lazy to write startx
+  * And I run 1 environment
+  * Show zprofile
+
+* But you could still give yourself a simple interface
+  * Just prompt the user for input
+  * Take the input to select which environment to launch
+    * I might go do that
+
+== Merits of Display Manager ==
+* I get it display managers look cool
+  * It is nice to have a fancy looking interfaces
+* I'm running a grub theme
+  * But I need boot loader to launch my system
+  * Might as well make it look good
+* But I don't need this
+  * And I'm only going to see it at most once a day
+
+== Probably Fine Most Of The Time ==
+* But occasionally
+  * A new nvidia driver isn't compatible
+  * The x server won't start due to some weird incompatibility
+
+* They add an extra failure point
+  * For not much of a benefit in my eyes
+  * Feel free to run what you want though

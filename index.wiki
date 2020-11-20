@@ -1,19 +1,20 @@
 === My Notes ===
 
-[[Syntax]]
+== Misc ==
+* [[Todo]]
 
 == Content Creation ==
+* [[Blog]]
 * [[Video Ideas]]
 * [[Video Notes]]
 * [[Podcast]]
 
 == Work ==
 * [[Business]]
+* [[Crypto Projects]]
 * [[Programming]]
 
 == Uni ==
 * [[ICT Specialist]]
 * [[Research Methods]]
 
-== Misc ==
-* [[Todo]]

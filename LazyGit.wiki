@@ -1,0 +1,62 @@
+* Switch to recent repo enter
+
+* tab cycling []
+* page up page down scroll
+
+* Files
+	* Toggle staged space
+		* a to do all
+	* enter Stage individual hunks
+	* i to add to gitignore
+	* c to commit
+	* C commit using git
+	* d to discard changes
+	* r to refresh
+	* s stash changes
+
+* Branches
+	* n to make branch
+	* d to delete branch
+	* R to rename
+	* space to checkout branch
+	* c checkout by name
+	* F to force checkout
+	* M into checked out branch
+	* r rebase checkout out onto branch
+	* If connected to remote
+		* o to open pull request
+	* g reset
+
+* Remotes
+	* f fro remote
+	* n add remote
+	* d remove
+	* e edit
+
+* Even deal with tagging
+	* add n, delete d
+
+* Commits
+	* enter to view files
+	* space to checkout
+	* r reword commit
+	* A amend with staged changes
+	* s squash down
+	* S squash above
+	* c copy commit (cherry pick)
+	* v to paste commit (cherry pick)
+	* ctrl-r to deselect all
+	* e edit (rebase)
+	* T tag commit
+	* t to revert no confirmation
+		* Can be fixed with a cherry pick
+	* g to reset
+
+* Stash
+	* pop g
+	* drop d
+	* space apply
+
+* p to push, P to pull
+* f to fetch
+	* Run as arbitrary command :

@@ -1,15 +1,15 @@
 = Guests =
-
+* https://www.reddit.com/r/commandline/comments/ivvwnv/new_foss_podcast_including_cli_tools_crosspost/
 * Deej
 * Sasindu
-* Josh Steele (y)
-* Connor (Cozhan) (Y)
-* Jye T (Jinnie The Wew)  (Y)
-* Samuel B
+* Josh Steele (X)
+* Connor (Cozhan) (X)
+* Jye T (Jinnie The Wew)  (X)
+* Samuel B (X)
 * Ben F
-* Kenley W (Y)
-* Corey (Y)
-* Marty P (Y)
+* Kenley W (X)
+* Corey (X)
+* Marty P (X)
 * Shud
 * Vishnu
 * Taimoor Ahmad (Y)
@@ -19,11 +19,20 @@
 
 * SovietJesus
 
+== Crypto ==
+
+* Louis Thomas
+* Unkle Bonehead (X)
+* Scott C Business (X)
+
 == LBRY ==
 
-* Electron
+* Electron (X)
+* Brendon Brewer (X)
 * EF
-* Michael Hebo
+* ScammerRevolts
+* TravCrypto
+* Mantega
 
 == Developers ==
 
@@ -31,7 +40,18 @@
 
 == Linux ==
 
-* Distrotube
+* Average Linux User
+* Tom on The Internet
+* Penguin Reviews
+* Gaming On Linux
+* Dorian Dot Slash
+* Chris At Machine
+* Greg Hurrell
+* Old Tech Bloke
+* The Digital Life (X)
+* Bryan Lunduke
+* Distrotube (y)
 * Learn Linux
 * Tuxfoo
 * Unfa
+* HexDSL

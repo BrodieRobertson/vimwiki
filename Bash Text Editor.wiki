@@ -1,0 +1,39 @@
+* Text editor written in bash
+* Well what exactly is the point
+	* Proof of concept than a good editor
+		* See what I mean
+		* Only 230 lines of bash script
+
+* First open, looks like any terminal editor
+	* A bit funky to work with but it's interesting
+	* Modal editor
+
+	* i insert line and edit
+	* b insert a new line
+	* e to edit line
+		* Invisble cursor
+	* a append to line
+	* enter to end line
+
+	* arrow keys to move
+
+	* c delete contents
+	* d delete line
+		* Delete line 0
+
+	* w write to file
+	* f set target file
+	* q to quit
+
+	* l to load in file
+
+* Editor released less than 2 weeks ago
+	* Much much better/complete options
+	* Parts of vim and emacs you like
+	* What it shows is that building a text editor is very possible
+	* Maybe vim isn't perfect/maybe emacs isn't
+	* You have programming talent
+	* Well just make something yourself
+		* It can be configured exactly the way you want
+	* Great thing about programming
+		* Make thing yourself

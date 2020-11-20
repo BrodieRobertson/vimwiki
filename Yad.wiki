@@ -1,0 +1,61 @@
+* Use shell script to create GTK interfaces
+	* Add gui components into your pipelines
+
+== Basic Usage ==
+* GTK has a lot of built in components
+	* Want a file picker
+		* yad --file
+			* outputs file path
+	* Color picker
+		* yad --color
+			* Outputs selected colours
+	* Calendar
+		* Outputs date
+			* yad --calendar
+	* Notification
+		* Adds an icon to your system tray
+
+* Could just do an entire video on these premades
+	* All of these are super useful
+* Can all be customized with options
+
+== Examples ==
+yad --title="Select a file to remove" --file --geometry=800x500+100+100
+yad --title "Select Host" --entry --text "Select the host you would like to flood-ping"
+yad --image "dialog-question" --title "Alert" --button=yad-yes:0 --button=yad-no:1 --text "Microsoft Windows has been found! Would you like to remove it?"
+yad --list --checklist --column "Buy" --column "Item" TRUE Apples TRUE Oranges FALSE Pears FALSE Toothpaste
+	* After running could save to a file
+yad --notification --text "System update" --command "$TERMINAL -e sudo pacman -Syu"
+fd "png" $HOME  | yad --list --title "Search Results" --text "Finding all png files" --column "Files" --close-on-unfocus
+
+== File Picker Options ==
+* --filename set directory
+* --directory only select dir
+* --save save mode instead of select
+
+== Color Picker Options ==
+--init-color
+--alpha
+--mode=hex/rgb output value
+
+== Text Entry ==
+* This has some interesting options
+--hide-text
+--numeric
+--float-precision
+
+== Advanced Examples ==
+* Each of these could take an entire video by themselves
+	* https://sanana.kiev.ua/index.php/yad
+
+* This was the GTK3 version
+	* https://github.com/step-/yad
+	* If you like GTK2 there is a fork for that
+
+== Issues ==
+* Example documentation seems a bit out of date
+* Application doesn't error with incorrect options
+
+== Conclusion ==
+* I wanted you guys to know this exists
+	* I'll be coming back to it as I use it in projects

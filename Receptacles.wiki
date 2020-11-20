@@ -1,0 +1,65 @@
+* Bspwm is a dynamic/automatic tiling window manager
+  * It deals with tree by itself
+  * But you can intervene in the layout
+  * That's done with receptacle
+
+== What is a Receptacle ==
+* Bspwm stores every node in a binary tree
+  * Any leaf node that doesn't contain a window is receptacle
+* Show example
+
+* Act like any other sort of node
+  * Except they can't focused on
+  * Targeting them is done in special way
+  * Resizing in relation to other nodes
+* Interact the same with other nodes
+  * Show example
+* And you can put windows in them
+
+== Make A Receptacle ==
+* bspc node -i
+
+* Since we're manually tiling anyway
+* Let's briefly look at preselection
+  * Let's you control how windows get split
+  * What we care about today is presel-dir
+* bspc node --presel-dir CARDINAL -i
+
+== Targetting ==
+* We need some way to target it
+bspc query -N -n .leaf.\!window
+* Grab every leaf node
+* Only return leaves with have no window
+bspc query -N -n .leaf.\!window -d focused
+* Limit to current desktop
+
+* If you have multiple receptacle
+  * Decide how to handle it
+  * Newest, oldest, random
+  * Closest relative, Direction
+
+== Insert into receptacle ==
+bspc node ID to add -n $(bspc query -N -n .leaf.\!window)
+
+* Once a receptacle always a receptacle
+  * Close the window it closes like normal
+
+* Now we can do something interesting
+bspc node @/ -B
+
+== Clear all Receptacles ==
+for win in `bspc query -N -n .leaf.\!window`; do bspc node $win -k ; done;
+* May want to be more specific
+  * Just yeets everything
+
+== Useful Keybindings ==
+* Only just started messing with this
+super + r to move focused window into receptacle
+super + i; h,j,k,l to select direction to spawn receptacle
+super + shift + i clear all receptacle
+super + e balances the nodes
+
+== Closing Thoughts ==
+* 99% of the time having dynamic tiling is fine
+  * But having the option to manually tile when you need it is awesome
+  * And let's you do some really cool things

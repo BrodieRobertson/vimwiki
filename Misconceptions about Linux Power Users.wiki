@@ -1,0 +1,69 @@
+* Assumptions about linux power users
+	* Me and others
+	* Partially because of the popular ones on YouTube
+	* Not all are like this, Chris Titus, Lunduke, TLG
+	* But DT and Luke are popular example
+
+* Terminal applications
+	* Use extremely frequently
+	* Show a lot on the channel
+		* Perform well
+		* I think they're fun to play with
+	* Don't handy cap myself
+	* Sometimes a GUI is way better
+	* FFmpeg for example
+		* Could use it
+		* Way more annoying for me to use than Kdenlive
+	* GUI text editor makes less sense
+		* For code maybe there's a reason for it
+		* But general writing no
+
+* Vim
+	* Use it for most things
+	* Advocate it's use
+	* Shell script, general writing, web dev
+	* But for C, Java, etc.
+	* I will use an IDE
+		* Can setup it up for those
+		* Rarely write those languages
+		* IDE is just easier
+	* It might seem counterintuitive
+		* If I did C a lot I would setup vim
+		* But I don't
+	* Just take the easy option sometimes
+
+* Tiling WM
+	* I like tiling WM
+	* They are objectively better
+		* Entire video about this
+	* Feel free to use whatever you want though
+	* I think it's a better choice
+		* Will encourage people
+		* Do what you want on your system
+
+* Open Source Software
+	* I generally use open source software
+	* Recently did a video talking about my stance
+		* tldr is software pragmatism
+			* Best tool for the job
+	* Assumed must be diehard open source supporter
+		* Do support but not against propertiaty software
+		* Especially the case because of my channel origin
+	* Sometimes good open source tool doesn't exist
+		* Then I use the propertiary one
+		* Don't want to handycap myself
+
+* System Resources
+	* Don't want to pointlessly waste resources
+	* Have powerful PC
+	* Can produce whatever experience I want
+	* Hard drive space isn't a precious resource
+	* That's why I like Nativefier
+		* Is it efficient, absolutely not
+		* Do I like it, absolutely
+	* CPU a bit more precious
+		* Video renders
+		* If I need it all I do is kill the application using it
+		* But when not rendering I can use it for other things
+			* Hiding windows, expensive web browser, etc
+		* Why would I just let it sit there

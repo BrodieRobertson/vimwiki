@@ -1,0 +1,52 @@
+* Regular watchers of this channel are smarter than this
+	* Luke, Dt, any other Linux creator
+	* Aren't making this mistake
+
+* Help I ran this command I don't understand
+	* It broke my computer
+	* What do I do
+
+* Ever since reddit been seeing a lot
+	* Reddit isn't to blame, it's just popular
+	* Some really smart some really not smart
+
+* If you're new to Linux that's ok
+	* I've only been here for a year
+	* It's awesome that learning linux
+	* You could have only ever used Linux
+	* Don't run random commands from the internet
+:(){:|:&};:
+	* Forks a bunch of processes until you run out of memory
+	* Another example that converts hex value to rm -rf /
+		* Don't have it on hand, someone in comments will know
+
+* Is it ever ok to run random commands
+	* If you know the command is nondestructive
+	* Or you trust the source
+	* Don't trust a random comment
+
+* Protecting yourself
+sudo du -sh /* | sort -n
+	* How can we find out
+	* Man pages
+		* -s display only a total for each argument
+		* -h print sizes in human readable format (e.g., 1K 234M 2G)
+		* -n compare according to string numerical value
+	* pacman -Scc
+		* Arch Wiki
+		* You don't have to use arch
+		* It's a great resource
+		* Other distro wiki's
+		* Arch is the best
+	* Search online for the command
+		* May find something, may take a while
+	* Let's assume it's just missing from docs
+		* What now
+		* Even knowing what program does
+		* Avoid at all costs
+		* Find some other way to do it
+		* Without an understanding of option anything could happen
+
+* Ok if you don't know the ins and outs of everything
+	* Why I make content
+	* Just remember to protect yourself online

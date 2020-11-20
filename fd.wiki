@@ -1,0 +1,78 @@
+== Intro ==
+* Find is great not the most performant implementation
+	* I know rust rewrites are a meme
+	* Fd is objectively better for most use cases
+
+== Demo ==
+
+* fd nvim
+
+* Case Insensitive unless including capital in search
+* fd NvIm
+
+* Regex not globbing
+	* fd "p.*cast"
+
+* By default doesn't include hidden files/dirs
+	* Respects ignore files
+	* Doesn't follow symlinks
+
+* include hidden -H
+* include ignored files -I
+	* -u no-ignore -uu bot
+	* Unclear
+* --no-ignore-vcs only ignores .gitnores
+
+* Case insensitive -s
+* Case sensitive -i
+
+* Switch to globbing -g
+
+* Switch to fixed string -F
+	* If full word or contains word
+
+* -l ls -l like output
+
+* --max-reslts quit after count
+
+* Limit results by file size -S
+	* + great than
+	* - less than
+	* num
+	* Unit
+
+* -t only include type
+
+== Practical Use ==
+
+* Check word counts in folder
+fd -t f -x wc -l
+
+* Take first 10 results and put them in a selector
+fd --max-results 10 | fzf
+
+== Benchmark ==
+find ~ -iregex '.*[0-9]\.jpg$'
+
+* Globs are much quicker
+find ~ -iname '*[0-9].jpg'
+
+* Make it fair by traversing hidden and ignoring gitignores
+fd -HI '.*[0-9]\.jpg$' ~
+fd '[0-9]\.jpg$' ~
+
+* Didn't bother with exact numbers
+	* fd is noticably quicker
+	* Seem to follow same trend as github results
+
+== Final Thoughts ==
+* Some edge cases may not be covered by this app
+	* Doesn't include every option of find
+	* But for what most people use it for
+	* Hands down a better app
+
+* Didn't include all options
+	* Plenty more especially in filtering to have a look through
+
+* If you need find like capabilities
+	* Would highly recommend

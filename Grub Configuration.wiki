@@ -1,0 +1,56 @@
+grub-mkconfig -o /boot/grub/grub.cfg
+
+* Framebuffer resolution
+GRUB_GFXMODE=1024x768x32,fallback,auto
+GRUB_GFXPAYLOAD_LINUX=keep
+* The gfxpayload property will make sure the kernel keeps the resolution.
+	* From GNU.org
+Depending on your kernel, your distribution, your graphics card, and
+the phase of the moon, note that using this option may cause GNU/Linux to suffer from various display problems
+
+GRUB_TERMINAL_OUTPUT=console
+	* Disable framebuffer
+
+GRUB_GFXPAYLOAD_LINUX=text
+* Forces text mode
+
+* Background
+	* GRUB_BACKGROUND="/boot/grub/myimage"
+	* png, .tga, .jpg, or .jpeg
+	* Will scale
+	* Needs gfxterm
+
+* Font
+	* grub-mkfont -s 30 -o /boot/grubfont.pf2 /usr/share/fonts/FontFamily/FontName.ttf
+	* GRUB_FONT="/boot/grubfont.pf2"
+
+* Menu Colors
+GRUB_COLOR_NORMAL="light-blue/black"
+GRUB_COLOR_HIGHLIGHT="light-cyan/blue"
+#RRGGBB
+#RGB
+126, 1, 240
+svg 1.0 names
+
+* Hidden menu
+GRUB_TIMEOUT=5
+0 boot immediatly
+-1 wait for user input
+
+GRUB_TIMEOUT_STYLE='countdown'
+* Show only countdown
+GRUB_TIMEOUT_STYLE='hidden'
+* Blank screen
+GRUB_TIMEOUT_STYLE='menu'
+* Shows menu straight away
+
+GRUB_DEFAULT=0
+* Nth item
+
+GRUB_DEFAULT=saved
+GRUB_SAVEDEFAULT=true
+
+* Theme
+	* Overrides all other visual settings
+	* Needs gfxterm
+	* GRUB_THEME="/usr/share/grub/themes/starfield/theme.txt"

@@ -1,0 +1,65 @@
+* All my apps I've either installed from package manager
+	* Or from source
+	* But other ways exists
+	* Like Snaps, flatpaks
+		* AppImage
+		* But what exactly is an AppImage
+		* What is even the point
+	* Never have to use if you don't want
+
+* Dependencies are a major issue on Linux
+	* libraries, fonts, icons, applications
+		* Sometimes named differently
+		* Sometimes don't exist in standard repos
+			* Take anything in AUR
+* App image more than just an app binary
+	* Contains everything app needs to run
+
+* Why use them
+	* One format for all distros
+		* No need for debian package, arch package, void package, so on
+	* Generally works out of box, no runtime dependencies
+		* Technically need fuse
+	* No need to compile apps
+		* Installation is however long download takes
+		* Windows esc installation
+	* No root needed to install
+		* Can have app images that require root
+	* Updates handled within the application
+	* Preserves old applications with old dependencies
+		* Requires ancient version of gtk
+		* May be other conflicts
+
+* Why not
+	* Some reason why they're useful are why they're not
+	* Bundling dependencies
+		* Every time you need access to a library need to download
+		* Rather than using system library
+	* Updates circumvent package manager
+	* Windows style installation
+		* Download an app from devs website
+		* Some stores
+		* Downloading from 3rd party website introduces Windows security vulnerability
+	* Generic builds are going to be slower
+		* Not an issue on desktop everyone uses x86 or x86_64
+		* ARM is a different story though
+	* Lose ability to do package manager operations
+		* List, Uninstall
+
+* Here's where we get somewhere weird
+	* Being windows esc installations you would think no need for a package manager
+	* Old habits die hard
+	* https://github.com/michaeldelago/aipm
+	* We've come full circle
+		* Obviously don't need it and shouldn't use it
+		* But amuses me
+		* Idea of single executable so alien to Linux users
+		* Try to rengineer it as package
+
+* Installation process
+	* Requires a working fuse installation
+	* On arch just need to install fuse2
+		* Reboot
+	* Download app image
+	* Make exectable
+	* Done

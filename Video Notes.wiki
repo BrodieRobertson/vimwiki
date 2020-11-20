@@ -3,13 +3,32 @@
 * [[Patrons]]
 * [[Upcoming]]
 * [[LBRY Description]]
+* [[Stream Ideas]]
+* [[Q&A]]
+
+== Stories ==
+* [[Lighting Demo]]
+
+== Shorts ==
+* [[Vim Speedrun]]
 
 == Notes ==
+* [[NCMPCPP Theming]]
+* [[Display Manager]]
+* [[Dmenu]]
+* [[Vivaldi Box]]
 
-* [[Pacman]]
-* [[PKGBUILD]]
-* [[tldr pages]]
-* [[Tiling Window Managers]]
+* [[Ultisnips]]
+
+== Done ==
+* [[YouTube DL is Back]]
+* [[Picom Blur]]
+* [[Awk Language Part 1]]
+* [[Tspreed]]
+* [[JayzTwoCents Reply]]
+* [[Apple Owns You]]
+* [[BSPWM Preselection]]
+
 * [[Why Is The Modern Web Slow]]
 * [[Basilisk]]
 * [[Getting Started With Bspwm]]

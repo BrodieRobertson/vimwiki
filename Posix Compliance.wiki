@@ -1,0 +1,90 @@
+* Understanding intricacies of POSIX compliance is really complex
+	* But we can at least discuss what it means at all
+
+* POSIX
+	* Portable Operating System Interface
+		* X comes from UNIX
+	* Suggested by RMS
+		* Otherwise would have been IEEIX
+	* Supposed to be pronounced Pahz-ix but the world isn't America
+		* I will never say it again
+
+* In the days where Unix was king
+	* Enterprises began to understand a need for standardization
+	* As a means to easily port application
+		* And interface with other systems
+	* Unix is manufacturer neutral
+		* There were multiple different implementations
+	* Also makes it a good base line
+
+* POSIX can be thought of a minimal subset unix like os
+
+* POSIX doesn't say what system can do
+	* Says what it must be able to do
+	* If you have clone of bourne shell
+		* And you add extensions that don't conflict with basic POSIX
+		* Still POSIX compliant
+
+* When 2 systems are posix compliant
+	* Developer can make assumptions about what's possible
+	* Allowing for easier development
+	* Users can know what software is available to use
+		* What options exist
+
+* POSIX does not require a system to have any Unix code
+	* If Windows met the POSIX spec
+		* Could be POSIX compliant
+
+* POSIX can be broken down into multiple standards
+	* Some systems may meet some but not others
+
+* Prior to 1997
+* POSIX.1 Core services
+	* Process Creation and Control
+	* Signals
+		* Floating Point Exceptions
+		* Segmentation / Memory Violations
+		* Illegal Instructions
+		* Bus Errors
+		* Timers
+	* File and Directory Operations
+	* Pipes
+	* C Library (Standard C)
+	* I/O Port Interface and Control
+	* Process Triggers
+
+* POSIX.1b Real-time extensions
+	* Priority Scheduling
+	* Real-Time Signals
+	* Clocks and Timers
+	* Semaphores
+	* Message Passing
+	* Shared Memory
+	* Asynchronous and Synchronous I/O
+	* Memory Locking Interface
+
+* POSIX.1c Threads extensions
+	* Thread Creation, Control, and Cleanup
+	* Thread Scheduling
+	* Thread Synchronization
+	* Signal Handling
+
+* POSIX.2 Shells and Utilities
+	* Command Interpreter (shell)
+	* Utility Programs (awk, grep, ls, sed)
+		* Where most people think about POSIX
+
+* Later POSIX.1 has been revised
+
+* POSIX is also a certification
+	* Managed by the IEEE and The Open Group
+	* Linux, FreeBSD, and OpenBSD
+		* Mostly compliant but not certified
+	* Curiously macOS is at least to an older spec
+		* EulerOS, Solaris, Tru64 to name a few others
+
+* POSIX compliance also forms part of the Single Unix Specification
+	* Larger subset of what a standard Unix implementation
+
+* So is it still important
+	* Well that's a tough question

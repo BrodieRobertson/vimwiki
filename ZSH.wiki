@@ -1,0 +1,10 @@
+* ZSH history editor https://www.reddit.com/r/commandline/comments/ie4ksb/new_zsh_plugin_rewrite_history_with_zshhist/
+	* https://www.reddit.com/r/zsh/comments/igex0z/new_zshhist_feature_historybased_pushline_getline/
+* bash completion fallback https://github.com/3v1n0/zsh-bash-completions-fallback
+* better zsh autocomplete https://github.com/marlonrichert/zsh-autocomplete
+	* https://www.reddit.com/r/commandline/comments/iizxpa/new_zshautocomplete_features_history_menu/
+* slim zsh
+* zim zsh
+* https://github.com/romkatv/powerlevel10k
+
+* Exploring fish

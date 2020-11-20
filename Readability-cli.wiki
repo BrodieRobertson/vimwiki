@@ -1,0 +1,42 @@
+* Reading the web is awful with a text browser
+	* Some sites better than other
+https://www.theregister.com/2020/06/30/hard_to_find_linux_maintainers_says_torvalds/
+https://en.wikipedia.org/wiki/Linux
+	* Let's say you want to just read the content of a page
+* Readability cli
+	* Mozilla's reability library to strip out the garbage
+	* The results are impressive
+
+	* Basic usage
+		* readable link
+		* Pipe into browser of choice
+			* w3m -T text/html
+		* Also works on local files
+			* Bad internet connection
+			* Download whole article
+			* Better off looking for RSS
+
+	* Select what you want to keep
+		* -p
+		* title,excerpt
+		* Default is html-title,html-content
+		* Get plain text version
+			* title,text-content
+	* Not always perfect
+		* --low-confidence
+			* no-op don't touch that html
+			* force might do weird things
+			* exit
+	* Force url
+		* -U
+
+	* Example from gitlab
+		* curl https://github.m/mozilla/readability | readable --url=https://github.com/mozilla/readability > example.html
+		* Why?
+		* readable https://github.com/mozilla/readability > example.html
+		* readable https://github.com/mozilla/readability -o example.html
+
+* Installation
+	* Node application
+	* Why node?
+	* Easiest way to interface

@@ -1,0 +1,75 @@
+* Plugin brings vifm file manager into vim
+  * Heard good things
+* Not going to bother going over keys
+  * See my last vifm video for that
+
+* Focus on specifically what this plugin can do
+
+* Yes I know you can use float term
+  * I did a video on it
+
+== Open Commands ==
+* EditVifm open a file or multiple files in current tab
+  * Aliased to Vifm
+  * All commands accept up to 2 arguments
+    * First is left pane directory
+    * Second is right
+      * I never use right
+      * Always have preview
+  * Buffers are different from tabs
+    * Plan to do a video on them
+* Can do tabs as well
+  * TabVifm
+
+* Likewise horizontal SplitVifm
+  * And vertical VSplitVifm
+
+== Diffs ==
+* Diffing files in vim is a bit annoying
+* :diffthis, :diffthis
+* Instead
+  * DiffVifm and done
+
+* Commands actually don't matter
+  * Adds commands into vifm when run in vim
+
+== Color Scheme Conversion ==
+* Attempts to convert vim colour scheme into vifm colour scheme
+* Doesn't work with termguicolors true color
+* Isn't perfect but surprisingly good
+  * Suggest using as baseline
+
+== Configuration ==
+* Not a ton of configuration
+  * Most configuration done on vifm side
+* Replace folder view with vifm
+  * vifm_replace_netrw
+  * vifm_replace_netrw_cmd
+    * Editor command not vifm commands sadly
+  * Also disable netrw
+    * netrw-noload
+    * No point wasting resources
+
+vifm_exec_arg
+  * Specify options for vifm
+    * Might use custom config in vim
+      * Can't guarentee image previews work
+      * Especially in gui vims
+
+* vifm_embed_term
+  * Open vifm in terminal buffer
+  * Effectively always true in nvim
+
+* vifm_embed_split
+  * Open vifm in a split
+
+* Plugin comes with vifm documentation
+  * I'm not too sure why
+  * I would direct people to that instead
+
+== Outro ==
+* Does file manager integration as well you'd expect
+  * Could absolutely extend
+    * Everything need is here
+  * I really like the idea of adding new commands into vifm
+    * Made by same developer as vifm

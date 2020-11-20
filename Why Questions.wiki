@@ -1,11 +1,14 @@
 = Why Questions =
 
+* What is fuse
+* What is a file system
 * Why would anyone want a touch screen on there computer
 * Why do I run suckless software
 * Why I didn't buy expensive recording gear
 * Why do I sometimes use VSCode
 * Why I still use LibreOffice And Google Docs
 * Why nvim over vim
+	* https://www.reddit.com/r/archlinux/comments/hqz3o6/vim_or_neovim_which_one_and_why_are_you_using/
 * Why text formatters
 * Why the AUR is safer than you think
 * Why you don't need to be scared of Linux
@@ -23,7 +26,6 @@
 * Why I don't care about desktop linux adoption
 * What is a package manager
 * Why avoid bashisms/zshisms
-* Why I use vim
 * Why you should learn vim
 * Why I don't normally discuss distro
 * How a tiling window manager has changed how I use my computer

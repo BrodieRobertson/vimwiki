@@ -1,5 +1,7 @@
 = Scripting Tutorials =
 
+* Get options https://github.com/ko1nksm/getoptions
+* Bash unit test https://github.com/d10n/bashaspec
 * Preserve intermediate output https://github.com/ketancmaheshwari/pd
 * bash-utility - https://github.com/labbots/bash-utility
 * Working with read command

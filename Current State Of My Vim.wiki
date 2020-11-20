@@ -1,0 +1,83 @@
+* People always asking about my vim plugins and config
+	* Thought I should do updated look
+	* Not covering every line
+	* Talk about important and common
+
+* File tree
+	* Used to use NerdTree
+	* Netrw
+		* Auto open
+		* NetrwOnBufferOpen
+		* ToggleNetrw
+			* Won't pretend like I understand most of this
+				* Stackoverflow
+		* Open is a hack
+			* quickly opens it to get name
+			* Reopens it where I want it
+
+* Auto centering
+	* zz
+
+* Notable standard bining
+	* > <
+	* Split navigation
+
+* Mouse Control
+
+* Coc
+	* Code completion
+	* Most is boiler plate
+
+* Plugins
+	* Vim airline
+		* Haven't modified it, just let it use integrations
+		* Code dark
+	* vim-code-dark
+		* theme
+	* Syntax highlighting
+		* Not much to say
+		* yats is typescript
+		* vim-js for general js
+		* jsx pretty for jsx
+			* Mainly react
+		* rust.vim for rust
+	* Motions
+		* vim-easymotion
+	* Git
+		* Git Gutter
+			* Git in side bar
+		* Fugitive
+			* Absolutely essential
+			* Git Commands in vim
+	* Tags
+		* vim-closetag
+			* Auto tag closing
+		* vim surround
+			* Modify surrounding elements
+		* Emmet
+			* Generate html pages
+	* Commenting
+		* vim-commentary
+			* Tons of alternatives
+			* One of the simplest
+			* Just run from a binding
+	* Misc
+		* fzf.vim
+			* file fuzzy finder
+			* alt+z alt+g
+		* goyo
+			* Reading mode
+				* space g
+		* Hexokinase
+			* Color highlighting
+			* Requires true color
+			* show alacritty theme
+		* Vimwiki
+			* Essential plugin
+			* How I do all my notes
+			* I know there's a vim org mode plugin
+				* Will give it a shot
+		* Vim table mode
+			* Makes markdown tables super easy
+		* Vim repeat
+			* easier to repeat some operations

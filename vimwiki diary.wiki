@@ -1,0 +1,34 @@
+* I talked about my scheduling
+	* Didn't even consider using vimwiki
+	* Built in diary functionality
+	* It's basic but it's all you really need
+
+* :VimwikiDiaryIndex
+	* leader wi
+* :VimwikiMakeDiaryNote
+	* leader w leader w
+* :VimwikiDiaryGenerateLinks
+	* leader w leader i
+* :VimwikiMakeYesterdayDiaryNote
+	* leader w leader y
+* :VimwikiDiaryPrevDay
+	* <c-up>
+* :VimwikiDiaryNextDay
+	* <c-down>
+* :VimwikiMakeTommorowDiaryNote
+	* leader w leader m
+* Link entries
+  * [[diary:2018-03-05]]
+
+* Calender integration
+	* :Calender
+	* Open date create entry
+
+* let g:vimwiki_list = [{'auto_diary_index': 1}]
+
+let g:vimwiki_diary_months = {
+      \ 1: 'Январь', 2: 'Февраль', 3: 'Март',
+      \ 4: 'Апрель', 5: 'Май', 6: 'Июнь',
+      \ 7: 'Июль', 8: 'Август', 9: 'Сентябрь',
+      \ 10: 'Октябрь', 11: 'Ноябрь', 12: 'Декабрь'
+      \ }

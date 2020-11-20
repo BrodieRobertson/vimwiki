@@ -1,0 +1,76 @@
+* Describes itself as a space age sed
+  * Nonsense description
+  * It's a batch search and replace tool
+  * With diff functionality
+
+== Basic Functionality ==
+* Completely relies on external program for file name
+* Want to modify single file
+  * Echo
+
+* Takes 2 positional arguments
+  * Match pattern
+    * Show regex example
+  * Replace pattern
+    * Can be left empty to delete
+
+* Opens fzf to show you changes
+  * At this stage nothing has changed
+  * Anything selected in here will be saved
+* Multi enabled by default
+  * tab shift+tab
+
+* Want to modify a bunch
+  * Find or fd
+  * If you want to use a file
+    * Uses new line seperated paths
+    * -0 Can use \0 the null character seperator
+      * Can't see a use case but it's there
+
+== Regex Flags ==
+* By default uses smart case and multiline
+* Set flags with -f
+  * i case insensitive
+  * I case sensitive
+  * m multiline ^$ matches a line
+  * M singleline ^$ matches the document
+  * s allow . to match \n
+  * x ignore whitespace and allow comments
+
+== Fixed String Match ==
+* -e
+  * Can be emulated with regex
+  * But comes with the benefit
+    * Not having to escape regex special chars
+
+== Colourizer ==
+* In the docs it's called the pager
+  * Which is not even remotely accurate
+  * Let's user diff-so-fancy
+  * -p
+
+== Disable Fzf ==
+* Outputs all the diffs directely to the terminal
+  * Stick them in a pager
+  * Preferably a nice diff highlighting pager
+* Save changes with --commit
+  * Don't care about changed files
+    * Redirect to /dev/null
+
+== Issues ==
+* Sed is more than just search and replace
+  * Tool would be better off distancing itself from that
+* Rather than handling basic things gives to user
+  * file name argument
+  * quiet output
+    * include a -q that does redirect for user
+* Documentation severely lacking
+  * No man page
+  * Constant references to pattern
+    * No indication of the pattern
+      * Inferred it was regex
+      * Still don't know type of regex
+* 2 options listed as internal use only
+  * internal-patch
+  * internal-preview
+    * Shouldn't be shown to the user if not intended for thier use

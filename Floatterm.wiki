@@ -1,0 +1,52 @@
+* Open a floating terminal window inside of vim
+	* Obviously superfluous but it's cool
+	* Vim is one step closer to being emacs
+
+* Opening a new terminal window
+:FloatermNew
+FloatermNew --height=0.6 --width=0.4 --wintype=floating --name=floaterm1 --position=topleft
+height
+width
+wintype
+position
+name
+autoclose Close after job
+0: Always do NOT close floaterm window
+1: Close window if the job exits normally, otherwise stay it with messages like [Process exited 101]
+2: Always close floaterm window
+
+FloatermNew cmd
+
+* Hide termial
+:FloatermHide
+
+* Toggle All
+:FloatermToggle!
+
+* Toggle
+:FloatermToggle name
+
+* Hide/Show
+
+* Cycle
+:FloatermNext
+:FloatermPrev
+
+* Floaterm kill
+Doesn't exist
+
+* Remaps
+g:floaterm_keymap_new
+g:floaterm_keymap_prev
+g:floaterm_keymap_next
+g:floaterm_keymap_hide
+g:floaterm_keymap_show
+g:floaterm_keymap_kill
+g:floaterm_keymap_toggle
+
+g:floaterm_wintype = floatwin/normal
+g:floaterm_position
+g:floaterm_open_command = edit/split/vsplit/tabe/drop
+g:floaterm_gitcommit = split/vsplit/tabe
+
+pip3 install neovim-remote

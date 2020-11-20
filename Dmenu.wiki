@@ -1,0 +1,87 @@
+* Dmenu is one of the suckless program I still actively use
+  * There's a few other suggested tools
+  * Like xbanish but only one listed as a suckless tool
+    * st is installed for when Alacritty breaks though
+
+* Wanted to talk about
+  * Why I've stuck with dmenu
+
+== Patches ==
+* Patching is one of those super annoying things about suckless utils
+* Unlike other tools
+  * Dmenu is perfectly usable without
+    * Infact I didn't bother patching for some months
+
+* Most dmenu patches I've added are aesthetic
+  * In fact in general most are
+
+* I've added in highlight
+  * Visually show what you're matched on
+
+* Line height was a really important one for me
+  * My poylbar is higher than dmenus default height
+    * Looked a bit weird
+
+* Numbers
+  * Shows how many results there are
+    * how many match on query
+
+* Custom colour scheme patch
+  * So if you want it
+  * It's on my github
+
+* One feature patch
+  * Instant
+    * If there's only 1 result just select it
+    * No need to show prompt
+
+== Functional Patches To Note ==
+https://tools.suckless.org/dmenu/patches/highpriority/
+https://tools.suckless.org/dmenu/patches/fuzzymatch/
+https://tools.suckless.org/dmenu/patches/incremental/
+
+== Fits Into A Window Manager ==
+* I could do what I do with most tools
+  * I run a window manager
+  * Do a lot of terminal stuff
+    * Typically like lightweight simple tools
+      * Dmenu is exactly that
+
+== Speed ==
+* The biggest list of data I use is about 3700 items
+  * My app launcher
+  * Absolutely no noticable performance dip
+    * Even on my laptop
+  * That's not to say it's magic
+    * It might lag with 1,000,000
+      * But for realistic use cases it's lightning fast
+
+== Installation ==
+* Since it's usable without patching
+  * It's sensible to install with your package manager
+* You will be dissapointed with st if you did that
+
+== Compatibility ==
+* Doesn't require special input
+  * Just takes new line seperated list
+  * Can switch to fzf or rofi without touching my scripts
+* I heavily use dmenu in scripts
+  * Basically any time I need a choice
+  * Key bindings would be quicker
+    * I only have so many keys
+
+== Rofi ==
+* Rofi is probably amazing
+  * I've seen some crazy custom themes
+  * Where it's not even the same app anymore
+* But out of the box it looks awful
+  * Getting it to the point where it looks good
+  * Takes a bit of time
+* I can slap dmenu on a new system and be happy
+
+* If you're happy on rofi
+  * I couldn't convince you to use dmenu
+  * But if you're looking for a light launcher dmenu is great choice
+
+* I'm not going to talk about topic
+  * Mental Outlaw did a video on, I don't actually care

@@ -1,0 +1,60 @@
+* Bar over lay
+
+* Use Cases
+	* Volume control
+	* Progess bar
+	* Memory usage
+	* CPU temperature range
+
+* Basic usage
+	* Fifo pipe
+	* mkfifo /tmp/xobpipe
+		* A queue
+	* tail -f /tmp/xobpipe | xob
+	* echo 43 > /tmp/xobpipe
+
+* Basic example
+	* Modes
+		* Regular
+			* echo 20
+			* empty
+			* full
+		* Alt
+			* echo 20!
+			* Treat like a mute for audio
+			* Freeze for download
+			* Error for temp
+		* Overflow
+			* echo 110
+			* Error coloring
+			* Pulse goes over 100%
+			* Default overflow proportional
+			* This hidden
+		* Overflow alt
+			* echo 110!
+			* Past max and muted
+
+* Options
+	* -m maximum value
+	* -t timeout
+		* 1000 milliseconds
+		* 0 never dissapear
+	* -c configFile
+	* -s style
+
+* Ready to use bar on GitHub
+* Probably want to use shell
+* My example
+	* Have bar autorun
+	* Show script pulsevolctrl
+
+* Styling
+	* Multihead support
+	* styles.cfg
+	* Orientation
+	* Positioning
+	* Overflow types
+		* Proportional
+			* Amount to change hidden increases with value
+		* Hidden
+			* Instant hide in overflow

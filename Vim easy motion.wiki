@@ -1,0 +1,54 @@
+* Moving around in vim can be a bit fiddly
+	* Can get used to it
+	* But there might be a faster way
+	* Especially moving between words
+	* Fell in love instantly
+	* Quickest way to move around
+	* No more guessing
+	* Everything is marked
+	* Can't cover everything
+
+* Covering default bindings
+	* A ton of default bindings
+		* Covering everything will take hours
+	* Leader Leader
+		* Avoids conflicts
+
+* Would be easy if you had to learn new bindings
+	* f find to right
+	* F find to left
+	* t before char right
+	* T before char left
+	* s search forward and backward
+	* w beginning of word forward
+	* W beginning of word forward
+	* b beginning of ord backward
+	* B beginning of word backward
+	* e end of word forward
+	* E end of word forward
+	* ge end of word backward
+	* gE end of word backward
+	* j line down
+	* k line up
+	* n Jump to / or ? forward
+	* N Jump to / or ? backward
+
+* Rebinding
+map <Leader>J <Plug>(easymotion-eol-j)
+	* But maybe you want different behavior
+	* t,T,f,F vanilla vim are single line
+		* l bindings
+	* 2 two char search
+	* n n char search
+	* l2
+	* ln
+
+	* vim compatible
+		* consider direction for n & N
+
+	* bd bidirectional
+	* eol end of line
+	* sol start of line
+
+* Overwin bindings
+	* Movement between splits

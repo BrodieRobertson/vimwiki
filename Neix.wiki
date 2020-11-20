@@ -1,0 +1,60 @@
+* My main RSS feed reader is Newsboat
+	* Thought it'd be fun to explore
+	* So here we are with Neix
+	* Much simpler app but gets the job done
+
+== Usage ==
+* j/k - up/down articles
+* Shift+j/k up down feeds
+	* Shift+up/down doesn't work in this case
+* Enter to open
+* o to open in browser
+* q to close article
+
+== Import Feeds ==
+* Accepts OPMLv2 file, seems to be the standard for this
+* That's what newsboat exports
+newsboat -e
+
+neix -i
+neix -e
+
+== Get Some Feeds ==
+.config/neix/feeds.conf
+Sadly no way to add in app
+
+* Current version seems to have debug statements in it
+
+* No way to refresh in app
+	* Refreshes on launch
+
+== Configuration ==
+* dateFormat
+* locale
+	* Want it to differ from system locale
+* openCommand
+	* Program to open article
+	* defaults to xdg-open
+* renderText
+	* w3m -dump -T tex/html
+
+== Issues ==
+* Most people probably won't have this problem
+	* I don't like losing old articles
+	* This is how I get my video ideas, sometimes lazy
+		* Month articles
+		* Could change feed max but it was removed
+* Due to relying on WM hides some article info
+	* Missing links may contain useful info
+		* But you could write your own parser
+		* Format exactly as you want
+* No way to do grouping into folders or tagging like newboat
+	* Too many feeds may be hard to handle
+* Alternate colour schemes shown off on github
+	* Seems to have been removed from my version
+
+== Conclusion ==
+* Newsboat is the best and most configurable terminal RSS client
+	* But if just to read articles
+	* Don't care about fancy filtering or other cool stuff
+	* Neix is a perfectly good option

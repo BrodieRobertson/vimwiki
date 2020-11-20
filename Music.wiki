@@ -1,15 +1,28 @@
 = Music =
 
+* quodlibet
+* tizonia
+* cantata
+* Mycroft
+* Rythmbox
+* Musickube
+* lollypop
+* pragha
+* moc
+* cmus
+* MPD alternative https://github.com/clangen/musikcube
+* python ncurses https://gitlab.com/Arnaudv6/lizzy
+* music player http://gmusicbrowser.org/
+* MOD Archive https://www.reddit.com/r/commandline/comments/hmb44q/heres_a_little_script_that_plays_a_random_mod/
+* https://www.reddit.com/r/commandline/comments/hhblgb/gomu_golang_music_player/
 * deadbeef
 * https://github.com/wustho/ply.sh
 * music player - https://tizonia.org/
 * random stuff - https://www.reddit.com/r/commandline/comments/fdes11/random_list_with_priorities_for_music_wallpaper/
 * Audacious Music Player
 * Screen music player
-* mpd/mopidy
+* mopidy
 * ncmpcpp
 * https://github.com/alnj/ncmpcpp-ueberzug
 * mps-youtube
-* Playerctl
-* spotifyd
 * spotify client https://github.com/ceuk/spotui

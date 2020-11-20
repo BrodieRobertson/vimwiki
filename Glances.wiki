@@ -1,0 +1,54 @@
+* Glances
+* 3 Modes
+	* Supposedly
+	* More on that later
+	* Standalone
+	* Web Browser
+	* Client/Server
+
+* Tool showcase
+	* Sort of like htop without the process management
+	* Architecture
+	* Overall CPU usage
+	* Memory
+	* Swap
+	* Core load
+	* Network
+	* TCP connections
+	* Disk IO
+
+* Web Browser Mode
+	* glances -w
+	* glances -w -B IP -p PORT
+	* glances -w --disable-webui
+	* glances api spec
+		* https://github.com/nicolargo/glances/wiki/The-Glances-RESTFULL-JSON-API
+
+* Export stats
+glances --export json --export-json-file json ~/glances.json
+glances --export json --export-json-file ~/glances.json
+glances --export csv --export-csv-file ~/glances.json
+
+* Local stdout
+	* glances --stdout cpu.user,mem.used,load
+	* glances --stdout-csv cpu.user,mem.used,load
+	* Not the best documentation
+	* Some are done well mem, cpu
+	* Others fs
+	* Trying to navigate breaks
+
+* Client Server Mode
+	* glances -s
+	* glances -s -B IP -p PORT
+	* glances -c to connect
+	* glances --broswer
+	* Doesn't work
+
+* Terrible option names
+	* glances -h
+	* https://glances.readthedocs.io/en/stable/
+
+* Installation
+	* Available in a lot of standard repos
+	* Lot's of optional dependencies
+	* bottle for web server

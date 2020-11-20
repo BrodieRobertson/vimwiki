@@ -1,0 +1,64 @@
+* Emulator debugging can only take you so far
+* At some point have to debug on hardware
+	* Or just skip emulator entirely
+	* scrcpy for video
+	* sndcpy for audio
+		* No reason to cover by itself
+
+* Obviously limited
+	* No gesture controls
+	* Multitouch
+	* Computer camera
+
+* Unlike emulator you still can do this form the device
+	* Show you how to set phone up at the end
+
+* Connecting multiple devices
+* -s --serial
+* adb devices
+
+* --max-fps value
+
+* Reduce lag on low end hardware
+	* --bit-rate/-b 2M
+	* I see no difference
+
+* Resolution
+scrcpy --max-size 1024
+
+* Crop
+* scrcpy --crop 1224:1440:0:0
+
+* turn screen off
+* -S
+
+* stay awake
+* -w --stay-awake
+
+Record
+-r/--record file file.name
+--record-format mp4/mkv
+Already have a recording app
+
+Drag and drop files
+* scrcpy --push-target /sdcard/foo/bar/
+
+* Copy, cut, paste from system
+* mod+c, mod+x, modv
+
+* Keybindings for android actions
+	* may not work properly on every device
+
+* sndcpy has no options
+
+* Setting it up is fairly easy
+* Enable developer tools
+* Enable usb debugging
+* Plug in, enable PTP
+
+* Wifi works as well, haven't tested it though
+* For sndcpy just run, install recording app
+
+* Mainly useful for developers
+* But I have my own use cases
+	* I could do mess around with termux

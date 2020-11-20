@@ -1,0 +1,84 @@
+* Today we're looking at something kind of weird
+  * This is a tool called tspreed
+  * Supposed to help you read faster
+
+== Functionality ==
+* We need some test text
+  * I'm just using description of Arch from the wiki
+
+* Or you could convert a pdf
+  * With something like pdftotext
+
+* Now we just redirect it in
+  * So this is default to 300 wpm
+  * And I'd say it's perfectly readable
+    * Could probably raise it up
+
+* Quit with ctrl+c
+
+* -w for wpm
+  * minimum is 1
+    * Don't think there's a max
+    * But it'll be a blur way before then
+
+* Enable focus line which points at the pivot character
+  * Optimal recognition point
+  * More on that soon
+  * -f
+
+* Change pointer style
+  * -p line,point
+
+* Change the focused letter color
+  * -c ANSI 8-bit color
+
+* Sometimes you might now want to start from the start
+  * -n specify word start
+
+* -l vary speed based on word length
+  * I believe it still averages out to wpm
+
+* Exit quietly
+  * Don't show progress on exit
+  * -q
+
+* Show progress during the presentation
+  * Which sort of defeats the point of the focus
+  * -i
+
+== Configuration ==
+* All options can be set in config
+  * ~/.config/tspreed/tspreed.rc
+  * List of variables on the github
+    * https://github.com/n-ivkovic/tspreed
+
+== What's The Basis ==
+* So this implements an idea known as speed reading
+  * When you read you don't read along the line
+  * You jump to each word and read from there
+    * Typically jumping to the focus point of the word
+  * This tool basically emphasises and helps you do that
+
+* I'm not an expert
+  * But it seems to be highly contested
+  * Whether tools that emphasis this work
+* Supposedly reading at 700+ words per min
+  * With a tool like this and maintain high comprehension
+  * But only in short bursts
+* It's all well and good to read quickly
+  * If not understanding it
+  * No point
+
+* I suggest trying it out
+  * Seeing if you like it
+
+== Nice Additions ==
+* I feel like I'm reading faster than I otherwise would be
+  * But I have some issues
+* If I need to take a break
+  * Maybe I'm going to sneeze
+  * There's no way to pause the presentation
+  * Also no way to step back or forwards
+    * Your only option is to quit and restart from spot
+    * Forgot about the text and keep going
+  * Generally reading everything is the better solution

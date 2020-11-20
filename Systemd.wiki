@@ -1,5 +1,6 @@
 = Systemd =
 
+* auto running scripts on USB peripheral connection vs udev
 * https://github.com/systemd-cron/systemd-cron-next
 * https://www.putorius.net/systemd-tmpfiles.html
 * Systemd timers
@@ -7,3 +8,8 @@
 * Systemd system jobs
 * Systemd basics
 * Systemd journal
+
+* runit
+* openrc
+* s6
+* runit vs openrc vs s6

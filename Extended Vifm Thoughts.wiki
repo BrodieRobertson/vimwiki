@@ -1,0 +1,80 @@
+* Been jumping back and forth between lf and vifm
+	* Thought I should give some more extended thoughts
+
+== Things I Like ==
+* Folder previews
+	* lf just shows you what's in folder
+	* vifm can preview however you want
+		* Maybe you only care about permissions and size
+		* show example
+
+* Default Settings
+	* Besides fixing High middle low
+		* Most settings left default
+
+* Amazing documentation
+	* Best for any terminal file manager
+	* Ranger is the only closest
+		* Besides good external docs
+		* Default config is incredibly well documented
+		* Some might say too much
+			* I would never agree
+		* Alacritty does the same
+
+* Undo and redo is amazing
+	* Should be a feature in every file manager
+
+== Configuration ==
+* On that topic
+	* Vim style configuration is amazing
+	* Some may not like but from someone who uses vim a lot
+		* Well understood easy to convert lf bindings to
+
+== Don't Like ==
+* Selection doesn't toggle
+	* I know you can use visual mode
+	* Sometimes doesn't want to select full list
+	* I may be missing something
+		* Even if I am, lf was super intuitive
+	* 2 visual blocks
+		* I know this is vim behavior
+		* Makes some operations harder
+		* Visual - selection works
+			* Not other direction
+
+== Performance ==
+* File previews induce performance drop
+	* Mentioned in original video
+	* Only got more annoying
+		* Generally fine on folders like home
+		* On videos it's unusably slow
+			* Fine once cached
+	* Can't make lf do this
+		* Loads in background rather than pausing app
+
+* Slow at bringing combinations
+	* I get that there's a lot of bindings
+	* Shouldn't take nearly a second to load
+	* lf does this instantly
+
+== Aesthetics ==
+* I know it's minor
+* I really like the bar borders of lf
+	* Can be tweaked in vifm
+	* Vertical border doesn't seem possible
+
+== Don't Care About ==
+* Bulk renaming
+	* It's an awesome feature when I need it
+	* But I've had it working in lf for months
+
+* Sessions are a neat feature
+	* But I want file manager to always open where I open it
+	* If I don't I'll tell it where to open
+		* My opinion
+
+== Conclusion ==
+* Don't get me wrong
+	* This is a really good file manager
+	* But I don't use most of the features
+		* Lf is lightning fast

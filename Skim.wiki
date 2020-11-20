@@ -1,0 +1,86 @@
+* I might just make it a thing to look at rust apps
+  * This time wasn't on purpose
+  * Rewrite of fzf in rust called skim
+  * fzf was written in Go
+    * So what is this
+
+== Basic Usage ==
+* Just like fzf
+* enter to select
+* scroll with up/down ctrl+j ctrl+k
+* -m multi select
+  * tab select move down
+  * Shift-tab select move up
+
+== Search Syntax ==
+* Same as fzf never talked about though
+* Obvious just type
+* ^match at start
+* match$ at end
+* 'exact match
+* !inverse match
+* !do$ not end in match
+* | or
+* white space and
+
+== Command Mode ==
+* Onto some new stuff
+* Filter based on file and contents
+* Any grep like tool will work
+sk --ansi -c 'grep -rI --color=always --line-number "{}" .'
+  * --ansi interpret ansi colors
+  * -c define command mode command
+  * ripgrep, ack, and ag examples on GitHub
+* ctrl-q to switch to command mode
+* start in interactive -i
+* prompt text
+* -p
+* Cmd prompt text
+
+== Pre-selection ==
+* In multi select mode
+  * Select items before user selections
+* --pre-select-n=2
+  * Select number of items
+* --pre-select-pat="\.*jpg"
+  * Select by regex
+* --preselect-select-items='./dmtpfs'
+* --preselect-select-items='./dmtpfs\n./dman'
+  * Select by file name
+* --pre-select-file=FILENAME
+  * New seperated list of files names
+    * Same as last just in a file
+
+== Scripting Options ==
+* -q start with given query
+* -cmd-query same but for cmd query
+* --print-query
+
+== Fuzzy Algorithm ==
+* Different from fzf
+  * Doesn't seem to be noticably different
+    * Results or speed
+  * Can be changed
+    * --algo=skim_v2 default, skim_v1 clangd
+
+== Rust Library ==
+* Don't know rust but this does have a neat feature
+* Skim is also a rust library
+
+== Speed Doesn't Matter ==
+* Both fzf and skims speed are controlled by population command
+  * FZF_DEFAULT_COMMAND and SKIM_DEFAULT_COMMAND
+  * Both are just lightweight interfaces
+
+== FZF ==
+* Most of the rest just reimplementation of fzf
+  * Some stuff may be missing
+  * But what's there is just what fzf does
+
+== Issue ==
+* Don't let you switch to command mode with no command
+
+== Final Thoughts ==
+* Command mode actually pretty neat
+  * Could see myself using it a lot
+  * Besides that it's just fzf

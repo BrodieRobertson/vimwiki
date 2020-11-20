@@ -1,0 +1,70 @@
+https://www.omgubuntu.co.uk/2020/10/linux-marketshare-in-september-2020
+== Intro ==
+* Every month up to June article like this
+	* https://www.omgubuntu.co.uk/2020/05/linux-marketshare-april-2020
+
+* I and many people talked about it
+	* Because maybe Linux marketshare was really rising
+	* But I was still sceptical
+	* Rightly so
+
+== News ==
+
+* As of Septembers numbers
+	* Everything is back to where it was in March
+
+* Read Paragraph 1, 2 and 3
+
+* Is it possible that that this happened sure
+	* But I still don't see it as the most likely explanation
+	* Initially I thought June onwards was interesting
+		* We have to go back to March
+
+== My Explanation ==
+
+* General Linux market shar is always above Ubuntu
+	* RedHat, Fedora have own categories
+
+* What happened after March data point
+	* Ubuntu 20.04 LTS dropped
+	* Could potentially explain the growth
+
+* Let's go back to 19.04
+	* Absolutely no noticeable change
+
+* What's changed since then
+	* WSL has been gaining a lot of traction amoung Windows devs
+		* WSL2 available to Windows insiders as of June 2019
+			* If you care about cutting edge features probably an insider
+			* Publically available as of May 2020
+	* Lockdowns
+		* Lends credibility to trying out Linux because bored
+		* Following logic, people go back to Windows as many places open
+	* Lockdown another interpretation
+		* Look at methodology
+		* Read definition of data
+			* How do we define session
+			* Cookie, Log IP, with account you can have user id
+
+		* Account isn't likely
+		* First 2 don't follow the user
+		* Show diagram
+
+* Ultimately no one factor is at play
+	* All of these involved
+	* Plus others I didn't think about
+
+* Other sources show no change at all over the year
+* https://store.steampowered.com/hwsurvey/Steam-Hardware-Software-Survey-Welcome-to-Steam
+* https://gs.statcounter.com/os-market-share/desktop/worldwide/#monthly-201908-202009
+	* Sadly doesn't show distro breakdowns
+
+== Don't Use Stats Blindly==
+
+* Don't just blindly trust a statistic
+* Look into where the data is coming from
+	* How it was collected
+	* How you could game the collection
+	* Any flaws that exist
+	* If the intrepretation doesn't mention those
+		* Take it with a grain of salt

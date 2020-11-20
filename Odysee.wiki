@@ -1,0 +1,66 @@
+ Haven't talked about LBRY in a while
+	* Been through a lot of changes since then
+	* On Desktop and LBRY tv
+	* But now we have Odysee
+
+* First thing is new colour scheme
+	* Defaults dark theme, always nice
+		* More of a purple hue
+	* New layout, making use of entire screen
+		* Been asking for this for months
+
+* Second notifications
+	* Been waiting so long for this
+	* Only show comment notification
+		* I don't need subscription or like notifications
+	* Super important for 2 reasons
+		* 1 I as a creator can see when you comment
+		* 2 You as a viewer can see when I respond
+			* Encourages more conversation
+
+* Recommendation system way better
+	* Sometimes basically perfect
+		* Goneovim
+		* The quartering
+	* Sometimes still falls apart
+		* Untapped magic
+
+* Still no quality controls
+	* Hopefully coming soon
+	* But even so it's much faster
+
+* Like and dislike
+	* Don't effect algorithm at this point
+
+* A lot of creators are on LBRY
+	* Obviously lot's of crypto channels,
+		* Naomi Brokwell, Crypto lark
+	* Electronics - EEVBlog, Big Clive, Louis Rossman
+	* Quartering, Sargon, David Pakman, Tim Pool, Zuby for politics
+	* Tons of Linux creators, HexDSL, Luke, DT, Lunduke, TLG,
+		* Linux Experiment, DestinationLinux
+	* Epos Vox, Big Boss, ScammerRevolts
+
+* Wallet remains basically unchanged from app
+	* Creator wallets are massive, slower than yours
+		* Quicker than it was
+	* Filtering by type
+
+* Left hand tabs
+	* Basically tag shortcuts
+		* Right now seem a bit arbitrary
+	* Tech, gaming, lab, news, finance 2.0 cool
+	* Enlightenment, rabbit hole
+
+* Improved uploader
+	* Tool tips on everything
+	* Thumbnail uploading finally works properly
+	* Still quicker to just use external service
+
+* Sync new channel button
+	* Been waiting for this for months
+
+* Nothing really changed in account settings
+* Creator analytics still needs a lot of work
+
+* Desktop app matches LBRY tv

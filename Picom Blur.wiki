@@ -1,0 +1,64 @@
+* Installing Picom is kind of a mess
+  * There's so many disparate forks all with awesome features
+  * But the standard repos always behind
+
+* I like having my window blur
+  * Think it looks nicer than transparency
+  * Especially on videos
+
+* I had to use the picom-tryone-git fork for ages
+  * That fork was a bit behind
+  * Missing other picom performance improvements
+  * New settings and so forth
+  * But no more
+
+== Enable Window Blur ==
+* Ensure you have window transparency enabled
+  * I typically use class_g
+  * Uses the window class name
+    * Easy to get with xprop
+* Other options are
+  * client
+  * window type
+  * leader
+  * class_i
+  * role
+  * Names won't be the same in xprop
+    * Sometimes not all are present
+      * class seems to be the most consistent
+
+backend=glx;
+* Defaults to xrender
+  * Generally a safe fall back if picom is really unstable
+  * I've never seen any major issues with nvdia, or amd gpus
+    * glx needs to work for this to work
+* Glx switches to opengl rendering
+  * Higher performance allowing for fun new rendering
+  * All the branched features use this
+blur-method="dual_kawase";
+* Picom already supported kernel blur
+  * I've never been able to get it to work
+  * People who have say it's quite slow
+  * Dual_kawase run in parellel making advantage of your cpus power
+blur-strengh=7;
+* Level of blur to use for dual_kawase
+  * Number from 0 to 20
+
+* Once you set a method
+  * Blur enabled by default for everything
+
+* Disable it for window types
+  * Most windows fall under the normal category
+  * Check with xprop
+
+* If you using fading
+  * It does seg fault under certain conditions with Alacritty
+  * I'm trying pin down the exact cause
+
+== Closing ==
+* I will be doing a follow up
+  * Showing you how insane the picom situation is
+
+* Only thing missing is rounded windows
+  * Which may have already bee merged and I missed it
+  * If I did let me know

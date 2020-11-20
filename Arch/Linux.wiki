@@ -1,15 +1,68 @@
 = Arch/Linux =
 
-* Some Linux news aggregators worth checking out
-* Selling vim to a new
+* Easing Yourself Into Linux https://www.reddit.com/r/archlinux/comments/iwl0w3/im_a_linux_noob_and_went_for_arch/
+* Governments should invest in foss https://jamesmcm.github.io/blog/2020/09/12/foss-government/#en
+* Gnu Alternatives
+* The problem with arch install videos
+* Camera setup like an "expert"
+* Why does Arch iso come with zsh https://www.reddit.com/r/archlinux/comments/jli18w/why_does_arch_come_with_bash_but_the_installer/
+* Why I steer clear of Desktop Environments
+* What is Parabola
+* BTRFS or ZFS over EXT4
+* Arch isn't hard to install
+* What shell am I using  https://nil.wallyjones.com/what-shell-am-i-using/
+* Plain text email in kernel development
+	* https://marc.info/?l=openbsd-misc&m=159843434525592&w=2
+* Rewritten in rust meme
+	* https://www.reddit.com/r/linux/comments/igcoc7/uutils_coreutils_gnu_coreutils_rewritten_in_safe/
+* https://www.reddit.com/r/Ubuntu/comments/if2mxo/please_help_what_is_the_difference_between/
+* Never Run Pacman -Sy
+* What exactly is an ISO - https://www.reddit.com/r/Ubuntu/comments/idrsdr/what_exactly_is_in_the_ubuntu_iso/
+* My top 10 used commands https://www.reddit.com/r/linux/comments/idrfo3/for_fun_what_are_your_top_10_most_used_cli/
+* Linux Hardware support
+* Office and Adobe alternatives
+* IRC the chat service that's been around forever
+* What's the purpose of an init system
+* Zsh plugins and features that are cool
+* How can you be sure an AUR package is safe https://www.reddit.com/r/ManjaroLinux/comments/ie5ucq/how_is_the_aur_safe/
+* Android emulation https://www.reddit.com/r/linux_gaming/comments/h7i682/arm_only_android_games/?utm_medium=android_app&utm_source=share
+* Coming fall circle https://www.reddit.com/r/linux/comments/ib0mw3/ive_written_a_rudimentary_package_manage_for/
+* Explaining X Window System
+	* https://magcius.github.io/xplain/article/x-basics.html
+	* https://www.reddit.com/r/archlinux/comments/ieh53v/what_is_x_in_technical_terms/
+* keysym history https://aarondevelops.com/x11-key-events/
+* I love experimental software
+* Why ask about must have software
+* Dual booting
+* What is LVM
+* I have never opened Nano, let's learn together
+* New To Arch - What Now
+	* https://www.reddit.com/r/archlinux/comments/htepam/what_do_you_recommend_me_to_do_after_my_first/
+* Why UEFI
+	* https://www.reddit.com/r/archlinux/comments/ht4tet/is_uefi_worth_it/
+* Linux scanning
+* What is a file system
+* Ext4 vs Btrfs
+* Partition Tables
+* Partitioning your drive
+* WHat is HIDPI
+* What's a microkernel
+* Linux display technology - https://unix.stackexchange.com/questions/596894/how-does-linuxs-display-work
+	* https://blogs.igalia.com/itoral/2014/07/29/a-brief-introduction-to-the-linux-graphics-stack/
+	* https://www.reddit.com/r/linux/comments/hm3262/how_does_linuxs_display_work/
+* Stop making distros, make apps instead https://makealinux.app/#/
+* Linux Mailing Lists
+* Learn what you don't know
+* Fan Control
+* What is an init system
+* Selling vim to a new user
 * There's no right way to use Linux
 * GUIs have there place but you should be comfortable in ther terminal
 * Get yourself a domain it's really cheap
 * hugo static site generation
 * What do all the zsh config files do
-* Replacing notify-send
+* Replacing notify-send - NEEDS CONTEXT
 * How do I start learning shell script
-* Anti arch elitists are the vegans of linux
 * New levels of positivity coming from linux forums
 * Forced to use Word for an assignment
 * Some early problems I had using Linux
@@ -24,10 +77,9 @@
 * Vscode code builds
 * My essential tools for a functional system
 * Pywal polybar
-* Picom vs Compton
 * Clarifying my stance on free software
-* Why is systemd still divisive - https://www.howtogeek.com/675569/why-linuxs-systemd-is-still-divisive-after-all-these-years/
 * Is Being on an old kernal bad - https://www.reddit.com/r/Ubuntu/comments/gxiti6/is_being_on_an_old_kernel_bad/
+	* https://www.reddit.com/r/ManjaroLinux/comments/iemp1z/latest_kernel_always_the_best/
 * How big should your partitions be
 * https://www.reddit.com/r/ManjaroLinux/comments/guee04/pacman_but_with_reasonable_commands/
 * Open Source Security - https://www.reddit.com/r/linux/comments/grfty2/do_you_think_being_open_source_being_secureprivate/

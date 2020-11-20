@@ -1,0 +1,68 @@
+* I never gave vifm a proper shot
+
+* Demonstration
+	* Haven't really touched this stuff
+	* Movement
+	* High middle low Top botto
+	* Searching
+	* Saving directory
+	* chmod
+	* Remove file name capitals gu or gU to enable
+		* Try vim things out, see what works
+		* Check docs
+	* Being vim like
+		* Documentation available in app
+
+* Undoing and redoing
+	* Seems to function with trash
+		* Which is default
+	* Might make me switch
+
+* Counts
+	* 5 command
+
+* Ranges
+	* 10,15
+	* all %
+	* .,$ here to end
+	* Can't do here to start
+
+* Globbing
+	* **.**
+	* .*
+	* *.png
+
+* File Filtering
+
+* Well documented sample config
+	* Plus man page
+
+* Generally sensible defaults
+	* Wildmenu
+	* App launchers
+	* File viewers
+		* Too many if you ask me
+	* Confirms deletion
+
+* Vim like key remapping
+	* I like vim movement
+	* I'm used to lf, adapted from ranger
+		* Had some work to do
+	* Run shell commands directly
+
+* Directory jumps
+
+* File operations
+
+* I don't like the preview or file opening
+	* Can be completely circumvented
+
+* Image previewing is available
+	* I'm used to not having it though
+
+* Scroll through documentation
+	* Like covering vim in one video
+
+* First impressions
+	* I think I'll stick with it for now
+	* Might do a follow up once I'm more comfortable

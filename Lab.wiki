@@ -1,0 +1,63 @@
+* lab init
+	* Doesn't init anything on gitlab
+
+* First use setup public access token
+
+* Basically a wrapper around hub
+	* Better github cli tool
+
+* lab clone
+	* Need ssh key
+
+* Documentation is a bit weird but I've got something
+	* Every hub command is here but not all wrapped
+		* api
+		* browse and create moved
+		* ci-status
+		* compare
+		* delete
+		* gist now snippet
+		* pr, pull-request now mr
+		* release
+
+* lab issue
+* lab fork
+* lab sync
+
+* Don't loosely wrap like this at least for hub
+	* White list commands
+	* Every git command passed through
+
+* lab ci
+	* Devops stuff
+
+* lab completion
+	* Generates completion scripts
+	* Bash or ZSH
+	* No fish
+
+* lab label
+
+* lab mr
+	approve     Approve merge request
+	browse      View merge request in a browser
+	checkout    Checkout an open merge request
+	close       Close merge request
+	create      Open a merge request on GitLab
+	list        List merge requests
+	merge       Merge an open merge request
+	note        Add a note or comment to an MR on GitLab
+	rebase      Rebase an open merge request
+	show        Describe a merge request
+	thumb       Thumb operations on merge requests
+
+* lab project
+	* browse
+	* create
+	* list
+
+* lab snip
+	browse      View personal or project snippet in a browser
+  create      Create a personal or project snippet
+  delete      Delete a project or personal snippet
+  list        List personal or project snippets

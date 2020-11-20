@@ -1,11 +1,24 @@
 = Web Browsers =
 
+= Priority =
+
+* https://www.netsurf-browser.org/
+* Surf
+* W3m
+
+* Firefox theming https://github.com/MiguelRAvila/SimplerentFox
+* Firefox new tab https://addons.mozilla.org/en-US/firefox/addon/nighttab/
+* Tree Tabs https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab/
+* FireNvim
+* TreeStyleTabs
+* Battle of the vim likes - Qute vs Vimb
+* Qutebrowser
+* BadWolf https://hacktivis.me/projects/badwolf
 * https://eatbiscuit.com/
 * Vivaldi
 * What's keeping me on chromium
 * What is ungoogled chromium
 * Looking at ungoogled chromium
-* https://fanglingsu.github.io/vimb/
 * https://luakit.github.io/
 * https://github.com/octalmage/minum
 * https://sr.ht/~julienxx/Castor/
@@ -23,5 +36,3 @@
 * Links browser
 * Elinks browser
 * Lynx browser
-* Vimb
-* Surf

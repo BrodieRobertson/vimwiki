@@ -1,0 +1,54 @@
+* HIDPI
+	* Also known as High Dots Per Inch
+	* Or better known as just buy a lower res monitor
+	* Basically high resolution monitor
+
+* X resources
+	* Xft.dpi: 192
+	* Multiples of 96 usually work best
+	* 200% scaling
+	* Usually will deal with most things
+
+* Check dpi
+	* xdpyinfo | grep -B 2 resolution
+	Section "Monitor"
+    Identifier             "DVI-D-0"
+    DisplaySize             286 179    # In millimeters
+	EndSection
+
+* Xrandr
+* xrandr --output DisplayPort-0 --scale 1x1
+
+* GUI Toolkits
+	* Will clash with Xft dpi
+	* GTK
+		* Scale UI elements
+			* export GDK_SCALE=2
+		* Scale Text
+			* export GDK_DPI_SCALE=0.5
+	* QT
+			export QT_AUTO_SCREEN_SCALE_FACTOR=1
+			export QT_SCALE_FACTOR=1
+			export QT_SCREEN_SCALE_FACTORS="1;1;1"
+	* ELM
+		* export ELM_SCALE=1
+
+* Per app basis
+	* Chromium apps have option
+	* --force-device-scale-factor=2
+
+* Boot loader
+	* GRUB
+		* Framebuffer resolution
+		* /etc/default/grub
+			GRUB_GFXMODE=1024x768x32
+			GRUB_GFXPAYLOAD_LINUX=keep
+			GRUB_GFXMODE=desired_resolution,fallback_such_as_1024x768,auto
+
+		* Change GRUB font size
+			grub-mkfont -s 30 -o /boot/grubfont.pf2 /usr/share/fonts/FontFamily/FontName.ttf
+		* /etc/default/grub
+			GRUB_FONT="/boot/grubfont.pf2"
+	* systemd-boot
+		* /boot/loader/loader.conf
+		* console-mode 1

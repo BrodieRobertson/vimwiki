@@ -1,0 +1,69 @@
+* While back did a video on tool to transfer file
+	* Phone to desktop
+
+* People mentioned KDE connect
+* This does far more than just transfer files
+	* Infact right now why I'm controlling my cursor with my phone
+	* Why is this a feature
+		* Why indeed
+	* Cursor disappearing due to other program
+		* Not issue with this
+
+* Run commands from phone
+	* Example launching terminal
+	* Much better use would be sending a file to your computer
+		* Printing it
+
+* Send clipboard from your phone
+	* Probably more convenient than messaging myself
+
+* Multimedia control
+	* Can be done in both directions
+	* All the basic controls you want
+	* Nice to hook up a cheap PC to nice audio system
+		* And remote control it
+	* Other direction not so nice
+		* Audio slider is very broken
+		* Some apps don't even show song length
+
+* File transfer
+	* In my case seems to only work in one direction
+		* No issues transferring from phone to desktop
+		* Cannot get it to work in the other direction
+
+* Kdeconnect-handler --open
+	* Relies on file transfer working
+
+* Take a photo and transfer to computer
+	* Only from cli
+		* Not everything can be done here
+		* But most can
+
+* Notification sharing
+	* Seems to work well from android to PC
+		* Not in reverse, not really a big deal
+
+* Unless disabling screen blanking
+	* Have to keep phone plugged in
+	* Loses connection otherwise
+
+* Make sure to run /usr/lib/kdeconnectd
+	* Probably won't be in your path
+
+* KDE SMS
+	* Neat feature
+		* Would be really cool but doesn't seem to work on my version
+
+* Slideshow remote
+	* We have this pointer thingy
+	* Can supposedly switch through slides
+		* I've had no luck
+
+* Seems like an interesting idea but at least with a Realme 5
+	* Completely unstable for most functionality
+	* Maybe permissions error
+		* If it is app gives no indication of it
+	* The android side does seem a bit more table though
+
+* Seems like a cool toy with some useful features
+	* But at least for me the most useful don't work

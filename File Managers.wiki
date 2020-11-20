@@ -1,9 +1,10 @@
 = File Managers =
 
-* lf w3m previews
+* lf image preview https://gitlab.com/Provessor/lfp
+* nnn vs fifm vs ranger
+* ranger vs lf
 * https://github.com/roberthawdon/dfshow
 * Run down of lf install
-* lfimg
 * Lfm Last File Manager
 * Krusader
 * Roxfiler
@@ -21,3 +22,4 @@
 * lfm
 * https://github.com/lecram/rover
 * cfiles
+* nemo

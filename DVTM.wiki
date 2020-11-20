@@ -1,0 +1,63 @@
+* I looked at standalone session management
+	* Here's standalone terminal window management
+
+* Like tmux everything behind a mod key
+	* I like ctrl-z
+		* set to ctrl-g by default
+
+* mod-c create new tile
+* mod-C create new tile in working directory
+* mod-x x to close window
+	* exit works as well
+
+* mod-j next window
+* mod-k previous
+
+* Takes the dwm approach to tiling
+	* Master and tile nodes
+	* Cycle Mod-space
+	* Defaults to vertical stack mod-f
+		* Grid mod-g
+		* Bottom stack mod-b
+		* Fullscreen mod-m
+		* Others exist enable and recompile
+
+* Change number of masters
+	* mod-i increase
+	* mod-d decrease
+	* ctrl-enter cycle current window
+
+* Hide some with mod-.
+* Bring back with mod-num
+	* Only if 10 or less
+
+* But you could also use tags
+	* Bit different from tabs
+	* Apply tag
+		* mod-t-3
+	* Keeps window on both screens
+		* mod-T-3
+	* Changes view without changing tags
+		* mod-V-3
+	* Switch
+		* mod-f*
+
+* Copy mode
+	* mod-e
+
+* Prefer mouse support
+	* -M
+
+* Bring up man at any point
+	* mod-?
+
+* Want session as well just run with abduco
+	* abduco -c dvtm-session
+
+* Nice to use if you run st without scrollback
+
+* Seems to have initialization issue in alacritty
+	* st works perfectly
+
+* Breaks true color apps
+	* Due toncurses limitations

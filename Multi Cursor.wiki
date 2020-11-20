@@ -1,0 +1,16 @@
+gC-n Enter without word boundaries
+C-n Enter multi cursor mode with word boundaries
+C-n Adds a new multi cursor to next match
+C-x skip next match
+C-p Go to previous
+A-n select all with word boundaries
+gA-n select all without word boundaries
+Esc Quit out of keys
+
+fd<C-n>csomething
+
+Enter visual mode C-n
+days = ["mon","tue","wed"]
+
+Use command to match with regexp
+>\zs.*\ze<

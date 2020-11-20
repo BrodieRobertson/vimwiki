@@ -1,5 +1,6 @@
 = Hardware =
 
+* Everything touching a pc should surge protected
 * Hiring remote personal hardware is a bad idea
 * I love keyboard nuts
 * Webcam

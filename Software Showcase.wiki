@@ -1,34 +1,327 @@
 = Software Showcase =
 
+* Terminal selection tool https://github.com/p-gen/smenu
+* File send https://github.com/schollz/croc
+* Github cli 1.0
+* Jq rewrite https://www.reddit.com/r/ocaml/comments/irzw4u/q_a_reimplementation_of_jq_in_reason_nativeocaml/
+* tmpmail generator https://github.com/sdushantha/tmpmail
+* Convert subreddit to mail https://github.com/peterjschroeder/redp
+* Static site generator https://www.reddit.com/r/commandline/comments/iqntuc/rivet_a_static_site_generator_inspired_by_ssg/
+* terminal reddit https://www.reddit.com/r/commandline/comments/iqll4h/ttrv_terminal_reddit_viewer/
+* Moar pager https://github.com/walles/moar
+* DroidCam
+* Stream your terminal https://teletype.oorja.io/
+* Modify file meta data https://github.com/jftuga/universe/blob/master/pystat.py
+* Mouse info https://github.com/asweigart/mouseinfo
+* Base converter https://github.com/sntdrr/hexc
+* JFTUGA Utils https://github.com/jftuga/len
+  * Line Frequency https://github.com/jftuga/freq
+  * File info https://github.com/jftuga/fstat
+  * https://github.com/jftuga/universe/blob/master/remove_empty_dirs.py
+  * https://github.com/jftuga/universe/blob/master/pywhich.py
+* Disk usage duu https://github.com/jftuga/fstat
+* Directory comparison https://github.com/jftuga/dcmp
+* Computer info https://github.com/jftuga/compinfo
+* Archiver Utility https://github.com/aria2/aria2
+* Archive utility https://github.com/mholt/archiver
+* Terminal text editor https://micro-editor.github.io/
+* Log viewer https://github.com/variar/klogg/
+* Interactive git forgit
+* bash and zsh suggestion box https://github.com/dvorka/hstr
+* Syntax highlight diff colordiff
+* pdf toolkit pdftk
+* Record terminal session https://ostechnix.com/record-everything-terminal/
+* Png Compressor https://ostechnix.com/pngquant-a-command-line-utility-to-compress-png-images-on-linux/
+* Plotting tool https://github.com/dkogan/feedgnuplot
+* ANSI escape formatter ansifilter
+* EMail
+  * offlineIMAP
+  * isync
+* Google contacts goobook
+* Ping replacement fping
+* xargs replacement https://github.com/kanliot/pargs
+* wifi troubleshoot wavemon & horst
+* Phonetic spelling https://github.com/bcicen/acrophone
+* Flash card app https://github.com/proycon/vocage
+* Pirate bay search pirate-get
+* Image Viewer - pqiv
+* Better xdg utils https://github.com/chmln/handlr
+* https://hackaday.com/2020/11/05/linux-fu-monitor-disks/
+* Useless software part 2
+  * https://github.com/bartobri/no-more-secrets
+  * oneko
+  * asciiquarium
+  * asciiview
+  * bb
+  * cacafire
+  * doge
+  * rig
+  * https://gitlab.com/jallbrit/cbonsai
+  * rainbowstream
+  * https://www.reddit.com/r/commandline/comments/irs4p3/sl_runs_a_steam_locomotive_across_your_terminal/
+* bookmarking https://xwmx.github.io/nb/
+* gnu source highlight
+* sfeed
+* tintytinyrss
+* rss canto
+* Keyboard mouse movement https://github.com/jordansissel/keynav
+* Git visualization - https://github.com/acaudwell/Gource
+* rust yay - paru
+* dialog
+* xdialog
+* zenity
+* Nix Package manager
+* Live Usb Maker - BalenaEtcher
+* Live Usb Maker - UNetBootin
+* Live Usb Maker - USBimager
+* Shinobi cctv
+* pixel framebuffer https://github.com/parasyte/pixels
+* clipboard manager Clipster
+* asx ticker
+* clipboard manager - Parcellite
+* https://github.com/khanhas/spicetify-cli
+* TTY life https://discordapp.com/channels/645767121174921248/645770209952661547/743061761581908088
+* ack grep
+* ag grep
+* alias suggestions fasd
+* list file system - LFS
+  * https://github.com/Canop/lfs
+* Obsidian md
+* List open webcams https://github.com/diamondburned/lsoc-overlay
+	* https://www.reddit.com/r/golang/comments/io2wo2/lsocoverlay_an_overlay_of_recording_webcams_and/
+* uniq command https://www.redhat.com/sysadmin/uniq-command-lists
+* Mac esc gestures https://github.com/JoseExposito/touchegg/
+* Touchpad gestures  libinput-gestures
+* touchpad gestures gebaar-libinput
+* Email Client Claws
+* Email Client Mailspring
+* Arch Version Control https://www.reddit.com/r/archlinux/comments/iozqcw/pacback_advanced_version_control_for_arch/
+* Bring your rc files with you over ssh
+	* https://github.com/fsquillace/kyrat
+	* sshrc
+* Audio book reader https://github.com/geigi/cozy https://www.reddit.com/r/linux/comments/ioce7w/cozy_is_a_modern_audiobook_player_for_linux/
+* Compiler Cache https://ccache.dev/
+* Terminal presentations https://github.com/vinayak-mehta/present
+* Terminal Presentations suckless sent
+* Display json in rofi https://www.reddit.com/r/archlinux/comments/iocnju/rofijson_show_json_items_as_rofi_menu_entries/
+* Fetch replacement https://github.com/K4rakara/freshfetch
+* Invite viewer https://github.com/isene/VcalView
+	* vcal2text
+* wiki search https://github.com/filiparag/wikiman
+* [[terminal]] streaming https://teletype.oorja.io/
+	* https://www.reddit.com/r/commandline/comments/ijl8rj/teletype_stream_your_terminal_to_the_web_optional/
+	* https://www.reddit.com/r/commandline/comments/inov9o/turn_shell_commands_into_web_services/
+* Using the terminal for too much https://github.com/yazgoo/blockish
+* password manager  https://www.ylvapasswordmanager.com/
+* Facial login https://github.com/boltgolt/howdy
+* https://wiki.archlinux.org/index.php/Mouse_buttons
+	* xte - xautomation
+	* xvkbd
+	* xbindkeys
+* Uncomplicated Firewall
+* firewalld
+* LBRY cli tools https://gitlab.com/gardenappl/lbt
+* Pureref
+* Screen recorder - https://www.reddit.com/r/unixporn/comments/ihi81i/oc_giph_terminal_based_screen_recorder/
+* Batch processing - http://vicerveza.homeunix.net/~viric/soft/ts/
+* Substance designer replacement - https://github.com/RodZill4/material-maker
+* markdown preview https://github.com/visit1985/mdp
+* Turn script into web service https://github.com/beefsack/webify
+* Login Manager https://www.reddit.com/r/bspwm/comments/ig1xje/what_is_everyone_using_for_session_controllogin/
+* File share https://github.com/linuxmint/warpinator
+* make
+* make clone? https://github.com/casey/just
+	* https://www.reddit.com/r/unixporn/comments/ierhjg/oc_just_a_handy_way_to_save_and_run_commands_link/
+* System info - inxi
+* Spell check - cspell
+* bg removal script https://github.com/hackerb9/mktrans/
+* Irssi
+* byobu - multiplexer
+* dtach - screen detach
+* Old Unix port https://github.com/gdm85/lc
+* posix fetch https://www.reddit.com/r/unixporn/comments/ida7kz/oc_fetsh_a_fetch_written_in_posix_shell_without/
+* webapp manager - https://github.com/linuxmint/webapp-manager
+* Git issue tracker - https://github.com/MichaelMure/git-bug
+* disk analyzer - dust
+* clipboard manager - https://copyq.readthedocs.io/en/latest/
+* ircdiscord
+* weechat
+* glowing baear
+* webtorrent-cli
+* instant.io p2p
+* btfs mount torrent
+* twist-dl
+* https://github.com/rduplain/yeahconsole
+* Posix fetch https://github.com/6gk/fet.sh
+* Kanban - https://github.com/JordanKnott/taskcafe
+* bootloader - efistub
+* bootloader - refind
+* bootloader - systemd boot
+* Invidous
+* youtube searcher through invidious https://github.com/trizen/straw-viewer
+* discord client https://github.com/diamondburned/gtkcord3
+	* https://github.com/Corewala/gtkcord-revive
+* CPU optimizer - https://github.com/AdnanHodzic/auto-cpufreq
+* splash screen - Plymouth
+* Photography developer https://www.darktable.org/
+* webcam QV4L2
+* tmux clipboard https://github.com/wincent/clipper
+	* https://www.reddit.com/r/vim/comments/i9b7jz/why_cant_i_copypaste_from_remote_vim_to_local/
+* rootkit hunter https://wiki.archlinux.org/index.php/Rkhunter
+* GUI python package manager - https://github.com/foozzi/cilantropy
+* wifi iwd gtk https://github.com/J-Lentz/iwgtk
+* podcast client https://github.com/jeff-hughes/shellcaster
+* oil shell - https://www.oilshell.org/blog/2020/08/plan.html
+* Rust shell https://github.com/nushell/nushell
+* Streamlink https://streamlink.github.io/cli.html
+* Don't need twitch website for Twitch
+	* Twitch Chat - Chatty
+	* Mpv
+* web surfing - https://wiki.archlinux.org/index.php/Surfraw
+* Accounting - https://www.ledger-cli.org/
+* Discord client - 6cord
+* cli translator https://github.com/soimort/translate-shell
+* git interface https://github.com/git-up/GitUp
+* Rsync
+* Alacritty got much cooler https://blog.christianduerr.com/alacritty_0_5_0_announcement.html
+* better rust apps https://zaiste.net/posts/shell-commands-rust/
+* shell script manager https://github.com/soraxas/shsh
+* generic colour schemes https://github.com/dylanaraps/paleta
+* man viewer https://gitlab.com/es20490446e/oman
+* linux homebrew https://docs.brew.sh/Homebrew-on-Linux
+* get os detected by grub - osprober
+* ebook manager https://github.com/costis94/bookcut
+* pdf reader https://wiki.archlinux.org/index.php/Llpp
+* pdf reader https://github.com/dsanson/termpdf.py
+* grammer checker https://caderek.github.io/gramma/
+* dmenu clone - https://www.reddit.com/r/unixporn/comments/i4ey36/oc_xprompt_a_dmenu_ripoff_with_contextual/
+* calcurse-caldav
+* rtorrent
+* Color manipulator https://datagubbe.se/colshift/
+* system monitor - bottom
+	* https://github.com/cjbassi/ytop
+	* https://github.com/aksakalli/gtop
+	* htop replacement gotop
+* Bash prompt https://github.com/brujoand/sbp
+* graphical pacman frontend https://github.com/vinifmor/bauh
+* email client pine
+* email client Aerc
+* email client mutt/neomutt
+* email client sylpheed
+* email client https://github.com/lt20kmph/pmail
+* Stock Charts - https://www.reddit.com/r/commandline/comments/i0rw3e/iexcli_stock_charts_in_the_terminal/
+* Stock market ticker - mop
+* stonks - stock charts
+* stumpwm
+* Alpine mail
+* Matrix
+* Jami
+* dmc.chat
+* React like markdown https://github.com/denisidoro/remacro
+* Instant replay https://github.com/matanui159/ReplaySorcery
+* Instant replay - screentorch
+* Satellite images https://github.com/plant99/felicette
+* Audio effects - PulseEffects
+* concurrent output for bar https://github.com/sector-f/admiral
+* animated wallpaper Komerebi
+* nstat
+* https://www.reddit.com/r/linux/comments/hu4vge/vopono_run_applications_via_vpns_with_temporary/
+* todo checker https://github.com/preslavmihaylov/todocheck
+* flashcards https://github.com/Yvee1/hascard
+* Audio tag editors https://wiki.archlinux.org/index.php/List_of_applications/Multimedia#Audio_tag_editors
+* simple drawing app https://maoschanz.github.io/drawing/
+* habit tracker https://github.com/NerdyPepper/dijo
+* find urls in file https://github.com/firecat53/urlscan
+* find urls in file https://github.com/sigpipe/urlview
+* Markdown highlighter - https://www.reddit.com/r/linux/comments/hvcg44/gomd_quickly_display_formatted_markdown_files/
+* agnostic greeter - Greetd
+* git annex
+	* https://git-annex.branchable.com/tips/downloading_podcasts/
+* grep thing - gawk
+* GTK launcher - https://github.com/nwg-piotr/sgtk-menu
+* Screenshots - https://github.com/neXromancers/shotgun
+* More mac guys on Linux https://github.com/manilarome/rofi-spotlight
+* GPU Utilisation
+	* nvidiatop
+	* radeontop
+* file renamer - https://github.com/Gadiguibou/stdrename
+* plot ping results - https://gitlab.com/mattkatz/pingplotter
+* video wallpaper - https://opensource.com/article/20/7/linux-wallset
+* code search - https://ballish.margaine.com/
+* terminal epug reader - https://github.com/wustho/epr
+* pywal
+* pywal theme picker https://www.reddit.com/r/unixporn/comments/hqjrll/oc_a_fuzzy_pywal_theme_picker_with_live_preview/
+* random walpaper generator - https://www.reddit.com/r/unixporn/comments/hqld4t/oc_wallrnd_a_highly_configurable_generator_of/
+* Offline arch wiki - https://www.reddit.com/r/archlinux/comments/hqmrmd/dumb_question_how_do_i_open_archwikidocs/
+* system monitor https://www.reddit.com/r/linux/comments/hrk28u/stacer_is_a_feature_rich_and_easy_to_use_linux/
+* context menu https://github.com/phillbush/xmenu
+	* https://www.reddit.com/r/unixporn/comments/hs1evb/oc_xmenu_a_menu_utility_for_x11_written_in_c_now/
+* Noise suppressor - https://github.com/josh-richardson/cadmus/
+* Noise suppressor - https://github.com/lawl/NoiseTorch
+* network peer map https://github.com/jafarlihi/connmap
+* bash import - https://www.reddit.com/r/commandline/comments/hssbuu/import_a_simple_and_fast_module_system_for_bash/
+* dotfile manager - https://github.com/kazhala/dotbare
+* RGB control https://gitlab.com/CalcProgrammer1/OpenRGB
+* Git UI https://github.com/Extrawurst/gitui
+* X11 Menu https://github.com/johanmalm/jgmenu
+* bitwarden-cli
+* pandoc like - bsd lowdown
+* Wifi
+	* iwd
+		* https://www.reddit.com/r/unixporn/comments/hyebcv/oc_i_made_a_dmenu_wifi_script_its_a_frontend_for/
+	* connman
+	* nmcli
+	* iwctl
+	* cmst
+* 3d Model viewer https://gitlab.kitware.com/f3d/f3d
+* Cool bash functions https://bbs.archlinux.org/viewtopic.php?id=30155
+* Sensible package installation on other distros https://github.com/rami3l/pacaptr
+* Static site generator https://www.romanzolotarev.com/ssg.html
+	*	ssg5
+* fcitx
+* Currency conversion https://github.com/juanpagfe/cash
+	* https://manpage.me/?q=units
+* Screenshots https://shutter-project.org/
+* Voice transcription https://github.com/dictation-toolbox/Caster
+* ffmpeg conversion
+	* https://gitlab.com/es20490446e/optimizeVideo
+* Firefox vertical tabs
+* Microblogging https://github.com/marenbeam/thoughts
+* Night mode  https://wiki.archlinux.org/index.php/Redshift
+* Keyboard remap - https://github.com/DavRack/skr
+* Apt like wrapper - https://aur.archlinux.org/packages/aptpik/
+* system tray stalonetray
+* diff https://github.com/joshuarli/ydiff
+* Field extractor - https://github.com/jordansissel/fex/blob/master/fex.pod
+* Commands like preprocessor - gomplate
+* bash preprocessor - https://github.com/dodie/bash-preprocessor
+* git browse and download https://github.com/FalcoSuessgott/gitget
+* Shutdown for battery https://github.com/ReilySiegel/bear
+* Noise reducer for mic - https://github.com/josh-richardson/cadmus/
+* dmenu file launcher - https://github.com/MarkHedleyJones/dmenu-extended
+* Save X11 Session https://github.com/johannesjo/linux-window-session-manager/
+* imv
+* entr
+* https://github.com/TakeYourFreedom/fzf-launcher
 * bar overlay - https://github.com/florentc/xob
 * su and doas you don't actually need sudo
 * Olive a better video editor
 * duckduckgo bangs https://www.reddit.com/r/linux/comments/hcthv4/psa_if_you_use_duckduckgo_then_there_are_a_lot_of/
-* disk analyizer https://github.com/imsnif/diskonaut
 * hotkey daemon https://github.com/phenax/shotkey
-* Terminal telegram - https://github.com/paul-nameless/tg
 * Gitignore generator https://github.com/Eoin-McMahon/Blindfold
-* podcast client - https://github.com/xgi/castero
 * bootable usb grub thing https://www.ventoy.net/en/index.html
 * fetch utils https://www.reddit.com/r/unixporn/comments/habkor/oc_wip_fetchutils_a_collection_of_shell_utilities/
 * Audio visualizer - https://www.reddit.com/r/unixporn/comments/ha9q9q/oc_audio_visualizer_that_pulses_the_background_of/
-* Hotkey daemon https://github.com/dakyskye/dxhd
 * Life time system monitor https://github.com/rfrail3/tuptime
 * ranger chrome file manager https://gist.github.com/vn-ki/e592daa2e429377a0640ba71051175e0
 * rofi chrome tabs https://github.com/tcode2k16/rofi-chrome
-* Audio effects - PulseEffects
 * man page thing - Navi
 * wallpaper - xwallpaper
 * Scriptable popup - lighthouse
 * slock
 * system info - nmon
-* system monitor - glances
-* keybindings - https://wiki.archlinux.org/index.php/Xbindkeys
 * JSON parser - http://kmkeen.com/jshon/
-* Gitlab client - https://zaquestion.github.io/lab/
-* Exploring fish
 * Android file transfer - https://github.com/whoozle/android-file-transfer-linux
-* media info - mediainfo
 * media info - ffprobe
 * subtitle player - https://github.com/carsonip/Penguin-Subtitle-Player
 * twitter client https://github.com/louipc/turses
@@ -70,7 +363,6 @@
 	* https://www.reddit.com/r/archlinux/comments/gvb0i1/having_trouble_with_i8kmon/
 * fzf like https://github.com/wvanlint/twf
 * fetch https://gist.github.com/rpolve/77d6b694ab91238becbe166599cac8fd
-* time manager - https://github.com/oltarzewskik/tibivi
 * proper vim mode - https://github.com/ardagnir/athame/
 * rofi color picker - https://github.com/windwp/rofi-color-picker
 * docs in rofi https://github.com/Zeioth/rofi-zeal
@@ -80,21 +372,20 @@
 * sed thing https://github.com/ms-jpq/sad
 * inventory management https://github.com/jojolepro/inventory-managoat
 * jq thing https://github.com/kellyjonbrazil/jc
-* wikipedia - wikit
-* git ui - tig
 * speed-test - sindresorhus/speed-test
 * backup program - restic
 * twitter client - rainbow stream
-* ps replacement - procs
+* disk usage - https://github.com/Rolinh/dfc
+* disk usage - pydf
 * disk usage analyzer - ncdu
+* disk usage df
 * log file navigator - inav
 * irc client - irssi
 * image compression - imager
 * commandline bench marking - hyperfine
 * curl alternative - httpie
-* grepable json - gron
 * share terminal as web app - gotty
-* terminal git ui - gitui
+* terminal git ui - lazy git
 * git large files - git-lfs
 * bit branching tool - git-flow
 * git file encryption - git-crypt
@@ -102,10 +393,7 @@
 * gif gen
 * dir size calculator - dust
 * interesting system monitor - zenith
-* system monitor - bottom
-	* https://github.com/cjbassi/ytop
 * binary grep - bingrep
-* bandwidth monitor bandwhich
 * nework reconaisance - bettercap
 * Wait for file changes - entr
 * GitJournal
@@ -113,7 +401,6 @@
 * player - https://www.reddit.com/r/linux/comments/gp272p/playx_play_any_songplaylistanything_from_the/frjfff2/
 * chess - https://www.reddit.com/r/commandline/comments/gom4ir/play_chess_against_real_players_in_the_command/
 * stonks - https://github.com/ericm/stonks
-* ripgrep
 * pdf ripgrep - https://github.com/phiresky/ripgrep-all
 * gnu parallel
 * data viewer vd
@@ -151,13 +438,12 @@
 * https://github.com/out-of-cheese-error/the-way
 * https://github.com/matheuslessarodrigues/verco
 * https://sr.ht/~zethra/license/
+	* https://github.com/kdheepak/license
 * https://github.com/kal39/TerminalMediaViewer
 * fancy diff https://github.com/so-fancy/diff-so-fancy
 * fancy diff https://github.com/dandavison/delta
 * fancy diff icdiff
-* super accelered diff https://github.com/ms-jpq/sad
 * generic curl https://github.com/mcandre/cop
-* GHI
 * gopher://bitreich.org/1/scm/thingmenu
 * https://github.com/jtvaughan/ptar
 * Archfi
@@ -171,17 +457,14 @@
 * https://github.com/KuroLabs/Airshare
 * Notion
 * https://github.com/trigg/DiscordOverlayLinux
-* bash completion fallback https://github.com/3v1n0/zsh-bash-completions-fallback
-* better zsh autocomplete https://github.com/marlonrichert/zsh-autocomplete
 * https://github.com/fbeline/luneta
 * git monitor https://github.com/LinArcX/giti
 * bibliography editor https://github.com/papis/papis
 * archive handler https://www.nongnu.org/atool/
 * drawing https://github.com/aca/tdraw
 * Googlr
-* Ripcord
+* discord interface Ripcord
 * MySQL Client MyCLI
-* htop in bash https://github.com/aristocratos/bashtop
 * ncpamixer
 * https://github.com/SoptikHa2/desed
 * https://github.com/andreasKroepelin/tir
@@ -189,6 +472,7 @@
 * https://github.com/iridakos/stup
 * forgit
 * sonarr
+* radarr
 * arch keyring
 * Regex generator https://www.reddit.com/r/commandline/comments/g4pegr/grex_a_commandline_tool_for_generating_regular/
 * git neofetch https://github.com/lptstr/gfetch
@@ -201,11 +485,9 @@
 * https://github.com/sineemore/stw
 * https://www.putorius.net/bmon-monitor-bandwidth-linux-command-line.html
 * https://github.com/aaronjanse/3mux
-* simple dialog - https://github.com/v1cont/yad
 * Awful social media downloaders
   * https://github.com/dvingerh/PyInstaStories
   * https://github.com/dvingerh/tiktok-dl
-* https://github.com/sdushantha/fontpreview
 * https://github.com/wmutils/
 * https://www.reddit.com/r/commandline/comments/fqxl9k/typeracer_testing_your_typing_skills_in_the/
 * https://www.reddit.com/r/commandline/comments/fr6the/linuxtimemachine_rsyncbased_osxlike_time_machine/
@@ -226,7 +508,7 @@
 * mastodon toot
 * https://github.com/NerdyPepper/eva
 * qcalc
-* bc and dc
+* calculator dc
 * https://github.com/Aloxaf/fzf-tab
 * https://github.com/adi1090x/rofi#app-launchers
 * https://github.com/splode/creep
@@ -236,7 +518,6 @@
 * WPS office
 * kakoune
 * ansible
-* fasd
 * https://itsfoss.com/4-best-download-managers-for-linux/
 * https://www.2daygeek.com/best-4-command-line-download-managers-accelerators-for-linux/
 * tudu - terminalforlife
@@ -247,7 +528,6 @@
 * https://noobs-term.com/#/
 * Collection managers - https://www.linuxlinks.com/collectionmanagers/
 * Udevil * devmon
-* mtpfs
 * ytmdl https://www.reddit.com/r/unixporn/comments/dwlu3n/oc_ytmdl_download_songs_with_metadata_directly/
 	https://www.reddit.com/r/commandline/comments/gjp1d6/ocytmdl_may_release_now_supports_downloading_in/
   https://www.reddit.com/r/commandline/comments/fmb83i/ocytmdl_new_version_released_download_songs_from/
@@ -258,7 +538,6 @@
 * vscode neovim
 * ponymix
 * tmux
-* how2 - stackoverflow from the terminal
 * https://gitlab.com/TheDalaiAlpaca/saturnon
 * https://github.com/ajeetdsouza/zoxide
 * fun - https://github.com/akinomyoga/cxxmatrix
@@ -270,8 +549,6 @@
 * byte calculator https://github.com/jarun/bcal
 * Thunderbird
 * pulse cli pactl
-* Elimininating the need for a gui file manager
-* Some more uses for dragon
 * https://github.com/dcx86r/cch
 * https://github.com/lwilletts/mpvc
 * https://github.com/jrnl-org/jrnl
@@ -279,6 +556,7 @@
   rofi -theme Arc-Dark -show window
 * dmenuswitcher - task switcher
 * https://github.com/richardgv/skippy-xd
+	https://code.google.com/archive/p/skippy-xd/
   https://github.com/dreamcat4/skippy-xd
 * https://itsfoss.com/vokoscreenng/
 * https://github.com/eXeC64/imv
@@ -286,12 +564,14 @@
 * weather https://github.com/tylerwolf35/wego
 * taskcl
 * tasklite
+*  https://github.com/kdheepak/taskwarrior-tui
 * taskwarrior
+	* https://github.com/tools-life/taskwiki
 * timewarrior
 * tasker
 * todo.txt
 * tudu https://code.meskio.net/tudu/
-* fzy - fzf alternative
+* fzf alternative - fzy
 * bemenu - dmenu alternative
 * alternative to ../.. https://github.com/shogunpurple/retreat
 * Hud menu
@@ -320,13 +600,11 @@
 * Unicode Querying
   https://www.reddit.com/r/commandline/comments/edism2/lcharmap_get_information_on_any_unicode_character/
   https://www.reddit.com/r/commandline/comments/e9kgsy/uni_query_the_unicode_database_from_the/
-* https://dystroy.org/broot/
 * File Search https://itsfoss.com/catfish/
 * https://linuxhandbook.com/uname/
 * https://github.com/sachaos/binder
 * auto-cpufreq https://news.ycombinator.com/item?id=21960696
 * https://git.sr.ht/~tslocum/ditty
-* color cat - https://github.com/sharkdp/bat
 * color cat - https://github.com/pygments/pygments
 * Hex Viewer
   https://github.com/sharkdp/hexyl
@@ -342,9 +620,6 @@
 * Stylish Interactive Prompts https://github.com/termapps/enquirer
 * Cheat
 * https://github.com/sindresorhus/pure
-* slim zsh
-* zim zsh
-* https://github.com/romkatv/powerlevel10k
 * https://blog.snipline.io/snipline-cli-0-3-0-release-the-biggest-update-yet/
 * https://www.tecmint.com/monitor-cpu-and-gpu-temperature-in-ubuntu/
 * https://www.redhat.com/sysadmin/ss-command
@@ -353,7 +628,6 @@
 * Rofi
 * fasd
 * bropages
-* fd
 * Sleep hooks
 * Curseradio
 * No more secrets
@@ -363,7 +637,6 @@
 * Shell check
 * Custom mime programs
 * Googlr
-* Youtube-dl
 * Notifications with a minimalist window manager
 * Zathura a lightweight extensible reader
 * pfetch If neofetch is too much bloat for you

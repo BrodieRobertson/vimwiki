@@ -1,0 +1,6 @@
+* irssi
+* BitchX
+* https://github.com/aaronNGi/jj
+* suckless sic
+* catgirl
+* weechat

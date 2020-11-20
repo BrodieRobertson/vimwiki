@@ -1,0 +1,40 @@
+* Why use over ctrl-p
+	* Read GitHub
+
+* :Files List files
+* :GFiles List files in git
+* :GFiles? List files modified files
+* :Buffers List Open bufers
+* :Colors Colorschemes
+* :Lines Search for line in buffers
+* :BLines Limit to buffer
+* :Windows List open windows
+* :History File history
+* :History: Command history
+* :History/ Search history
+* :Commands
+	* Auto run every time you open command
+
+* ctrl-x horizontal split
+* ctrl-v vertical split
+
+* Not a ton of options
+	* Most done through customizing commands
+	* Even just a wrapper
+	* Much more
+	* fzf very thin wrapper
+
+* Customizing commands
+	* Passing in fzf options
+
+* Existing mappings
+	* Wouldn't bother with them
+
+* Custom completion
+
+* Not using fzf
+	* $FZF_DEFAULT_COMMAND
+
+* Installation
+	* Need fzf
+

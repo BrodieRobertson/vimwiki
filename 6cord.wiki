@@ -1,0 +1,48 @@
+* Much simpler interface than cordless
+	* Too it's advantage
+	* Everything done through commands
+
+* Only really a few bindings
+	* Moving with arrow keys
+	* / to enter command
+	* ctrl-l to go to message
+	* ctrl-h to go to list
+	* Some tab completion
+
+* First gripe is that it's slow to load
+	* Not sure what the cause is
+	* Otherwise my favorite terminal discord
+
+* True color support
+	* Can be disabled
+
+* /goto
+* /react
+	* Really nice to see
+* /editor
+	* Use editor to write comment
+* /mentions doesn't work
+* /nick for nickname
+* /status for status
+* /presence playing or lisenting to
+* /edit edit previous message
+* /delete delete previous message
+* /upload must be full file path
+* /copy can't use mouse
+* /dm
+* /block
+* /unblock
+
+* Can't open links
+	* Copy and paste into browser
+	* Slight annoyance
+
+* login
+	* user name and password
+		* Not recommended
+	* token
+		* Preferred method
+		* Login to web client or desktop
+		* Find auth token
+	* Securely store token with something like gnome keyring
+	* Or add to config

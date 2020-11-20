@@ -1,0 +1,22 @@
+The topics are just conversation starters, it doesn't matter if we hit none of them
+
+== Linux ==
+* What got you into Linux
+  * When?
+  * What made you want to daily drive it
+* Why not just use Windows for gaming?
+* Linux gaming over time
+* I'm just getting back into gaming now, what should I expect fort Linux support
+* I see you've been messing with Vim
+  * Improving productivity by wasting time
+
+== Content Creation ==
+* Why did you start making Linux content
+* What made want to do game showcase/review thingies
+* Why'd you put you content up on LBRY/Odysee
+* The only reason I recognize your mic, is because I have the same one
+
+== Window Managers ==
+* Why a window manager at all
+* Using BSPWM
+* Switched back to DWM

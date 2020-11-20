@@ -1,33 +1,71 @@
 = Window Managers =
 
+* SpectrWM
+* NotionWM
+* Trayer - system trey
+* 9wm
+* notification api calls https://github.com/kamek-pf/ntfd
+* sxhkd modes
+	* https://www.reddit.com/r/bspwm/comments/hkh7af/disable_certain_keybinds_for_some_apps/
+* bspwm tricks  https://my-take-on.tech/2020/07/03/some-tricks-for-sxhkd-and-bspwm/
 * nim window manager https://github.com/avahe-kellenberger/nimdow
 * https://github.com/Teln0/TermUI
 * https://github.com/phenax/bsp-layout
 * My new way of handling fullscreen
-* Configure polyar with rust https://github.com/mjkillough/cnx/
-* https://www.reddit.com/r/bspwm/comments/ggtwxa/guide_to_creating_startup_layout_using_receptacles/
-* Refactoring polybar
-* Current state of polybar
-* Polybar themes - https://github.com/adi1090x/polybar-themes#-polybar-13--polywidgets
-* https://www.reddit.com/r/unixporn/comments/g8yc77/oc_bpswm_window_titles_for_current_desktop_in/
 * https://github.com/SimulaVR/Simula
-* https://www.reddit.com/r/bspwm/comments/fxby5m/desknamer_a_tool_to_automatically_rename_desktops/
 * https://github.com/JLErvin/berry
+* https://github.com/herbstluftwm/herbstluftwm
+* Trying out dwm
+* leftwm
+* cwm
+* https://github.com/Kintaro/wtftw
+* notification - dzen
+* build a window manager -wmutils
+* dwm fork https://github.com/plasmoduck/modwm
+
+= Bspwm =
+
+* title bars
+* https://my-take-on.tech/2020/07/03/some-tricks-for-sxhkd-and-bspwm/#my-take-on-creating-a-scratchpad
+* Getting started with bspwm
+* https://www.reddit.com/r/bspwm/comments/ggtwxa/guide_to_creating_startup_layout_using_receptacles/
+* https://www.reddit.com/r/unixporn/comments/g8yc77/oc_bpswm_window_titles_for_current_desktop_in/
+* https://www.reddit.com/r/bspwm/comments/fxby5m/desknamer_a_tool_to_automatically_rename_desktops/
 * bspwm tree structure
 * bspwm tree operations
 * bspwm PATH @
-* bspwm reseptacles
 * make bspwm like dwm
-* yabar
-* https://github.com/herbstluftwm/herbstluftwm
+* Bspwm preselection
+
+= Bars =
+
+* https://github.com/ocdy1001/shapebar
 * From start to complete polybar
+* universal bar events - https://github.com/shdown/luastatus
+* Configure polyar with rust https://github.com/mjkillough/cnx/
+* Lemonbar
+* Lemon bar manager
+	* https://www.reddit.com/r/bspwm/comments/hlu1nh/question_related_to_lemonbar/
+	* https://github.com/b3nj5m1n/lemonblocks
+	* https://github.com/muse/Captain
+	* https://github.com/domsson/succade
+* Refactoring polybar
+* Current state of polybar
+* Polybar themes - https://github.com/adi1090x/polybar-themes#-polybar-13--polywidgets
 * tint2 bar
-* Getting started with bspwm
-* Trying out dwm
+* yabar
+
+= Wayland =
+
+* launcher https://github.com/DorianRudolph/sirula
+* https://github.com/Hjdskes/cage
 * Wayland dwm https://github.com/djpohly/dwl
-* leftwm
 * Sway + wayland
 * X11 Compatibility layer
-* cwm
-* notification - dzen
-* build a window manager -wmutils
+* Wayfire compositor
+
+= Compositing =
+
+* Picom animation https://github.com/yshui/picom/issues/217
+* Picom vs Compton
+* Compiz

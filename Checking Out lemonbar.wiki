@@ -1,0 +1,48 @@
+* First decide which version to download
+	* Tons of forks all incompatible
+	* Don't use base version
+		* No Xft font support
+	* Typical choice is lemonbar-xft-git
+
+* Configuration
+	* Biggest difference from polybar
+	* Normally handled in 2 files
+		* Launcher
+			* Start the update program
+			* Start lemonbar
+			* Clean up any prior instances
+		* Config
+			* Some sort of program that outputs text
+			* Formatting is tag based
+				* O for offset
+				* T set font
+				* U underline color
+				* S change monitor of bar
+					* +/- next/prev
+					* f/l first/last
+					* 0-9 Nth monitor
+
+* With this fork font-awesome
+	* Doesn't seem to work
+	* Emoji don't work
+	* Nerd symbols
+* Basic usage
+	* Update loop that updates every x seconds
+	* Serious problem
+	* Really really slow
+	* Outside of very few modules
+
+	* Along with trap can allow for signal based updates
+
+* Better method
+	* https://github.com/freundTech/dotfiles-desktop/blob/master/.config/panel/content
+	* Partial updates
+	* A little annoying to handle with shell script
+	* Can be done
+``
+* Lemonbar manager
+	* lemonblocks
+		* https://github.com/b3nj5m1n/lemonblocks
+		* Sort of like i3blocks and dwmblocks
+		* Handles the hard part of lemonbar
+		* Let's you deal with just configuring

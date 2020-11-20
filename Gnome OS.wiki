@@ -1,0 +1,70 @@
+Title: Gnome OS Isn't Real, It Can't Hurt You
+
+* I keep hearing all this talk about a Gnome OS
+	* And it seems like a lot of people aren't reading past the title
+		* It's a terrible idea, people will abandon other distro
+
+* The Gnome foundation has been sending ISOs out to journalists and devs
+	* This ISO is custom Linux distro based entirely around Gnome
+	* Not based on any distro
+	* No package manager
+
+* This isn't new
+	* Infact it's been around for about 8 years in another form
+
+https://wiki.gnome.org/Projects/GnomeContinuous
+* Gnome Continuous
+	* The project was born to solve a seemingly simple problem:
+		* The GNOME designers need to be able to try what they're designing,
+		* As it's being implemented.
+			* It's useless to try and design code without a testing framework
+
+	* Who should use this
+	* Machines
+		* Automated testing
+	* Human GNOME developers and testers who want to see GNOME as it is few minutes ago from git master
+		* Intentionally not stable
+	* Makes use of OSTree for continous update integration
+
+	* Non goals
+		* Gnome-continuous system does not replace general-purpose GNU/Linux distributions
+
+	* 8 Years ago this was a testing distro
+		* Don't worry about changing dependencies build system specifically for Gnome
+		* Articles about it at the time
+			* https://www.techradar.com/au/news/software/operating-systems/what-on-earth-is-gnome-os-1119624
+
+* What about in 2020
+	* About 5 months ago
+	* https://www.reddit.com/r/gnome/comments/g0lere/who_wants_a_gnome_os/fnag384/?utm_source=reddit&utm_medium=web2x&context=3
+
+https://www.phoronix.com/scan.php?page=news_item&px=GNOME-OS-GUADEC-2020
+* How about now
+	* Previously the testing ISO was really only working in a VM
+		* And really unstable
+	* With release of Gnome 3.38 Orbis
+	* Due to efforts from Gnome and Codethink
+		* It's possible to run on hardware
+
+* This isn't really a GNOME OS
+	* Not in the normal sense
+	* It's basically a testing platform
+	* Used to explore new Gnome features
+		* Journalists can write articles
+		* Youtubers can make videos
+			* Without waiting for it to be available on there distro
+	* Implement new features
+		* Without worrying about distro inconsistencies
+	* Integration issues between Gnome tools
+		* Most system won't use all
+	* Try out the newest version of Gnome before it hits your distro
+
+	* Unless you're a developer
+		* This is basically a marketing tool
+
+	* It's not a desktop OS
+		* That's not an insult
+		* It's simpl not the point of it
+
+* This isn't the KDE Neon of Gnome
+	* Maybe one day it will be not right now

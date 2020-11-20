@@ -1,0 +1,70 @@
+* https://www.youtube.com/channel/UCq1HxvFjdU7M1dUlX0oXj0Q
+* YouTube's spam comes and goes
+	* But it's been relentless for the past year
+
+* First was the tim/tem/tom bots
+	* Saying great video
+	* Eventually changed their names
+
+* Recently it spiked up again
+	* Community post from DT https://www.youtube.com/post/Ugz-etjFOECv1HuZ0lp4AaABCQ
+
+== Identifying the Problem ==
+* Generally some inane message
+	* Nice, great, do you love me, I love you
+	* A ton of emoji
+	* A time stamp
+		* More on that in a bit
+	* A assume girl with big boing boing
+
+== Time Stamp ==
+* I'm not sure what the criteria for this is
+	* Clearly it's not video length
+	* I've had +20 on a 10 min video
+		* I don't think it matters
+		* Blue text makes the comment stand out more
+			* Same as for the emoji
+
+* Some thought timestamps were embedded links
+	* Not possible on youtube
+
+== Don't Seem To Be Fake Accounts ==
+* Some have sub counts and existing videos
+	* It's not just bitcoin, cash app or other scams
+
+* It's likely that these were compromised accounts
+	* Go to about
+
+== Why Though ==
+* I've seen links in comments or in about previously
+	* That's an obvious phishing attempt
+	* YouTube pretty good at stopping that
+		* But that's not here this time
+			* Accounts give no indication of purpose
+
+* It may simply be to ruin the comment section
+	* Unless it's a competing platform
+	* No financial incentive
+* A different approach to growing and selling
+	* Account blackmarkets exists
+	* Maybe boing boing profile pics is a new approach
+
+== Solution ==
+* Sadly don't think there's anyway to get these channels back to owner
+	* Most are tiny channels
+		* From owners in 3rd world countries
+	* Biggest I've seen is 1.5k
+	* Probably why no one is doing anything
+* Because they're not saying anything bad
+	* Positive effect on the algorithm
+* Can't convince me that YouTube
+* Company that auto claims 1 sec of audio in 30 min of video
+	* Doesn't have tech to solve this
+* Even ignoring content
+	* YouTube already uses image recognition for auto claiming
+	* These profile pic shouldn't slip through
+
+* YouTube doesn't have a financial incentive to do anything
+	* What are you gonna do
+	* Go to a different video platform
+		* Know you won't so instead focus resources elsewhere

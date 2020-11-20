@@ -1,0 +1,54 @@
+* Generic media player controls through MPRIS
+	* Works with spotify, chromium
+
+* MPD support through extra app
+
+* play
+* pause
+* play-pause
+	* May behave weirdly
+
+* Matches on the first player
+	* playerctl --list-all
+	* playerctl --ignore-player
+	* Seems to be alphabetical
+
+* Check with -l --list-all
+	* Use --player
+
+* stop
+* next
+* previous
+* position num[+/-]
+* volume num[+/-]
+	* Doesn't seem to be working for my mpd
+* shuffle on/off
+	* capitalization not important
+* loop none/track/playlist
+
+* metadata
+	* -f --format string
+	* Standard
+		* playerName
+		* position
+		* status
+		* volume
+	* Also query tag data
+		* album
+		* artist
+		* title
+			* Not always consistent
+			* check metadata command
+
+	* Format functions
+		* lc
+		* uc
+		* markup_escape
+		* default(1, 2)
+			* Print 1 else print 2
+		* duration(time)
+		* emoji
+			* status, volume
+		* playerctl metadata --format '{{playerName}}: {{lc(status)}} {{duration(position)}}|{{duration(mpris:length)}}'
+		* -F follow
+		* -a all-players

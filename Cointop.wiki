@@ -1,0 +1,57 @@
+* Usually check prices from coinmarketcap
+	* All I'm doing is looking at number
+	* Why do I need a website
+
+* Basically htop for crypto
+
+* Do same thing in terminal
+	* Price, change, graph
+	* My prices in AUD
+		* Switch that over to USD with C
+	* Show graph with enter
+	* Chart
+		* Date range [ ]
+		* ctrl+j ctrl+k
+		* Hide chart \
+	* Check out full page with o
+	* Much more convenient
+
+* First open on different screen
+	* 0 rank coins
+	* Coingecko has everything
+
+* Find favourite coins and then set favourites to default
+	* / to search
+	* f or space to favourite
+
+* Generally isn't a problem
+	* Not normally just scrolling through every coin
+
+* Or get to bitcoin
+	* m Change sorting to marketcap
+	* Sorting shown across the top
+
+* Portfolio
+	* e to add coin
+	* P to open portfolio
+	* No value to remove
+	* No need to work out price yourself
+	* General idea about holdings worth
+
+* Some vim movement
+	* j k
+	* h l
+	* 0 go to start
+	* $ go to end
+	* g to first line
+	* G to last line
+	* H High
+	* L low
+	* M Middle
+
+* ctrl-s to save any changes
+* Colorscheme
+	* GitHub
+	* Keybindings
+	* Coinmarketcap
+		* Requires paid dev account

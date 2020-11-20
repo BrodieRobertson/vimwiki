@@ -1,0 +1,86 @@
+* One of things people say is great about emacs is org mode
+	* Really powerful mode for note taking
+	* Document structuring
+	* What if I said there was a plugin to replicate in vim
+		* Been a work in progress for a long time
+		* Nowhere near complete but has a lot of features
+	* Vim org mode
+
+* I use vimwiki for notes
+	* Let's say you had nothing
+	* Or wanted to clean up config
+
+* Heading
+*
+**
+***
+<localleader>hN  - insert heading above
+<localleader>hh  - insert heading below, taking over children
+<localleader>hn  - insert heading above, after children
+
+* Dates
+<localleader>sa     - insert date
+<localleader>si     - insert inactive date
+<localleader>pa     - insert date by using calendar selection
+<localleader>pi     - insert inactive date by using calendar selection
+* Involved with agendas
+	* For now just accept that you can date stamp
+* ctrl-a ctrl-x modify date
+	* Weird behaviour without speeddating
+
+* Change level
+>> or >ah       - demote heading
+<< or <ah       - promote heading
+>ar             - demote subtree
+<ar             - promote subtree
+
+<TAB>           - Cycle Visibility
+
+* Tags
+* Easily find headings
+<localleader>st add tag
+<localleader>ft find tag
+
+* Plain List
+* Checkboxes
+- [ ]
++ [ ]
+* [ ]
+	* Makes no sense
+1. [ ]
+1 [ ]
+	* Docs are wrong
+
+Add [%] or [/] to see how much is done
+
+<localleader>cc         Toggle checkbox status or (with prefix arg) checkbox
+                        presence at point.
+
+<localleader>cn    or
+<CR> or <S-CR>          Insert a new checkbox below current line.
+
+<localleader>cN    or
+<C-S-CR>                Insert a new checkbox above current line.
+
+* TODO
+<localleader>ct Cycle todo states
+
+[%] or [/] supposed to work
+
+* Agenda related bindings are broken
+* caa agenda for week
+* cat agenda of todos
+
+* Local works
+	* caT for todos
+	* caA for agenda doesn't work
+
+* Documentation is a mess
+	* Tons of sections with not yet implemented
+	* Much harder to read than it should be
+
+* Much like vim emulation in Visual Studio
+	* Org mode emulation in vim isn't great
+	* If you want it use emacs
+	* If you want good note taking in vim use vimwiki
+	* If you want the feature subset fine

@@ -1,12 +1,58 @@
 = Vim =
 
+* Auto close https://github.com/cohama/lexima.vim
+* vim pop up menu https://github.com/vim-add-ons/vim-user-menu
+* Vim help as a wiki
+* Vim buffers
+* Vim sessions https://bocoup.com/blog/sessions-the-vim-feature-you-probably-arent-using
+* Neovide
+* Code Search Tool https://github.com/jremmen/vim-ripgrep
+* Code Search Tool https://github.com/dkprice/vim-easygrep
+* Code Search Tool https://github.com/coderifous/working-set.vim
+	* https://github.com/coderifous/working_set
+* Code Search tool https://github.com/dyng/ctrlsf.vim
+* todo list https://github.com/aserebryakov/vim-todo-lists
+* Dirvish file tree https://github.com/justinmk/vim-dirvish
+* Chadtree
+* minpac
+* screenshot https://github.com/JMcKiern/vim-shoot
+* documentation generator https://github.com/kkoomen/vim-doge
+* documentation generator https://github.com/mg979/docgen.vim
+* Why vim over neovim
+	* https://www.reddit.com/r/vim/comments/iheecf/is_there_any_reason_to_use_plain_vim_over_neovim/
+* Veovim https://github.com/veonim/veonim
+* Debuggers are for nerds https://github.com/sentriz/vim-print-debug
+* Weird vim alt bindings
+	* https://www.reddit.com/r/linux/comments/iel00h/vem_an_alternative_command_layout_for_vim/
+	* https://www.vem-editor.org/
+* Vimtex
+* coc-texlab https://github.com/fannheyward/coc-texlab
+* Vim folds
+	* https://www.reddit.com/r/vim/comments/ifryqr/jump_to_the_end_of_the_folded_text/
+* vim-cool
+* highlightyanked - highlight.lua
+* file explorer Vinegar
+* Vimspector
+* Profiling
+	* https://github.com/bulletmark/vim-plugins-profiler
+	* https://pypi.org/project/vimspeed/
+	* https://github.com/rhysd/vim-startuptime
+* where you are https://github.com/bignimbus/you-are-here.vim
+* Choose window https://github.com/t9md/vim-choosewin
+* scheduling https://github.com/freitass/todo.txt-vim
+* spacevim
+* Virgin NERDTree vs ChadTree https://www.reddit.com/r/vim/comments/i35lev/i_made_an_improved_nerdtree_called_chadtree/
+* grammar checker https://github.com/rhysd/vim-grammarous
+* grammar checker - https://github.com/dpelle/vim-LanguageTool
+* https://github.com/msuperdock/vim-foldout
+* Vim-visual-multi
+* Vim subversive
 * vim-pandoc https://github.com/vim-pandoc/vim-pandoc
 * highlight enclosing tags - https://github.com/valloric/matchtagalways
 * create ui https://github.com/Shougo/denite.nvim
 * start screen https://github.com/mhinz/vim-startify
 * Vim tabs
 * Vim tabline - https://github.com/bagrat/vim-buffet
-* Inertia Scrolling - https://github.com/yuttie/comfortable-motion.vim
 * Define text object - https://vimawesome.com/plugin/textobj-user
 * deal with whitespace - https://vimawesome.com/plugin/better-whitespace
 * Persistent vim sessions - https://github.com/thaerkh/vim-workspace
@@ -21,7 +67,6 @@
 * https://www.reddit.com/r/vim/comments/fy13mb/cobra_yet_another_plugin_to_manage_brackets_and/
 * https://github.com/jiangmiao/auto-pairs
 * Goyo + Limelight
-* https://github.com/justinmk/vim-dirvish
 * Vim signify
 * https://github.com/cdelledonne/vim-cmake
 * https://github.com/gu-fan/colorv.vim
@@ -30,7 +75,6 @@
 * Vim theming
 * https://github.com/skywind3000/vim-quickui
 * Vim plugins without plugin manager
-* https://github.com/mbbill/undotree
 * Using vim configs in sudo
   https://www.reddit.com/r/archlinux/comments/g28cx0/psa_super_neat_trick_complementary_of_the_arch/
 * Status bars
@@ -39,10 +83,8 @@
 	* vim-powerline
 	* status bar https://github.com/tpope/vim-flagship
 * https://github.com/dstein64/vim-startuptime
-* https://www.reddit.com/r/vim/comments/g15hz9/vimfloaterm_run_your_terminal_in_vims_popup_window/
 * Updated look at my plugins
 * https://github.com/rhysd/clever-f.vim
-* vim unimparied
 * vim endwise
 * vim abolish
 * delimitMate
@@ -51,12 +93,9 @@
 * https://github.com/rbong/vim-flog
 * https://www.reddit.com/r/vim/comments/fsrpeq/fzfpreview/
 * ConqueGDB
-* vim easy motion
 * Vim-rainbow
 * vim-indent-guides
-* vim-fugitive
 * colourizer.lua
-* z.lua
 * vim autocmd
 * ack
 * Tag List
@@ -73,7 +112,6 @@
 * ranger in vim - https://github.com/kevinhwang91/rnvimr
 * Org mode
 * Basic Vim Tutorial
-* Vim multi cursor
 * Theming Vim
   https://github.com/hardselius/warlock
 * Spell checker
@@ -85,7 +123,7 @@
 * Coc Snippets
 * Netrw
 * Vim-prettier
-* ptzz lf vim
+* coc prettier
 Tpopes Plugins
   * Vim repeat
   * Vim commentary

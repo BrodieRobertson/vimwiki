@@ -1,0 +1,71 @@
+== Intro ==
+* I hadn't bothered looking into vims tabbing system until recently
+	* I wish I had done so earlier
+
+== Demo ==
+
+* Making a new tab
+	* :tabnew
+* Opening a file in a tab
+	* :tabedit file
+* Searching vim path for a file open in tab
+	* :tabfind
+
+* Anything that normal opens window use tab instead
+	* :tab command modifier
+		* :tab split turn current split into tab
+
+* Whenever it makes sense accepts a count
+	* 1tabnew opens new tab at index 1
+
+* Switching tabs
+	* :tabnext
+	* :tabprevious
+
+* Moving tabs
+	* :tabm to last
+	* :tabm - 1 less
+	* :tabm + 1 plus
+	* :tabm 1 move to pos
+
+* Ever forget what's open
+	* :tabs
+
+* Close all but current tab
+	* :tabonly
+
+== Splits vs Tabs ==
+* Typically I prefer working with splits
+	* Allows me to see everything at once
+* Know exactly where my work is located
+
+* Tabs give you much more room
+	* Can start to get disorganized very quickly
+	* Don't get as much advantage from motion plugins
+		* easy motion
+	* Always see entire code without scrolling
+
+* But they're not mutually exclusive
+	* Use as much or as little of both
+
+== Workflow ==
+* I avoid splits on any windows besides my main
+	* Find that I lose track of where files are
+	* Basically use tabs to keep extra stuff open
+		* Haven't found a way to convert a tab into a split
+
+== Bindings ==
+* I always recommend binding commands you use frequently
+	* Some default like gt next gT prev {i}gt jump to
+
+* I'm not a fan
+	* My bindings look like this
+
+== Final Thoughts ==
+* I didn't know about tabbing in vim for about 6 months
+	* After then I was used to splits and didn't bother
+	* But I feel kind of dumb remember how useful tabs are
+	* Even when I used other editors I mainly use splits
+
+* Plenty more to mess around with
+	* World of plugins that exist which I'm sure can add some fun behaviour

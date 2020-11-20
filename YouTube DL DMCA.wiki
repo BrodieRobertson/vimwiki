@@ -1,0 +1,95 @@
+https://github.com/github/dmca/blob/master/2020/10/2020-10-23-RIAA.md
+https://twitter.com/micahflee/status/1319746131723628544
+https://news.ycombinator.com/item?id=24872911
+
+* Recently GitHub recieved a DMCA takedown notice for YouTubeDL
+  * By the RIAA
+  * Recording Industry Association of America, Inc.
+
+* US Based music industry trade organization
+  * Members in control of most of the VEVO channels
+  * Some exist outside of the US
+  * Claim to be responsible for 85% of
+    * US music
+  * Fairly big and powerful organization
+
+== What Happened ==
+* 18 Repos were taken down
+
+* Still under Digital Millenium Copyright Act
+  * Plaguing YouTube and Twitch
+  * Very wide reaching
+  * YouTube DL isn't in violation of copyright
+    * It's claimed to be a DRM circumvention tool
+      * Anticircumvention Violation. We also note that the provision or trafficking of the source code violates
+      * 17 USC §§1201(a)(2) and 1201(b)(1). The source code is a technology primarily designed or produced for
+      * the purpose of, and marketed for, circumventing a technological measure that effectively controls access
+      * to copyrighted sound recordings on YouTube, including copyrighted sound recordings owned by our members.
+
+== What DRM ==
+* What DRM does youtube have?
+  * Uses a rolling cipher
+  * Sounds secure
+    * It's not though
+
+* Every youtube video is assigned a random string
+  * Points to webpage
+* When loaded a 2nd URL is generated
+  * Through complex changing algorithm
+  * Points to video file
+    * Known as a rolling cipher
+  * no encryption, not obfuscated, 0 protection
+* Under US and EU law this is DRM
+  * Accessing the URL through unauthorized means is circumventing the DRM
+
+* RIAA has done the same in the past with youtube-mp3
+  * https://www.techdirt.com/articles/20160927/17062135646/can-someone-explain-to-riaa-that-sopa-didnt-actually-pass-it-doesnt-seem-to-know-that.shtml
+
+
+* Interesting part
+  * Marketed for, for purpose of
+
+== YTDLs Mistake ==
+* Included examples for downloading copyrighted material
+
+* We also note that the source code prominently includes as sample uses of the source
+* code the downloading of copies of our members’ copyrighted sound recordings and
+* music videos, as noted in Exhibit A hereto. For example, as shown on Exhibit A,
+* the source code expressly suggests its use to copy and/or distribute the following
+* copyrighted works owned by our member companies:
+
+* This could have been a problem eventually
+  * But adding those lines provides strong of RIAA's claim
+  * Should have been showing creative commons examples
+    * https://www.youtube.com/watch?v=aqz-KE-bpKQ
+
+== Github's Responsibility ==
+* Seeing some people angry with GitHub
+  * You can have your issue with them
+  * In this case have done absolutely nothing wrong
+    * Their hands are tied by DMCA 512 safe harbour clause where a platform
+    * Must make reasonable attempt at removing infringing content otherwise also be liable for damages
+  * GitHub has no responsibility to protect code
+  * Can argue whether this law should exist or not
+    * But it does and GitHub followed it
+    * Is GitHub too big of a target now
+      * Probably anything grey would advise moving
+
+== Doesn't Change Anything ==
+* YouTube DL still exists
+  * Still in python repos
+* Already was hosted on other git instances and GitLab
+  * Can be host on git instance outside of US law
+  * How torrenting sites survive
+* RIAA would have to go after every single host individually
+  * GitLab main instance is safe until RIAA sends same letter
+
+* DMCA is incredibly wide reaching
+  * Due to how streaming video functions
+  * Could make case for web browser
+    * Falling under same anti-curcumvention violation
+      * Nobody is hopefully dumb enough to do so
+
+* Read further
+  * https://twitter.com/xor/status/1319755776043384838
+  * https://twitter.com/xor/status/1319738279772770308

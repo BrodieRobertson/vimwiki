@@ -1,10 +1,13 @@
+* [[History Of Computing]]
 * [[Arch/Linux]]
+* [[Distro]]
 * [[Dotfile Management]]
 * [[Education/University]]
 * [[Free Games]]
 * [[File Managers]]
 * [[General Vlogs]]
 * [[Hardware]]
+* [[IRC]]
 * [[Music]]
 * [[MPV Scripts]]
 * [[Notification Daemons]]
@@ -24,3 +27,12 @@
 * [[Window Managers]]
 * [[Why Questions]]
 * [[YouTube Alternatives]]
+* [[ZSH]]
+
+* Explore further https://www.reddit.com/r/commandline/comments/ier3tf/mopen_file_opener_using_mimetypes_and_mailcap/
+
+* April Fools
+	* https://github.com/gbigwood/Clippo
+
+* Christmas
+	* [[Shouting out channels]]

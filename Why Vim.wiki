@@ -1,0 +1,68 @@
+* Heard the vi is installed everywhere
+
+* Learning curve is steep but rewarding
+	* Getting productive in vim takes a while
+	* Don't do it when you're busy with assignments
+* Modal editing
+	* Might counterintuitve at first
+	* Why do I need to switch modes
+	* Too used to using a mouse in a text editor
+	* Clear seperation allows for more things to be bound
+		* Insert mode
+			* Snippets
+		* Normal mode
+			* Movement, Removal of text, pasting
+		* Command mode
+			* Access to all commands
+		* Visual mode
+			* Selections
+	* Without modal editing everything needs a modifier
+		* Less comfortable
+* Keybindings might seem odd but generally make sense
+	* gg go to start of file
+	* dd delete from start of line
+	* yy yank from start of line
+	* cc change from start of line
+
+	* G go to end of file
+	* D delete to end of line
+	* C change to end of line
+	* Y historical inconsistency
+
+	* o new line above
+	* O new line below
+	* p paste line above
+	* P paste line below
+* Endlessly learning new things
+	* Tabs
+	* Terminal
+	* Not even considering plugins
+* Massive plugin environment
+	* From incredibly useful like emmet, vimwiki
+	* To indredibly niche like countless plugins for frameworks
+	* Sites dedicated to vim plugins
+		* Vim awesome
+	* Always new things being made
+* Every action is bound to a key
+	* Generally multiple
+* Work however you want
+	* Sometimes I use the mouse
+		* Not as much because scroll wheel broken
+	* Don't need model editing
+		* Rebind everything
+* Vim keys outside of vim
+	* Vimium/vimperator/other vim plugins
+	* Qute/Surf browser
+	* ZSH, Bash Fish
+	* lf, ranger, nnn, vifm
+	* Sc-im
+	* A lot of terminal apps
+
+* Why not just use vscodium + vim emulation
+	* Vim is more than just vim keys
+	* Plugins make up a big part of why I use vim
+
+* What about emacs
+	* Same monolithic learning task as vim
+	* Going back to square one
+	* Maybe one day, but for now I'm happy where I am

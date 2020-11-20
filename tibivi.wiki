@@ -1,0 +1,34 @@
+* Vim inspired notes app
+	* Used to basic idea of vim pretty easy
+
+* m open menu
+	* Add block
+	* 24 hour time
+
+* back to menu
+	* Modify
+
+* Just a buffer
+	* Must be saved first
+
+* Remove
+
+* All stored in regular files
+
+* Scroll through days
+	* Do from f instead
+
+* Commands
+	* day
+	* Shows selected day
+	* Quicker to show week
+
+* Criticisms
+	* Enter to open day
+	* Having binding to add block
+		* Modify and delete don't need to be in it
+		* Scroll i and dd
+	* Visual mode
+	* Yanking Pasting
+	* Always show day
+	* No planning week ahead

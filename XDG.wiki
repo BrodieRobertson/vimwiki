@@ -1,0 +1,107 @@
+* Typically people think about XDG
+	* User directories
+		* documents, music, desktop, etc
+	* Base Directories
+		* Data dir, cache dir, config dir, etc
+	* Maybe you think about Xdg mime, or xdg open
+		* Consistently launching applications
+
+* But where does it all come from
+	* In 2000 a new group called X Desktop Group (XDG)
+		* Havoc Pennington of Red Hat
+		* The X is supposed to be Cross, but no one says that
+	* Later changing their name to Free desktop.org
+		* But the XDG moniker stuck for many projects
+			* Some projects would be confusingly
+
+* Formed to work on interoperability and shared base technology
+	* For desktop environments under X11 and Wayland
+	* But it didn't exist at the time
+			* Didn't come till 2008
+
+* Unlike POSIX
+	* Created by the IEEE as design for what Unix should be to be
+
+* Free Desktop isn't a strict standard
+	* Some projects replace each other
+	* It's a group for discussing ideas
+	* Aimed towards interoperability
+		* Much more room to change than stricter standards like POSIX
+	* Isn't always a good thing
+		* But allows it to adapt more quickly to newer tech
+
+* So no certification
+	* No requirement to implement all specifications
+	* As with POSIX though
+		* Stop implementing at spec borders
+			* Don't half implement spec
+			* Otherwise defeats the point
+
+* Even so their tools and specifications are in wide use
+	* As Gnome, KDE, XFCE, 3 notable DEs that collaborate with free desktop
+	* Some of their apps hosted on Freedesktop servers
+
+* In 2006 with help of KDE and Gnome, begun Portland Project
+	* Better known as xdg-utils
+	* Implements some of the specs discussed in a bit
+		* To commit to interoperability, show that they work
+		* How we got
+			* xdg-mime, xdg-open, xdg-desktop-icon, xdg-desktop-menu
+
+* Specifications in wide use
+	* Autostart
+		* How apps started on login
+		* How removable media can request specific app to be excuted
+	* Desktop entries/Desktop menus
+		* Your .desktop files
+			* App icon, name, description
+		* And menus built from them
+	* File Uris
+		* Used for handling drag and dropping of files
+	* Media Player Remote Interfacing Specification MPRIS
+		* Dbus interface for media players
+	* XML Bookmark Exchange Language
+		* Standard for browser bookmarks
+	* Trash can
+* Full list down below
+
+* Plenty of ideas bouncing around
+	* May end up being important one day
+	* But since no certification can't force the change
+
+* Just specs
+	* They do have real projects, developed or hosted
+
+* Also things like
+	* D-bus
+		* inter process communication
+	* NetworkManager
+		* Network discovery and configuration, for wired and wireless
+	* PulseAudio
+		* Sound system
+	* Fontconfig
+		* Library for font access
+	* Nouveau
+		* Reverse engineered nvidia drivers
+	* libinput
+		* Interface for input devices like keyboards, mice, touchpads
+
+	* X.Org and Wayland
+		* X.Org Foundation joined Freedesktop in 2018
+		* All relavent graphics servers under Freedesktop
+
+* Very important group shaping the way the Linux desktop functions
+	* No one really knows they exist
+	* You can always try to avoid it
+	* But a lot of apps only acknowledge the free desktop tools
+		* Mime being a good example
+
+* No one bats an eye about Freedesktop.org
+	* Being a red hat project
+
+https://www.freedesktop.org/wiki/
+https://en.wikipedia.org/wiki/Freedesktop.org
+https://www.freedesktop.org/wiki/Specifications/
+https://www.freedesktop.org/wiki/Software/
+https://wiki.archlinux.org/index.php/XDG_user_directories
+https://wiki.archlinux.org/index.php/XDG_Base_Directory

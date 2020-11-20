@@ -1,0 +1,49 @@
+* My vim config looks way different from normal
+* All the functionality is still there
+
+* Modularized vim config
+
+* Trade off for debugging
+	* Vim won't spit line number errors
+	* Allows for modular testing
+		* Ignore rest of config
+		* Test one part
+
+* Dead simple maintainence
+	* Neat seperation
+	* Dependent on you
+	* Know where all located
+
+* Easily shareable
+	* If you want my autocmds
+	* Now just take that one file
+	* Rather than digging through config
+
+* Update parts of vimrc without resourcing
+	* Sometimes reloads plugins
+	* Slowing the app down
+
+* Easily load parts based on conditional
+	* Can be done with regular vimrc
+	* But can see the bottom
+
+* Depending on plugin manager
+	* Easily disable plugin
+	* Not convenient with vim-plug
+	* Want to not source file and not load plugin
+
+* Not most performant method
+	* Slower hardware may be an issue
+	* No perceivable difference on my system
+	* Only on load
+
+* Adding new files is easy
+	* Make file
+	* .vim not required just gives syntax highlighting
+	* Do whatever regular config you want
+
+* Not the only method to handle this
+	* Create a build script with shell
+	* Generate full vimrc
+	* I find to be less convenient
+	* Requires building a file when making changes

@@ -1,0 +1,75 @@
+* Free Software advocate
+	* Short answer generally yes
+	* Proper answer takes a bit longer
+		* Releasing software, how other software should be released, software I use
+		* Eliminating closed source software
+
+* Releasing software
+	* Scripts, configs, occasional software
+	* Anything intended for public use, generally GPL
+	* Or just for the memes WTPFL
+	* No reason to not open source
+		* Suggestions from others
+		* Channel about helping people
+		* Some people like to use their favourite creators configs
+
+* How software should be released
+	* Do whatever you want
+		* Do whatever you think suits your company
+		* Not a do or die free and open source advocate
+	* Free as in monetary
+		* No ads, no in app purchases
+		* No justifiable reason to be closed source
+		* Securuity by obscurity
+	* Not against ads or in app purchses for mobile apps
+		* Prefer absolutely free with a donation system
+		* For garbage I'll accept ads
+			* Buzzer for trivia
+		* Simple mobile tools
+		* Donations great for a lot of traction
+	* Keep ads out of desktop apps
+		* Completely free with donations
+	* Paid software
+		* Some software too much work to leave up to donations
+		* Can argue software shouldn't be this big
+			* Hard to avoid
+				* Game Engines, Video Editor, 3D Modelling
+		* Large team, long dev time, etc
+
+* Software I use
+	* 2 equivalent tools
+		* 1 Open source, 1 closed
+		* Will pick open source 100% of time
+	* Generally not realistic
+		* Usually 1 is the better software
+		* More features I need/less I don't, quicker, smaller, customizable
+	* Open source is a selling point
+		* Richer plugin environment
+		* Application forks
+		* More helpful community
+		* Community involvement in project
+	* Some closed source tool is better
+		* IDE suite of choice is JetBrains
+		* I've used open source solutions like Eclipse
+			* Pales in comparison
+		* In this case no worries about using closed source
+
+* Software pragmatism
+	* Pick the best tool for the job
+	* Regardles of closed or open source
+	* Rather than picking open source for the sake of open source
+	* The fact I use open source a lot says a lot about the software
+	* Adobe suite on Linux, would instantly drop Kdenlive
+		* Not saying much because it's awful
+		* When Olive is stable i'm dropping it
+
+* Eliminating closed source software
+	* Not effecting me I don't care
+	* Don't see any reason to use Parabola
+	* If I had an Nvidia care I'd use the drivers that work
+
+* Completely open to changing my mind
+	* Initially I did everything with FOSS
+	* Even if it handy capped me
+	* But shifted over the past year
+	* Will be completely different next year

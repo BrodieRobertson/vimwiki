@@ -1,0 +1,72 @@
+* What even is a partition
+	* 1000GB drive to make maths easy
+	* 2 sections managed independently
+	* Give 1 700gb other 300gb
+	* As many as you want
+	* Can partition down as much as you want
+
+* Partition table
+	* 2 main partition tables on Linux
+	* GPT GUID Partition Table
+	* MBR Master Boot Record
+		* Deserve until videos by themselves
+	* Which one to use
+		* UEFI in a lot of cases requires GPT
+		* Drive bigger than 2TB GPT
+		* MBR fine for Legacy BIOS systems
+
+* Why partition
+	* Dual booting with single drive
+	* Swap space
+		* Didn't like swap file
+		* Using btrfs - limited features
+	* Or even just logical seperation of files
+	* Reinstall OS in case of problem
+	* Simpler backups
+		* Maybe don't care about enire drive backup
+		* Just what's in home
+	* Install across multiple drives
+
+* Some minor drawbacks
+	* Disk management more complex
+	* Wasted space
+		* Less of an issue on multiple drives
+
+* Partition schemes
+	* Partitionless disk superfloppy
+		* No partition table
+	* Outside of removable media though don't see point
+
+	* Single root partition
+		* Single parition
+		* Swap space is a swap file
+		* Reccomend against
+		* Except for throwaway vm and removable media
+
+	* Typically see discrete partition
+		* root /
+			* 15-20 gb
+			* Gaming should be way more
+		* /boot
+			* Contains kernel and ramdisk image
+			* Bootloader configuration file
+			* 200 mb unless efi
+			* 260 mb
+			* Or just give it more to be safe
+		* /var
+			* Logs, pacman cache
+			* Seperating it avoids running out space from logs
+			* No really an issue on modern drives
+		* Swap
+			* Virtual ram
+			* See my video on why it's important
+		* /data
+			* Files shared between users
+		* /home
+			* Whatever is left at end
+		* Can have any other mount point
+			* ~/videos
+
+* Layout examples
+
+* My scheme

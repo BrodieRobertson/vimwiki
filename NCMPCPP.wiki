@@ -1,0 +1,86 @@
+== Intro ==
+* Ncmpcpp seems to be one of the most recommended mpd players
+	* And I can see why
+
+== Playback Controls ==
+* F1 help menu
+* p play and pause
+* s stop
+* Enter play
+* > Next < Previous
+* left lower vol right raise vol
+* f seek foward
+* b seek backward
+	* With mouse support enabled also
+* Play modes
+	* z random
+	* r repeat
+	* y single play
+	* R consume mode
+		* Removes from queue after playing
+	* x crossfade
+		* Fade between songs instead of stopping
+
+== Visualizer ==
+* 8 is visualizer
+* Won't work out of the box
+* Add changes to mpd config
+	* Remember to include audio output
+	* No sound otherwise
+* Add changes to ncmpcpp config
+* Space switch mode
+
+== Playlists ==
+* 1 is playlist
+* 5 playlist editor
+* 2 file browser
+	* Start playing adds to playlist buffer
+	* Space adds without playing
+	* Shift+up/down select
+	* a to add selected
+	* Del to deleted selected
+	* c clear
+	* C clearexcept selected
+		* a add selected
+	* S to save playlist
+		* [[Adds]] to playlist editor and browser
+
+== Media Library ==
+* More sort way to view songs
+	* Broken down into tags
+	* All previous actions work like playing
+		* Adding to playlist etc work here
+
+== Search Engine ==
+* Have too many songs
+* 3 Search Engine
+	* Broken down into id3 tags
+	* Add in criteria to search boxes
+* Select search
+
+== Tag Editor ==
+* 6 to open
+* Typically edit my tags in id3
+	* But there's also an editor right here
+
+* List out all sings in all folders
+	* Breaks them down by tag type
+
+* Enter to modify tag
+	* Forget which song which
+	* Open song info with i
+
+* All changes in memory
+	* Remember to save to disk
+
+== Final Thoughts ==
+* I cannot cover everything this does in one video
+	* I'll probably be coming back to this
+	* Breaking down individual parts
+	* My config will be up on github for this and mpd
+		* Have a look through it
+			* Check out the man page in mean time
+* I absolutely love this music player
+	* Does it do too much
+	* Absolutely, does it do it all well
+	* No doubt

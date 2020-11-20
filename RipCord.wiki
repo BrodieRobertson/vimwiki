@@ -1,0 +1,82 @@
+* A lot of the client we've been through have just been ok
+	* Missing a lot of features
+	* Not ripcord
+
+* This thing does almost everything that Discord does
+	* Don't believe
+	* And more in some ways
+
+* Also can be a slack client
+	* Can't comment on quality
+
+* Looks a little different but very easy to get used to
+	* Tagging @
+	* Emotes and emoji :
+	* Uploading file
+
+* Very lightweight and very fast
+	* As expected from not using electron
+	* Ctrl+k better way to move around
+
+* Number, seems to sometimes indicate new messages
+	* Other times not
+	* Regardless shows which chat has a new message
+
+* Or there is an emoji button
+	* Can search works great
+	* If I had nitro I presume I would see other server emotes
+		* Can't confirm
+
+* Server moderation gear
+	* Changing roles
+	* Kicking/banning
+	* But also actual admin tools
+
+	* Roles in single or matrix
+	* Disable invites
+
+* Invite +
+
+* Upload file ^
+
+* Pinned messages
+
+* Notification s
+
+* Reorder your server list
+
+* Extra features
+	* Channel bookmarks
+
+	* Theming
+		* Like BetterDiscord
+		* Theming is here
+
+	* Tabs
+		* Why does Discord need tabs
+		* I don't know but it's cool
+
+* There's voice chat
+	* This might be the only 3rd party client that does
+
+* Where is it lacking
+	* Doesn't play gifs
+	* Videos
+	* Or Music
+		* Can click to open in browser
+	* Emoji in channel name broken out of box
+		* Can be fixed
+	* No video chat
+	* No spell check
+	* Server ember names not grouped
+	* Message searching
+
+* This isn't open source
+	* It's shareware
+	* However, the official client isn't open either
+	* And I feel this is better in many ways
+		* In the end still on discord or slack
+
+* I could keep talking about this software all day
+	* Not often that I replace something on this channel
+	* But I might just use Discord web only for the podcast

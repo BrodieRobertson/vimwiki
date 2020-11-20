@@ -1,0 +1,90 @@
+* Luke did a video talking
+  * About he's a boomer that doesn't follow Linux
+  * Snaps and Flatpaks terrible
+  * Briefly talked about flatkill
+    * So let's go over all the arguments
+    * Because he didn't
+
+* Go over 2020 version afterwards
+
+== Sandbox ==
+https://docs.flatpak.org/en/latest/sandbox-permissions.html
+* home - access the user’s home directory
+* host - access normal files on the host, not including host os
+  * These directories are blacklisted: /lib, /lib32, /lib64, /bin, /sbin, /usr, /boot, /root, /tmp, /etc, /app, /run, /proc, /sys, /dev, /var
+  * Exceptions from the blacklist: /run/media
+    * Removable media
+  * /etc, /usr
+* Device Access
+  * --device=all can be used to access devices like controllers or webcams.
+    * Can be limited to specific device
+    * Odd inclusion
+
+* Include apps
+  * Take at face value
+
+* Sandbox icon is misleading
+
+== Security Updates ==
+* Slightly disingenuous
+  * Not completely wrong
+
+* Presumably fixed 2 years on
+  * CVE-2018-11235
+    * Arbitrary code execution vulnerability exploitable via specially crafted submodule names in a .gitmodules file
+  * CVE-2018-17456
+    * Arbitrary code execution vulnerability via a specially crafted .gitmodules file in a project cloned with --recurse-submodules
+
+* Very much depends on the developer
+  * Some apps will have parallel updates
+  * They are very popular though
+* Distros have same
+  * Segmentation issue not flatpak issue
+  * Ubuntu apps also don't get security patches until months later
+    * Usually old version in repos
+
+== Local Root Exploit ==
+* Read paragraph
+  * Seem to have some priority adjustments to do
+  * Completely fair criticism
+
+== Future of application Distribution ==
+* Read Paragraph
+* In 2018 besides mistakes, fair complaints
+
+* Now over to the 2020 version
+
+== Sandbox ==
+* Seems to have fixed the device=all mistake
+  * Exact same problem still
+  * In same applications
+    * Continue on
+
+== Security Vulnerabilities ==
+* In 2020 developers are still lazy
+
+* First exploit doesn't seem to exist
+  * In CVE database
+  * Buffer overflow leading to out of bounds read
+
+* Official run times
+  * Much more serious
+  * Can't be chalked up to segmentation
+  * CVE doesn't exist
+    * Don't know if this is intentionally misleading
+    * Or just incorrect url
+
+* Bundled library updates
+
+== Local Exploits ==
+* Seem to have fixed their attitude about root exploits
+
+== Desktop Integration ==
+* Basic font rendering settings now function
+* Theming issues
+
+* IME has a really annoying requirement
+* Multiple daemons and switch between
+
+* Most arguments are valid
+  * And it's good to call out the developers to fix issues

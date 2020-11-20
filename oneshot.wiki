@@ -1,0 +1,47 @@
+* I'm going to say this now
+	* Don't use this on public wifi
+	* Or really any network you don't trust
+
+* One shot http server
+	* Obviously you could use FTP
+	* Or any number of other methods
+	* But this is dead simple
+
+* Basic usage
+oneshot ~/pictures/stallman.jpg
+	* Can send multiple files as archive
+	* Just an http server
+		* Works on phone
+
+* Change port
+	* -p 8080
+
+* Password protection
+oneshot -U username -W ~/pictures/torvalds.png
+	* Just basic http auth
+	* Probably shouldn't show password
+	* Also supports https
+	* With --tls-key and --tls-cert
+		* Outside of this videos scope
+	* -P to give password file
+
+* Recieve
+oneshot -u .
+* No version for android but you can still send file
+	* Or from seperate computer
+	* Or even from yourself
+	* Send file to VM
+		* No thumbdrives
+		* No shared folders
+
+* Recieve to standard out
+oneshot -u | less
+* Maybe sending some sort of document
+	* Or need to process it
+
+* Recieve in browser
+oneshot -D ~/pictures/77012728_p0.jpg
+oneshot -D ~/oneshot.html
+
+* Send results of a lengthy command
+fc-list | oneshot -n fonts.txt

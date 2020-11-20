@@ -1,0 +1,55 @@
+-t title,     --title title
+-a artist,    --artist artist
+-l album,     --album album
+-n tracknr,   --track tracknr
+-y year,      --year year
+-g genre,     --genre genre
+-c comment,   --comment comment
+
+-- force name to be file name
+	* When string with dash
+
+* Make sure you don't have square brackets in name
+	* Even escaped won't work
+
+* Working on every tag version
+* Specify with
+-1 ID3v1 tags
+-2 ID3v2 tags
+-3 Lyrics3 tags
+
+* Old music library, want to migrate tags to another version of id3
+id3 -1 -2u
+id3 -1d -2u
+
+* Pulling tags from song name
+	* Assuming well formatted names
+id3 -a "Houshou Marine" -n "%1" -t "%2" "*. *.mp3"
+
+* Short hand form of previous command
+id3 -a "Houshou Marine" -m "%n. %t.mp3"
+
+* Rename all songs to standard format
+id3 -2 -f "%t-%a.mp3" \*.mp3
+
+%t title
+%a artist
+%l album title
+%n track number
+%y year
+%g genre
+%c comment field
+%f file name (without path)
+%p path to filename
+%x auto-increasing counter
+%X file Counter
+
++ for capitalization
+- for lowercase
+_ raw value, no substition
+* Split based on capitalization
+id3 -a "%t" -t "%a"
+
+|| Substitution
+id3 -l "%|Single|l" "*.mp3"
+

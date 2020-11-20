@@ -1,0 +1,26 @@
+* Exposes vims undo structure
+* Vim maintains a tree of document state
+	* Makes it much easier to access
+
+* Demonstration
+
+* >< marks current state
+* {} next redo state
+* [] the latest state
+* s save points
+* S latest save point
+
+* u undo
+* ctrl-r redo
+
+* persisent undo
+
+* enter Move to current state
+* < move to previous save
+* > move to next save
+* J move to previous
+* K move to next
+* D toggle diff
+* T toggle timestamp
+* C clear undo
+* tab focus back on editor

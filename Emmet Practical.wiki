@@ -1,0 +1,44 @@
+html:5>header+nav+main+footer
+
+html:5>(header>t>t>t>t)+nav+main+footer
+html:5>header>t>t>t>t^^^^nav+main+footer
+
+html:5>(header>a[href="index.html"]>h1)+nav+main+footer
+
+html:5>(header>a[href="index.html"]>h1{Brodie's Favourite Colors})+(nav>a[title=""]*2)+main+footer
+
+* Tradeoff with emmet
+	* Do it in generation
+	* Do it after
+
+section*3>h2.smaller+p
+
+section*3>h2[id=""].smaller+p>lorem
+
+* So we can jump to a section
+
+* Another method
+section*3>h2#$.smaller+p>lorem
+
+* Extra paragraphs
+p*2>lorem
+
+img[src="resources/youtube.png" alt="YouTube Logo" title="YouTube Logo"]
+
+* Next is colors page
+
+Wrong
+section>h2+ul>li*3
+
+Wrong
+section>h2+ul>li>a*
+
+section>h2+ul>li*>a
+
+Table
+section>table>(thead>tr>th*4)+(tbody>tr*5>td*4)
+
+Implicit
+section>table>(thead>.row>th*4)+(tbody>tr*5>td*4)
+
+section>table>(thead>.row>th*4)+(tbody>.row*5>.data*4)

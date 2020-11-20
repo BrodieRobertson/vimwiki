@@ -1,5 +1,6 @@
 = DotfileManagement =
 
+* Cleaning up home
 * yadm
 * gnu stow
 * bare repo

@@ -1,0 +1,53 @@
+* New badge
+	* Github Arctic Code Vault Contributor
+	* Absolutely no idea what it was for
+	* Sounds cool
+
+* Svalbard archipeligo in Norway
+* GitHub using a decommissioned coal mine
+	* Mainted by Arctic World Archive
+* Deep underground in the permafrost layer
+	* Basicaly ground frozen for 2 or more years
+* Last year 1000's of critical repos
+	* bitcoin, linux, rust, python
+	* The most important code
+* Stored on silver halide film
+	* Last over 1000 years
+
+* So that brings us to now
+	* The vault is being expanded
+
+* Arctic circle archive only one part
+	* Very important part
+	* Super long term storage
+
+* Archival Program works in 8 layers
+	* Github
+		* Every push/issue/pr to github distributed across data centers
+		* In case of damage to one center
+		* While still mainting quick acess
+	* GH Torrent
+		* Initially used bittorrent
+		* Now only through http
+		* Basically an externally controlled github mirror
+		* Snapshots available by hour, day, month
+		* Queryable through Big Query
+	* GH Archive
+		* Similiar to GH Torrent
+		* Slower rate of update
+		* Longer storage
+	* Internet Archive
+		* Wayback machine crawls githubs public repos
+		* Copying reps/issues/prs/wiki's etc
+		* Stored on hard drives in san fransico and other
+		* Accesable through git and https
+	* Software Heritage Foundation
+		* Archives public repos on Github
+	* Bodleian Library
+		* Quicker updating Arctic Vault redundancy
+		* Only covers 10,000 most starred repos
+		* On film used in vault.
+	* Arctic World Archive
+	* Project Silica
+		* Aims to archive all public repos for the next 10,0000 years
+		* On Quartz glass platters

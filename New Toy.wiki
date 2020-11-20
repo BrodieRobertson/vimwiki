@@ -1,0 +1,48 @@
+* Most IOT devices are pretty dumb
+	* Fridges, croc pots, locks
+		* Especially locks go watch some lockpicking channels
+* But I make one exception
+	* Light globes
+
+* Mirabella Genio
+	* Every store that has light globes is selling it here
+	* I bought B22 plug
+
+* There is some convenience
+	* Most australian houses don't have dimmers
+	* Phone is a reasonable replacement
+	* Scheduling the lights to dim at night
+		* Unless you're reading you don't need much light
+		* Brighten in the morning
+
+* Reading
+	* Usually just use my lamp
+	* Still a bit too bright for my liking
+
+* Streaming
+	* Rainbow doesn't fit main content
+	* Might make interesting mood for game streams
+	* Podcast as well
+
+* Scenes
+	* Built in mode for rainbow switching
+		* Defaults to flash instead of breathe
+	* Can't make new scenes
+		* Only have 8
+
+* Shadow problem
+	* Could use my lamp instead of overhead
+	* Wall is the issue
+
+* Synching
+	* Absolute pain to sync
+	* Show process
+		* EZ Mode
+		* AP Mode
+	* Sometimes just times out for no reason
+	* If wifi goes out have to resync
+
+* Sadly have to do everything from phone
+	* Being a general consumer electronic
+	* No public api
+	* Desktop app

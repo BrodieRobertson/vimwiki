@@ -1,0 +1,59 @@
+* Vim has some special folders in the vim runtime
+	* Used for loading various pieces
+
+* doc
+	* Easiest of them all, this is documentation goes
+	* Point :helptags path to it and it generates tags
+
+* All have equivalents in /usr/share/vim/vim82/
+
+* colors
+	* Vim colour schemes
+	* Say we have file called test.vim
+		* Load with :color test
+
+* ftdetect
+	* Run everytime vim starts
+	* Used to detect filetypes
+		* Sometimes they'll be misconfigured
+		* Sometimes making new file type
+
+* ftplugin
+	* Like colors naming matters
+	* When vim loads it sets a file type
+	* check with :set ft?
+	* When file of that type loaded matching ftplugin file loaded
+		* Only set local buffer options
+		* Otherwise overwriting all open buffers
+	* Will also run directories
+
+* syntax
+	* similar to colors
+	* But for defining syntax rules on file types
+
+* indent
+	* Work the same way as ftplugin
+		* Used for setting indentation settings
+	* Could use ftplugin, just convention
+
+* compiler
+	* Should set compiler related options
+		* compiler gcc
+		* make %
+		* Generally outside of the scope for most people
+
+* plugin
+	* Code you want to run everytime vim starts
+	* Anything else that doesn't fit
+
+* autoload
+	* Delay the loading of code until it's needed
+		* Show website example
+
+* after
+	* Sort of just a hack directory
+	* Loaded after plugin
+	* Allows you to override vim internals
+
+* This is how plugins are layed out
+	* Show example

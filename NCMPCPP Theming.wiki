@@ -1,0 +1,81 @@
+* Out of the box ncmpcpp looks fine I guess
+  * But I think it looks pretty boring
+  * Let's go and fix that
+
+* Two interface types
+  * Defaults to classic
+  * But I prefer alternative
+
+== General Colors ==
+* Make sure colors_enabled is yes
+  * Set colors of individual elements
+    * These are fallbacks if no others are set
+    * Specificity will override
+      * Formats are the most specific
+
+== Song Column List ==
+* Playlist view
+* Screen 1, 2, 5
+  * Will only be on playlist editor if you enabled
+
+== Display Modes ==
+* If you set everything to columns
+  * Will use this layout
+
+== Song List Format ==
+* Used in classic mode
+* This might look complex
+  * But if break it down it's easier
+* Curly braces allow for logical grouping for formatting
+  * We can actually discard all except outer set
+
+* Whenever you see a $ this refers to a color
+  * 0 discard
+  * 9 end current
+* A % refers to song info
+  * Search song format in man page
+
+* $R means right align
+  * No way to switch back
+* Pipes inside of brackets have no special meaning
+  * But pipes between brackets mean or
+
+== Alternate Header ==
+alternative_header_first_line_format
+alternative_header_second_line_format
+
+$aqqu$/a
+$atqq$/a
+* Special ending characters
+  * Not included in docs, you'll find them in example config
+
+* Put multiple data sources in curly braces for or
+  * When all is missing replace it
+
+== Progress Bar ==
+progressbar_look
+* Shifts along during song progress
+* A > makes it looks like it's moving in that direction
+
+== Current Item ==
+$r seems to mean highlight with current colors
+$(blue)$r highlight with this color
+$/r stop highlighting
+* Basically everything can have prefix and suffix modified
+
+== Selected Item ==
+* prefix and suffix
+  * If you set
+  * discard_colors_if_item_is_selected
+  * Retains general colors
+
+== Visualizer ==
+visualizer_look = "◆▋"
+visualizer_type = "spectrum"
+* Generally takes last word of in app
+  * wave_filled is exception
+* First is for wave, second frequency
+* visualizer_color = list of colors
+  * Use colors in defined order
+    * It defines how big they [[are]]
+

@@ -1,0 +1,26 @@
+* Converts json into a greppable form
+* Reads from stdin
+* file
+* url
+https://api.github.com/repos/tomnomnom/gron/commits?per_page=1
+	* curl is a replacement
+	* Makes chain easier
+
+* --no-sort
+* -m Monochrome output
+* -c Colourize
+* -k Don't check certificate
+* -u ungron
+
+* Example
+ron "https://api.github.com/repos/tomnomnom/gron/commits?per_page=5"
+alias ggh='gron "https://api.github.com/repos/tomnomnom/gron/commits?per_page=5"'
+ggh | fgrep "json[0]"
+ggh | fgrep "json[0]" | egrep "(committer.name|commit.message)"
+ggh | fgrep "json[0]" | egrep "(committer.name|commit.message)" | gron --ungron
+ggh | fgrep "json[0]" | egrep "(committer.name|commit.message)" | sed -r "s/(commit|committer)\.//g"
+ggh | fgrep "json[0]" | egrep "(committer.name|commit.message)" | sed -r "s/(commit|committer)\.//g" | gron --ungron
+ggh | egrep "(committer.name|commit.message)" | sed -r "s/(commit|committer)\.//g" | gron --ungron
+ggh | egrep "(committer.name|commit.message|parents.*html_url)" | sed -r "s/(commit|committer)\.//g"
+ggh | egrep "(committer.name|commit.message|parents.*html_url)" | sed -r "s/(commit|committer)\.//g;s/\.html_url//"
+ggh | egrep "(committer.name|commit.message|parents.*html_url)" | sed -r "s/(commit|committer)\.//g;s/\.html_url//" | gron --ungron

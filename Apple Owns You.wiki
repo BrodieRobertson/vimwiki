@@ -1,0 +1,71 @@
+* I see Linux guys complaining about Microsoft
+  * But you've seen nothing
+  * Apple takes it to a whole nother level with Big Sur
+
+== Blog Post ==
+* Introduce
+* Might sound hyperbolic
+  * It's not really
+
+https://twitter.com/lapcatsoftware/status/1326990296412991489
+
+* Why is Apple tracking what apps you open bad
+
+* “Who cares?” I hear you asking.
+  * I've heard a lot of people mention this argument regarding Windows
+  * I'm not doing anything bad
+    * I don't care about this
+
+* 1.
+  * If you're on public Wi-fi all this information cna be sniffed
+  * Knowing where routers are located you can pin point someone's location
+
+* 2. Akamai
+  * Let's assume they're too be trusted
+  * Why does a 3rd party have this information
+
+* 3. Who knows how many times they've done it in 2020
+
+* For some people, this can even pose a physical danger to them.
+  * This is only with the data we know is being tranferred
+
+* But what about Little Snitch
+  * It's a program to block this connection isn't it
+
+* Firewall and VPN ignoring
+https://twitter.com/patrickwardle/status/1318437929497235457
+
+* Potential Fix
+https://tinyapps.org/blog/202010210700_whose_computer_is_it.html
+
+* Trustd
+* https://twitter.com/patrickwardle/status/1327034191523975168
+  * Don't do anything sensitive on your mac in public
+  * At any point Apple could expand this list
+
+* New Silicon
+  * Curious to see if you could get Linux running it
+
+* If you used a pi-hole
+  * You could avoid this phoning
+
+* Censored
+  * So what if the US government says
+    * Apple you must stop bittorrent from being able to run
+    * They can clearly stop apps working with this server
+    * What's to say that don't do that
+  * Or Tor Browser, Brave, Firefox
+
+== Probably Unrelated ==
+* Just a nice little cherry on top
+
+== Here's The Thing ==
+* Techy macos users might stop using macos
+  * The uni lecturers and programmers
+  * I don't expect it happen
+* Nothing will change
+  * In fact
+  * If this video breaks out of my regular audience
+    * There will probably be people defending
+  * Apple can do no wrong
+    * And they're always right

@@ -1,0 +1,73 @@
+ It's pretty easy to forget what your fonts look like
+	* So here's simple script to preview them
+	* Called font preview
+
+* Run on font path
+	* Takes user and system fonts
+
+* Or pass in path to font with
+	* -i
+
+* No need to close preview
+	* Selecting new font switches image
+
+* --preview-text
+	* Default text is english centric
+		* Check other languages
+失礼しますが
+
+
+	* Need to see what a heading on a website would look like
+	* Combine with --bg-color
+		* Name, hex, gray()rgb(r, g, b), hsb(120, 100%,  100%), hsl(120, 100%,  100%)
+			* cielab(62.253188, 23.950124, 48.410653)
+			* Check the imagemagick docs for a full list
+
+* --size to change the preview window
+	* No indication of how it works
+* --position change position
+	* +0+0
+	* Don't function properly in a tiling context
+		* Expected to happen
+
+# Input prompt of fuzzy searcher
+export FONTPREVIEW_SEARCH_PROMPT="❯ "
+
+# Size of the font preview window
+export FONTPREVIEW_SIZE=532x365
+
+# The position where the font preview window should be displayed
+export FONTPREVIEW_POSITION="+0+0"
+
+# Font size
+export FONTPREVIEW_FONT_SIZE=38
+
+# Background color of the font preview window
+export FONTPREVIEW_BG_COLOR="#ffffff"
+
+# Foreground color of the font preview window
+export FONTPREVIEW_FG_COLOR="#000000"
+
+# Preview text that should be displayed in the font preview window
+export FONTPREVIEW_PREVIEW_TEXT="ABCDEFGHIJKLM\nNOPQRSTUVWXYZ\nabcdefghijklm\nnopqrstuvwxyz\n1234567890\n!@$\%(){}[]"
+
+* Use for any long term settings
+	* Maybe English isn't your primary language and you want default to be another language
+
+* Doesn't work with color emoji
+😀 😃 😄 😁 😆 😅 😂 🤣
+	* One of the reasons I would consider using this
+	* Claims to be an issue with SXIV
+		* Nonsense, it's an image by the time it gets there
+	* Wider characters cause a lot of issues, but you can preview nerd fonts
+
+* Dependencies
+xdotool
+fzf
+imagemagick
+sxiv
+
+* Dependency on sxiv not an issue for me since I use it
+	* Since it's just a shell script easy to change
+	* Same with fzf as well
+		* I can't see why they're not configurable

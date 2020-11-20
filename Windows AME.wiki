@@ -1,0 +1,64 @@
+* A couple people asked me to talk about Windows AME
+	* I had planned not to but here we are
+	* It's not going to be positive though
+
+* Missed the news
+	* Windows 10 minus the "spyware" added "stabability and security"
+	* It's not new by any means
+	* A quick search shows videos from 2 years ago
+		* Ltt discussed it
+
+* Spyware systems abundant in windows 10 have not been disabled
+	* Completely eliminated
+		* Including windows update and related services
+		* Core applications like Edge, Media Player, Cortana, any Appx Apps
+		* Reducing ISO size 2GB and system footprint
+		* All sounds good
+
+* Breaks basic functionality
+	* Tricks OS into thinking your offline
+		* Breaks anything that queries OS for network status
+			* Creative Cloud
+	* Search reliant on Cortana
+		* Should be configured in open shell
+	* Some shortcuts like Windows + tab break
+	* DirectX12 may work
+		* Officially it doesn't
+		* Depending on how new it is
+		* Some game may be reliant on new patches
+		* Gaming is a big reason to run a custom ISO
+
+* Questionable legality
+	* Legal notice explaining why it should be legal
+	* I'm not a lawyer
+		* Probably not an issue as an individual
+		* Not the safest bet if you run a business
+			* Not a can you want to open
+
+* Made for a specific version of windows
+	* If you want to use another version on your own
+
+* Questionable ISO
+	* Installing random ISOs is never a safe idea
+		* I'm not saying this isn't I haven't tested it
+	* No different from downloading an Ubuntu ISO from unofficial server
+	* Or distro no one has ever used
+		* Could be safe but no guarantee
+	* Could very easily have some undesired code run
+		* Keylogger, etc
+
+* If worried about security you should
+	* Takes 2 - 3 hours
+		* Just reading and running what you're told
+	* Probably longer if you're not comfortable on the command line
+		* Or if no Linux
+		* Customizing will be a serious problem
+
+* A better method
+	* NTLite
+		* Graphical method
+		* Works for most versions of Windows 10
+		* Not just 1903
+			* May not work straight after new version
+		* Choose how much of Windows you want to break
+		* I suggest watching https://www.youtube.com/watch?v=vZKq7kpCcuA&t=308s

@@ -1,0 +1,63 @@
+* git config --global hub.protocol https
+
+* Hub wrappers
+* hub clone
+	* user/repo
+
+git config --get remote.origin.url
+
+* hub init
+	* -g sets remote to user/folder
+
+* hub remote
+	* username
+	* origin uses username/folder name
+
+* hub am
+	* Replicate commits from github pull request
+
+* hub checkout
+	* check out the head of a pull request
+
+* hub merge https://github.com/jingweno/gh/pull/73
+	* Merge pr locally
+	* Similiar to merge button
+
+* hub push remote1,remote2,remote3 branch
+
+
+* New commands
+* hub api
+	* Interact with github api
+	* hub api user
+
+* hub browse
+	* u print
+	* c copy
+
+* hub create
+	* Public by default
+
+* hub delete
+
+* hub fork
+	* --remote-name
+
+* hub gist
+	* Private by default
+
+* hub pr
+
+* hub pull-request
+	* Creating in seperate command
+
+* hub issue
+	* Inconsistent with pr
+
+* hub command -h
+
+* All sections have extensive docs
+	* Broken into sections
+	* hub-am
+
+* Basically only thing missing is commenting

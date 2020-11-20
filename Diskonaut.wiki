@@ -1,0 +1,39 @@
+* Visual disk usage analyzer/navigator
+	* For the terminal
+
+* No argument start from current folder
+	* Or pass in starting point
+
+* Starts by showing largest element
+	* And a number of others relative to size
+	* For example
+
+* Shows size
+* Shows descendants
+	* Sort is entirely basied on size
+
+* Zoom in and out to show different sized files
+	* Zooming in shows less of larger files
+	* Stays in same directory
+
+* Might notice cursor
+	* Move around with arrow keys
+	* Or vim keys
+
+* Enter to enter folder
+	* Now we see picture descendants
+	* Can't open files
+		* Not a file manager
+		* Would be cool
+
+* Go up level with esc
+* Delete file with backspace
+	* Shows freed space in top bar
+
+* Is it super practical
+	* Maybe not
+	* Could always use du
+		* ncdu
+		* Or any other disk analyzer
+	* Does give a good visual representation
+	* Besides having a different interface it doesn't do job worse

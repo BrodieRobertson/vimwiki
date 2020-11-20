@@ -1,0 +1,111 @@
+* Based on https://daringfireball.net/projects/markdown/
+
+* Setext-style
+	* Level 1
+		* A heading
+		* =========
+	* Level 2
+		*	Another heading
+		* ---------------
+	* ATX-Style
+		* # Level 1
+		* ## Level 2
+		* ### Level 3
+
+* Lists
+	* Bullet Lists
+	* *
+	* +
+	* -
+	* Breaks between formatts each line as paragraph
+	* Also lazy format
+	* Block content in lists
+	* First paragraph.
+
+    Continued.
+
+  * Second paragraph. With a code block, which must be indented
+    eight spaces:
+
+        { code }
+
+	* Ordered List
+		* 1. numbers don't matter
+
+* Block Quotes
+	* > Text
+	* Lazy version
+	* > Text at start of each block
+
+* Verbatim code blocks
+	* 4 Spaces or 1 Tab indent
+		* Automatically treated as code block
+	* Extensions
+		* fenced_code_blocks
+		* ~~~
+		* code
+		* ~~~
+		* backtick_code_blocks
+		* ```
+		* code
+		* ```
+
+* Links
+	* Automatic Link
+	* <https://google.com>
+	* Inline link
+	* [Google](www.google.com)
+
+* Image
+	* ![Google](www.google.com)
+
+* Emphasis
+* *bold* or _bold_
+* **bold** __bold__
+
+* Strikeout
+* ~~strike~~
+
+* superscript subscript
+* H~2~O is a liquid.  2^10^ is 1024.
+
+* Verbatim
+* `>>=`
+
+* Horizontal Rules
+* ***
+* ---
+* ___
+
+* Tables
+* simple_tables
+Right     Left    Center
+-------   ------  ----------
+     12   12         12
+    123   123        123
+
+* multiline_tables
+-------------------------------------------------------------
+ Centered   Default           Right Left
+  Header    Aligned         Aligned Aligned
+----------- ------- --------------- -------------------------
+   First    row                12.0 Example of a row that
+                                    spans multiple lines.
+
+* pipe_tables
+| Right | Left | Default | Center |
+|------:|:-----|---------|:------:|
+|   12  |  12  |    12   |    12  |
+|  123  |  123 |   123   |   123  |
+|    1  |    1 |     1   |     1  |
+
+* grid_tables
++---------------+---------------+--------------------+
+| Fruit         | Price         | Advantages         |
++===============+===============+====================+
+| Bananas       | $1.34         | - built-in wrapper |
+|               |               | - bright color     |
++---------------+---------------+--------------------+
+* Hardline break
+	* \ followed by new line
+

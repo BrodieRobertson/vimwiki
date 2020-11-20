@@ -1,0 +1,53 @@
+* What does a maintainer do
+	* Think of them like a director
+	* Communicate about the project
+		* With maintainers, devs, looking at other projects
+		* Forming partnerships with other projects
+	* Steer the ship
+	* Ensures devs know what to do
+	* Left to their devices projects fall apart
+
+* A maintainer needs to know as much if not more than the devs
+	* Pushes up a patch
+	* That patch does what it's supposed to
+	* Doesn't break anything else
+	* Matches the projects style
+
+* On boarding maintainers
+	* In past Linux was much smaller
+		* Server and desktop
+	* Still a problem to break something
+		* Billions not stake
+	* Devs start from being a junior, work their way up to senior
+	* Maintainer is thrust into it
+		* Problem with every project
+		* Linux kernel is just massive
+	* A Maintainer with no experience can stear the project astray
+	* Multiple maintainers
+	* New maintainers lack trust
+		* Hierarchy of trust
+
+* C in the future
+	* Main kernel language, but it doesn't have to be
+	* C is not going away any time soon
+		* But that doesn't mean never
+	* COBOL obvious example
+		* Primarily used for business, finance and administrative systems
+		* Typically deployed on mainframe
+		* Years went by and not migrated
+		* As trends change different languages are popular
+		* Banking relies heavily on COBOL
+		* But no one is learningthe language
+		* Very little work so no point having juniors
+		* No juniors means no future seniors
+	* Desktop applications moving to the web
+		* New C work is now Rust
+		* If it keeps getting popular
+		* C systems migrate to Rust
+
+* Linux on Arm
+	* Apple migrating new Macs from Intel to ARM
+	* Whether you like ARM or not this is does completely change the game
+	* ARM is now a true desktop CPU architecture
+	* One day powerful ARM desktop
+	* But for now that's far off

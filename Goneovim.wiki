@@ -1,0 +1,56 @@
+* On my quest to vim in emacs
+	* Here we have a Goneovim
+
+* Ligature support
+	* I've never been much of a fan
+
+* Minimap
+	* GonvimMinimap
+
+* Markdown preview
+	* GonvimMarkdown
+
+* Workspaces
+	* Create new workspace
+		* GonvimWorkspaceNew
+	* Go to next workspace
+		* GonvimWorkspaceNext
+	* Go to previous workspace
+		* GonvimWorkspacePrevious
+	* Go to workspace
+		* GonvimWorkspaceSwitch
+	* Can navigate into folder with enter
+		* Not sure how to leave
+
+* Session Management
+
+* Built in status line
+
+* Built in tab line
+
+
+* Different fonts for different windows
+	* GonvimGridFont "Fira Code:h14"
+
+* Fuzzy finder
+	* Additional plugin
+	* Just a gui version of fzf
+		* No point imho
+
+* Indent Guide
+	* Doesn't seem to work though
+
+* Transparency
+
+* Render bug with spell check
+
+* No backup fonts
+
+* Config is locked to home
+
+* If you're in desperate need of ligatures
+	* This is an alternative to a terminal
+
+* Workspaces are cool
+	* Need some work
+	* But there's not much else here for me

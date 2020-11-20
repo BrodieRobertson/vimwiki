@@ -1,0 +1,77 @@
+* Child
+* div>ul>li
+
+* Sibling
+* div+p+bq
+
+* Climb up
+* div>ul>li>^p
+
+* Multiplication
+* ul>li*5
+
+* Multiplication work it out itself
+* ul>li*
+
+* Grouping
+* div>main>(ul>li*2>a)^footer>p
+
+* Attribute operators
+* ID
+* div#header
+* Class
+* div.page
+* td[title="Hello World"]
+
+* Item numbering
+* ul>li#item$*5
+* ul>li#item$$$*5
+
+* Change numbering base and direction
+* ul>li#item$@-3*5
+
+* Text Embed
+* a{Hello World}
+* p>{Click }+a{here}+{ to continue}
+
+* Lorem generator
+* lorem
+
+* Implicit tags
+* .class = div
+* em>.class = em span
+* ul>.class*3 = ul li
+* table>#row$*4#data$*4 = table td
+
+* Balance inward
+* <emmet>d
+
+* Balance Outward
+* <emmet>D
+
+* next edit point
+* <emmet>n
+
+* Prev edit point
+* <emmet>N
+* Works only in normal mode
+
+* Merge to one line
+* <emmet>m
+
+* Remove tag
+* <emmet>k
+
+* Split join tag
+* <emmet>j
+
+* Toggle comment
+* <emmet>/
+
+* make anchor from url
+* <emmet>a
+http://www.open.lbry.com/@BrodieRobertson:5
+
+* Quoted text from url
+* <emmet>A
+http://github.com/

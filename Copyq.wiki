@@ -1,0 +1,65 @@
+* Most complete useful clipboard manager
+
+* Supports arbitrary image sizes
+
+* Comes with a GUI
+* Scripting interface
+
+* Run copyq as a daemon
+	* Icon in system tray, can be hidden
+
+* If hidden can be shown with copyq toggle
+
+* Or bring up context menu
+	* copyq menu
+
+* Syntax highlighting
+
+* Tags
+	* Mark an item as being important
+	* No easy cli command
+copyq write text/plain "Item with tag" application/x-copyq-tags "Some tag text"
+		* Without scripting api just aesthetic
+
+* Pinning
+	* More important than tagged
+	* Can't be deleted
+
+* Tabs
+	* copyq tab NAME add [note]
+	* Useful for jotting down notes
+	* copyq removetab
+	* copyq renametab
+	* exporttab
+	* importtab
+
+* Edit notes
+	* Copyq edit NUM
+	* Copyq insert
+	* copyq remove NUM
+		* No num will remove top
+	* Text passed in appended
+	* Configure image editor for images
+
+* Cycle clipboard
+	* Copyq next/previous
+
+* Copyq paste to current window
+	* May not always work
+		* Seems fairly good to me
+
+* Configure setting from CLI
+	* copyq config
+	* Documentation isn't very useful
+
+* copyq enable/disable
+
+* Scripting API
+	* Show docs
+	* eval
+
+* Everything from CLI can be done on GUI
+	* Shortcuts on side bar
+	* Enable vi movement
+* I would just treat as selector and nothing else
+	* Auto close after focus lost

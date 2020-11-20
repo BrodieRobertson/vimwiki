@@ -1,0 +1,6 @@
+* Install Steam/Proton
+* Setup Reddit
+* Make channel icon
+* Podcast thumbnails
+* Setup gaming channel
+  * YouTube
